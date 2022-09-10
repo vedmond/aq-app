@@ -1,0 +1,369 @@
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: normal;
+  src: url(../assets/fonts/Gilroy-Medium.ttf),
+}
+
+@font-face {
+  font-family: 'Gilroy Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url(../assets/fonts/Gilroy-Regular.ttf),
+}
+
+.position-bg {
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+%flex-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.wrapper {
+  background-color: black;
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: 1fr minmax(768px, 1200px) 1fr;
+  grid-template-rows: 1vh 98vh 1fr;
+  position: relative;
+  box-sizing: border-box;
+}
+
+a :active,
+a :hover,
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+.block {
+  position: relative;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  display: flex;
+  flex-direction: column;
+
+  .quit {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+
+    .qiut-popup {
+      position: relative;
+      width: 500px;
+      height: 300px;
+      margin: auto;
+      margin-top: 300px;
+      background: white;
+      border-radius: 50px;
+      @extend %flex-box;
+      flex-direction: column;
+      font-family: 'Gilroy Regular';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 36px;
+      text-align: center;
+      letter-spacing: -0.5px;
+      color: #010101;
+
+      .cross {
+        display: block;
+        position: absolute;
+        top: 5px;
+        right: 40px;
+        width: 20px;
+        height: 20px;
+        @extend .position-bg;
+
+        &:hover {
+          transition-duration: 0.2s;
+          transform: translateY(-2px);
+        }
+      }
+
+      .btn-container {
+        width: 80%;
+        height: 30%;
+        @extend %flex-box;
+
+        .btn-popup {
+          cursor: pointer;
+          width: 40%;
+          height: 50%;
+          border-radius: 15px;
+          background-color: rgba(0, 0, 0, 0);
+          border: 1px solid black;
+          font-family: 'Gilroy Regular';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 22px;
+          line-height: 22px;
+          text-align: center;
+          letter-spacing: -1.14766px;
+          color: #010101;
+
+          &:hover {
+            border: 2px solid black;
+            transition-duration: 0.2s;
+            transform: translateY(-1px);
+            background-color: #FFBCA2;
+          }
+        }
+      }
+    }
+  }
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  @extend %flex-box;
+
+  .progress-bar {
+    width: 80%;
+    height: 10px;
+    background-color: #A4A4A4;
+    border-radius: 5px;
+
+    .progress-bar-line {
+      width: 30%;
+      height: 10px;
+      background-color: #FFBCA2;
+      border-radius: 5px 0 0 5px;
+    }
+  }
+
+  .icon__cross {
+    display: block;
+    width: 30px;
+    height: 30px;
+
+    &:hover {
+      transition-duration: 1.5s;
+      transform: rotate(0.8turn);
+    }
+
+    background-image: url(../assets/icon/cross.svg);
+    @extend .position-bg;
+  }
+
+  .timer {
+    font-family: 'Gilroy Regular';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28px;
+    color: white;
+  }
+}
+
+.main {
+
+  .title {
+    font-family: 'Gilroy Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+    margin-left: 10%;
+    color: #FFFFFF;
+  }
+
+  .btn-box {
+    width: 820px;
+    height: 600px;
+    margin: auto;
+    margin-top: 37px;
+    @extend %flex-box;
+    flex-wrap: wrap;
+
+    .btn {
+      cursor: pointer;
+      width: 45%;
+      height: 45%;
+      border: 1px solid white;
+      border-radius: 30px;
+      background-color: black;
+
+      &:hover {
+        border: 3px solid #FFFFFF;
+        transition-duration: 0.2s;
+        transform: translateY(-1px);
+        background-color: black;
+      }
+
+      &:link {
+        border: 1px solid #FFFFFF;
+        background-color: #FFBCA2;
+      }
+    }
+  }
+}
+
+
+
+
+.footer {
+  height: 10%;
+  // border: 1px solid white;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Gilroy Regular';
+  color: white;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.62766px;
+
+  a {
+    color: white;
+  }
+}
+
+@media (max-width: 880px) {
+  .main {
+    .btn-box {
+      width: 90vw;
+      height: calc(90vw * 0.73);
+    }
+
+    .title {
+      margin-left: 5%;
+    }
+  }
+
+  .block {
+    .quit {
+      .qiut-popup {
+        width: 400px;
+        height: 240px;
+        margin: auto;
+        margin-top: 30vh;
+        font-size: 25px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    grid-template-columns: 1fr minmax(520px, 768px) 1fr;
+
+    .main {
+      height: 80vh;
+    }
+
+    .footer {
+      grid-row: 5 / 6;
+    }
+
+  }
+
+
+
+}
+
+@media (max-width: 580px) {
+
+  .wrapper {
+    grid-template-columns: 1fr minmax(280px, 520px) 1fr;
+
+    .block {
+      .quit {
+        .qiut-popup {
+          width: 80vw;
+          height: 70vw;
+          margin: auto;
+          margin-top: 30vh;
+          font-size: 17px;
+          border-radius: 20px;
+
+          .title {
+            letter-spacing: 1.5px;
+            line-height: 25px;
+            margin-bottom: -30px;
+          }
+
+          .cross {
+            top: 1%;
+            right: 10%;
+            width: 12px;
+            height: 12px;
+          }
+
+          .btn-container {
+            width: 90%;
+            height: 40%;
+
+            .btn-popup {
+              cursor: pointer;
+              width: 45%;
+              height: 50%;
+              border-radius: 15px;
+              font-weight: 400;
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .header {
+    .progress-bar {
+      width: 70%;
+      height: 6px;
+
+      .progress-bar-line {
+        height: 6px;
+      }
+    }
+
+    .icon__cross {
+      width: 20px;
+      height: 20px;
+    }
+
+    .timer {
+      font-weight: 400;
+      font-size: 22px;
+    }
+  }
+
+  .main {
+    margin-top: 5vh;
+    height: 80vh;
+
+    .title {
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 28px;
+      letter-spacing: -0.5px;
+    }
+
+  }
+
+  .footer {
+    grid-row: 5 / 6;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 20px;
+  }
+}
