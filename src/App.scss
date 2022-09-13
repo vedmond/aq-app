@@ -1,3 +1,36 @@
+.position-bg {
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  position: relative;
+}
+.wrapper {
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: 1fr minmax(768px, 1200px) 1fr;
+  grid-template-rows: 1vh 99vh 1fr;
+  position: relative;
+  box-sizing: border-box;
+}
+.block {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  display: flex;
+  flex-direction: column;
+  // background-image: url(./assets/img/j-retrato-de-cardenal-rafael.png);
+  @extend .position-bg;
+}
+@media (max-width: 768px) {
+  .wrapper{
+    grid-template-columns: 1fr minmax(520px, 768px) 1fr;
+  }
+}
+@media (max-width: 580px) {
 
-
+  .wrapper {
+    grid-template-columns: 1fr minmax(280px, 520px) 1fr;
+  }
+}
 

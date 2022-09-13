@@ -1,57 +1,63 @@
 
 import React from 'react'
-import '../../scss/SettingPage.scss'
+import style from '../../scss/SettingPage.module.scss'
+import { Link } from 'react-router-dom'
 
 export const SettingPage = () => {
   return (
-    <div>
-      <header className="header">
-      <div  className="icon__arrow"> <a href="/"> </a> Setting</div>
-      <a href="/"  className="icon__cross"> </a>
+    <>
+      {/* <div className={style.wrapper}>
+        <div className={style.block}> */}
+            <header className={style.header}>
+      <div  className={style.icon__arrow}> <Link to="/setting"> </Link> Setting</div>
+      <Link to="/"  className={style.icon__cross}> </Link>
       </header>
-      <main className="main">
-        <div className="setting">
-          <div className="box__volume">
+      <main className={style.main}>
+        <div className={style.setting}>
+          <div className={style.box__volume}>
             <span>Volume</span>
-            <div className="switch">
+            <div className={style.switch}>
               <span>On</span>
-              <button className="toggle"><span className="on"></span></button>
+              <button className={style.toggle}><span className={style.on}></span></button>
             </div>
           </div>
-          <div className="box__time">
+          <div className={style.box__time}>
             <span>Time game</span>
-            <div className="switch">
+            <div className={style.switch}>
               <span>On</span>
-              <button className="toggle"><span className="on"></span></button>
+              <button className={style.toggle}><span className={style.on}></span></button>
             </div>
-            <div className="timer">
-              <button className="btn-timer minus">-</button>
+            <div className={style.timer}>
+              <button className={`${style.btn_timer} ${style.minus}`}>-</button>
               <p>20</p>
-              <button className="btn-timer plus">+</button>
+              <button className={`${style.btn_timer} ${style.plus}`}>+</button>
             </div>
           </div>
-          <div className="box__time">
+          <div className={style.box__time}>
             <span>Time to answer</span>
-            <div className="switch">
+            <div className={style.switch}>
               <span>On</span>
-              <button className="toggle"><span className="on"></span></button>
+              <button className={style.toggle}><span className={style.on}></span></button>
             </div>
-            <div className="timer">
-              <button className="btn-timer minus">-</button>
+            <div className={style.timer}>
+              <button className={`${style.btn_timer} ${style.minus}`}>-</button>
               <p>20</p>
-              <button className="btn-timer plus">+</button>
+              <button className={`${style.btn_timer} ${style.plus}`}>+</button>
             </div>
           </div>
         </div>
-      <div className="btn-group">
-        <button className="button">Default</button>
-        <button className="button btn-act">Save</button>
+      <div className={style.btn_group}>
+        <button className={style.button}>Default</button>
+        <button className={`${style.button} ${style.btn_act}`}>Save</button>
       </div>
     </main>
-    <footer className="footer">
+    <footer className={style.footer}>
       <span>App developer: <a href="https://github.com/VedKhorkov">VedKhorkov</a></span>
       <span>Design: <a href="https://www.behance.net/klishinama255b">Mary Kli</a></span>
-    </footer>
-    </div>
+    </footer>    
+        {/* </div>
+      </div>  */}
+    </>    
+
   )
 }

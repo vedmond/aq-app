@@ -25,15 +25,15 @@
   align-items: center;
 }
 
-.wrapper {
-  background-color: black;
-  overflow-x: hidden;
-  display: grid;
-  grid-template-columns: 1fr minmax(768px, 1200px) 1fr;
-  grid-template-rows: 1vh 98vh 1fr;
-  position: relative;
-  box-sizing: border-box;
-}
+// .wrapper {
+//   background-color: black;
+//   overflow-x: hidden;
+//   display: grid;
+//   grid-template-columns: 1fr minmax(768px, 1200px) 1fr;
+//   grid-template-rows: 1vh 98vh 1fr;
+//   position: relative;
+//   box-sizing: border-box;
+// }
 
 a :active,
 a :hover,
@@ -42,15 +42,16 @@ a {
   color: #666;
 }
 
-.block {
-  position: relative;
-  grid-column: 2 / 3;
-  grid-row: 2 / 3;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
+// .block {
+//   position: relative;
+//   grid-column: 2 / 3;
+//   grid-row: 2 / 3;
+//   display: flex;
+//   flex-direction: column;
+//   box-sizing: border-box;
+// }  
 
-  .win {
+  .card {
     overflow-x: hidden;
     overflow-y: hidden;
     position: absolute;
@@ -60,7 +61,7 @@ a {
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
 
-    .win-popup {
+    .card_popup {
       position: relative;
       width: 500px;
       height: 600px;
@@ -74,50 +75,82 @@ a {
       .title {
         font-family: 'Gilroy';
         font-style: normal;
-        font-weight: 600;
-        font-size: 42px;
-        line-height: 51px;
+        font-weight: 500;
+        font-size: 32px;
         line-height: 39px;
         text-align: center;
         color: #010101;
       }
 
       .text {
-        font-family: 'Gilroy';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 82px;
-        line-height: 102px;
+        font-family: 'Gilroy Regular';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26px;
         text-align: center;
-        text-transform: uppercase;
+        color: #010101;
         margin-top: -35px;
+      }
+
+      .cross {
+        display: block;
+        position: absolute;
+        top: 16px;
+        right: 40px;
+        width: 20px;
+        height: 20px;
+        @extend .position-bg;
+
+        &:hover {
+          transition-duration: 0.2s;
+          transform: translateY(-2px);
+        }
       }
 
       .pic {
         position: relative;
-        width: 200px;
-        height: 200px;
+        width: 330px;
+        height: 300px;
+        border: 1px solid black;
         margin-top: 5px;
         border-radius: 20px;
-        background-image: url(../assets/icon/win-cup.png);
-        @extend .position-bg;
+
+        .circl {
+          position: absolute;
+          left: 10px;
+          bottom: 10px;
+          width: 50px;
+          height: 50px;
+          border-radius: 50px;
+        }
+
+        .right {
+          background-image: url(../assets/icon/right.png);
+          @extend .position-bg;
+        }
+
+        .wrong {
+          background-image: url(../assets/icon/wrong.png);
+          @extend .position-bg;
+        }
       }
 
       p {
         margin: 0;
       }
 
-      .btn-container {
+      .btn_container {
         width: 80%;
         height: 15%;
         @extend %flex-box;
 
-        .btn-popup {
+        .btn_popup {
           cursor: pointer;
-          width: 45%;
+          width: 80%;
           height: 60%;
-          border-radius: 40px;
-          background-color: rgba(0, 0, 0, 0);
+          border-radius: 15px;
+          background-color: rgba(255, 188, 162, 0.7);
           border: 1px solid rgb(255, 188, 162);
           font-family: 'Gilroy';
           font-style: normal;
@@ -135,63 +168,57 @@ a {
             background-color: rgb(255, 188, 162);
           }
         }
-
-        .btn2 {
-          background-color: rgba(255, 188, 162, 0.2);
-        }
       }
     }
   }
-
-  .active {
+  .active{
     left: 0%;
     transition-duration: 0.5s;
   }
-}
-
-
 @media (max-width: 880px) {
-  .block {
-    .win {
-      .win-popup {
+  // .block {
+    .card {
+      .card_popup {
         width: 400px;
         height: 480px;
         margin: auto;
         margin-top: 14vh;
 
         .title {
-          font-weight: 600;
-          font-size: 42px;
-          line-height: 51px;
+          font-weight: 500;
+          font-size: 32px;
+          line-height: 39px;
         }
 
         .text {
-          font-weight: 700;
-          font-size: 82px;
-          line-height: 102px;
+          font-size: 22px;
+          line-height: 26px;
           margin-top: -13px
         }
 
         .pic {
-          width: 150px;
-          height: 150px;
+          width: 300px;
+          height: 300px;
           margin-top: 16px;
+        }
+
+        .cross {
+          right: 23px;
         }
       }
     }
   }
-}
+// }
 
 
 
 @media (max-width: 580px) {
 
-  .wrapper {
-    grid-template-columns: 1fr minmax(280px, 520px) 1fr;
-
-    .block {
-      .win {
-        .win-popup {
+  // .wrapper {
+  //   grid-template-columns: 1fr minmax(280px, 520px) 1fr;
+  //   .block {
+      .card {
+        .card_popup {
           width: 80vw;
           height: 96vw;
           margin: auto;
@@ -200,31 +227,43 @@ a {
           border-radius: 20px;
 
           .pic {
-            width: 30vw;
-            height: 30vw;
+            width: 70vw;
+            height: 70vw;
             margin-top: 16px;
+
+            .circl {
+              width: 40px;
+              height: 40px;
+              border-radius: 40px;
+            }
           }
 
           .title {
-            font-weight: 500;
-            font-size: 22px;
-            line-height: 28px;
+            font-weight: 400;
+            font-size: 19px;
+            line-height: 20px;
           }
 
           .text {
-            font-weight: 700;
-            font-size: 48px;
-            line-height: 28px;
+            font-size: 12px;
+            line-height: 26px;
             margin-top: -6px;
           }
 
-          .btn-container {
+          .cross {
+            top: 1%;
+            right: 8%;
+            width: 10px;
+            height: 10px;
+          }
+
+          .btn_container {
             width: 90%;
             height: 16%;
 
-            .btn-popup {
+            .btn_popup {
               cursor: pointer;
-              width: 45%;
+              width: 58%;
               height: 65%;
               border-radius: 15px;
               font-weight: 400;
@@ -234,5 +273,5 @@ a {
         }
       }
     }
-  }
-}
+//   }
+// }

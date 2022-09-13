@@ -26,15 +26,15 @@
   align-items: center;
 }
 
-.wrapper {
-  background-color: black;
-  overflow-x: hidden;
-  display: grid;
-  grid-template-columns: 1fr minmax(768px, 1200px) 1fr;
-  grid-template-rows: 1vh 99vh 1fr;
-  position: relative;
-  box-sizing: border-box;
-}
+// .wrapper {
+//   background-color: black;
+//   overflow-x: hidden;
+//   display: grid;
+//   grid-template-columns: 1fr minmax(768px, 1200px) 1fr;
+//   grid-template-rows: 1vh 99vh 1fr;
+//   position: relative;
+//   box-sizing: border-box;
+// }
 
 a :active,
 a :hover,
@@ -43,13 +43,13 @@ a {
   color: #666;
 }
 
-.block {
-  position: relative;
-  grid-column: 2 / 3;
-  grid-row: 2 / 3;
-  display: flex;
-  flex-direction: column;
-}
+// .block {
+//   position: relative;
+//   grid-column: 2 / 3;
+//   grid-row: 2 / 3;
+//   display: flex;
+//   flex-direction: column;
+// }
 
 .header {
   height: 10%;
@@ -207,7 +207,7 @@ a {
       }
     }
 
-    .btn-timer {
+    .btn_timer {
       cursor: pointer;
       width: 30px;
       height: 30px;
@@ -222,7 +222,7 @@ a {
     }
   }
 
-  .btn-group {
+  .btn_group {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -238,18 +238,18 @@ a {
       border: 1px solid #fff;
       color: #fff;
       &:hover {
-
+        background-color: #f7966f;
         transition-duration: 0.2s;
         transform: translateY(-1px);
       }
     }
 
-    .btn-act {
-      background-color: #FFBCA2;
+    .btn_act {
+      background-color: rgba(247, 150, 111, 0.3);
 
       &:hover {
         transition-duration: 0.5s;
-        background-color: #f7966f;
+        background-color: rgb(247, 150, 111);
       }
     }
   }
@@ -293,7 +293,7 @@ a {
       position: relative;
     }
 
-    .btn-group {
+    .btn_group {
       position: relative;
     }
 
@@ -341,7 +341,7 @@ a {
       }
     }
 
-    .btn-group {
+    .btn_group {
       width: 280px;
 
       .button {

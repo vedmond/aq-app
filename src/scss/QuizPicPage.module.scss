@@ -26,15 +26,15 @@
   align-items: center;
 }
 
-.wrapper {
-  background-color: black;
-  overflow-x: hidden;
-  display: grid;
-  grid-template-columns: 1fr minmax(768px, 1200px) 1fr;
-  grid-template-rows: 1vh 98vh 1fr;
-  position: relative;
-  box-sizing: border-box;
-}
+// .wrapper {
+//   background-color: black;
+//   overflow-x: hidden;
+//   display: grid;
+//   grid-template-columns: 1fr minmax(768px, 1200px) 1fr;
+//   grid-template-rows: 1vh 98vh 1fr;
+//   position: relative;
+//   box-sizing: border-box;
+// }
 
 a :active,
 a :hover,
@@ -43,13 +43,14 @@ a {
   color: #666;
 }
 
+// .block {
+//   position: relative;
+//   grid-column: 2 / 3;
+//   grid-row: 2 / 3;
+//   display: flex;
+//   flex-direction: column;
+// }
 .block {
-  position: relative;
-  grid-column: 2 / 3;
-  grid-row: 2 / 3;
-  display: flex;
-  flex-direction: column;
-
   .quit {
     overflow-x: hidden;
     overflow-y: hidden;
@@ -133,13 +134,13 @@ a {
   height: 50px;
   @extend %flex-box;
 
-  .progress-bar {
+  .progress_bar {
     width: 80%;
     height: 10px;
     background-color: #A4A4A4;
     border-radius: 5px;
 
-    .progress-bar-line {
+    .progress_bar_line {
       width: 30%;
       height: 10px;
       background-color: #FFBCA2;
@@ -183,7 +184,7 @@ a {
     color: #FFFFFF;
   }
 
-  .btn-box {
+  .btn_box {
     width: 820px;
     height: 600px;
     margin: auto;
@@ -239,7 +240,7 @@ a {
 
 @media (max-width: 880px) {
   .main {
-    .btn-box {
+    .btn_box {
       width: 90vw;
       height: calc(90vw * 0.73);
     }
@@ -264,7 +265,7 @@ a {
 
 @media (max-width: 768px) {
   .wrapper {
-    grid-template-columns: 1fr minmax(520px, 768px) 1fr;
+    // grid-template-columns: 1fr minmax(520px, 768px) 1fr;
 
     .main {
       height: 80vh;
@@ -283,7 +284,7 @@ a {
 @media (max-width: 580px) {
 
   .wrapper {
-    grid-template-columns: 1fr minmax(280px, 520px) 1fr;
+    // grid-template-columns: 1fr minmax(280px, 520px) 1fr;
 
     .block {
       .quit {
@@ -327,11 +328,11 @@ a {
   }
 
   .header {
-    .progress-bar {
+    .progress_bar {
       width: 70%;
       height: 6px;
 
-      .progress-bar-line {
+      .progress_bar_line {
         height: 6px;
       }
     }

@@ -1,0 +1,25 @@
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  div{
+    width: 200px;
+    height: 312px;
+    font-size: 64px;
+  }
+  .btn{
+    width: 100px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 25px;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    p{
+      display: block;
+      margin: auto;
+    }
+  }
+}

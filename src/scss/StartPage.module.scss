@@ -129,13 +129,19 @@ a {
     height: 62px;
     border: 2.5px solid #FFFFFF;
     border-radius: 60px;
-    font-family: 'Gilroy Regular';
-    font-weight: 500;
-    font-size: 29px;
-    line-height: 22px;
-    text-align: center;
-    letter-spacing: -1.14766px;
-    color: #FFFFFF;
+    display: flex;
+   .text {
+      margin: auto;
+      width: auto;
+      height: auto;
+      font-family: 'Gilroy Regular';
+      font-weight: 500;
+      font-size: 29px;
+      line-height: 22px;
+      text-align: center;
+      letter-spacing: -1.14766px;
+      color: #FFFFFF;
+    }
   }
 
   .btn:hover {
@@ -217,7 +223,7 @@ a {
     .btn {
       width: 268px;
       height: 56px;
-      font-size: 26px;
+      font-size: 26px;  
     }
   }
 }
