@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import style from '../../scss/QuizPicPage.module.scss'
 import { Curtain } from '../Curtain'
 // import { QuitPopup } from '../QuitPopup'
-// import { GameOverPopup } from '../GameOverPopup'
+import { GameOverPopup } from '../GameOverPopup'
 // import { GrandPopup } from '../GrandPopup'
 // import { HelpPopup } from '../HelpPopup'
 // import { WinPopup } from '../WinPopup'
@@ -46,7 +46,7 @@ export const QuizPicPage = () => {
           </footer>
           <Curtain/> 
           {/* <QuitPopup/> */}
-          {/* <GameOverPopup/> */}
+          <GameOverPopup/>
           {/* <GrandPopup/> */}
           {/* <WinPopup/> */}
           {/* <HelpPopup/> */}

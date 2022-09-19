@@ -1,19 +1,19 @@
 
 import React from 'react'
-import '../../scss/GameOverPopup.scss'
+import style from '../../scss/GameOverPopup.module.scss'
 
 
 export const GameOverPopup = () => {
   return (
     <div>
-      <div className="game-over active">
-        <div className="game-over-popup">
-          <div className="pic"></div>
-          <p className="title">Game over</p>
-          <p className="text">Play again?</p>
-          <div className="btn-container">
-            <button className="btn-popup btn1">No</button>
-            <button className="btn-popup btn2">Yes</button>
+      <div className={`${style.game_over} ${style.active}`}>
+        <div className={style.game_over_popup}>
+          <div className={style.pic}></div>
+          <p className={style.title}>Game over</p>
+          <p className={style.text}>Play again?</p>
+          <div className={style.btn_container}>
+            <button className={`${style.btn_popup} ${style.btn1}`}>No</button>
+            <button className={`${style.btn_popup} ${style.btn2}`}>Yes</button>
           </div>
         </div>
       </div>
