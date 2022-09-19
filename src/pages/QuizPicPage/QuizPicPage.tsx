@@ -2,7 +2,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import style from '../../scss/QuizPicPage.module.scss'
-// import { QuitPopup } from '../QuitPopup'
+import { Curtain } from '../Curtain'
+import { QuitPopup } from '../QuitPopup'
 // import { GameOverPopup } from '../GameOverPopup'
 // import { GrandPopup } from '../GrandPopup'
 // import { HelpPopup } from '../HelpPopup'
@@ -42,8 +43,9 @@ export const QuizPicPage = () => {
             <span>App developer: <a href="https://github.com/VedKhorkov">VedKhorkov</a></span>
             <span>Design: <a href="https://www.behance.net/klishinama255b">Mary Kli</a></span>
             <span>2022</span>
-          </footer> 
-          {/* <QuitPopup/> */}
+          </footer>
+          <Curtain/> 
+          <QuitPopup/>
           {/* <GameOverPopup/> */}
           {/* <GrandPopup/> */}
           {/* <WinPopup/> */}
