@@ -6,13 +6,10 @@ import { SettingPage } from './pages/SettingPage';
 import { QuizArtPage } from './pages/QuizArtPage';
 import { QuizPicPage } from './pages/QuizPicPage';
 import { StartPage } from './pages/StartPage';
-// import { WinPopup } from './pages/WinPopup';
 import { NotFound } from './pages/NotFound';
-// import { GameOverPopup } from './pages/GameOverPopup';
-// import { QuitPopup } from './pages/QuitPopup';
-// import { HelpPopup } from './pages/HelpPopup';
-// import { ChoseTask } from './pages/ChoseTask';
-// import { GrandPopup } from './pages/GrandPopup';
+import { ChoseTask } from './pages/ChoseTask';
+
+
 
 function App() {
   return (
@@ -24,16 +21,8 @@ function App() {
       <Route path='/setting' element={<SettingPage/>}/>  
       <Route path='/art' element={<QuizArtPage />}/>
       <Route path='/pic' element={<QuizPicPage/>}/>
- 
-      <Route path="*" element={<NotFound/>}/>   
-            
-      
-      {/* <ChoseTask/> */}
-      {/* <HelpPopup/> */}
-      {/* <QuitPopup/> */}
-      {/* <WinPopup/> */}
-      {/* <GrandPopup/> */}
-      {/* <GameOverPopup/> */}
+      <Route path='/chose' element={<ChoseTask/>}/>
+      <Route path="*" element={<NotFound/>}/>
     </Routes>    
     </div>
     </div>

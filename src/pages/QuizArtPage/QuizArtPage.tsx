@@ -3,6 +3,11 @@ import React from 'react'
 import style from '../../scss/QuizArtPage.module.scss'
 import { Link } from 'react-router-dom';
 
+// import { QuitPopup } from '../QuitPopup'
+// import { GameOverPopup } from '../GameOverPopup'
+// import { GrandPopup } from '../GrandPopup'
+// import { HelpPopup } from '../HelpPopup'
+// import { WinPopup } from '../WinPopup'
 
 
 
@@ -60,6 +65,11 @@ export const QuizArtPage = () => {
             <span>Design: <a href="https://www.behance.net/klishinama255b">Mary Kli</a></span>
             <span>2022</span>
           </footer>
+          {/* <QuitPopup/> */}
+          {/* <GameOverPopup/> */}
+          {/* <GrandPopup/> */}
+          {/* <WinPopup/> */}
+          {/* <HelpPopup/> */}
           
          {/* </div>
       </div>  */}
