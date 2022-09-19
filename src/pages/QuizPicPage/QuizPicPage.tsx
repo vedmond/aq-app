@@ -3,7 +3,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import style from '../../scss/QuizPicPage.module.scss'
 import { Curtain } from '../Curtain'
-import { QuitPopup } from '../QuitPopup'
+// import { QuitPopup } from '../QuitPopup'
 // import { GameOverPopup } from '../GameOverPopup'
 // import { GrandPopup } from '../GrandPopup'
 // import { HelpPopup } from '../HelpPopup'
@@ -45,7 +45,7 @@ export const QuizPicPage = () => {
             <span>2022</span>
           </footer>
           <Curtain/> 
-          <QuitPopup/>
+          {/* <QuitPopup/> */}
           {/* <GameOverPopup/> */}
           {/* <GrandPopup/> */}
           {/* <WinPopup/> */}
