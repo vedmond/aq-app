@@ -62,7 +62,7 @@ a {
     height: 100%;
     background: rgba(0, 0, 0, 0);
 
-    .qiut-popup {
+    .quit_popup {
       position: relative;
       width: 500px;
       height: 300px;
@@ -96,12 +96,12 @@ a {
         }
       }
 
-      .btn-container {
+      .btn_container {
         width: 80%;
         height: 30%;
         @extend %flex-box;
 
-        .btn-popup {
+        .btn_popup {
           cursor: pointer;
           width: 40%;
           height: 50%;
@@ -136,7 +136,7 @@ a {
 
 @media (max-width: 880px) {
     .quit {
-      .qiut-popup {
+      .quit_popup {
         width: 400px;
         height: 240px;
         margin: auto;
@@ -147,7 +147,7 @@ a {
 }
 @media (max-width: 580px) {
       .quit {
-        .qiut-popup {
+        .quit_popup {
           width: 80vw;
           height: 70vw;
           margin: auto;
@@ -168,11 +168,11 @@ a {
             height: 12px;
           }
 
-          .btn-container {
+          .btn_container {
             width: 90%;
             height: 40%;
 
-            .btn-popup {
+            .btn_popup {
               cursor: pointer;
               width: 45%;
               height: 50%;
