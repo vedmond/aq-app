@@ -1,9 +1,9 @@
 
 import React from 'react'
 import style from '../../scss/QuizArtPage.module.scss'
-import { Link } from 'react-router-dom';
 
-// import { QuitPopup } from '../QuitPopup'
+import { Curtain } from '../Curtain';
+import { QuitPopup } from '../QuitPopup'
 // import { GameOverPopup } from '../GameOverPopup'
 // import { GrandPopup } from '../GrandPopup'
 // import { HelpPopup } from '../HelpPopup'
@@ -14,6 +14,12 @@ import { Link } from 'react-router-dom';
 
 
 export const QuizArtPage = () => {
+ 
+ const [stateQuit, setStateQuit] = React.useState(false)
+ 
+ 
+ let stateCurtain = stateQuit;
+  
   const barLineWidth = {
     width: '80%',
   }
@@ -23,15 +29,10 @@ export const QuizArtPage = () => {
     backgroundRepeat: 'no-repeat',
     backgroundPosition: '50% 50%',
   }
-
-  
- 
   return (
     <>
-      {/* <div className={style.wrapper}>
-        <div className={style.block}> */}
             <header className={style.header}>
-            <Link to="/" className={style.icon__cross}> </Link>
+            <button onClick={() => setStateQuit(!stateQuit)} className={style.icon__cross}> </button>
             <div className={style.progress_bar}>
               <div style={barLineWidth} className={style.progress_bar_line}></div>
             </div>
@@ -65,14 +66,12 @@ export const QuizArtPage = () => {
             <span>Design: <a href="https://www.behance.net/klishinama255b">Mary Kli</a></span>
             <span>2022</span>
           </footer>
-          {/* <QuitPopup/> */}
+          <Curtain stateCurtain={stateCurtain}/>
+          <QuitPopup stateQuit={stateQuit} setStateQuit={setStateQuit}/>
           {/* <GameOverPopup/> */}
           {/* <GrandPopup/> */}
           {/* <WinPopup/> */}
           {/* <HelpPopup/> */}
-          
-         {/* </div>
-      </div>  */}
     </>
   )
 }

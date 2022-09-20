@@ -2,8 +2,8 @@
 import React from 'react'
 import style from '../../scss/Curtain.module.scss'
 
-export const Curtain = () => {
+export const Curtain = ({stateCurtain}: any) => {
   return (
-    <div className={`${style.root} ${style.active}`}></div>
+    <div  className={`${style.root} ${stateCurtain ? style.active : ''}`}></div>
   )
 }

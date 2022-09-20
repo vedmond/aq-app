@@ -170,15 +170,16 @@ a {
   }
 
   .icon__cross {
-    display: block;
+    // display: block;
+    cursor: pointer;
+    border: none;
     width: 30px;
     height: 30px;
-
+    background-color: rgba(0, 0, 0, 0);
     &:hover {
       transition-duration: 1.5s;
       transform: rotate(0.8turn);
     }
-
     background-image: url(../assets/icon/cross.svg);
     @extend .position-bg;
   }
