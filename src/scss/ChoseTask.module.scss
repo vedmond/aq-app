@@ -57,7 +57,6 @@ a {
 
 .header {
   height: 10%;
-
 }
 
 .logo__box {
@@ -134,7 +133,7 @@ a {
     list-style: none;
     display: block;
 
-    a {
+    .item {
       font-family: 'Gilroy Regular';
       font-style: normal;
       font-weight: 500;
@@ -310,10 +309,6 @@ a {
 }
 
 @media (max-width: 580px) {
-
-  .wrapper {
-    grid-template-columns: 1fr minmax(280px, 520px) 1fr;
-
     .icon__arrow {
       width: 80vw;
     }
@@ -321,7 +316,6 @@ a {
     .menu {
       display: none;
     }
-  }
 
   .footer {
     font-weight: 500;
@@ -414,6 +408,9 @@ a {
 }
 
 @media (max-width: 400px) {
+  .header {
+      height: 80px;
+    }
   .main {
     .box {
       margin: 5px;

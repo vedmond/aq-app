@@ -18,8 +18,8 @@ export const ChoseTask = () => {
         <div className={`${style.ellipse} ${style.ellipse__left}`}></div>
       </div>
       <ul className={style.menu}>
-        <li className={style.menu_items}><a href=".">Home </a></li>
-        <li className={style.menu_items}><a href="." className={style.active}>Categories</a></li>
+        <li className={style.menu_items}><span className={style.item}>Home </span></li>
+        <li className={style.menu_items}><span  className={`${style.active} ${style.item}`}>Quiz Artist</span></li>
       </ul>
       <a href="."  className={style.icon__cross}> </a>
     </header>

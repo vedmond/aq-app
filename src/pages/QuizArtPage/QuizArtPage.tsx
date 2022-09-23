@@ -16,8 +16,6 @@ import { QuitPopup } from '../QuitPopup'
 export const QuizArtPage = () => {
  
  const [stateQuit, setStateQuit] = React.useState(false)
- 
- 
  let stateCurtain = stateQuit;
   
   const barLineWidth = {

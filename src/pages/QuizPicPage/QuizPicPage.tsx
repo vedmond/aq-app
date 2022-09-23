@@ -1,20 +1,23 @@
 
 import React from 'react'
-import { Link } from 'react-router-dom'
+
 import style from '../../scss/QuizPicPage.module.scss'
 import { Curtain } from '../Curtain'
-// import { QuitPopup } from '../QuitPopup'
-import { GameOverPopup } from '../GameOverPopup'
+import { QuitPopup } from '../QuitPopup'
+// import { GameOverPopup } from '../GameOverPopup'
 // import { GrandPopup } from '../GrandPopup'
 // import { HelpPopup } from '../HelpPopup'
 // import { WinPopup } from '../WinPopup'
 
 export const QuizPicPage = () => {
+   const [stateQuit, setStateQuit] = React.useState(false)
+   let stateCurtain = stateQuit;
+
    const barLineWidth = {
     width: '80%',
   }
   const containerStyle = {
-    backgroundImage: `url(https://raw.githubusercontent.com/irinainina/image-data/master/full/0full.jpg)`,
+    backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg/2560px-The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg)`,
     backgroundSize: 'contain',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: '50% 50%',
@@ -24,7 +27,7 @@ export const QuizPicPage = () => {
       {/* <div className={style.wrapper}>
         <div className={style.block}> */}
           <header className={style.header}>
-            <Link to="/" className={style.icon__cross}> </Link>
+            <button onClick={() => setStateQuit(!stateQuit)} className={style.icon__cross}> </button>
             <div className={style.progress_bar}>
               <div style={barLineWidth} className={style.progress_bar_line}></div>
             </div>
@@ -44,9 +47,9 @@ export const QuizPicPage = () => {
             <span>Design: <a href="https://www.behance.net/klishinama255b">Mary Kli</a></span>
             <span>2022</span>
           </footer>
-          <Curtain/> 
-          {/* <QuitPopup/> */}
-          <GameOverPopup/>
+          <Curtain stateCurtain={stateCurtain}/>
+          <QuitPopup stateQuit={stateQuit} setStateQuit={setStateQuit}/>
+          {/* <GameOverPopup/> */}
           {/* <GrandPopup/> */}
           {/* <WinPopup/> */}
           {/* <HelpPopup/> */}
