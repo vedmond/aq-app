@@ -12,6 +12,8 @@ import { ChoseTask } from './pages/ChoseTask';
 
 
 function App() {
+  const art = 'art';
+  const pic = 'pic';
   return (
 
     <div className="wrapper">
@@ -21,7 +23,8 @@ function App() {
       <Route path='/setting' element={<SettingPage/>}/>  
       <Route path='/art' element={<QuizArtPage />}/>
       <Route path='/pic' element={<QuizPicPage/>}/>
-      <Route path='/chose' element={<ChoseTask/>}/>
+      <Route path='/chose/art' element={<ChoseTask linkCategory={art}/>}/>
+      <Route path='/chose/pic' element={<ChoseTask linkCategory={pic}/>}/>
       <Route path="*" element={<NotFound/>}/>
     </Routes>    
     </div>

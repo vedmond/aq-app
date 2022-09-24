@@ -6,6 +6,7 @@ import style from '../../scss/StartPage.module.scss'
 
 
 export const StartPage = () => {
+  
   return (
     <>
       <div className={style.wrapper}>
@@ -20,12 +21,12 @@ export const StartPage = () => {
               <div className={`${style.ellipse} ${style.ellipse__left}`}></div>
             </div>
             <div className={style.box__btn}>
-              <Link to="/art">
+              <Link to="/chose/art" >
                 <div className={style.btn}>
                   <div className={style.text}>Artist quiz</div>
                 </div>
               </Link>
-              <Link to="/pic">
+              <Link to="/chose/pic">
                 <div className={style.btn}>
                   <div className={style.text}>Pictures quiz</div>
                 </div>

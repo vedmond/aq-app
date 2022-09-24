@@ -522,7 +522,7 @@
         "categories": ""
     },
     {
-        "author": " Eduard Manet",
+        "author": "Eduard Manet",
         "name": "Ланч на траве",
         "year": "1863",
         "id": "58",
@@ -531,7 +531,7 @@
         "categories": ""
     },
     {
-        "author": " Salvador Dali",
+        "author": "Salvador Dali",
         "name": "Постоянство памяти",
         "year": "1931",
         "id": "59",
@@ -972,7 +972,7 @@
         "categories": ""
     },
     {
-        "author": " Salvador Dali",
+        "author": "Salvador Dali",
         "name": "Сон, вызванный полётом пчелы вокруг граната, за секунду до пробуждения",
         "year": "1944",
         "id": "108",
@@ -1314,7 +1314,7 @@
         "categories": ""
     },
     {
-        "author": " Eduard Manet",
+        "author": "Eduard Manet",
         "name": "Женщина с кувшином",
         "year": "1858",
         "id": "146",
@@ -1764,7 +1764,7 @@
         "categories": ""
     },
     {
-        "author": " Eduard Manet",
+        "author": "Eduard Manet",
         "name": "Бар в «Фоли-Бержер»",
         "year": "1882",
         "id": "196",
@@ -2168,6 +2168,7 @@
         "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/240full.jpg",
         "categories": ""
     }
+    
 ]
 
 
