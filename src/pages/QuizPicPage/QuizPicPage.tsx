@@ -4,20 +4,22 @@ import React from 'react'
 import style from '../../scss/QuizPicPage.module.scss'
 import { Curtain } from '../Curtain'
 import { QuitPopup } from '../QuitPopup'
+import dataQuiz from '../../assets/date.json'
 // import { GameOverPopup } from '../GameOverPopup'
 // import { GrandPopup } from '../GrandPopup'
 // import { HelpPopup } from '../HelpPopup'
 // import { WinPopup } from '../WinPopup'
 
-export const QuizPicPage = () => {
+export const QuizPicPage = ({categoryId}: any) => {
    const [stateQuit, setStateQuit] = React.useState(false)
+  console.log('categoryId QuizPicPage=', categoryId);
    let stateCurtain = stateQuit;
 
    const barLineWidth = {
     width: '80%',
   }
   const containerStyle = {
-    backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg/2560px-The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg)`,
+    backgroundImage: `url("${dataQuiz[categoryId].imgUrl}")`,
     backgroundSize: 'contain',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: '50% 50%',

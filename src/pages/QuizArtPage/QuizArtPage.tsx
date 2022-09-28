@@ -1,32 +1,119 @@
 
 import React from 'react'
 import style from '../../scss/QuizArtPage.module.scss'
-
+import dataQuiz from '../../assets/date.json'
 import { Curtain } from '../Curtain';
 import { QuitPopup } from '../QuitPopup'
+import { PointProgress } from '../../components/PointProgress';
+import { ButtonArt } from '../../components/ButtonArt';
+import { HelpPopup } from '../HelpPopup'
+
+
+
 // import { GameOverPopup } from '../GameOverPopup'
 // import { GrandPopup } from '../GrandPopup'
-// import { HelpPopup } from '../HelpPopup'
 // import { WinPopup } from '../WinPopup'
 
 
+// const ar = ['Blue', 'Green', 'Yellow', 'Black']
+// function shuffle(arr: any){
+// 	let j, temp;
+// 	for(var i = arr.length - 1; i > 0; i--){
+// 		j = Math.floor(Math.random()*(i + 1));
+// 		temp = arr[j];
+// 		arr[j] = arr[i];
+// 		arr[i] = temp;
+// 	}
+// 	return arr;
+// }
+// console.log(shuffle(ar));
 
 
 
-export const QuizArtPage = () => {
- 
- const [stateQuit, setStateQuit] = React.useState(false)
- let stateCurtain = stateQuit;
+
+export const QuizArtPage = ({categoryId, setCategoryId}: any) => {
   
+  
+  
+  const [stateQuit, setStateQuit] = React.useState(false)
+  const [stateHelp, setStateHelp] = React.useState(false)
+  const [flagHelp, setFlagHelp] = React.useState(true)
+  const [countQuestion, setCountQuestion] = React.useState(1)
+  const [btnArray, setBtnArray] = React.useState([])
+  let stateCurtain = stateQuit || stateHelp;
+
+
+ React.useEffect(() => {
+   let arrayAutour = [dataQuiz[categoryId].author];
+  console.log('arrayAutourOne =', arrayAutour);
+  // for (let i = 0; i < 3; i++) {
+  // const nameAutour = dataQuiz[Math.floor(Math.random() * 240)].author
+  // if(arrayAutour.includes(nameAutour) && i === 0){
+  //    arrayAutour = [dataQuiz[categoryId].author];
+  // } else if (arrayAutour.includes(nameAutour) && i > 0) {
+  //   i--;
+  //   arrayAutour.pop();
+  // } else {
+  //   arrayAutour.push(nameAutour);
+  // }
+  // }
+  for (let i = 1; i < 4; i++) {
+    const nameAutour = dataQuiz[Math.floor(Math.random() * 240)].author;
+    if (arrayAutour.includes(nameAutour)){
+      i--;
+    } else {
+      arrayAutour.push(nameAutour);
+    }
+  }
+  console.log('arrayAutour =', arrayAutour);
+
+function shuffle(arr: any){
+	let j, temp;
+	for(var i = arr.length - 1; i > 0; i--){
+		j = Math.floor(Math.random()*(i + 1));
+		temp = arr[j];
+		arr[j] = arr[i];
+		arr[i] = temp;
+	}
+	return arr;
+}
+
+setBtnArray(shuffle(arrayAutour))
+
+}, [categoryId]) 
+  
+ 
+
+
+let length = 20; 
+const  array = new Array(length);
+while(length--){
+  array[length] = length
+}
+
   const barLineWidth = {
-    width: '80%',
+    width: `${countQuestion * 5}%`,
+  }
+ 
+  const clickNextId = (nameBtn: string) => {
+    console.log('name= ', nameBtn);
+    if (nameBtn === dataQuiz[categoryId].author) {
+      setFlagHelp(true)
+    } else {
+      setFlagHelp(false)
+    }
+    setCountQuestion(countQuestion + 1)
+    setCategoryId(+categoryId + 1)
+    setStateHelp(true)
   }
   const containerStyle = {
-    backgroundImage: `url("https://raw.githubusercontent.com/irinainina/image-data/master/full/0full.jpg")`,
-    backgroundSize: 'contain',
+    backgroundImage: `url("${dataQuiz[categoryId].imgUrl}")`,
+    backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: '50% 50%',
   }
+  console.log('real author = ', dataQuiz[categoryId].author);
+  
   return (
     <>
             <header className={style.header}>
@@ -40,23 +127,14 @@ export const QuizArtPage = () => {
             <p className={style.title}>Who is the author of this picture?</p>
             <div className={style.container} style={containerStyle}>
               <div className={style.point_box}>
-                <div className={`${style.point} ${style.p0} ${style.active}`}></div>
-                <div className={`${style.point} ${style.p1} ${style.active}`}></div>
-                <div className={`${style.point} ${style.p2} ${style.active}`}></div>
-                <div className={`${style.point} ${style.p3} ${style.active}`}></div>
-                <div className={`${style.point} ${style.p4} ${style.active}`}></div>
-                <div className={`${style.point} ${style.p5}`}></div>
-                <div className={`${style.point} ${style.p6}`}></div>
-                <div className={`${style.point} ${style.p7}`}></div>
-                <div className={`${style.point} ${style.p8}`}></div>
-                <div className={`${style.point} ${style.p9}`}></div>
+                {array.map((el) => (
+                <PointProgress key={el} index={el} countQuestion={countQuestion}/>) )}
               </div>
             </div>
             <div className={style.btn_box}>
-              <button className={`${style.btn} ${style.b0}`}>Leonardo da Vinci</button>
-              <button className={`${style.btn} ${style.b1}`}>Peter Paul Rubens</button>
-              <button className={`${style.btn} ${style.b2}`}>Rembrandt </button>
-              <button className={`${style.btn} ${style.b3}`}>Hieronymus Bosch</button>
+             {btnArray.map((elem: string, id: number) => (
+              <ButtonArt key ={id} clickNextId={clickNextId} nameId={elem}/>
+             ))}
             </div>
           </main>
           <footer className={style.footer}>
@@ -66,10 +144,14 @@ export const QuizArtPage = () => {
           </footer>
           <Curtain stateCurtain={stateCurtain}/>
           <QuitPopup stateQuit={stateQuit} setStateQuit={setStateQuit}/>
+          <HelpPopup 
+            stateHelp={stateHelp} 
+            setStateHelp={setStateHelp} 
+            categoryId={categoryId} 
+            flagHelp={flagHelp}/>
           {/* <GameOverPopup/> */}
           {/* <GrandPopup/> */}
           {/* <WinPopup/> */}
-          {/* <HelpPopup/> */}
     </>
   )
 }

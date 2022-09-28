@@ -1,14 +1,15 @@
 
 import React from 'react'
+import {Link} from 'react-router-dom'
 import style from '../../scss/ChoseTask.module.scss'
 import { CategoryGallery } from '../../components/CategoryGallery'
-import dateQuiz from '../../assets/date.json'
+import dataQuiz from '../../assets/date.json'
 
-const dateStart = dateQuiz.filter(
-  obj => +(obj.id) % 20 === 0 && +(obj.id) < dateQuiz.length - 20 ? obj :''
+const dataStart = dataQuiz.filter(
+  obj => +(obj.id) % 20 === 0 && +(obj.id) < dataQuiz.length - 20 ? obj :''
   )
 
-export const ChoseTask = ({linkCategory}: any) => {
+export const ChoseTask = ({linkCategory, setCategoryId}: any) => {
 
   return (
     <div>
@@ -19,17 +20,24 @@ export const ChoseTask = ({linkCategory}: any) => {
         <div className={`${style.ellipse} ${style.ellipse__left}`}></div>
       </div>
       <ul className={style.menu}>
+        <Link to="/">
         <li className={style.menu_items}><span className={style.item}>Home </span></li>
+        </Link>
+        
         <li className={style.menu_items}><span  className={`${style.active} ${style.item}`}>
-          {linkCategory === 'art' ? `Quiz Artist`: `Quiz Picture` }
+          {linkCategory === 'art' ? `Artist Quiz`: `Picture Quiz` }
           </span>
         </li>
       </ul>
-      <a href="."  className={style.icon__cross}> </a>
+      <Link to="/setting"  className={style.icon__cross}> </Link>
     </header>
     <main className={style.main}>
-    {dateStart.map((obj) => (
-      <CategoryGallery idDate={obj.id} linkCategory={linkCategory}/>
+    {dataStart.map((obj) => (
+      <CategoryGallery 
+      key={obj.id} 
+      idDate={obj.id} 
+      linkCategory={linkCategory} 
+      setCategoryId={setCategoryId}/>
     ))}
     
       

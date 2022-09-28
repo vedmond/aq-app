@@ -12,6 +12,9 @@ import { ChoseTask } from './pages/ChoseTask';
 
 
 function App() {
+  const [categoryId, setCategoryId] = React.useState(0)
+  
+  
   const art = 'art';
   const pic = 'pic';
   return (
@@ -21,10 +24,10 @@ function App() {
     <Routes>
       <Route path="/" element={<StartPage />}/>
       <Route path='/setting' element={<SettingPage/>}/>  
-      <Route path='/art' element={<QuizArtPage />}/>
-      <Route path='/pic' element={<QuizPicPage/>}/>
-      <Route path='/chose/art' element={<ChoseTask linkCategory={art}/>}/>
-      <Route path='/chose/pic' element={<ChoseTask linkCategory={pic}/>}/>
+      <Route path='/art' element={<QuizArtPage categoryId={categoryId} setCategoryId={setCategoryId}/>}/>
+      <Route path='/pic' element={<QuizPicPage categoryId={categoryId} setCategoryId={setCategoryId}/>}/>
+      <Route path='/chose/art' element={<ChoseTask linkCategory={art} setCategoryId={setCategoryId}/>}/>
+      <Route path='/chose/pic' element={<ChoseTask linkCategory={pic} setCategoryId={setCategoryId}/>}/>
       <Route path="*" element={<NotFound/>}/>
     </Routes>    
     </div>

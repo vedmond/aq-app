@@ -1,15 +1,17 @@
 
 import React from 'react'
 import style from '../../scss/SettingPage.module.scss'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 export const SettingPage = () => {
+  const linkCallBack = useNavigate();
+  const callBack = () => linkCallBack(-1)
+  
   return (
     <>
-      {/* <div className={style.wrapper}>
-        <div className={style.block}> */}
+      
             <header className={style.header}>
-      <div  className={style.icon__arrow}> <Link to="/setting"> </Link> Setting</div>
+      <div onClick={callBack}  className={style.icon__arrow}> <div className={style.icon__arrow__block}></div> Setting</div>
       <Link to="/"  className={style.icon__cross}> </Link>
       </header>
       <main className={style.main}>
@@ -54,9 +56,7 @@ export const SettingPage = () => {
     <footer className={style.footer}>
       <span>App developer: <a href="https://github.com/VedKhorkov">VedKhorkov</a></span>
       <span>Design: <a href="https://www.behance.net/klishinama255b">Mary Kli</a></span>
-    </footer>    
-        {/* </div>
-      </div>  */}
+    </footer> 
     </>    
 
   )

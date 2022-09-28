@@ -5,6 +5,7 @@ import style from '../../scss/StartPage.module.scss'
 
 
 
+
 export const StartPage = () => {
   
   return (

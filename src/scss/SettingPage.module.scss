@@ -73,8 +73,8 @@ a {
   line-height: 28px;
   letter-spacing: -0.5px;
 
-  a {
-    display: block;
+  .icon__arrow__block{
+    cursor: pointer;
     width: 30px;
     height: 30px;
     background-image: url(../assets/icon/arrow.svg);
