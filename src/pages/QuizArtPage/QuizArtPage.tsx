@@ -7,10 +7,10 @@ import { QuitPopup } from '../QuitPopup'
 import { PointProgress } from '../../components/PointProgress';
 import { ButtonArt } from '../../components/ButtonArt';
 import { HelpPopup } from '../HelpPopup'
+import { GameOverPopup } from '../GameOverPopup'
 
 
 
-// import { GameOverPopup } from '../GameOverPopup'
 // import { GrandPopup } from '../GrandPopup'
 // import { WinPopup } from '../WinPopup'
 
@@ -31,32 +31,24 @@ import { HelpPopup } from '../HelpPopup'
 
 
 
-export const QuizArtPage = ({categoryId, setCategoryId}: any) => {
+export const QuizArtPage = ({categoryId, setCategoryId, btnNo, btnYes, stateGameOver, setStateGameOver}: any) => {
   
   
   
   const [stateQuit, setStateQuit] = React.useState(false)
   const [stateHelp, setStateHelp] = React.useState(false)
+  
   const [flagHelp, setFlagHelp] = React.useState(true)
   const [countQuestion, setCountQuestion] = React.useState(1)
+  const [countResult, setCountResult] = React.useState(0)
   const [btnArray, setBtnArray] = React.useState([])
-  let stateCurtain = stateQuit || stateHelp;
-
+  let stateCurtain = stateQuit || stateHelp || stateGameOver;
+  
+  
 
  React.useEffect(() => {
    let arrayAutour = [dataQuiz[categoryId].author];
-  console.log('arrayAutourOne =', arrayAutour);
-  // for (let i = 0; i < 3; i++) {
-  // const nameAutour = dataQuiz[Math.floor(Math.random() * 240)].author
-  // if(arrayAutour.includes(nameAutour) && i === 0){
-  //    arrayAutour = [dataQuiz[categoryId].author];
-  // } else if (arrayAutour.includes(nameAutour) && i > 0) {
-  //   i--;
-  //   arrayAutour.pop();
-  // } else {
-  //   arrayAutour.push(nameAutour);
-  // }
-  // }
+  console.log('realAutour =', arrayAutour, 'countQuestion = ', countQuestion);
   for (let i = 1; i < 4; i++) {
     const nameAutour = dataQuiz[Math.floor(Math.random() * 240)].author;
     if (arrayAutour.includes(nameAutour)){
@@ -65,7 +57,7 @@ export const QuizArtPage = ({categoryId, setCategoryId}: any) => {
       arrayAutour.push(nameAutour);
     }
   }
-  console.log('arrayAutour =', arrayAutour);
+
 
 function shuffle(arr: any){
 	let j, temp;
@@ -96,15 +88,22 @@ while(length--){
   }
  
   const clickNextId = (nameBtn: string) => {
-    console.log('name= ', nameBtn);
     if (nameBtn === dataQuiz[categoryId].author) {
       setFlagHelp(true)
+      setCountResult(countResult + 1)
     } else {
       setFlagHelp(false)
     }
-    setCountQuestion(countQuestion + 1)
     setCategoryId(+categoryId + 1)
     setStateHelp(true)
+    if(countQuestion === 20){ 
+      console.log('finish = ', countResult)
+      setStateGameOver(true)
+      setCountQuestion(1)
+    } else {
+        setCountQuestion(countQuestion + 1)       
+    }  
+
   }
   const containerStyle = {
     backgroundImage: `url("${dataQuiz[categoryId].imgUrl}")`,
@@ -112,7 +111,6 @@ while(length--){
     backgroundRepeat: 'no-repeat',
     backgroundPosition: '50% 50%',
   }
-  console.log('real author = ', dataQuiz[categoryId].author);
   
   return (
     <>
@@ -142,14 +140,17 @@ while(length--){
             <span>Design: <a href="https://www.behance.net/klishinama255b">Mary Kli</a></span>
             <span>2022</span>
           </footer>
-          <Curtain stateCurtain={stateCurtain}/>
+          <Curtain stateCurtain={stateCurtain} />
           <QuitPopup stateQuit={stateQuit} setStateQuit={setStateQuit}/>
+          <GameOverPopup 
+            stateGameOver={stateGameOver} 
+            btnNo={btnNo} 
+            btnYes={btnYes}/>
           <HelpPopup 
             stateHelp={stateHelp} 
             setStateHelp={setStateHelp} 
             categoryId={categoryId} 
             flagHelp={flagHelp}/>
-          {/* <GameOverPopup/> */}
           {/* <GrandPopup/> */}
           {/* <WinPopup/> */}
     </>
