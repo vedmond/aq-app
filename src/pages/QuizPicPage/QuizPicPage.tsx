@@ -21,7 +21,7 @@ export const QuizPicPage = ({categoryId, setCategoryId, btnNo, btnYes, stateGame
    const [nameArtistPic, setNameArtistPic] = React.useState('')
    let stateCurtain = stateQuit || stateHelp;
    const barLineWidth = {
-    width: '80%',
+    width: `${countQuestion * 5}%`,
   }
    React.useEffect(() => {
    let arrayImgUrl = [dataQuiz[categoryId].imgUrl];
