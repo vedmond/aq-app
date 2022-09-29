@@ -14,6 +14,7 @@ import { ChoseTask } from './pages/ChoseTask';
 function App() {
   const [stateGameOver, setStateGameOver] = React.useState(false)
   const [categoryId, setCategoryId] = React.useState(0)
+  const [categoryName, setCategoryName] = React.useState('')
  
   const art = 'art';
   const pic = 'pic';
@@ -25,7 +26,7 @@ function App() {
   const btnYes = () => {
     setStateGameOver(false)
     setCategoryId(+categoryId - 20)
-    linkChose("/art")
+    categoryName === 'art' ? linkChose("/art") : linkChose("/pic")
   }
 
   return (
@@ -48,14 +49,22 @@ function App() {
       <QuizPicPage 
       categoryId={categoryId} 
       setCategoryId={setCategoryId}
+      btnNo={btnNo} 
+      btnYes={btnYes}
       stateGameOver={stateGameOver} 
       setStateGameOver={setStateGameOver}/>
       }/>
       <Route path='/chose/art' element={
-      <ChoseTask linkCategory={art} setCategoryId={setCategoryId}/>
+      <ChoseTask 
+        linkCategory={art} 
+        setCategoryId={setCategoryId} 
+        setCategoryName={setCategoryName}/>
       }/>
       <Route path='/chose/pic' element={
-      <ChoseTask linkCategory={pic} setCategoryId={setCategoryId}/>
+      <ChoseTask 
+        linkCategory={pic} 
+        setCategoryId={setCategoryId} 
+        setCategoryName={setCategoryName}/>
       }/>
       <Route path="*" element={<NotFound/>}/>
     </Routes>    

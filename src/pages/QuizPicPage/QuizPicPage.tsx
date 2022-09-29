@@ -7,7 +7,7 @@ import { QuitPopup } from '../QuitPopup'
 import { HelpPopup } from '../HelpPopup'
 import dataQuiz from '../../assets/date.json'
 import ButtonPic from '../../components/ButtonPic'
-// import { GameOverPopup } from '../GameOverPopup'
+import { GameOverPopup } from '../GameOverPopup'
 // import { GrandPopup } from '../GrandPopup'
 // import { WinPopup } from '../WinPopup'
 
@@ -19,7 +19,7 @@ export const QuizPicPage = ({categoryId, setCategoryId, btnNo, btnYes, stateGame
    const [countQuestion, setCountQuestion] = React.useState(1)
    const [countResult, setCountResult] = React.useState(0)
    const [nameArtistPic, setNameArtistPic] = React.useState('')
-   let stateCurtain = stateQuit || stateHelp;
+   let stateCurtain = stateQuit || stateHelp || stateGameOver;
    const barLineWidth = {
     width: `${countQuestion * 5}%`,
   }
@@ -89,12 +89,15 @@ setBtnArray(shuffle(arrayImgUrl))
           </footer>
           <Curtain stateCurtain={stateCurtain}/>
           <QuitPopup stateQuit={stateQuit} setStateQuit={setStateQuit}/>
+          <GameOverPopup 
+            stateGameOver={stateGameOver} 
+            btnNo={btnNo} 
+            btnYes={btnYes}/>
           <HelpPopup 
             stateHelp={stateHelp} 
             setStateHelp={setStateHelp} 
             categoryId={categoryId} 
             flagHelp={flagHelp}/>
-          {/* <GameOverPopup/> */}
           {/* <GrandPopup/> */}
           {/* <WinPopup/> */}
     </>

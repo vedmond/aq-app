@@ -9,8 +9,8 @@ const dataStart = dataQuiz.filter(
   obj => +(obj.id) % 20 === 0 && +(obj.id) < dataQuiz.length - 20 ? obj :''
   )
 
-export const ChoseTask = ({linkCategory, setCategoryId}: any) => {
-
+export const ChoseTask = ({linkCategory, setCategoryId, setCategoryName}: any) => {
+ setCategoryName(linkCategory)
   return (
     <div>
       <header className={style.header}>
