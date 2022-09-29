@@ -32,9 +32,7 @@ import { GameOverPopup } from '../GameOverPopup'
 
 
 export const QuizArtPage = ({categoryId, setCategoryId, btnNo, btnYes, stateGameOver, setStateGameOver}: any) => {
-  
-  
-  
+ 
   const [stateQuit, setStateQuit] = React.useState(false)
   const [stateHelp, setStateHelp] = React.useState(false)
   
@@ -43,8 +41,6 @@ export const QuizArtPage = ({categoryId, setCategoryId, btnNo, btnYes, stateGame
   const [countResult, setCountResult] = React.useState(0)
   const [btnArray, setBtnArray] = React.useState([])
   let stateCurtain = stateQuit || stateHelp || stateGameOver;
-  
-  
 
  React.useEffect(() => {
    let arrayAutour = [dataQuiz[categoryId].author];
@@ -56,8 +52,6 @@ export const QuizArtPage = ({categoryId, setCategoryId, btnNo, btnYes, stateGame
       arrayAutour.push(nameAutour);
     }
   }
-
-
 function shuffle(arr: any){
 	let j, temp;
 	for(var i = arr.length - 1; i > 0; i--){
@@ -68,9 +62,7 @@ function shuffle(arr: any){
 	}
 	return arr;
 }
-
 setBtnArray(shuffle(arrayAutour))
-
 }, [categoryId]) 
   
  
@@ -101,8 +93,7 @@ while(length--){
       setCountQuestion(1)
     } else {
         setCountQuestion(countQuestion + 1)       
-    }  
-
+    } 
   }
   const containerStyle = {
     backgroundImage: `url("${dataQuiz[categoryId].imgUrl}")`,

@@ -45,7 +45,11 @@ function App() {
       setStateGameOver={setStateGameOver}/>
       }/>
       <Route path='/pic' element={
-      <QuizPicPage categoryId={categoryId} setCategoryId={setCategoryId}/>
+      <QuizPicPage 
+      categoryId={categoryId} 
+      setCategoryId={setCategoryId}
+      stateGameOver={stateGameOver} 
+      setStateGameOver={setStateGameOver}/>
       }/>
       <Route path='/chose/art' element={
       <ChoseTask linkCategory={art} setCategoryId={setCategoryId}/>

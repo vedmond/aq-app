@@ -4,18 +4,22 @@ import React from 'react'
 import style from '../../scss/QuizPicPage.module.scss'
 import { Curtain } from '../Curtain'
 import { QuitPopup } from '../QuitPopup'
+import { HelpPopup } from '../HelpPopup'
 import dataQuiz from '../../assets/date.json'
 import ButtonPic from '../../components/ButtonPic'
 // import { GameOverPopup } from '../GameOverPopup'
 // import { GrandPopup } from '../GrandPopup'
-// import { HelpPopup } from '../HelpPopup'
 // import { WinPopup } from '../WinPopup'
 
-export const QuizPicPage = ({categoryId}: any) => {
+export const QuizPicPage = ({categoryId, setCategoryId, btnNo, btnYes, stateGameOver, setStateGameOver}: any) => {
    const [stateQuit, setStateQuit] = React.useState(false)
+   const [stateHelp, setStateHelp] = React.useState(false)
+   const [flagHelp, setFlagHelp] = React.useState(true)
    const [btnArray, setBtnArray] = React.useState([])
+   const [countQuestion, setCountQuestion] = React.useState(1)
+   const [countResult, setCountResult] = React.useState(0)
    const [nameArtistPic, setNameArtistPic] = React.useState('')
-   let stateCurtain = stateQuit;
+   let stateCurtain = stateQuit || stateHelp;
    const barLineWidth = {
     width: '80%',
   }
@@ -30,8 +34,6 @@ export const QuizPicPage = ({categoryId}: any) => {
       arrayImgUrl.push(picImgUrl);
     }
   }
-
-
 function shuffle(arr: any){
 	let j, temp;
 	for(var i = arr.length - 1; i > 0; i--){
@@ -43,8 +45,25 @@ function shuffle(arr: any){
 	return arr;
 }
 setBtnArray(shuffle(arrayImgUrl))
-console.log('setBtnArray = ', btnArray)
 }, [categoryId])
+
+  const clickNextId = (urlIdBtn: string) => {
+    if (urlIdBtn === dataQuiz[categoryId].imgUrl) {
+      setFlagHelp(true)
+      setCountResult(countResult + 1)
+    } else {
+      setFlagHelp(false)
+    }
+    setCategoryId(+categoryId + 1)
+    setStateHelp(true)
+    if(countQuestion === 20){ 
+      console.log('finish = ', countResult)
+      setStateGameOver(true)
+      setCountQuestion(1)
+    } else {
+        setCountQuestion(countQuestion + 1)       
+    } 
+  }
 
   return (
     <>
@@ -59,7 +78,7 @@ console.log('setBtnArray = ', btnArray)
             <p className={style.title}>Which is {nameArtistPic} picture?</p>
             <div className={style.btn_box}>
               {btnArray.map((elem: string, id: number) => (
-              <ButtonPic key ={id}  urlId={elem}/>
+              <ButtonPic key ={id}  urlId={elem} clickNextId={clickNextId}/>
              ))}
             </div>
           </main>
@@ -70,10 +89,14 @@ console.log('setBtnArray = ', btnArray)
           </footer>
           <Curtain stateCurtain={stateCurtain}/>
           <QuitPopup stateQuit={stateQuit} setStateQuit={setStateQuit}/>
+          <HelpPopup 
+            stateHelp={stateHelp} 
+            setStateHelp={setStateHelp} 
+            categoryId={categoryId} 
+            flagHelp={flagHelp}/>
           {/* <GameOverPopup/> */}
           {/* <GrandPopup/> */}
           {/* <WinPopup/> */}
-          {/* <HelpPopup/> */}
     </>
   )
 }

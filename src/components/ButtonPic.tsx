@@ -5,7 +5,7 @@ import style from '../scss/QuizPicPage.module.scss'
 
 
 
-export default function ButtonPic({urlId}: any) {
+export default function ButtonPic({urlId, clickNextId}: any) {
     const containerStyle = {
     backgroundImage: `url("${urlId}")`,
     backgroundSize: 'cover',
@@ -14,7 +14,7 @@ export default function ButtonPic({urlId}: any) {
   }
   return (
     <>
-     <button className={`${style.btn}`} style={containerStyle}></button>
+     <button onClick={() => clickNextId(urlId)} className={`${style.btn}`} style={containerStyle}></button>
     </>
   )
 }
