@@ -5,6 +5,7 @@ import dateQuiz from '../assets/date.json'
 import {useNavigate} from 'react-router-dom'
 
 export const CategoryGallery = ({idDate, linkCategory, setCategoryId}: any) => {
+
   
   const containerStyle  = {
     backgroundImage: `url("${dateQuiz[idDate].imgUrl}")`,
@@ -22,6 +23,7 @@ export const CategoryGallery = ({idDate, linkCategory, setCategoryId}: any) => {
      linkTo('/pic')
     }
     setCategoryId(idDate)
+    
   };
   
   

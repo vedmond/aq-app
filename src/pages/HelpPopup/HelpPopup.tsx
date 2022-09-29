@@ -7,8 +7,9 @@ export const HelpPopup = ({stateHelp, setStateHelp, categoryId, flagHelp}: any) 
     const callBack = () => {
       setStateHelp(false)
     }
+    const forStartId = () => +categoryId -1 < 0 ? 0 : +categoryId -1
     const containerStyle = {
-    backgroundImage:`url("${dataQuiz[+categoryId -1].imgUrl}")`,
+    backgroundImage:`url("${dataQuiz[forStartId()].imgUrl}")`,
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: '50% 50%',
@@ -27,8 +28,8 @@ export const HelpPopup = ({stateHelp, setStateHelp, categoryId, flagHelp}: any) 
         <div className={style.pic} style={containerStyle}>
           <div className={`${style.circl} ${flagHelp ? style.right: style.wrong}`}></div>
         </div>
-        <p className={style.title}>{dataQuiz[categoryId -1].name}</p>
-        <p className={style.text}>{`${dataQuiz[categoryId -1].author}, ${dataQuiz[categoryId -1].year}`}</p>
+        <p className={style.title}>{dataQuiz[forStartId()].name}</p>
+        <p className={style.text}>{`${dataQuiz[forStartId()].author}, ${dataQuiz[forStartId()].year}`}</p>
         <div className={style.btn_container}>
           <button onClick={callBack} className={`${style.btn_popup} ${style.btn1}`}>Next</button>
         </div>

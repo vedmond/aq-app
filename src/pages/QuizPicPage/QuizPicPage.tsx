@@ -20,14 +20,12 @@ export const QuizPicPage = ({categoryId}: any) => {
   }
   const containerStyle = {
     backgroundImage: `url("${dataQuiz[categoryId].imgUrl}")`,
-    backgroundSize: 'contain',
+    backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: '50% 50%',
   }
   return (
     <>
-      {/* <div className={style.wrapper}>
-        <div className={style.block}> */}
           <header className={style.header}>
             <button onClick={() => setStateQuit(!stateQuit)} className={style.icon__cross}> </button>
             <div className={style.progress_bar}>
@@ -55,8 +53,6 @@ export const QuizPicPage = ({categoryId}: any) => {
           {/* <GrandPopup/> */}
           {/* <WinPopup/> */}
           {/* <HelpPopup/> */}
-        {/* </div>
-      </div>      */}
     </>
   )
 }
