@@ -5,6 +5,7 @@ import style from '../../scss/QuizPicPage.module.scss'
 import { Curtain } from '../Curtain'
 import { QuitPopup } from '../QuitPopup'
 import dataQuiz from '../../assets/date.json'
+import ButtonPic from '../../components/ButtonPic'
 // import { GameOverPopup } from '../GameOverPopup'
 // import { GrandPopup } from '../GrandPopup'
 // import { HelpPopup } from '../HelpPopup'
@@ -12,18 +13,39 @@ import dataQuiz from '../../assets/date.json'
 
 export const QuizPicPage = ({categoryId}: any) => {
    const [stateQuit, setStateQuit] = React.useState(false)
-  console.log('categoryId QuizPicPage=', categoryId);
+   const [btnArray, setBtnArray] = React.useState([])
+   const [nameArtistPic, setNameArtistPic] = React.useState('')
    let stateCurtain = stateQuit;
-
    const barLineWidth = {
     width: '80%',
   }
-  const containerStyle = {
-    backgroundImage: `url("${dataQuiz[categoryId].imgUrl}")`,
-    backgroundSize: 'cover',
-    backgroundRepeat: 'no-repeat',
-    backgroundPosition: '50% 50%',
+   React.useEffect(() => {
+   let arrayImgUrl = [dataQuiz[categoryId].imgUrl];
+   setNameArtistPic(dataQuiz[categoryId].author)
+  for (let i = 1; i < 4; i++) {
+    const picImgUrl = dataQuiz[Math.floor(Math.random() * 240)].imgUrl;
+    if (arrayImgUrl.includes(picImgUrl)){
+      i--;
+    } else {
+      arrayImgUrl.push(picImgUrl);
+    }
   }
+
+
+function shuffle(arr: any){
+	let j, temp;
+	for(var i = arr.length - 1; i > 0; i--){
+		j = Math.floor(Math.random()*(i + 1));
+		temp = arr[j];
+		arr[j] = arr[i];
+		arr[i] = temp;
+	}
+	return arr;
+}
+setBtnArray(shuffle(arrayImgUrl))
+console.log('setBtnArray = ', btnArray)
+}, [categoryId])
+
   return (
     <>
           <header className={style.header}>
@@ -34,12 +56,11 @@ export const QuizPicPage = ({categoryId}: any) => {
             <div className={style.timer}>01:22</div>
           </header>
             <main className={style.main}>
-            <p className={style.title}>Which is Edvard Munch picture?</p>
+            <p className={style.title}>Which is {nameArtistPic} picture?</p>
             <div className={style.btn_box}>
-              <button className={`${style.btn} ${style.b0}`} style={containerStyle}></button>
-              <button className={`${style.btn} ${style.b1}`} style={containerStyle}></button>
-              <button className={`${style.btn} ${style.b2}`} style={containerStyle}></button>
-              <button className={`${style.btn} ${style.b3}`} style={containerStyle}></button>
+              {btnArray.map((elem: string, id: number) => (
+              <ButtonPic key ={id}  urlId={elem}/>
+             ))}
             </div>
           </main>
           <footer className={style.footer}>

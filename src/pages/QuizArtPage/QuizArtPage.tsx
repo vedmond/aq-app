@@ -48,7 +48,6 @@ export const QuizArtPage = ({categoryId, setCategoryId, btnNo, btnYes, stateGame
 
  React.useEffect(() => {
    let arrayAutour = [dataQuiz[categoryId].author];
-  console.log('realAutour =', arrayAutour, 'countQuestion = ', countQuestion);
   for (let i = 1; i < 4; i++) {
     const nameAutour = dataQuiz[Math.floor(Math.random() * 240)].author;
     if (arrayAutour.includes(nameAutour)){
