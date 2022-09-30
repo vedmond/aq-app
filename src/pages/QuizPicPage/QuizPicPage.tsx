@@ -11,13 +11,21 @@ import { GameOverPopup } from '../GameOverPopup'
 // import { GrandPopup } from '../GrandPopup'
 // import { WinPopup } from '../WinPopup'
 
-export const QuizPicPage = ({categoryId, setCategoryId, btnNo, btnYes, stateGameOver, setStateGameOver}: any) => {
+export const QuizPicPage = ({
+  categoryId, 
+  setCategoryId, 
+  btnNo,
+  btnYes, 
+  stateGameOver, 
+  setStateGameOver,
+  countResult,
+  setCountResult
+  }: any) => {
    const [stateQuit, setStateQuit] = React.useState(false)
    const [stateHelp, setStateHelp] = React.useState(false)
    const [flagHelp, setFlagHelp] = React.useState(true)
    const [btnArray, setBtnArray] = React.useState([])
    const [countQuestion, setCountQuestion] = React.useState(1)
-   const [countResult, setCountResult] = React.useState(0)
    const [nameArtistPic, setNameArtistPic] = React.useState('')
    let stateCurtain = stateQuit || stateHelp || stateGameOver;
    const barLineWidth = {

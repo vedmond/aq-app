@@ -15,17 +15,20 @@ function App() {
   const [stateGameOver, setStateGameOver] = React.useState(false)
   const [categoryId, setCategoryId] = React.useState(0)
   const [categoryName, setCategoryName] = React.useState('')
+  const [countResult, setCountResult] = React.useState(0)
+
  
   const art = 'art';
   const pic = 'pic';
-    const linkChose = useNavigate()
+  const linkChose = useNavigate()
   const btnNo = () => {
     setStateGameOver(false)
-    linkChose(-1)
+    categoryName === 'art' ? linkChose("/chose/art") : linkChose("/chose/pic")
   }
   const btnYes = () => {
     setStateGameOver(false)
     setCategoryId(+categoryId - 20)
+    setCountResult(0)
     categoryName === 'art' ? linkChose("/art") : linkChose("/pic")
   }
 
@@ -43,7 +46,10 @@ function App() {
       btnNo={btnNo} 
       btnYes={btnYes}
       stateGameOver={stateGameOver} 
-      setStateGameOver={setStateGameOver}/>
+      setStateGameOver={setStateGameOver}
+      countResult={countResult}
+      setCountResult={setCountResult}
+      />
       }/>
       <Route path='/pic' element={
       <QuizPicPage 
@@ -52,7 +58,10 @@ function App() {
       btnNo={btnNo} 
       btnYes={btnYes}
       stateGameOver={stateGameOver} 
-      setStateGameOver={setStateGameOver}/>
+      setStateGameOver={setStateGameOver}
+      countResult={countResult}
+      setCountResult={setCountResult}      
+      />
       }/>
       <Route path='/chose/art' element={
       <ChoseTask 
@@ -67,7 +76,7 @@ function App() {
         setCategoryName={setCategoryName}/>
       }/>
       <Route path="*" element={<NotFound/>}/>
-    </Routes>    
+    </Routes>
     </div>
     </div>
 

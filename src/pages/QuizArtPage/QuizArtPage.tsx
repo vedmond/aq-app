@@ -31,13 +31,22 @@ import { GameOverPopup } from '../GameOverPopup'
 
 
 
-export const QuizArtPage = ({categoryId, setCategoryId, btnNo, btnYes, stateGameOver, setStateGameOver}: any) => {
+export const QuizArtPage = ({
+  categoryId, 
+  setCategoryId, 
+  btnNo, 
+  btnYes, 
+  stateGameOver, 
+  setStateGameOver,
+  countResult,
+  setCountResult
+  }: any) => {
  
   const [stateQuit, setStateQuit] = React.useState(false)
   const [stateHelp, setStateHelp] = React.useState(false)
   const [flagHelp, setFlagHelp] = React.useState(true)
   const [countQuestion, setCountQuestion] = React.useState(1)
-  const [countResult, setCountResult] = React.useState(0)
+  
   const [btnArray, setBtnArray] = React.useState([])
   let stateCurtain = stateQuit || stateHelp || stateGameOver;
 

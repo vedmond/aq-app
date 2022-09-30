@@ -14,8 +14,12 @@ export const GameOverPopup = ({stateGameOver, btnNo, btnYes}: any) => {
           <p className={style.title}>Game over</p>
           <p className={style.text}>Play again?</p>
           <div className={style.btn_container}>
-            <button onClick={() => btnNo()} className={`${style.btn_popup} ${style.btn1}`}>No</button>
-            <button onClick={() => btnYes()} className={`${style.btn_popup} ${style.btn2}`}>Yes</button>
+            <button 
+              onClick={() => btnNo()} 
+              className={`${style.btn_popup} ${style.btn1}`}>No</button>
+            <button 
+              onClick={() => btnYes()} 
+              className={`${style.btn_popup} ${style.btn2}`}>Yes</button>
           </div>
         </div>
       </div>
