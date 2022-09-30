@@ -35,7 +35,6 @@ export const QuizArtPage = ({categoryId, setCategoryId, btnNo, btnYes, stateGame
  
   const [stateQuit, setStateQuit] = React.useState(false)
   const [stateHelp, setStateHelp] = React.useState(false)
-  
   const [flagHelp, setFlagHelp] = React.useState(true)
   const [countQuestion, setCountQuestion] = React.useState(1)
   const [countResult, setCountResult] = React.useState(0)

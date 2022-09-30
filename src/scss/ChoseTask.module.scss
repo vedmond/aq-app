@@ -239,8 +239,7 @@ a {
     }
 
     .dark {
-      filter: grayscale(100%);
-
+      filter: grayscale(100%) ;
       &:hover {
         cursor: pointer;
         border: 1px solid #FFBCA2;
