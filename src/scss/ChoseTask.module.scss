@@ -79,8 +79,8 @@ a {
     color: white;
     margin: 0;
     pointer-events: none;
-
     span {
+      display: inline;
       color: #FFBCA2;
     }
   }

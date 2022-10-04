@@ -29,7 +29,7 @@ export const ChoseTask = (
     <div>
       <header className={style.header}>
       <div className={style.logo__box}>
-        <h1><span>Art</span> Quiz</h1>
+        <h1><span>Art </span>Quiz</h1>
         <div className={`${style.ellipse} ${style.ellipse__right}`}></div>
         <div className={`${style.ellipse} ${style.ellipse__left}`}></div>
       </div>
