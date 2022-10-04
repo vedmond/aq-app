@@ -19,13 +19,14 @@ export const QuizPicPage = ({
   stateGameOver, 
   setStateGameOver,
   countResult,
-  setCountResult
+  setCountResult,
+  countQuestion,
+  setCountQuestion, 
   }: any) => {
    const [stateQuit, setStateQuit] = React.useState(false)
    const [stateHelp, setStateHelp] = React.useState(false)
    const [flagHelp, setFlagHelp] = React.useState(true)
    const [btnArray, setBtnArray] = React.useState([])
-   const [countQuestion, setCountQuestion] = React.useState(1)
    const [nameArtistPic, setNameArtistPic] = React.useState('')
    let stateCurtain = stateQuit || stateHelp || stateGameOver;
    const barLineWidth = {
@@ -54,6 +55,8 @@ function shuffle(arr: any){
 }
 setBtnArray(shuffle(arrayImgUrl))
 }, [categoryId])
+
+
 
   const clickNextId = (urlIdBtn: string) => {
     if (urlIdBtn === dataQuiz[categoryId].imgUrl) {
@@ -96,7 +99,10 @@ setBtnArray(shuffle(arrayImgUrl))
             <span>2022</span>
           </footer>
           <Curtain stateCurtain={stateCurtain}/>
-          <QuitPopup stateQuit={stateQuit} setStateQuit={setStateQuit}/>
+          <QuitPopup 
+            stateQuit={stateQuit} 
+            setStateQuit={setStateQuit} 
+            btnNo={btnNo}/>
           <GameOverPopup 
             stateGameOver={stateGameOver} 
             btnNo={btnNo} 

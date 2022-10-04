@@ -39,13 +39,15 @@ export const QuizArtPage = ({
   stateGameOver, 
   setStateGameOver,
   countResult,
-  setCountResult
+  setCountResult,
+  countQuestion,
+  setCountQuestion,
   }: any) => {
  
   const [stateQuit, setStateQuit] = React.useState(false)
   const [stateHelp, setStateHelp] = React.useState(false)
   const [flagHelp, setFlagHelp] = React.useState(true)
-  const [countQuestion, setCountQuestion] = React.useState(1)
+  
   
   const [btnArray, setBtnArray] = React.useState([])
   let stateCurtain = stateQuit || stateHelp || stateGameOver;
@@ -72,10 +74,6 @@ function shuffle(arr: any){
 }
 setBtnArray(shuffle(arrayAutour))
 }, [categoryId]) 
-  
- 
-
-
 let length = 20; 
 const  array = new Array(length);
 while(length--){
@@ -139,7 +137,10 @@ while(length--){
             <span>2022</span>
           </footer>
           <Curtain stateCurtain={stateCurtain} />
-          <QuitPopup stateQuit={stateQuit} setStateQuit={setStateQuit}/>
+          <QuitPopup 
+            stateQuit={stateQuit} 
+            setStateQuit={setStateQuit}
+            btnNo={btnNo}/>
           <GameOverPopup 
             stateGameOver={stateGameOver} 
             btnNo={btnNo} 

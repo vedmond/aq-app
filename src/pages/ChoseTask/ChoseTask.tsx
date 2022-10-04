@@ -5,12 +5,26 @@ import style from '../../scss/ChoseTask.module.scss'
 import { CategoryGallery } from '../../components/CategoryGallery'
 import dataQuiz from '../../assets/date.json'
 
-const dataStart = dataQuiz.filter(
+// const dataStart = dataQuiz.filter(
+//   obj => +(obj.id) % 20 === 0 && +(obj.id) < dataQuiz.length - 20 ? obj :''
+//   )
+
+
+export const ChoseTask = (
+  {linkCategory, 
+    setCategoryId, 
+    setCategoryName, 
+    setNameStorage,
+    countResult,
+    setCountResult, 
+    nameStorage
+  }: any) => {
+
+  const dataStart = dataQuiz.filter(
   obj => +(obj.id) % 20 === 0 && +(obj.id) < dataQuiz.length - 20 ? obj :''
   )
-
-export const ChoseTask = ({linkCategory, setCategoryId, setCategoryName}: any) => {
- setCategoryName(linkCategory)
+    setCategoryName(linkCategory)
+   
   return (
     <div>
       <header className={style.header}>
@@ -37,7 +51,11 @@ export const ChoseTask = ({linkCategory, setCategoryId, setCategoryName}: any) =
       key={obj.id} 
       idDate={obj.id} 
       linkCategory={linkCategory} 
-      setCategoryId={setCategoryId}/>
+      setCategoryId={setCategoryId}
+      setNameStorage={setNameStorage}
+      nameStorage={nameStorage}
+      countResult={countResult}
+      setCountResult={setCountResult}/>
     ))}
     
       

@@ -172,16 +172,22 @@ a {
     // border: 1px solid yellow;
 
     .counter {
-      position: absolute;
-      right: 0;
-      top: 0;
+      position: absolute; 
+      right: 7px;
+      top: -4px;
       font-family: 'Gilroy Regular';
       font-size: 20px;
       color: #FFBCA2;
       pointer-events: none;
+      .item__text{
+        color: #FFFFFF;
+        letter-spacing: -0.62px;
+        font-weight: 400;
+      }
     }
 
     .name_category {
+      display: inline-block;
       font-family: 'Gilroy Regular';
       font-style: normal;
       font-weight: 500;
@@ -194,14 +200,15 @@ a {
     }
 
     .pic_category {
-
       width: 195px;
       height: 206px;
       border-radius: 30px;
       border: 1px solid white;
       // background-image: url(../assets/img/question-01.png);
       @extend .position-bg;
-
+      &:hover{
+        cursor: pointer;
+      }
       .again {
         width: 194px;
         height: 50px;
@@ -350,6 +357,7 @@ a {
       .counter {
         font-size: 16px;
         line-height: 18px;
+        top: 0;
       }
     }
 

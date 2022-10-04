@@ -1,14 +1,15 @@
 
 import React from 'react'
 import style from '../../scss/QuitPopup.module.scss'
-import {useNavigate} from 'react-router-dom'
+// import {useNavigate} from 'react-router-dom'
 
 
-export const QuitPopup = ({stateQuit, setStateQuit}: any) => {
-  const linkHome = useNavigate()
+export const QuitPopup = ({stateQuit, setStateQuit, btnNo}: any) => {
+  // const linkHome = useNavigate()
   const pathTo = () => {
     setStateQuit(!stateQuit)
-    linkHome('/')
+    // linkHome('/')
+    btnNo()
   }
   
   

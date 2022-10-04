@@ -12,6 +12,8 @@ export default function ButtonPic({urlId, clickNextId}: any) {
     backgroundRepeat: 'no-repeat',
     backgroundPosition: '50% 50%',
   }
+
+
   return (
     <>
      <button onClick={() => clickNextId(urlId)} className={`${style.btn}`} style={containerStyle}></button>
