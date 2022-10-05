@@ -16,6 +16,7 @@ import { ChoseTask } from './pages/ChoseTask';
 
 function App() {
   const [stateGameOver, setStateGameOver] = React.useState(false)
+  const [stateWinPopUp, setStateWinPopUp] = React.useState(false)
   const [categoryId, setCategoryId] = React.useState(0)
   const [categoryName, setCategoryName] = React.useState('')
   const [countResult, setCountResult] = React.useState(0)
@@ -25,12 +26,19 @@ function App() {
   const art = 'art';
   const pic = 'pic';
   const linkChose = useNavigate()
-  const btnNo = () => {
+  const btnNo = (linkHome = false) => {
     const resultStorage = [countResult, countQuestion] // +
     localStorage.setItem(nameStorage, JSON.stringify(resultStorage))
     setCountQuestion(value => value = 1)
     setStateGameOver(false)
-    categoryName === 'art' ? linkChose("/chose/art") : linkChose("/chose/pic")
+    setStateWinPopUp(false)
+    setCountQuestion(1)
+    if (linkHome) {
+      linkChose("/")
+    } else {
+      categoryName === 'art' ? linkChose("/chose/art") : linkChose("/chose/pic")
+    }
+    
   }
   const btnYes = () => {
     localStorage.removeItem(nameStorage)
@@ -58,7 +66,9 @@ function App() {
       countResult={countResult}
       setCountResult={setCountResult}
       countQuestion={countQuestion}
-      setCountQuestion={setCountQuestion} 
+      setCountQuestion={setCountQuestion}
+      stateWinPopUp={stateWinPopUp}
+      setStateWinPopUp={setStateWinPopUp} 
       />
       }/>
       <Route path='/pic' element={
@@ -72,7 +82,9 @@ function App() {
       countResult={countResult}
       setCountResult={setCountResult}
       countQuestion={countQuestion}
-      setCountQuestion={setCountQuestion}      
+      setCountQuestion={setCountQuestion}
+      stateWinPopUp={stateWinPopUp}
+      setStateWinPopUp={setStateWinPopUp}
       />
       }/>
       <Route path='/chose/art' element={

@@ -8,8 +8,8 @@ import { HelpPopup } from '../HelpPopup'
 import dataQuiz from '../../assets/date.json'
 import ButtonPic from '../../components/ButtonPic'
 import { GameOverPopup } from '../GameOverPopup'
+import { WinPopup } from '../WinPopup'
 // import { GrandPopup } from '../GrandPopup'
-// import { WinPopup } from '../WinPopup'
 
 export const QuizPicPage = ({
   categoryId, 
@@ -21,14 +21,16 @@ export const QuizPicPage = ({
   countResult,
   setCountResult,
   countQuestion,
-  setCountQuestion, 
+  setCountQuestion,
+  stateWinPopUp,
+  setStateWinPopUp,   
   }: any) => {
    const [stateQuit, setStateQuit] = React.useState(false)
    const [stateHelp, setStateHelp] = React.useState(false)
    const [flagHelp, setFlagHelp] = React.useState(true)
    const [btnArray, setBtnArray] = React.useState([])
    const [nameArtistPic, setNameArtistPic] = React.useState('')
-   let stateCurtain = stateQuit || stateHelp || stateGameOver;
+   let stateCurtain = stateQuit || stateHelp || stateGameOver || stateWinPopUp;
    const barLineWidth = {
     width: `${countQuestion * 5}%`,
   }
@@ -57,7 +59,6 @@ setBtnArray(shuffle(arrayImgUrl))
 }, [categoryId])
 
 
-
   const clickNextId = (urlIdBtn: string) => {
     if (urlIdBtn === dataQuiz[categoryId].imgUrl) {
       setFlagHelp(true)
@@ -67,10 +68,10 @@ setBtnArray(shuffle(arrayImgUrl))
     }
     setCategoryId(+categoryId + 1)
     setStateHelp(true)
-    if(countQuestion === 20){ 
-      console.log('finish = ', countResult)
+    if(countQuestion === 20 && countResult < 2){
       setStateGameOver(true)
-      setCountQuestion(1)
+    } else if (countQuestion === 20 && countResult >= 2 && countResult < 5 ){
+      setStateWinPopUp(true)
     } else {
         setCountQuestion(countQuestion + 1)       
     } 
@@ -112,8 +113,11 @@ setBtnArray(shuffle(arrayImgUrl))
             setStateHelp={setStateHelp} 
             categoryId={categoryId} 
             flagHelp={flagHelp}/>
+          <WinPopup
+          stateWinPopUp={stateWinPopUp}
+          countResult={countResult}
+          btnNo={btnNo}/>            
           {/* <GrandPopup/> */}
-          {/* <WinPopup/> */}
     </>
   )
 }

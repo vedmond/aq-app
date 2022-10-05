@@ -8,11 +8,11 @@ import { PointProgress } from '../../components/PointProgress';
 import { ButtonArt } from '../../components/ButtonArt';
 import { HelpPopup } from '../HelpPopup'
 import { GameOverPopup } from '../GameOverPopup'
+import { WinPopup } from '../WinPopup'
 
 
 
 // import { GrandPopup } from '../GrandPopup'
-// import { WinPopup } from '../WinPopup'
 
 
 // const ar = ['Blue', 'Green', 'Yellow', 'Black']
@@ -42,15 +42,15 @@ export const QuizArtPage = ({
   setCountResult,
   countQuestion,
   setCountQuestion,
+  stateWinPopUp,
+  setStateWinPopUp,
   }: any) => {
  
   const [stateQuit, setStateQuit] = React.useState(false)
   const [stateHelp, setStateHelp] = React.useState(false)
   const [flagHelp, setFlagHelp] = React.useState(true)
-  
-  
   const [btnArray, setBtnArray] = React.useState([])
-  let stateCurtain = stateQuit || stateHelp || stateGameOver;
+  let stateCurtain = stateQuit || stateHelp || stateGameOver || stateWinPopUp;
 
  React.useEffect(() => {
    let arrayAutour = [dataQuiz[categoryId].author];
@@ -93,10 +93,11 @@ while(length--){
     }
     setCategoryId(+categoryId + 1)
     setStateHelp(true)
-    if(countQuestion === 20){ 
-      console.log('finish = ', countResult)
+    if(countQuestion === 20 && countResult < 2){
       setStateGameOver(true)
-      setCountQuestion(1)
+    } else if (countQuestion === 20 && countResult >= 2 && countResult < 5 ){
+      setStateWinPopUp(true)
+      
     } else {
         setCountQuestion(countQuestion + 1)       
     } 
@@ -150,8 +151,11 @@ while(length--){
             setStateHelp={setStateHelp} 
             categoryId={categoryId} 
             flagHelp={flagHelp}/>
+          <WinPopup
+          stateWinPopUp={stateWinPopUp}
+          countResult={countResult}
+          btnNo={btnNo}/>
           {/* <GrandPopup/> */}
-          {/* <WinPopup/> */}
     </>
   )
 }
