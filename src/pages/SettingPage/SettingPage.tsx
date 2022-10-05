@@ -24,7 +24,7 @@ export const SettingPage = () => {
             </div>
           </div>
           <div className={style.box__time}>
-            <span>Time game</span>
+            <span>Time to answer</span>
             <div className={style.switch}>
               <span>On</span>
               <button className={style.toggle}><span className={style.on}></span></button>
@@ -36,15 +36,22 @@ export const SettingPage = () => {
             </div>
           </div>
           <div className={style.box__time}>
-            <span>Time to answer</span>
+            <span>Help PopUp</span>
             <div className={style.switch}>
               <span>On</span>
               <button className={style.toggle}><span className={style.on}></span></button>
             </div>
-            <div className={style.timer}>
+            {/* <div className={style.timer}>
               <button className={`${style.btn_timer} ${style.minus}`}>-</button>
               <p>20</p>
               <button className={`${style.btn_timer} ${style.plus}`}>+</button>
+            </div> */}
+          </div>
+          <div className={style.box__time}>
+            <span>Reset Score</span>
+            <div className={style.switch}>
+              <span>On</span>
+              <button className={style.toggle}><span className={style.on}></span></button>
             </div>
           </div>
         </div>
