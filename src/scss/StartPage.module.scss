@@ -79,7 +79,9 @@ a {
   height: 165px;
   margin: 24vh auto;
   margin-bottom: 0px;
-
+  background-image: url(../assets/icon/logo_main.svg);
+  @extend .position-bg;
+  background-size: contain;
   // border: 1px solid white;
   h1 {
     font-family: 'Gilroy';

@@ -17,9 +17,9 @@ export const StartPage = () => {
           </header>
           <main className={style.main}>
           <div className={style.logo__box}>
-              <h1>Art Quiz</h1>
+              {/* <h1>Art Quiz</h1>
               <div className={`${style.ellipse} ${style.ellipse__right}`}></div>
-              <div className={`${style.ellipse} ${style.ellipse__left}`}></div>
+              <div className={`${style.ellipse} ${style.ellipse__left}`}></div> */}
             </div>
             <div className={style.box__btn}>
               <Link to="/chose/art" >

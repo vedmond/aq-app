@@ -62,7 +62,9 @@ export const ChoseTask = (
       <span>App developer: <a href="https://github.com/VedKhorkov">VedKhorkov</a></span>
       <span>Design: <a href="https://www.behance.net/klishinama255b">Mary Kli</a></span>
       <div className={style.footer_menu}>
+        <Link to="/">  
         <div className={style.icon_home}></div>
+        </Link>
         <div className={style.icon_categories}></div>
         <div className={style.icon_score}></div>
       </div>
