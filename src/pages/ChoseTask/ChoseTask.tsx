@@ -29,9 +29,9 @@ export const ChoseTask = (
     <div>
       <header className={style.header}>
       <div className={style.logo__box}>
-        <div className={style.title}><span className={style.title__text}>Art Quiz</span></div>
+        {/* <div className={style.title}><span className={style.title__text}>Art Quiz</span></div>
         <div className={`${style.ellipse} ${style.ellipse__right}`}></div>
-        <div className={`${style.ellipse} ${style.ellipse__left}`}></div>
+        <div className={`${style.ellipse} ${style.ellipse__left}`}></div> */}
       </div>
       <ul className={style.menu}>
         <Link to="/">
@@ -57,12 +57,6 @@ export const ChoseTask = (
       countResult={countResult}
       setCountResult={setCountResult}/>
     ))}
-    
-      
-  
-  
-    
-     
     </main>
     <footer className={style.footer}>
       <span>App developer: <a href="https://github.com/VedKhorkov">VedKhorkov</a></span>

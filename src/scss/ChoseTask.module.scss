@@ -56,18 +56,20 @@ a {
 }
 
 .header {
-  height: 10%;
+  height: 8%;
 }
 
 .logo__box {
   position: relative;
-  width: 153px;
-  height: 60px;
+  width: 180px;
+  height: 70px;
   margin: 30px;
   margin: 30px;
   margin-bottom: 0px;
   display: inline-block;
-
+  background-image: url(../assets/icon/logo-mobile.svg);
+  @extend .position-bg;
+  background-size: contain;
   // border: 1px solid white;
   .title{
     font-family: 'Gilroy';
