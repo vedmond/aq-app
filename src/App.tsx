@@ -17,6 +17,7 @@ import { ChoseTask } from './pages/ChoseTask';
 function App() {
   const [stateGameOver, setStateGameOver] = React.useState(false)
   const [stateWinPopUp, setStateWinPopUp] = React.useState(false)
+  const [stateGrandPopUp, setStateGrandPopUp] = React.useState(false)
   const [categoryId, setCategoryId] = React.useState(0)
   const [categoryName, setCategoryName] = React.useState('')
   const [countResult, setCountResult] = React.useState(0)
@@ -32,6 +33,7 @@ function App() {
     setCountQuestion(value => value = 1)
     setStateGameOver(false)
     setStateWinPopUp(false)
+    setStateGrandPopUp(false)
     setCountQuestion(1)
     if (linkHome) {
       linkChose("/")
@@ -68,7 +70,9 @@ function App() {
       countQuestion={countQuestion}
       setCountQuestion={setCountQuestion}
       stateWinPopUp={stateWinPopUp}
-      setStateWinPopUp={setStateWinPopUp} 
+      setStateWinPopUp={setStateWinPopUp}
+      stateGrandPopUp={stateGrandPopUp}
+      setStateGrandPopUp={setStateGrandPopUp} 
       />
       }/>
       <Route path='/pic' element={
@@ -85,6 +89,8 @@ function App() {
       setCountQuestion={setCountQuestion}
       stateWinPopUp={stateWinPopUp}
       setStateWinPopUp={setStateWinPopUp}
+      stateGrandPopUp={stateGrandPopUp}
+      setStateGrandPopUp={setStateGrandPopUp}      
       />
       }/>
       <Route path='/chose/art' element={

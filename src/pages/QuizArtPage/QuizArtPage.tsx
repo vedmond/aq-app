@@ -9,10 +9,10 @@ import { ButtonArt } from '../../components/ButtonArt';
 import { HelpPopup } from '../HelpPopup'
 import { GameOverPopup } from '../GameOverPopup'
 import { WinPopup } from '../WinPopup'
+import { GrandPopup } from '../GrandPopup'
 
 
 
-// import { GrandPopup } from '../GrandPopup'
 
 
 // const ar = ['Blue', 'Green', 'Yellow', 'Black']
@@ -44,6 +44,8 @@ export const QuizArtPage = ({
   setCountQuestion,
   stateWinPopUp,
   setStateWinPopUp,
+  stateGrandPopUp,
+  setStateGrandPopUp,
   }: any) => {
  
   const [stateQuit, setStateQuit] = React.useState(false)
@@ -97,7 +99,8 @@ while(length--){
       setStateGameOver(true)
     } else if (countQuestion === 20 && countResult >= 2 && countResult < 5 ){
       setStateWinPopUp(true)
-      
+    } else if (countQuestion === 20 && countResult > 5 ) {
+      setStateGrandPopUp(true)
     } else {
         setCountQuestion(countQuestion + 1)       
     } 
@@ -146,16 +149,18 @@ while(length--){
             stateGameOver={stateGameOver} 
             btnNo={btnNo} 
             btnYes={btnYes}/>
+          <WinPopup
+            stateWinPopUp={stateWinPopUp}
+            countResult={countResult}
+            btnNo={btnNo}/>
+          <GrandPopup
+            stateGrandPopUp={stateGrandPopUp}
+            btnNo={btnNo}/>
           <HelpPopup 
             stateHelp={stateHelp} 
             setStateHelp={setStateHelp} 
             categoryId={categoryId} 
             flagHelp={flagHelp}/>
-          <WinPopup
-          stateWinPopUp={stateWinPopUp}
-          countResult={countResult}
-          btnNo={btnNo}/>
-          {/* <GrandPopup/> */}
     </>
   )
 }
