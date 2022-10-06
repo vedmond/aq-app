@@ -14,10 +14,23 @@ import { ChoseTask } from './pages/ChoseTask';
 
 
 
+
 function App() {
+  const settingStorage = {
+    help: true,
+    volume: false,
+  }
+  if (localStorage.getItem('setting') === null) {
+    localStorage.setItem('setting', JSON.stringify(settingStorage))
+  }
+  const storage: any = localStorage.getItem('setting')
+  const objSetting = JSON.parse(storage)
+  console.log('storage - ', objSetting);
+  
   const [stateGameOver, setStateGameOver] = React.useState(false)
   const [stateWinPopUp, setStateWinPopUp] = React.useState(false)
   const [stateGrandPopUp, setStateGrandPopUp] = React.useState(false)
+  const [helpPopupOn, setHelpPopupOn] = React.useState(objSetting.help)
   const [categoryId, setCategoryId] = React.useState(0)
   const [categoryName, setCategoryName] = React.useState('')
   const [countResult, setCountResult] = React.useState(0)
@@ -56,7 +69,12 @@ function App() {
     <div className="block">
     <Routes>
       <Route path="/" element={<StartPage />}/>
-      <Route path='/setting' element={<SettingPage/>}/>  
+      <Route path='/setting' element={
+      <SettingPage
+       helpPopupOn={helpPopupOn}
+       setHelpPopupOn={setHelpPopupOn}
+       />
+       }/>  
       <Route path='/art' element={
       <QuizArtPage 
       categoryId={categoryId} 
@@ -72,7 +90,8 @@ function App() {
       stateWinPopUp={stateWinPopUp}
       setStateWinPopUp={setStateWinPopUp}
       stateGrandPopUp={stateGrandPopUp}
-      setStateGrandPopUp={setStateGrandPopUp} 
+      setStateGrandPopUp={setStateGrandPopUp}
+      helpPopupOn={helpPopupOn} 
       />
       }/>
       <Route path='/pic' element={
@@ -90,7 +109,8 @@ function App() {
       stateWinPopUp={stateWinPopUp}
       setStateWinPopUp={setStateWinPopUp}
       stateGrandPopUp={stateGrandPopUp}
-      setStateGrandPopUp={setStateGrandPopUp}      
+      setStateGrandPopUp={setStateGrandPopUp}
+      helpPopupOn={helpPopupOn}
       />
       }/>
       <Route path='/chose/art' element={

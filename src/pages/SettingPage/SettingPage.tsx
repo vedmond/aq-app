@@ -3,9 +3,16 @@ import React from 'react'
 import style from '../../scss/SettingPage.module.scss'
 import { Link, useNavigate } from 'react-router-dom'
 
-export const SettingPage = () => {
+export const SettingPage = ({helpPopupOn, setHelpPopupOn}: any) => {
   const linkCallBack = useNavigate();
   const callBack = () => linkCallBack(-1)
+  const clickHelp = () => {
+    setHelpPopupOn(!helpPopupOn)
+    const storage: any = localStorage.getItem('setting')
+    const objSetting = JSON.parse(storage)
+    objSetting.help = !helpPopupOn 
+    localStorage.setItem('setting', JSON.stringify(objSetting))
+  }
   
   return (
     <>
@@ -38,14 +45,9 @@ export const SettingPage = () => {
           <div className={style.box__time}>
             <span>Help PopUp</span>
             <div className={style.switch}>
-              <span>On</span>
-              <button className={style.toggle}><span className={style.on}></span></button>
+              <span>{helpPopupOn ? 'On' : 'Off'}</span>
+              <button onClick={clickHelp} className={style.toggle}><span className={helpPopupOn ? style.on : style.off}></span></button>
             </div>
-            {/* <div className={style.timer}>
-              <button className={`${style.btn_timer} ${style.minus}`}>-</button>
-              <p>20</p>
-              <button className={`${style.btn_timer} ${style.plus}`}>+</button>
-            </div> */}
           </div>
           <div className={style.box__time}>
             <span>Reset Score</span>
@@ -57,7 +59,7 @@ export const SettingPage = () => {
         </div>
       <div className={style.btn_group}>
         <button className={style.button}>Default</button>
-        <button className={`${style.button} ${style.btn_act}`}>Save</button>
+        {/* <button className={`${style.button} ${style.btn_act}`}>Save</button> */}
       </div>
     </main>
     <footer className={style.footer}>

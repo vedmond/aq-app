@@ -25,7 +25,8 @@ export const QuizPicPage = ({
   stateWinPopUp,
   setStateWinPopUp,
   stateGrandPopUp,
-  setStateGrandPopUp,   
+  setStateGrandPopUp,
+  helpPopupOn,   
   }: any) => {
    const [stateQuit, setStateQuit] = React.useState(false)
    const [stateHelp, setStateHelp] = React.useState(false)
@@ -69,7 +70,7 @@ setBtnArray(shuffle(arrayImgUrl))
       setFlagHelp(false)
     }
     setCategoryId(+categoryId + 1)
-    setStateHelp(true)
+    helpPopupOn ? setStateHelp(true) : setStateHelp(false)
     if(countQuestion === 20 && countResult < 2){
       setStateGameOver(true)
     } else if (countQuestion === 20 && countResult >= 2 && countResult < 5 ){

@@ -46,13 +46,14 @@ export const QuizArtPage = ({
   setStateWinPopUp,
   stateGrandPopUp,
   setStateGrandPopUp,
+  helpPopupOn,
   }: any) => {
  
   const [stateQuit, setStateQuit] = React.useState(false)
   const [stateHelp, setStateHelp] = React.useState(false)
   const [flagHelp, setFlagHelp] = React.useState(true)
   const [btnArray, setBtnArray] = React.useState([])
-  let stateCurtain = stateQuit || stateHelp || stateGameOver || stateWinPopUp;
+  let stateCurtain = stateQuit || stateHelp || stateGameOver || stateWinPopUp ;
 
  React.useEffect(() => {
    let arrayAutour = [dataQuiz[categoryId].author];
@@ -94,7 +95,7 @@ while(length--){
       setFlagHelp(false)
     }
     setCategoryId(+categoryId + 1)
-    setStateHelp(true)
+    helpPopupOn ? setStateHelp(true) : setStateHelp(false)
     if(countQuestion === 20 && countResult < 2){
       setStateGameOver(true)
     } else if (countQuestion === 20 && countResult >= 2 && countResult < 5 ){
@@ -156,7 +157,7 @@ while(length--){
           <GrandPopup
             stateGrandPopUp={stateGrandPopUp}
             btnNo={btnNo}/>
-          <HelpPopup 
+            <HelpPopup 
             stateHelp={stateHelp} 
             setStateHelp={setStateHelp} 
             categoryId={categoryId} 

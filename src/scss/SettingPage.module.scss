@@ -179,7 +179,7 @@ a {
       cursor: pointer;
       position: relative;
       width: 48px;
-      height: 24px;
+      height: 22px;
       border-radius: 20px;
       background-color: #FFBCA2;
       border: none;
@@ -196,13 +196,13 @@ a {
         height: 20px;
         background-color: #fff;
         border-radius: 50%;
-
+        
         &.on {
           right: 0;
         }
-
         &.off {
           left: 0;
+          background-color: rgb(144, 124, 124);
         }
       }
     }
