@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.scss';
 import {Routes, Route, useNavigate} from "react-router-dom";
-
 import { SettingPage } from './pages/SettingPage';
 import { QuizArtPage } from './pages/QuizArtPage';
 import { QuizPicPage } from './pages/QuizPicPage';
 import { StartPage } from './pages/StartPage';
 import { NotFound } from './pages/NotFound';
 import { ChoseTask } from './pages/ChoseTask';
+import {startScoreStorage, startSettingStorage} from './components/ConstStartStorage'
 
 
 
@@ -16,16 +16,17 @@ import { ChoseTask } from './pages/ChoseTask';
 
 
 function App() {
-  const settingStorage = {
-    help: true,
-    volume: false,
+  const art = 'art';
+  const pic = 'pic';
+
+  if (localStorage.getItem('score') === null) {
+    localStorage.setItem('score', JSON.stringify(startScoreStorage))
   }
   if (localStorage.getItem('setting') === null) {
-    localStorage.setItem('setting', JSON.stringify(settingStorage))
+    localStorage.setItem('setting', JSON.stringify(startSettingStorage))
   }
   const storage: any = localStorage.getItem('setting')
   const objSetting = JSON.parse(storage)
-  console.log('storage - ', objSetting);
   
   const [stateGameOver, setStateGameOver] = React.useState(false)
   const [stateWinPopUp, setStateWinPopUp] = React.useState(false)
@@ -37,12 +38,17 @@ function App() {
   const [nameStorage, setNameStorage] =React.useState('')
   const [countQuestion, setCountQuestion] = React.useState(1) //+
   
-  const art = 'art';
-  const pic = 'pic';
   const linkChose = useNavigate()
   const btnNo = (linkHome = false) => {
-    const resultStorage = [countResult, countQuestion] // +
-    localStorage.setItem(nameStorage, JSON.stringify(resultStorage))
+    // const resultStorage = [countResult, countQuestion] // +
+    // localStorage.setItem(nameStorage, JSON.stringify(resultStorage))
+    //************* */
+    const score: any = localStorage.getItem('score')
+    const scoreObj = JSON.parse(score)
+    scoreObj[nameStorage].result = countResult
+    scoreObj[nameStorage].question = countQuestion
+    localStorage.setItem('score', JSON.stringify(scoreObj))
+ //***************** */
     setCountQuestion(value => value = 1)
     setStateGameOver(false)
     setStateWinPopUp(false)

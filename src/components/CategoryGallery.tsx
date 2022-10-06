@@ -42,13 +42,22 @@ export const CategoryGallery = (
       setCategoryId(idDate)
     };
     let styleAgain = []
-    const localNameStorage = localStorage.getItem(`${linkCategory}${numGallery}`)
+    // const localNameStorage = localStorage.getItem(`${linkCategory}${numGallery}`)
+    //************** */
+    const localNameStorage = `${linkCategory}${numGallery}`
+    const score: any = localStorage.getItem('score')
+    const scoreObj = JSON.parse(score)
+    const result = scoreObj[localNameStorage].result
+    const question = scoreObj[localNameStorage].question
+    localStorage.setItem('score', JSON.stringify(scoreObj))
+
+    //********************** */
     
-    if (typeof(localNameStorage) === 'string' ) {
-       styleAgain = JSON.parse(localNameStorage)
-       console.log('styleAgain =', styleAgain[0]);
+    // if (typeof(localNameStorage) === 'string' ) {
+    //    styleAgain = JSON.parse(localNameStorage)
+    //    console.log('styleAgain =', styleAgain[0]);
        
-    } 
+    // } 
     
   
   // https://632d643d519d17fb53bd0ecd.mockapi.io/items1
@@ -57,6 +66,19 @@ export const CategoryGallery = (
   return (
     <>
     <div className={style.box}>
+      <span className={style.name_category}>Gallery -{numGallery}</span>
+      <div className={`${style.counter} ${result === 0 || question === 0 ? style.none : ''}`}>{result}<span className={style.item__text}>/{question}</span></div>
+        <div 
+          onClick={startQuiz}  
+          className={`${style.pic_category} ${result === 0 || question === 0 ? style.dark : ''}`} 
+          style={containerStyle}>
+          <div className={`${style.again} ${result > 19 ? '' :style.none}`}>
+            <span className={style.icon_again}></span>
+            <span>Play again</span>
+          </div>
+        </div>
+     </div>
+    {/* <div className={style.box}>
       <span className={style.name_category}>Gallery -{numGallery}</span>
       <div className={`${style.counter} ${!localNameStorage || styleAgain[0] === 0 ? style.none : ''}`}>{styleAgain[0]}<span className={style.item__text}>/{styleAgain[1]}</span></div>
         <div 
@@ -68,7 +90,7 @@ export const CategoryGallery = (
             <span>Play again</span>
           </div>
         </div>
-     </div>
+     </div> */}
    
     </>
   )
