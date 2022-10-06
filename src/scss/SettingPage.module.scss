@@ -182,7 +182,7 @@ a {
       height: 24px;
       border-radius: 20px;
       background-color: #FFBCA2;
-
+      border: none;
       &:hover {
         transition-duration: 0.5s;
         background-color: #f7966f;
@@ -191,7 +191,7 @@ a {
       span {
         position: absolute;
         display: block;
-        top: 0;
+        top: 1px;
         width: 20px;
         height: 20px;
         background-color: #fff;
@@ -213,7 +213,7 @@ a {
       height: 30px;
       border-radius: 30px;
       background-color: #FFFFFF;
-
+      border: none;
       &:hover {
         background-color: #dad7d7;
         transition-duration: 0.2s;
