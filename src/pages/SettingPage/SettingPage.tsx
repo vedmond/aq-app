@@ -49,17 +49,17 @@ export const SettingPage = ({helpPopupOn, setHelpPopupOn}: any) => {
               <button onClick={clickHelp} className={style.toggle}><span className={helpPopupOn ? style.on : style.off}></span></button>
             </div>
           </div>
-          <div className={style.box__time}>
+          {/* <div className={style.box__time}>
             <span>Reset Score</span>
             <div className={style.switch}>
               <span>On</span>
               <button className={style.toggle}><span className={style.on}></span></button>
             </div>
-          </div>
+          </div> */}
         </div>
       <div className={style.btn_group}>
         <button className={style.button}>Default</button>
-        {/* <button className={`${style.button} ${style.btn_act}`}>Save</button> */}
+        <button className={`${style.button} ${style.btn_act}`}>Reset Score</button>
       </div>
     </main>
     <footer className={style.footer}>
