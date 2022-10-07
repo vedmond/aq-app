@@ -25,6 +25,7 @@ function App() {
   if (localStorage.getItem('setting') === null) {
     localStorage.setItem('setting', JSON.stringify(startSettingStorage))
   }
+
   const storage: any = localStorage.getItem('setting')
   const objSetting = JSON.parse(storage)
   
