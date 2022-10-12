@@ -19,16 +19,16 @@ function App() {
   const art = 'art';
   const pic = 'pic';
 
-  if (localStorage.getItem('score') === null) {
+  if (localStorage.getItem('score') === null || undefined) {
     localStorage.setItem('score', JSON.stringify(startScoreStorage))
   }
-  if (localStorage.getItem('setting') === null) {
+  if (localStorage.getItem('setting') === null || undefined) {
     localStorage.setItem('setting', JSON.stringify(startSettingStorage))
   }
 
-  const storage: any = localStorage.getItem('setting')
-  const objSetting = JSON.parse(storage)
-  
+  const settingStorage: any = localStorage.getItem('setting')
+  const objSetting = JSON.parse(settingStorage)
+
   const [stateGameOver, setStateGameOver] = React.useState(false)
   const [stateWinPopUp, setStateWinPopUp] = React.useState(false)
   const [stateGrandPopUp, setStateGrandPopUp] = React.useState(false)
@@ -41,15 +41,17 @@ function App() {
   
   const linkChose = useNavigate()
   const btnNo = (linkHome = false) => {
-    // const resultStorage = [countResult, countQuestion] // +
-    // localStorage.setItem(nameStorage, JSON.stringify(resultStorage))
-    //************* */
     const score: any = localStorage.getItem('score')
     const scoreObj = JSON.parse(score)
+
+    console.log('scoreObj = ', scoreObj);
+    console.log('countResult = ', countResult);
+    console.log('countQuestion = ', countQuestion);
+    console.log('scoreObj[nameStorage].result = ', scoreObj[nameStorage].result);
+    
     scoreObj[nameStorage].result = countResult
     scoreObj[nameStorage].question = countQuestion
     localStorage.setItem('score', JSON.stringify(scoreObj))
- //***************** */
     setCountQuestion(value => value = 1)
     setStateGameOver(false)
     setStateWinPopUp(false)
@@ -63,10 +65,17 @@ function App() {
     
   }
   const btnYes = () => {
-    localStorage.removeItem(nameStorage)
+    const score: any = localStorage.getItem('score')
+    const scoreObj = JSON.parse(score)
+    scoreObj[nameStorage].result = 0
+    scoreObj[nameStorage].question = 0
+    localStorage.setItem('score', JSON.stringify(scoreObj))    
+    console.log('nameStorage --', scoreObj[nameStorage]);
+
     setStateGameOver(false)
     setCategoryId(+categoryId - 20)
     setCountResult(0)
+    setCountQuestion(1)
     categoryName === 'art' ? linkChose("/art") : linkChose("/pic")
   }
 
@@ -98,7 +107,7 @@ function App() {
       setStateWinPopUp={setStateWinPopUp}
       stateGrandPopUp={stateGrandPopUp}
       setStateGrandPopUp={setStateGrandPopUp}
-      helpPopupOn={helpPopupOn} 
+      helpPopupOn={helpPopupOn}
       />
       }/>
       <Route path='/pic' element={

@@ -28,4 +28,6 @@ export const startScoreStorage: any = {
 export const startSettingStorage = {
   help: true,
   volume: false,
+  timer: true,
+  time: 5,
 }

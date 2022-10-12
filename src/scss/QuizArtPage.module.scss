@@ -165,7 +165,7 @@ a {
       width: 30%;
       height: 10px;
       background-color: #FFBCA2;
-      border-radius: 5px 0 0 5px;
+      border-radius: 5px;
     }
   }
 
@@ -185,6 +185,8 @@ a {
   }
 
   .timer {
+    display: inline-block;
+    width: 10%;
     font-family: 'Gilroy Regular';
     font-weight: 700;
     font-size: 28px;
@@ -366,6 +368,8 @@ a {
     }
 
     .timer {
+      display: inline-block;
+      width: 16%;
       font-weight: 400;
       font-size: 22px;
     }

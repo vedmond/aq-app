@@ -15,7 +15,8 @@ export const CategoryGallery = (
    nameStorage,
    countResult,
    setCountResult, 
-   setNameStorage
+   setNameStorage, 
+   setCategoryName
   }: any) => {
   
     
@@ -30,6 +31,7 @@ export const CategoryGallery = (
     const numGallery = idDate / 20 + 1;
     const  linkTo = useNavigate()
     const startQuiz = () => {
+      setCategoryName(linkCategory)
       setCountResult(countResult = 0)
       setNameStorage(nameStorage = '') 
       if (linkCategory === 'art'){
@@ -41,7 +43,7 @@ export const CategoryGallery = (
       }
       setCategoryId(idDate)
     };
-    let styleAgain = []
+    
     // const localNameStorage = localStorage.getItem(`${linkCategory}${numGallery}`)
     //************** */
     const localNameStorage = `${linkCategory}${numGallery}`

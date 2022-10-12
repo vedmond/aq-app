@@ -3,11 +3,14 @@ import React from 'react'
 import style from '../../scss/HelpPopup.module.scss'
 import dataQuiz from '../../assets/date.json'
 
-export const HelpPopup = ({stateHelp, setStateHelp, categoryId, flagHelp}: any) => {
+export const HelpPopup = ({stateHelp, setStateHelp, categoryId, flagHelp, finishedId}: any) => {
     const callBack = () => {
       setStateHelp(false)
     }
-    const forStartId = () => +categoryId -1 < 0 ? 0 : +categoryId -1
+    const forStartId = () => +categoryId -1 < 0 ? 0 : +categoryId - 1
+    console.log('forStartId', forStartId());
+    console.log('finishedId', finishedId);
+    
     const containerStyle = {
     backgroundImage:`url("${dataQuiz[forStartId()].imgUrl}")`,
     backgroundSize: 'cover',
@@ -31,7 +34,7 @@ export const HelpPopup = ({stateHelp, setStateHelp, categoryId, flagHelp}: any) 
         <p className={style.title}>{dataQuiz[forStartId()].name}</p>
         <p className={style.text}>{`${dataQuiz[forStartId()].author}, ${dataQuiz[forStartId()].year}`}</p>
         <div className={style.btn_container}>
-          <button onClick={callBack} className={`${style.btn_popup} ${style.btn1}`}>Next</button>
+          <button onClick={callBack} className={`${style.btn_popup} ${style.btn1}`}>{finishedId === forStartId() ? 'Result' : 'Next'}</button>
         </div>
 
       </div>

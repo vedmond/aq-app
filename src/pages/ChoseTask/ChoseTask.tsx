@@ -17,13 +17,13 @@ export const ChoseTask = (
     setNameStorage,
     countResult,
     setCountResult, 
-    nameStorage
+    nameStorage,
   }: any) => {
 
   const dataStart = dataQuiz.filter(
   obj => +(obj.id) % 20 === 0 && +(obj.id) < dataQuiz.length - 20 ? obj :''
   )
-    setCategoryName(linkCategory)
+  // setCategoryName(linkCategory)
    
   return (
     <div>
@@ -55,7 +55,8 @@ export const ChoseTask = (
       setNameStorage={setNameStorage}
       nameStorage={nameStorage}
       countResult={countResult}
-      setCountResult={setCountResult}/>
+      setCountResult={setCountResult}
+      setCategoryName={setCategoryName}/>
     ))}
     </main>
     <footer className={style.footer}>
