@@ -1,6 +1,7 @@
 
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Footer } from '../../components/Footer'
 import style from '../../scss/StartPage.module.scss'
 
 
@@ -17,9 +18,6 @@ export const StartPage = () => {
           </header>
           <main className={style.main}>
           <div className={style.logo__box}>
-              {/* <h1>Art Quiz</h1>
-              <div className={`${style.ellipse} ${style.ellipse__right}`}></div>
-              <div className={`${style.ellipse} ${style.ellipse__left}`}></div> */}
             </div>
             <div className={style.box__btn}>
               <Link to="/chose/art" >
@@ -35,8 +33,7 @@ export const StartPage = () => {
             </div>
           </main>
           <footer className={style.footer}>
-            <span>App developer: <a href="https://github.com/VedKhorkov">VedKhorkov</a></span>
-            <span>Design: <a href="https://www.behance.net/klishinama255b">Mary Kli</a></span> 
+            <Footer/>
           </footer>
         </div>
       </div> 

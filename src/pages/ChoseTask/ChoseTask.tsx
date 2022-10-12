@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 import style from '../../scss/ChoseTask.module.scss'
 import { CategoryGallery } from '../../components/CategoryGallery'
 import dataQuiz from '../../assets/date.json'
+import { Footer } from '../../components/Footer'
 
 // const dataStart = dataQuiz.filter(
 //   obj => +(obj.id) % 20 === 0 && +(obj.id) < dataQuiz.length - 20 ? obj :''
@@ -60,8 +61,7 @@ export const ChoseTask = (
     ))}
     </main>
     <footer className={style.footer}>
-      <span>App developer: <a href="https://github.com/VedKhorkov">VedKhorkov</a></span>
-      <span>Design: <a href="https://www.behance.net/klishinama255b">Mary Kli</a></span>
+      <Footer/>
       <div className={style.footer_menu}>
         <Link to="/">  
         <div className={style.icon_home}></div>

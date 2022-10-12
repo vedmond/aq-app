@@ -10,7 +10,8 @@ import ButtonPic from '../../components/ButtonPic'
 import { GameOverPopup } from '../GameOverPopup'
 import { WinPopup } from '../WinPopup'
 import { GrandPopup } from '../GrandPopup'
-import { Timer } from '../../components/Timer';
+import { Footer } from '../../components/Footer'
+// import { Timer } from '../../components/Timer';
 
 export const QuizPicPage = ({
   categoryId, 
@@ -143,9 +144,7 @@ export const QuizPicPage = ({
             </div>
           </main>
           <footer className={style.footer}>
-            <span>App developer: <a href="https://github.com/VedKhorkov">VedKhorkov</a></span>
-            <span>Design: <a href="https://www.behance.net/klishinama255b">Mary Kli</a></span>
-            <span>2022</span>
+              <Footer/>  
           </footer>
           <Curtain stateCurtain={stateCurtain}/>
           <QuitPopup 

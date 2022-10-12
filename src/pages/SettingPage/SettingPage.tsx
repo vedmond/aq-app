@@ -3,6 +3,7 @@ import React from 'react'
 import style from '../../scss/SettingPage.module.scss'
 import { Link, useNavigate } from 'react-router-dom'
 import {startScoreStorage, startSettingStorage} from '../../components/ConstStartStorage'
+import { Footer } from '../../components/Footer'
 
 export const SettingPage = ({helpPopupOn, setHelpPopupOn}: any) => {
   const linkCallBack = useNavigate();
@@ -67,8 +68,7 @@ export const SettingPage = ({helpPopupOn, setHelpPopupOn}: any) => {
       </div>
     </main>
     <footer className={style.footer}>
-      <span>App developer: <a href="https://github.com/VedKhorkov">VedKhorkov</a></span>
-      <span>Design: <a href="https://www.behance.net/klishinama255b">Mary Kli</a></span>
+      <Footer/>
     </footer> 
     </>    
 
