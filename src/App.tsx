@@ -71,7 +71,6 @@ function App() {
     scoreObj[nameStorage].question = 0
     localStorage.setItem('score', JSON.stringify(scoreObj))    
     console.log('nameStorage --', scoreObj[nameStorage]);
-
     setStateGameOver(false)
     setCategoryId(+categoryId - 20)
     setCountResult(0)
