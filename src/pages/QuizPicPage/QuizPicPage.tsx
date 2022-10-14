@@ -11,7 +11,7 @@ import { GameOverPopup } from '../GameOverPopup'
 import { WinPopup } from '../WinPopup'
 import { GrandPopup } from '../GrandPopup'
 import { Footer } from '../../components/Footer'
-// import { Timer } from '../../components/Timer';
+import { Timer } from '../../components/Timer';
 
 export const QuizPicPage = ({
   categoryId, 
@@ -30,13 +30,13 @@ export const QuizPicPage = ({
   setStateGrandPopUp,
   helpPopupOn,   
   }: any) => {
-  // const storage: any = localStorage.getItem('setting')
-  // const settingObj = JSON.parse(storage)
-  // const timer = settingObj.timer
-  // const startTime: number = settingObj.time
+  const storage: any = localStorage.getItem('setting')
+  const settingObj = JSON.parse(storage)
+  const timer = settingObj.timer
+  const startTime: number = settingObj.time
  
-  // const [isTimer, setIsTimer] = React.useState(timer)
-  // const [timeLeft, setTimeLeft] = React.useState(startTime) 
+  const [isTimer, setIsTimer] = React.useState(timer)
+  const [timeLeft, setTimeLeft] = React.useState(startTime) 
 
    const [stateQuit, setStateQuit] = React.useState(false)
    const [stateHelp, setStateHelp] = React.useState(false)
@@ -44,81 +44,84 @@ export const QuizPicPage = ({
    const [btnArray, setBtnArray] = React.useState([])
    const [nameArtistPic, setNameArtistPic] = React.useState('')
    const [finishedId, setFinishedId] = React.useState(-1)
+
    let stateCurtain = stateQuit || stateHelp || stateGameOver || stateWinPopUp || stateGrandPopUp;
    const barLineWidth = {
     width: `${countQuestion * 5}%`,
   }
+  
+  React.useEffect(() => {
+   let arrayImgUrl = [dataQuiz[categoryId].imgUrl];
+   setNameArtistPic(dataQuiz[categoryId].author)
+   for (let i = 1; i < 4; i++) {
+     const picImgUrl = dataQuiz[Math.floor(Math.random() * 240)].imgUrl;
+   if (arrayImgUrl.includes(picImgUrl)){
+     i--;
+     } else {
+     arrayImgUrl.push(picImgUrl);
+     }
+   }
+   function shuffle(arr: any){
+   let j, temp;
+   for(var i = arr.length - 1; i > 0; i--){
+     j = Math.floor(Math.random()*(i + 1));
+     temp = arr[j];
+     arr[j] = arr[i];
+     arr[i] = temp;
+   }
+     return arr;
+   }
+     setBtnArray(shuffle(arrayImgUrl))
+   }, [categoryId])
 
-  //  React.useEffect(() =>{
-  //   const interval = setInterval(() =>{
-  //   isTimer && setTimeLeft((timeLeft: any) => (timeLeft >= 1 ? timeLeft - 1 : 0))
-  //   }, 1000)
-  //   return () => {
-  //     clearInterval(interval)
-  //   };
-  // }, [isTimer, timeLeft])
-
-   React.useEffect(() => {
-    let arrayImgUrl = [dataQuiz[categoryId].imgUrl];
-    setNameArtistPic(dataQuiz[categoryId].author)
-    for (let i = 1; i < 4; i++) {
-      const picImgUrl = dataQuiz[Math.floor(Math.random() * 240)].imgUrl;
-    if (arrayImgUrl.includes(picImgUrl)){
-      i--;
-      } else {
-      arrayImgUrl.push(picImgUrl);
-      }
-    }
-    function shuffle(arr: any){
-	  let j, temp;
-	  for(var i = arr.length - 1; i > 0; i--){
-		  j = Math.floor(Math.random()*(i + 1));
-		  temp = arr[j];
-		  arr[j] = arr[i];
-		  arr[i] = temp;
-	  }
-	    return arr;
-    }
-      setBtnArray(shuffle(arrayImgUrl))
-    }, [categoryId])
-
-
-  const clickNextId = (urlIdBtn: string = '') => {  
-    // setTimeLeft(startTime)
-    if (urlIdBtn === dataQuiz[categoryId].imgUrl) {
-      setFlagHelp(true)
-      setCountResult(countResult + 1)
-    } else {
-      setFlagHelp(false)
-    }
-    setCategoryId(+categoryId + 1)
-    helpPopupOn ? setStateHelp(true) : setStateHelp(false)
-    if(countQuestion === 20 && countResult < 2){
-      setStateGameOver(true)
-    } else if (countQuestion === 20 && countResult >= 2 && countResult <= 5 ){
-      setStateWinPopUp(true)
-    } else if (countQuestion === 20 && countResult > 5 ) {
-      setStateGrandPopUp(true)
-    } else if (countQuestion < 20) {
-      setCountQuestion(countQuestion + 1)       
-    }  
-  }
+   const clickNextId = React.useCallback((urlIdBtn: string = '') => {  
+    setIsTimer(timer)
+    timer ? setTimeLeft (startTime) : setTimeLeft(0)    
+     if (urlIdBtn === dataQuiz[categoryId].imgUrl) {
+       setFlagHelp(true)
+       setCountResult(countResult + 1)
+     } else {
+       setFlagHelp(false)
+     }
+     setCategoryId(+categoryId + 1)
+     helpPopupOn ? setStateHelp(true) : setStateHelp(false)
+     if(countQuestion === 20 && countResult < 2){
+       setStateGameOver(true)
+     } else if (countQuestion === 20 && countResult >= 2 && countResult <= 5 ){
+       setStateWinPopUp(true)
+     } else if (countQuestion === 20 && countResult > 5 ) {
+       setStateGrandPopUp(true)
+     } else if (countQuestion < 20) {
+       setCountQuestion(countQuestion + 1)       
+     }  
+  },[categoryId, countQuestion, countResult, helpPopupOn, setCategoryId, 
+      setCountQuestion, setCountResult, setStateGameOver, setStateGrandPopUp, 
+      setStateWinPopUp, startTime, timer])
+  
   React.useEffect(() => {
   if (countQuestion === 1) {
     setFinishedId(+categoryId + 19) 
   } 
-  }, [countQuestion, categoryId])  
-  // React.useEffect(() => {
-  //     if (timeLeft === 0 && 
-  //         stateGameOver === false && 
-  //         stateWinPopUp === false && 
-  //         stateGrandPopUp === false) {
-  //     clickNextId()
-  //     } 
-  // })
-  // React.useEffect(() => { ////// проблема появилась после этого
-  //     stateHelp  ? setIsTimer(false) : setIsTimer(timer)
-  // }, [stateHelp, setIsTimer, timer]) 
+  }, [countQuestion, categoryId])
+
+  React.useEffect(() =>{
+    if (stateCurtain) {
+      setTimeLeft(startTime)
+    } 
+   const interval = setInterval(() =>{
+     isTimer && setTimeLeft((timeLeft: any) => (timeLeft >= 1 ? timeLeft - 1 : 0))
+     }, 1000)
+    if (timeLeft === 0) {  /////********************* */
+      setIsTimer(false)    /////********************* */
+      if (+categoryId <= finishedId) {
+        clickNextId() }
+     }       
+     return () => {
+       clearInterval(interval)
+      };
+    }, [isTimer, timeLeft, startTime, clickNextId, finishedId, categoryId, stateCurtain])  
+
+
 
   return (
     <>
@@ -128,11 +131,11 @@ export const QuizPicPage = ({
               <div style={barLineWidth} className={style.progress_bar_line}></div>
             </div>
             <div className={style.timer}>
-              {/* {isTimer && <Timer 
+              {(isTimer && !stateCurtain) && <Timer 
                  timeLeft={timeLeft} 
                  timer={timer}
                  />}
-                 {isTimer && ' s'} */}
+                 {/* {(isTimer && !stateCurtain) && ' s'} */}
             </div>
           </header>
             <main className={style.main}>

@@ -80,7 +80,8 @@ export const QuizArtPage = ({
   while(length--){
     array[length] = length
   }
-   const clickNextId = React.useCallback((nameBtn: string = '') => {
+
+  const clickNextId = React.useCallback((nameBtn: string = '') => {
     setIsTimer(timer)
     timer ? setTimeLeft (startTime) : setTimeLeft(0) 
     if (nameBtn === dataQuiz[categoryId].author) {
@@ -100,31 +101,9 @@ export const QuizArtPage = ({
     } else if (countQuestion < 20) {
       setCountQuestion(countQuestion + 1)       
     } 
-   }, [categoryId, countQuestion, countResult, helpPopupOn, setCategoryId, 
+  }, [categoryId, countQuestion, countResult, helpPopupOn, setCategoryId, 
       setCountQuestion, setCountResult, setStateGameOver, setStateGrandPopUp, 
       setStateWinPopUp, startTime, timer]) 
-  
-  // const clickNextId = (nameBtn: string = '') => {
-  //   setIsTimer(timer) /////********************* */
-  //   timer ? setTimeLeft (startTime) : setTimeLeft(0) /////********************* */
-  //   if (nameBtn === dataQuiz[categoryId].author) {
-  //     setFlagHelp(true)
-  //     setCountResult(countResult + 1)
-  //   } else {
-  //     setFlagHelp(false)
-  //   }
-  //   setCategoryId(+categoryId + 1)
-  //   helpPopupOn ? setStateHelp(true) : setStateHelp(false)
-  //   if(countQuestion === 20 && countResult < 2){
-  //     setStateGameOver(true)
-  //   } else if (countQuestion === 20 && countResult >= 2 && countResult <= 5 ){
-  //     setStateWinPopUp(true)
-  //   } else if (countQuestion === 20 && countResult > 5 ) {
-  //     setStateGrandPopUp(true)
-  //   } else if (countQuestion < 20) {
-  //     setCountQuestion(countQuestion + 1)       
-  //   } 
-  // }
 
   React.useEffect(() => {
     if (countQuestion === 1) {
@@ -149,24 +128,6 @@ export const QuizArtPage = ({
       };
     }, [isTimer, timeLeft, startTime, clickNextId, finishedId, categoryId, stateCurtain]) 
 
-
-    
-  //   if (timeLeft === 0 && 
-  //     stateCurtain === false ) {     как это реализовать?
-  //     setTimeLeft(startTime)
-  //     clickNextId()
-  //  }      
- 
-  
-  
-  
-  
-  
-  // React.useEffect(() => { ////// проблема появилась после этого
-  //     stateHelp  ? setIsTimer(false) : setIsTimer(timer)
-  // }, [stateHelp, setIsTimer, timer])
-  
-  
   const containerStyle = {
     backgroundImage: `url("${+categoryId > finishedId && finishedId > 0 ? dataQuiz[finishedId].imgUrl : dataQuiz[categoryId].imgUrl}")`,
     backgroundSize: 'cover',
@@ -187,7 +148,7 @@ export const QuizArtPage = ({
                  timeLeft={timeLeft} 
                  timer={timer}
                  />}
-                 {(isTimer && !stateCurtain) && ' s'}
+                 {/* {(isTimer && !stateCurtain) && ' s'} */}
             </div>
           </header>
           <main className={style.main}>
