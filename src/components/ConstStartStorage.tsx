@@ -29,5 +29,5 @@ export const startSettingStorage = {
   help: true,
   volume: false,
   timer: true,
-  time: 5,
+  time: 30,
 }

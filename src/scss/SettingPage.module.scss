@@ -167,7 +167,12 @@ a {
         font-size: 24px;
         line-height: 28px;
         letter-spacing: -0.5px;
-
+        .number {
+          display: inline-block;
+          width: 26%;
+          height: 50%;
+          text-align: center;
+        }
         span {
           display: block;
         }
@@ -215,10 +220,12 @@ a {
       background-color: #FFFFFF;
       border: none;
       &:hover {
-        background-color: #dad7d7;
         transition-duration: 0.2s;
         transform: translateY(1px);
       }
+    }
+    .button_off{
+      background-color: rgb(144, 124, 124);
     }
   }
 

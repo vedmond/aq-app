@@ -9,6 +9,7 @@ export const SettingPage = ({helpPopupOn, setHelpPopupOn}: any) => {
   const storage: any = localStorage.getItem('setting')
   const objSetting = JSON.parse(storage)
   const [stateTimer, setStateTimer] = React.useState(objSetting.timer)
+  const [numberTime, setNumberTime] = React.useState(objSetting.time)
   const linkCallBack = useNavigate();
   const callBack = () => linkCallBack(-1)
   const clickHelp = () => {
@@ -35,7 +36,21 @@ export const SettingPage = ({helpPopupOn, setHelpPopupOn}: any) => {
     const storage: any = localStorage.getItem('setting')
     const objSetting = JSON.parse(storage)
     setHelpPopupOn(objSetting.help)
+    setStateTimer(objSetting.timer)
+    setNumberTime(objSetting.time)
   }
+  const numberTimePlus = () => {
+    numberTime < 60 ? setNumberTime(+numberTime + 5) : setNumberTime(60)
+  }
+  const numberTimeMinus = () => {
+    numberTime > 5 ? setNumberTime(+numberTime - 5) : setNumberTime(5)
+  }
+  React.useEffect(() => {
+    const storage: any = localStorage.getItem('setting')
+    const objSetting = JSON.parse(storage)
+    objSetting.time = numberTime
+    localStorage.setItem('setting', JSON.stringify(objSetting))
+  }, [numberTime])
   
   return (
     <>
@@ -59,9 +74,9 @@ export const SettingPage = ({helpPopupOn, setHelpPopupOn}: any) => {
               <button onClick={clickTimeAnswer} className={style.toggle}><span className={stateTimer ? style.on : style.off}></span></button>
             </div>
             <div className={style.timer}>
-              <button className={`${style.btn_timer} ${style.minus}`}>-</button>
-              <p>20</p>
-              <button className={`${style.btn_timer} ${style.plus}`}>+</button>
+              <button onClick={numberTimeMinus} className={`${style.btn_timer} ${style.minus} ${numberTime === 5 ? style.button_off : ''}`}>-</button>
+              <p className={style.number}>{numberTime}</p>
+              <button onClick={numberTimePlus} className={`${style.btn_timer} ${style.plus} ${numberTime === 60 ? style.button_off : ''}`}>+</button>
             </div>
           </div>
           <div className={style.box__time}>

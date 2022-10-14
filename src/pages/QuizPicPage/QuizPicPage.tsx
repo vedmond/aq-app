@@ -98,32 +98,7 @@ export const QuizPicPage = ({
   },[categoryId, countQuestion, countResult, helpPopupOn, setCategoryId, 
       setCountQuestion, setCountResult, setStateGameOver, setStateGrandPopUp, 
       setStateWinPopUp, startTime, timer])
-      //****************************************** */
-  //  const clickNextId2 = (urlIdBtn: string = '') => {  
-  //   // setIsTimer(timer)
-  //   // timer ? setTimeLeft (startTime) : setTimeLeft(0)    
-  //    if (urlIdBtn === dataQuiz[categoryId].imgUrl) {
-  //      setFlagHelp(true)
-  //      setCountResult(countResult + 1)
-  //    } else {
-  //      setFlagHelp(false)
-  //    }
-  //    setCategoryId(+categoryId + 1)
-  //    helpPopupOn ? setStateHelp(true) : setStateHelp(false)
-  //    if(countQuestion === 20 && countResult < 2){
-  //      setStateGameOver(true)
-  //    } else if (countQuestion === 20 && countResult >= 2 && countResult <= 5 ){
-  //      setStateWinPopUp(true)
-  //    } else if (countQuestion === 20 && countResult > 5 ) {
-  //      setStateGrandPopUp(true)
-  //    } else if (countQuestion < 20) {
-  //      setCountQuestion(countQuestion + 1)       
-  //    }  
-  // }
 
-
-
-      //****************************************** */
   
   React.useEffect(() => {
   if (countQuestion === 1) {
