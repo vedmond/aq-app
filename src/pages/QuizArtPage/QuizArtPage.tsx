@@ -81,7 +81,7 @@ export const QuizArtPage = ({
     array[length] = length
   }
    const clickNextId = React.useCallback((nameBtn: string = '') => {
-    setIsTimer(timer) 
+    setIsTimer(timer)
     timer ? setTimeLeft (startTime) : setTimeLeft(0) 
     if (nameBtn === dataQuiz[categoryId].author) {
       setFlagHelp(true)
@@ -133,19 +133,21 @@ export const QuizArtPage = ({
   }, [countQuestion, categoryId])
   
   React.useEffect(() =>{
+    if (stateCurtain) {
+      setTimeLeft(startTime)
+    } 
    const interval = setInterval(() =>{
      isTimer && setTimeLeft((timeLeft: any) => (timeLeft >= 1 ? timeLeft - 1 : 0))
      }, 1000)
     if (timeLeft === 0) {  /////********************* */
       setIsTimer(false)    /////********************* */
       if (+categoryId <= finishedId) {
-        clickNextId() 
-      }
-   }       
+        clickNextId() }
+     }       
      return () => {
        clearInterval(interval)
       };
-    }, [isTimer, timeLeft, startTime, clickNextId, finishedId, categoryId]) 
+    }, [isTimer, timeLeft, startTime, clickNextId, finishedId, categoryId, stateCurtain]) 
 
 
     
