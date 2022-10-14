@@ -115,13 +115,14 @@ export const QuizArtPage = ({
     if (stateCurtain) {
       setTimeLeft(startTime)
     } 
-   const interval = setInterval(() =>{
+    const interval = setInterval(() =>{
      isTimer && setTimeLeft((timeLeft: any) => (timeLeft >= 1 ? timeLeft - 1 : 0))
      }, 1000)
     if (timeLeft === 0) {  /////********************* */
       setIsTimer(false)    /////********************* */
-      if (+categoryId <= finishedId) {
-        clickNextId() }
+      if (+categoryId <= finishedId && isTimer) {
+        clickNextId() 
+      }
      }       
      return () => {
        clearInterval(interval)

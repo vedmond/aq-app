@@ -44,6 +44,7 @@ export const QuizPicPage = ({
    const [btnArray, setBtnArray] = React.useState([])
    const [nameArtistPic, setNameArtistPic] = React.useState('')
    const [finishedId, setFinishedId] = React.useState(-1)
+  
 
    let stateCurtain = stateQuit || stateHelp || stateGameOver || stateWinPopUp || stateGrandPopUp;
    const barLineWidth = {
@@ -97,6 +98,32 @@ export const QuizPicPage = ({
   },[categoryId, countQuestion, countResult, helpPopupOn, setCategoryId, 
       setCountQuestion, setCountResult, setStateGameOver, setStateGrandPopUp, 
       setStateWinPopUp, startTime, timer])
+      //****************************************** */
+  //  const clickNextId2 = (urlIdBtn: string = '') => {  
+  //   // setIsTimer(timer)
+  //   // timer ? setTimeLeft (startTime) : setTimeLeft(0)    
+  //    if (urlIdBtn === dataQuiz[categoryId].imgUrl) {
+  //      setFlagHelp(true)
+  //      setCountResult(countResult + 1)
+  //    } else {
+  //      setFlagHelp(false)
+  //    }
+  //    setCategoryId(+categoryId + 1)
+  //    helpPopupOn ? setStateHelp(true) : setStateHelp(false)
+  //    if(countQuestion === 20 && countResult < 2){
+  //      setStateGameOver(true)
+  //    } else if (countQuestion === 20 && countResult >= 2 && countResult <= 5 ){
+  //      setStateWinPopUp(true)
+  //    } else if (countQuestion === 20 && countResult > 5 ) {
+  //      setStateGrandPopUp(true)
+  //    } else if (countQuestion < 20) {
+  //      setCountQuestion(countQuestion + 1)       
+  //    }  
+  // }
+
+
+
+      //****************************************** */
   
   React.useEffect(() => {
   if (countQuestion === 1) {
@@ -108,18 +135,20 @@ export const QuizPicPage = ({
     if (stateCurtain) {
       setTimeLeft(startTime)
     } 
-   const interval = setInterval(() =>{
+    const interval = setInterval(() =>{
      isTimer && setTimeLeft((timeLeft: any) => (timeLeft >= 1 ? timeLeft - 1 : 0))
      }, 1000)
     if (timeLeft === 0) {  /////********************* */
       setIsTimer(false)    /////********************* */
-      if (+categoryId <= finishedId) {
-        clickNextId() }
+      if (+categoryId <= finishedId && isTimer) {
+        clickNextId() 
+        }
      }       
      return () => {
        clearInterval(interval)
       };
     }, [isTimer, timeLeft, startTime, clickNextId, finishedId, categoryId, stateCurtain])  
+
 
 
 

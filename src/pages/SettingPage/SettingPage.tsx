@@ -6,15 +6,25 @@ import {startScoreStorage, startSettingStorage} from '../../components/ConstStar
 import { Footer } from '../../components/Footer'
 
 export const SettingPage = ({helpPopupOn, setHelpPopupOn}: any) => {
+  const storage: any = localStorage.getItem('setting')
+  const objSetting = JSON.parse(storage)
+  const [stateTimer, setStateTimer] = React.useState(objSetting.timer)
   const linkCallBack = useNavigate();
   const callBack = () => linkCallBack(-1)
   const clickHelp = () => {
     setHelpPopupOn(!helpPopupOn)
     const storage: any = localStorage.getItem('setting')
     const objSetting = JSON.parse(storage)
-    objSetting.help = !helpPopupOn 
+    objSetting.help = !helpPopupOn
     localStorage.setItem('setting', JSON.stringify(objSetting))
   };
+  const clickTimeAnswer = () => {
+    const storage: any = localStorage.getItem('setting')
+    const objSetting = JSON.parse(storage)
+    objSetting.timer = !objSetting.timer
+    setStateTimer(objSetting.timer)
+    localStorage.setItem('setting', JSON.stringify(objSetting))
+  }
   const btnReset = () => {
     localStorage.removeItem('score')
     localStorage.setItem('score', JSON.stringify(startScoreStorage))
@@ -45,8 +55,8 @@ export const SettingPage = ({helpPopupOn, setHelpPopupOn}: any) => {
           <div className={style.box__time}>
             <span>Time to answer</span>
             <div className={style.switch}>
-              <span>On</span>
-              <button className={style.toggle}><span className={style.on}></span></button>
+              <span>{stateTimer ? 'On' : 'Off'}</span>
+              <button onClick={clickTimeAnswer} className={style.toggle}><span className={stateTimer ? style.on : style.off}></span></button>
             </div>
             <div className={style.timer}>
               <button className={`${style.btn_timer} ${style.minus}`}>-</button>

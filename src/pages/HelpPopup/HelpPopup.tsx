@@ -8,8 +8,8 @@ export const HelpPopup = ({stateHelp, setStateHelp, categoryId, flagHelp, finish
       setStateHelp(false)
     }
     const forStartId = () => +categoryId -1 < 0 ? 0 : +categoryId - 1
-    console.log('forStartId', forStartId());
-    console.log('finishedId', finishedId);
+    // console.log('forStartId', forStartId());
+    // console.log('finishedId', finishedId);
     
     const containerStyle = {
     backgroundImage:`url("${dataQuiz[forStartId()].imgUrl}")`,
@@ -17,6 +17,7 @@ export const HelpPopup = ({stateHelp, setStateHelp, categoryId, flagHelp, finish
     backgroundRepeat: 'no-repeat',
     backgroundPosition: '50% 50%',
   }
+  
   return (
     <div>
       <div className={`${style.card} ${stateHelp ? style.active : ''}`}>
