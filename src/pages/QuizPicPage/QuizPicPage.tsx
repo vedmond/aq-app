@@ -12,6 +12,7 @@ import { WinPopup } from '../WinPopup'
 import { GrandPopup } from '../GrandPopup'
 import { Footer } from '../../components/Footer'
 import { Timer } from '../../components/Timer';
+import { Result } from '../../components/Result';
 
 export const QuizPicPage = ({
   categoryId, 
@@ -139,7 +140,7 @@ export const QuizPicPage = ({
                  timeLeft={timeLeft} 
                  timer={timer}
                  />}
-                 {/* {(isTimer && !stateCurtain) && ' s'} */}
+                 {(!isTimer && !stateCurtain) && <Result countResult={countResult}/>}
             </div>
           </header>
             <main className={style.main}>
