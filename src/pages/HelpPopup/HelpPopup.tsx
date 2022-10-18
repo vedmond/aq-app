@@ -2,14 +2,27 @@
 import React from 'react'
 import style from '../../scss/HelpPopup.module.scss'
 import dataQuiz from '../../assets/date.json'
+import {soundData} from '../../assets/helper/SoundData'
 
-export const HelpPopup = ({stateHelp, setStateHelp, categoryId, flagHelp, finishedId}: any) => {
+export const HelpPopup = ({
+      stateHelp, 
+      setStateHelp, 
+      categoryId, 
+      flagHelp, 
+      finishedId,
+      stateVolume,
+    }: any) => {
+    const soundRef: any = React.useRef(null)  
     const callBack = () => {
       setStateHelp(false)
     }
     const forStartId = () => +categoryId -1 < 0 ? 0 : +categoryId - 1
-    // console.log('forStartId', forStartId());
-    // console.log('finishedId', finishedId);
+
+    React.useEffect(() => {
+    if(stateHelp && soundRef.current !== null &&  stateVolume) {
+      soundRef.current.play()
+    }
+    }, [stateHelp,  stateVolume])
     
     const containerStyle = {
     backgroundImage:`url("${dataQuiz[forStartId()].imgUrl}")`,
@@ -31,6 +44,7 @@ export const HelpPopup = ({stateHelp, setStateHelp, categoryId, flagHelp, finish
         </button>
         <div className={style.pic} style={containerStyle}>
           <div className={`${style.circl} ${flagHelp ? style.right: style.wrong}`}></div>
+          <audio ref={soundRef} src={flagHelp ? soundData[1].music : soundData[2].music}/>
         </div>
         <p className={style.title}>{dataQuiz[forStartId()].name}</p>
         <p className={style.text}>{`${dataQuiz[forStartId()].author}, ${dataQuiz[forStartId()].year}`}</p>

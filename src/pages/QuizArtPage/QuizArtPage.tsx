@@ -13,6 +13,7 @@ import { GrandPopup } from '../GrandPopup'
 import { Footer } from '../../components/Footer';
 import { Timer } from '../../components/Timer';
 import { Result } from '../../components/Result';
+import {soundData} from '../../assets/helper/SoundData' 
 
 
 
@@ -32,26 +33,28 @@ export const QuizArtPage = ({
   stateGrandPopUp,
   setStateGrandPopUp,
   helpPopupOn,
+  stateVolume,
   }: any) => {
-  const storage: any = localStorage.getItem('setting')
-  const settingObj = JSON.parse(storage)
-  const timer = settingObj.timer
-  const startTime: number = settingObj.time
- 
-  const [isTimer, setIsTimer] = React.useState(timer)
-  const [timeLeft, setTimeLeft] = React.useState(startTime)
+    const storage: any = localStorage.getItem('setting')
+    const settingObj = JSON.parse(storage)
+    const timer = settingObj.timer
+    const startTime: number = settingObj.time
+    
+    const [isTimer, setIsTimer] = React.useState(timer)
+    const [timeLeft, setTimeLeft] = React.useState(startTime)
+    
+    const [stateQuit, setStateQuit] = React.useState(false)
+    const [stateHelp, setStateHelp] = React.useState(false)
+    const [flagHelp, setFlagHelp] = React.useState(true)
+    const [btnArray, setBtnArray] = React.useState([])
+    const [finishedId, setFinishedId] = React.useState(-1)
 
-  const [stateQuit, setStateQuit] = React.useState(false)
-  const [stateHelp, setStateHelp] = React.useState(false)
-  const [flagHelp, setFlagHelp] = React.useState(true)
-  const [btnArray, setBtnArray] = React.useState([])
-  const [finishedId, setFinishedId] = React.useState(-1)
-  
-  let stateCurtain = stateQuit || stateHelp || stateGameOver || stateWinPopUp || stateGrandPopUp;
-  const barLineWidth = {
-    width: `${countQuestion * 5}%`,
-  }
-  
+     const soundRef: any = React.useRef(null)
+    
+    let stateCurtain = stateQuit || stateHelp || stateGameOver || stateWinPopUp || stateGrandPopUp;
+    const barLineWidth = {
+      width: `${countQuestion * 5}%`,
+    }
   
   React.useEffect(() => {
     let arrayAutour = [dataQuiz[categoryId].author];
@@ -136,11 +139,16 @@ export const QuizArtPage = ({
     backgroundRepeat: 'no-repeat',
     backgroundPosition: '50% 50%',
   }
-
+  React.useEffect(() => {
+    if(countResult > 0 && stateVolume && !stateHelp) {
+      soundRef.current.play()
+    }
+  }, [countResult, stateVolume, stateHelp])
   
   return (
     <>
             <header className={style.header}>
+              <audio ref={soundRef} src={soundData[1].music}/>
             <button onClick={() => setStateQuit(value => !value)} className={style.icon__cross}> </button>
             <div className={style.progress_bar}>
               <div style={barLineWidth} className={style.progress_bar_line}></div>
@@ -149,6 +157,7 @@ export const QuizArtPage = ({
               {(isTimer && !stateCurtain) && <Timer 
                  timeLeft={timeLeft} 
                  timer={timer}
+                 stateVolume={stateVolume}
                  />}
                  {(!isTimer && !stateCurtain) && <Result countResult={countResult}/>}
             </div>
@@ -193,7 +202,8 @@ export const QuizArtPage = ({
             categoryId={categoryId} 
             flagHelp={flagHelp}
             countQuestion={countQuestion}
-            finishedId={finishedId}/>
+            finishedId={finishedId}
+            stateVolume={stateVolume}/>
     </>
   )
 }

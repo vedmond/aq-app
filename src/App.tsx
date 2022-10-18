@@ -28,7 +28,8 @@ function App() {
 
   const settingStorage: any = localStorage.getItem('setting')
   const objSetting = JSON.parse(settingStorage)
-
+  
+  const [stateVolume, setStateVolume] = React.useState(objSetting.volume)
   const [stateGameOver, setStateGameOver] = React.useState(false)
   const [stateWinPopUp, setStateWinPopUp] = React.useState(false)
   const [stateGrandPopUp, setStateGrandPopUp] = React.useState(false)
@@ -38,16 +39,10 @@ function App() {
   const [countResult, setCountResult] = React.useState(0)
   const [nameStorage, setNameStorage] =React.useState('')
   const [countQuestion, setCountQuestion] = React.useState(1) //+
-  
   const linkChose = useNavigate()
   const btnNo = (linkHome = false) => {
     const score: any = localStorage.getItem('score')
     const scoreObj = JSON.parse(score)
-
-    console.log('scoreObj = ', scoreObj);
-    console.log('countResult = ', countResult);
-    console.log('countQuestion = ', countQuestion);
-    console.log('scoreObj[nameStorage].result = ', scoreObj[nameStorage].result);
     
     scoreObj[nameStorage].result = countResult
     scoreObj[nameStorage].question = countQuestion
@@ -88,6 +83,7 @@ function App() {
       <SettingPage
        helpPopupOn={helpPopupOn}
        setHelpPopupOn={setHelpPopupOn}
+       setStateVolume={setStateVolume}
        />
        }/>  
       <Route path='/art' element={
@@ -107,6 +103,7 @@ function App() {
       stateGrandPopUp={stateGrandPopUp}
       setStateGrandPopUp={setStateGrandPopUp}
       helpPopupOn={helpPopupOn}
+      stateVolume={stateVolume}
       />
       }/>
       <Route path='/pic' element={
@@ -126,6 +123,7 @@ function App() {
       stateGrandPopUp={stateGrandPopUp}
       setStateGrandPopUp={setStateGrandPopUp}
       helpPopupOn={helpPopupOn}
+      stateVolume={stateVolume}     
       />
       }/>
       <Route path='/chose/art' element={

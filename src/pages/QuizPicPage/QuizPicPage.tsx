@@ -29,7 +29,8 @@ export const QuizPicPage = ({
   setStateWinPopUp,
   stateGrandPopUp,
   setStateGrandPopUp,
-  helpPopupOn,   
+  helpPopupOn,
+  stateVolume,   
   }: any) => {
   const storage: any = localStorage.getItem('setting')
   const settingObj = JSON.parse(storage)
@@ -139,6 +140,7 @@ export const QuizPicPage = ({
               {(isTimer && !stateCurtain) && <Timer 
                  timeLeft={timeLeft} 
                  timer={timer}
+                 stateVolume={stateVolume}
                  />}
                  {(!isTimer && !stateCurtain) && <Result countResult={countResult}/>}
             </div>
@@ -176,7 +178,8 @@ export const QuizPicPage = ({
             categoryId={categoryId} 
             flagHelp={flagHelp}
             countQuestion={countQuestion}
-            finishedId={finishedId}/>
+            finishedId={finishedId}
+            stateVolume={stateVolume}/>
     </>
   )
 }
