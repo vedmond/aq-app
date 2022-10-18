@@ -5,7 +5,6 @@ import style from '../scss/QuizArtPage.module.scss'
 
 
 export const ButtonArt = ({clickNextId, nameId}: any) => {
-  console.log('alert btn');
   
   return (
     <>
