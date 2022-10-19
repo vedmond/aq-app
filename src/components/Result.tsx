@@ -10,7 +10,7 @@ export const Result = ({countResult}: any) => {
   return (
     <>
     <span style={styleResult}>{countResult}</span>
-    <div className={style.icon}></div>
+    {/* <div className={style.icon}></div> */}
     </>
   )
 }
