@@ -13,6 +13,7 @@ import { GrandPopup } from '../GrandPopup'
 import { Footer } from '../../components/Footer'
 import { Timer } from '../../components/Timer';
 import { Result } from '../../components/Result';
+import {soundData} from '../../assets/helper/SoundData'
 
 export const QuizPicPage = ({
   categoryId, 
@@ -40,6 +41,7 @@ export const QuizPicPage = ({
   const [isTimer, setIsTimer] = React.useState(timer)
   const [timeLeft, setTimeLeft] = React.useState(startTime) 
 
+   const [soundOn, setSoundOn] = React.useState(false)  
    const [stateQuit, setStateQuit] = React.useState(false)
    const [stateHelp, setStateHelp] = React.useState(false)
    const [flagHelp, setFlagHelp] = React.useState(true)
@@ -47,11 +49,12 @@ export const QuizPicPage = ({
    const [nameArtistPic, setNameArtistPic] = React.useState('')
    const [finishedId, setFinishedId] = React.useState(-1)
   
+   const soundRef: any = React.useRef(null)
 
    let stateCurtain = stateQuit || stateHelp || stateGameOver || stateWinPopUp || stateGrandPopUp;
    const barLineWidth = {
     width: `${countQuestion * 5}%`,
-  }
+   }
   
   React.useEffect(() => {
    let arrayImgUrl = [dataQuiz[categoryId].imgUrl];
@@ -81,6 +84,7 @@ export const QuizPicPage = ({
     setIsTimer(timer)
     timer ? setTimeLeft (startTime) : setTimeLeft(0)    
      if (urlIdBtn === dataQuiz[categoryId].imgUrl) {
+       setSoundOn(true)      
        setFlagHelp(true)
        setCountResult(countResult + 1)
      } else {
@@ -126,12 +130,19 @@ export const QuizPicPage = ({
       };
     }, [isTimer, timeLeft, startTime, clickNextId, finishedId, categoryId, stateCurtain])  
 
+    React.useEffect(() => {
+      if(countResult > 0 && stateVolume && soundOn) {
+        soundRef.current.play()
+        setSoundOn(false)
+      }
+    }, [countResult, stateVolume, soundOn])    
 
 
 
   return (
     <>
           <header className={style.header}>
+            <audio ref={soundRef} src={soundData[1].music}/>
             <button onClick={() => setStateQuit(!stateQuit)} className={style.icon__cross}> </button>
             <div className={style.progress_bar}>
               <div style={barLineWidth} className={style.progress_bar_line}></div>
@@ -160,18 +171,22 @@ export const QuizPicPage = ({
           <QuitPopup 
             stateQuit={stateQuit} 
             setStateQuit={setStateQuit} 
-            btnNo={btnNo}/>
+            btnNo={btnNo}
+            stateVolume={stateVolume}/>
           <GameOverPopup 
             stateGameOver={stateGameOver} 
             btnNo={btnNo} 
-            btnYes={btnYes}/>
+            btnYes={btnYes}
+            stateVolume={stateVolume}/>
           <WinPopup
             stateWinPopUp={stateWinPopUp}
             countResult={countResult}
-            btnNo={btnNo}/>            
+            btnNo={btnNo}
+            stateVolume={stateVolume}/>            
           <GrandPopup
             stateGrandPopUp={stateGrandPopUp}
-            btnNo={btnNo}/>
+            btnNo={btnNo}
+            stateVolume={stateVolume}/>
           <HelpPopup 
             stateHelp={stateHelp} 
             setStateHelp={setStateHelp} 

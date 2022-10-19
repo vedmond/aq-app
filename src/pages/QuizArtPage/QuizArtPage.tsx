@@ -43,6 +43,7 @@ export const QuizArtPage = ({
     const [isTimer, setIsTimer] = React.useState(timer)
     const [timeLeft, setTimeLeft] = React.useState(startTime)
     
+    const [soundOn, setSoundOn] = React.useState(false)
     const [stateQuit, setStateQuit] = React.useState(false)
     const [stateHelp, setStateHelp] = React.useState(false)
     const [flagHelp, setFlagHelp] = React.useState(true)
@@ -89,6 +90,7 @@ export const QuizArtPage = ({
     setIsTimer(timer)
     timer ? setTimeLeft (startTime) : setTimeLeft(0) 
     if (nameBtn === dataQuiz[categoryId].author) {
+      setSoundOn(true)
       setFlagHelp(true)
       setCountResult(countResult + 1)
     } else {
@@ -133,17 +135,19 @@ export const QuizArtPage = ({
       };
     }, [isTimer, timeLeft, startTime, clickNextId, finishedId, categoryId, stateCurtain]) 
 
+    React.useEffect(() => {
+      if(countResult > 0 && stateVolume && soundOn) {
+        soundRef.current.play()
+        setSoundOn(false)
+      }
+    }, [countResult, stateVolume, soundOn])
+
   const containerStyle = {
     backgroundImage: `url("${+categoryId > finishedId && finishedId > 0 ? dataQuiz[finishedId].imgUrl : dataQuiz[categoryId].imgUrl}")`,
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: '50% 50%',
   }
-  React.useEffect(() => {
-    if(countResult > 0 && stateVolume && !stateHelp) {
-      soundRef.current.play()
-    }
-  }, [countResult, stateVolume, stateHelp])
   
   return (
     <>
@@ -184,18 +188,22 @@ export const QuizArtPage = ({
           <QuitPopup 
             stateQuit={stateQuit} 
             setStateQuit={setStateQuit}
-            btnNo={btnNo}/> 
+            btnNo={btnNo}
+            stateVolume={stateVolume}/> 
           <GameOverPopup 
             stateGameOver={stateGameOver} 
             btnNo={btnNo} 
-            btnYes={btnYes}/>
+            btnYes={btnYes}
+            stateVolume={stateVolume}/>
           <WinPopup
             stateWinPopUp={stateWinPopUp}
             countResult={countResult}
-            btnNo={btnNo}/>
+            btnNo={btnNo}
+            stateVolume={stateVolume}/>
           <GrandPopup
             stateGrandPopUp={stateGrandPopUp}
-            btnNo={btnNo}/>
+            btnNo={btnNo}
+            stateVolume={stateVolume}/>
             <HelpPopup 
             stateHelp={stateHelp} 
             setStateHelp={setStateHelp} 

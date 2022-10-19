@@ -12,4 +12,12 @@ export const soundData = [
     name: 'FlagHelpFalse',
     music: require('../sounds/false.mp3')
   },
+  {
+    name: 'Win-result',
+    music: require('../sounds/win-result.mp3')
+  },
+  {
+    name: 'Game-over-result',
+    music: require('../sounds/game-over-result.mp3')
+  },
 ]

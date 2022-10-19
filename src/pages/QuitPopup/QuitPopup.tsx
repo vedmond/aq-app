@@ -1,23 +1,33 @@
 
 import React from 'react'
 import style from '../../scss/QuitPopup.module.scss'
+import {soundData} from '../../assets/helper/SoundData' 
 // import {useNavigate} from 'react-router-dom'
 
 
-export const QuitPopup = ({stateQuit, setStateQuit, btnNo}: any) => {
-  // const linkHome = useNavigate()
+export const QuitPopup = ({
+    stateQuit, 
+    setStateQuit, 
+    btnNo,
+    stateVolume,
+  }: any) => {
+  const soundRef: any = React.useRef(null)  
   const pathTo = () => {
     setStateQuit(!stateQuit)
-    // linkHome('/')
     btnNo()
   }
+      React.useEffect(() => {
+      if(stateVolume && stateQuit) {
+        soundRef.current.play()
+      }
+    }, [stateVolume, stateQuit])
   
   
   return (
     <div>
     <div className={`${style.quit} ${stateQuit ? style.active : ''}`}>
       <div className={style.quit_popup}>
-        
+        <audio ref={soundRef} src={soundData[0].music}/>
         <button onClick={() => setStateQuit(!stateQuit)} className={style.cross}>
           <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
