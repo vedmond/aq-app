@@ -10,17 +10,17 @@ export const QuitPopup = ({
     setStateQuit, 
     btnNo,
     stateVolume,
-  }: any) => {
+    }: any) => {
   const soundRef: any = React.useRef(null)  
   const pathTo = () => {
     setStateQuit(!stateQuit)
     btnNo()
   }
-      React.useEffect(() => {
-      if(stateVolume && stateQuit) {
-        soundRef.current.play()
-      }
-    }, [stateVolume, stateQuit])
+  React.useEffect(() => {
+    if(stateVolume && stateQuit) {
+      soundRef.current.play()
+    }
+  }, [stateVolume, stateQuit])
   
   
   return (
