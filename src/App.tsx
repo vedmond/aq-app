@@ -84,6 +84,7 @@ function App() {
        helpPopupOn={helpPopupOn}
        setHelpPopupOn={setHelpPopupOn}
        setStateVolume={setStateVolume}
+       stateVolume={stateVolume}
        />
        }/>  
       <Route path='/art' element={

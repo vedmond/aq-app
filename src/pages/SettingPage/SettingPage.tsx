@@ -5,11 +5,17 @@ import { Link, useNavigate } from 'react-router-dom'
 import {startScoreStorage, startSettingStorage} from '../../components/ConstStartStorage'
 import { Footer } from '../../components/Footer'
 
-export const SettingPage = ({helpPopupOn, setHelpPopupOn}: any) => {
+export const SettingPage = ({
+   helpPopupOn, 
+   setHelpPopupOn,
+   stateVolume,
+   setStateVolume,
+  }: any) => {
   const storage: any = localStorage.getItem('setting')
   const objSetting = JSON.parse(storage)
   const [stateTimer, setStateTimer] = React.useState(objSetting.timer)
   const [numberTime, setNumberTime] = React.useState(objSetting.time)
+  setStateVolume(objSetting.volume)
   const linkCallBack = useNavigate();
   const callBack = () => linkCallBack(-1)
   const clickHelp = () => {
@@ -19,6 +25,13 @@ export const SettingPage = ({helpPopupOn, setHelpPopupOn}: any) => {
     objSetting.help = !helpPopupOn
     localStorage.setItem('setting', JSON.stringify(objSetting))
   };
+  const clickVolume = () => {
+    const storage: any = localStorage.getItem('setting')
+    const objSetting = JSON.parse(storage)
+    objSetting.volume = !objSetting.volume
+    setStateVolume(objSetting.volume)
+    localStorage.setItem('setting', JSON.stringify(objSetting))        
+  }
   const clickTimeAnswer = () => {
     const storage: any = localStorage.getItem('setting')
     const objSetting = JSON.parse(storage)
@@ -64,7 +77,7 @@ export const SettingPage = ({helpPopupOn, setHelpPopupOn}: any) => {
             <span>Volume</span>
             <div className={style.switch}>
               <span>On</span>
-              <button className={style.toggle}><span className={style.on}></span></button>
+              <button onClick={clickVolume} className={style.toggle}><span className={stateVolume ? style.on : style.off}></span></button>
             </div>
           </div>
           <div className={style.box__time}>
