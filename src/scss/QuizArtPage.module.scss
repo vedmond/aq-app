@@ -178,7 +178,7 @@ a {
     background-color: rgba(0, 0, 0, 0);
     &:hover {
       transition-duration: 1.5s;
-      transform: rotate(0.8turn);
+      transform: rotate(1.0turn);
     }
     background-image: url(../assets/icon/cross.svg);
     @extend .position-bg;
@@ -231,9 +231,7 @@ a {
         height: 15px;
         border-radius: 15px;
         background-color: #A4A4A4;
-
       }
-
       .active {
         background-color: #FFBCA2;
       }
@@ -272,10 +270,10 @@ a {
         color: black;
       }
 
-      &:link {
-        border: 1px solid #FFFFFF;
-        background-color: #FFBCA2;
-      }
+      // &:link {
+      //   border: 1px solid #FFFFFF;
+      //   background-color: #FFBCA2;
+      // }
     }
   }
 }
@@ -324,6 +322,11 @@ a {
 
       .btn {
         font-size: 18px;
+        &:hover {
+          border: 1px solid white;
+          background-color: black;
+          color: white;
+        }
       }
     }
   }
@@ -336,7 +339,6 @@ a {
     .main {
       height: 80vh;
     }
-
     .footer {
       grid-row: 5 / 6;
     }

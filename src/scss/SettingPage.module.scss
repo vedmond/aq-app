@@ -98,7 +98,7 @@ a {
 
   &:hover {
     transition-duration: 1.5s;
-    transform: rotate(0.8turn);
+    transform: rotate(1.0turn);
   }
 
   background-image: url(../assets/icon/cross.svg);
@@ -302,6 +302,18 @@ a {
 
     .btn_group {
       position: relative;
+      .button {
+        &:hover {
+          background: rgba(0, 0, 0, 0);
+          border: 1px solid #fff;
+          color: #fff;
+        }
+      }
+      .btn_act {
+        &:hover {
+          border: 3px solid rgb(238, 21, 21);
+        }
+      }
     }
 
   }
@@ -360,6 +372,7 @@ a {
         font-weight: 300;
         font-size: 0.8em;
         line-height: 28px;
+
       }
     }
   }
