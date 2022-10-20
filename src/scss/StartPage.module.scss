@@ -233,8 +233,6 @@ a {
 @media (max-width: 520px) {
   .wrapper {
     grid-template-columns: 1fr minmax(280px, 520px) 1fr;
-    grid-template-rows: 1vh 95vh 4vh;
-    overflow-y: hidden;
   }
   
   .logo__box {
