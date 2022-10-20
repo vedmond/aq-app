@@ -234,7 +234,9 @@ a {
   .wrapper {
     grid-template-columns: 1fr minmax(280px, 520px) 1fr;
   }
-  
+  .main{
+    height: 75%;
+  }
   .logo__box {
     width: 153px;
     height: 60px;
