@@ -25,7 +25,7 @@
   overflow-y: hidden;
   display: grid;
   grid-template-columns: 1fr minmax(768px, 1200px) 1fr;
-  grid-template-rows: 1vh 98vh 1vh;
+  grid-template-rows:  100vh;
   position: relative;
   box-sizing: border-box;
 }
@@ -39,7 +39,7 @@ a {
 
 .block {
   grid-column: 2 / 3;
-  grid-row: 2 / 3;
+  grid-row: 1 / 2;
   display: flex;
   flex-direction: column;
   background-image: url(../assets/img/j-retrato-de-cardenal-rafael.png);
