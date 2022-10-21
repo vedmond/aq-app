@@ -24,21 +24,16 @@ export const ChoseTask = (
   const dataStart = dataQuiz.filter(
   obj => +(obj.id) % 20 === 0 && +(obj.id) < dataQuiz.length - 20 ? obj :''
   )
-  // setCategoryName(linkCategory)
    
   return (
     <div>
       <header className={style.header}>
       <div className={style.logo__box}>
-        {/* <div className={style.title}><span className={style.title__text}>Art Quiz</span></div>
-        <div className={`${style.ellipse} ${style.ellipse__right}`}></div>
-        <div className={`${style.ellipse} ${style.ellipse__left}`}></div> */}
       </div>
       <ul className={style.menu}>
         <Link to="/">
         <li className={style.menu_items}><span className={style.item}>Home </span></li>
         </Link>
-        
         <li className={style.menu_items}><span  className={`${style.active} ${style.item}`}>
           {linkCategory === 'art' ? `Artist Quiz`: `Picture Quiz` }
           </span>
@@ -67,7 +62,9 @@ export const ChoseTask = (
         <div className={style.icon_home}></div>
         </Link>
         <div className={style.icon_categories}></div>
-        <div className={style.icon_score}></div>
+        <Link to="/score">
+          <div className={style.icon_score}></div>
+        </Link>
       </div>
     </footer>
     </div>

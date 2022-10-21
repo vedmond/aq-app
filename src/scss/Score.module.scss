@@ -1,0 +1,248 @@
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: normal;
+  src: url(../assets/fonts/Gilroy-Medium.ttf),
+}
+
+@font-face {
+  font-family: 'Gilroy Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url(../assets/fonts/Gilroy-Regular.ttf),
+}
+
+.position-bg {
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+%flex-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+a :active,
+a :hover,
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+.header {
+  height: 10%;
+}
+
+.icon__arrow {
+  display: flex;
+  position: absolute;
+  left: 5%;
+  top: 3%;
+  width: 150px;
+  height: 30px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-family: 'Gilroy Regular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+
+  .icon__arrow__block{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-image: url(../assets/icon/arrow.svg);
+    @extend .position-bg;
+
+    &:hover {
+      transition-duration: 0.5s;
+      transform: translateX(-5px);
+    }
+  }
+
+}
+
+.icon__cross {
+  display: block;
+  position: absolute;
+  right: 5%;
+  top: 3%;
+  width: 30px;
+  height: 30px;
+
+  &:hover {
+    transition-duration: 1.5s;
+    transform: rotate(1.0turn);
+  }
+
+  background-image: url(../assets/icon/cross.svg);
+  @extend .position-bg;
+}
+
+.main {
+  height: 80vh;
+  position: relative;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 28px;
+  letter-spacing: -0.914286px;
+  color: #FFFFFF;
+
+  .setting {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 492px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    //  border: 1px solid white;
+    .title {
+      color: white;
+      .item_an {
+        color: red;
+      }
+      .item_cor {
+        color: rgb(4, 204, 4);
+      }
+      .item_tot {
+        color: #FFBCA2
+      }
+    } 
+  }
+
+}
+
+.footer {
+  height: 10%;
+  // border: 1px solid white;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Gilroy Regular';
+  color: white;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.62766px;
+
+  a {
+    color: white;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    grid-template-columns: 1fr minmax(520px, 768px) 1fr;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    .setting {
+      left: 0;
+      position: relative;
+    }
+
+    .btn_group {
+      position: relative;
+      .button {
+        &:hover {
+          background: rgba(0, 0, 0, 0);
+          border: 1px solid #fff;
+          color: #fff;
+        }
+      }
+      .btn_act {
+        &:hover {
+          border: 3px solid rgb(238, 21, 21);
+        }
+      }
+    }
+
+  }
+}
+
+@media (max-width: 580px) {
+
+  .wrapper {
+    grid-template-columns: 1fr minmax(280px, 520px) 1fr;
+
+    .icon__arrow {
+      width: 80vw;
+    }
+
+    .icon__cross {
+      display: none;
+    }
+  }
+
+  .main {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Gilroy Regular';
+    height: 70vh;
+    .setting {
+      width: 260px;
+
+      .box__time,
+      .box__volume {
+        flex-wrap: wrap;
+        width: 240px;
+        height: 100px;
+
+        span {
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 28px;
+          letter-spacing: -0.914286px;
+        }
+
+        .switch {
+          span {
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+          }
+        }
+      }
+    }
+
+    .btn_group {
+      width: 280px;
+      .button {
+        width: 135px;
+        height: 45px;
+        font-weight: 300;
+        font-size: 0.8em;
+        line-height: 28px;
+
+      }
+    }
+  }
+
+
+  .footer {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 20px;
+  }
+}

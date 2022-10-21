@@ -8,6 +8,7 @@ import { StartPage } from './pages/StartPage';
 import { NotFound } from './pages/NotFound';
 import { ChoseTask } from './pages/ChoseTask';
 import {startScoreStorage, startSettingStorage} from './components/ConstStartStorage'
+import { Score } from './pages/Score';
 
 
 
@@ -43,7 +44,6 @@ function App() {
   const btnNo = (linkHome = false) => {
     const score: any = localStorage.getItem('score')
     const scoreObj = JSON.parse(score)
-    
     scoreObj[nameStorage].result = countResult
     scoreObj[nameStorage].question = countQuestion
     localStorage.setItem('score', JSON.stringify(scoreObj))
@@ -147,6 +147,7 @@ function App() {
         countResult={countResult}
         setCountResult={setCountResult}/>
       }/>
+      <Route path='/score' element={<Score/>}/>
       <Route path="*" element={<NotFound/>}/>
     </Routes>
     </div>
