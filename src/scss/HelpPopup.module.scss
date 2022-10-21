@@ -204,7 +204,7 @@ a {
         }
 
         .cross {
-          right: 23px;
+          display: none;
         }
       }
     }
@@ -252,10 +252,11 @@ a {
           }
 
           .cross {
-            top: 1%;
-            right: 8%;
-            width: 10px;
-            height: 10px;
+            display: none;
+            // top: 1%;
+            // right: 8%;
+            // width: 10px;
+            // height: 10px;
           }
 
           .btn_container {

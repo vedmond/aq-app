@@ -145,6 +145,9 @@ a {
         margin: auto;
         margin-top: 30vh;
         font-size: 25px;
+        .cross {
+          display: none;
+        }
       }
     }
 }
@@ -165,10 +168,11 @@ a {
           }
 
           .cross {
-            top: 1%;
-            right: 10%;
-            width: 12px;
-            height: 12px;
+            display: none;
+            // top: 1%;
+            // right: 10%;
+            // width: 12px;
+            // height: 12px;
           }
 
           .btn_container {
