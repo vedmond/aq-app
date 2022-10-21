@@ -34,10 +34,10 @@ export const Score = () => {
       <main className={style.main}>
         <div className={style.setting}>
           <h2 className={style.title}>
-            All questions : <span className={style.item_an}>{artQuest}
+            Questions : <span className={style.item_an}>{artQuest}
           </span></h2>
           <h2 className={style.title}>
-            Correct answers : <span className={style.item_cor}>{artResult}
+            Correct : <span className={style.item_cor}>{artResult}
           </span></h2>
           <h2 className={style.title}>
             Total - <span className={style.item_tot}>{total ? total : <MdSentimentVerySatisfied/>}
