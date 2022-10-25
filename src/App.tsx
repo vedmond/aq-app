@@ -15,7 +15,6 @@ import { Score } from './pages/Score';
 
 
 
-
 function App() {
   const art = 'art';
   const pic = 'pic';
@@ -75,7 +74,8 @@ function App() {
 
   return (
 
-    <div className="wrapper">
+    
+      <div className="wrapper">
     <div className="block">
     <Routes>
       <Route path="/" element={<StartPage />}/>
@@ -152,6 +152,7 @@ function App() {
     </Routes>
     </div>
     </div>
+    
 
 
    

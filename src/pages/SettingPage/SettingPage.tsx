@@ -5,12 +5,13 @@ import { Link, useNavigate } from 'react-router-dom'
 import {startScoreStorage, startSettingStorage} from '../../components/ConstStartStorage'
 import { Footer } from '../../components/Footer'
 
+
 export const SettingPage = ({
    helpPopupOn, 
    setHelpPopupOn,
    stateVolume,
    setStateVolume,
-  }: any) => {
+  }: any) => {  
   const storage: any = localStorage.getItem('setting')
   const objSetting = JSON.parse(storage)
   const [stateTimer, setStateTimer] = React.useState(objSetting.timer)

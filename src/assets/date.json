@@ -10,7 +10,7 @@
     },
     {
         "author": "Edgar Degas",
-        "name": "Голубые танцовщицы",
+        "name": "Blue Dancers",
         "year": "1897",
         "id": "1",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/1.jpg",
@@ -19,7 +19,7 @@
     },
     {
         "author": "Paolo Veronese",
-        "name": "Пир в доме Левия",
+        "name": "Feast in the House of Levi",
         "year": "1563",
         "id": "2",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/2.jpg",
@@ -28,7 +28,7 @@
     },
     {
         "author": "Ilya Repin",
-        "name": "Иван Грозный и сын его Иван",
+        "name": "Ivan the Terrible and His Son Ivan",
         "year": "1885",
         "id": "3",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/3.jpg",
@@ -37,7 +37,7 @@
     },
     {
         "author": "Konstantin Makovsky",
-        "name": "Портрет графини Софьи",
+        "name": "Countess Sophia Bobrinskaya",
         "year": "1890",
         "id": "4",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/4.jpg",
@@ -46,7 +46,7 @@
     },
     {
         "author": "Vasily Perov",
-        "name": "Приезд гувернантки в купеческий дом",
+        "name": "A governess is arriving into a merchant's house",
         "year": "1866",
         "id": "5",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/5.jpg",
@@ -55,7 +55,7 @@
     },
     {
         "author": "Michelangelo",
-        "name": "Сотворение Адама",
+        "name": "Creation of Adam",
         "year": "1511",
         "id": "6",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/6.jpg",
@@ -64,7 +64,7 @@
     },
     {
         "author": "Pierre-Auguste Renoir",
-        "name": "Прогулка в Булонском лесу",
+        "name": "Sunday Stroll in the Bois de Boulogne",
         "year": "1873",
         "id": "7",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/7.jpg",
@@ -73,7 +73,7 @@
     },
     {
         "author": "Jan Vermeer",
-        "name": "Хозяйка и служанка",
+        "name": "Mistress and Maid",
         "year": "1667",
         "id": "8",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/8.jpg",
@@ -82,7 +82,7 @@
     },
     {
         "author": "Vasily Polenov",
-        "name": "Московский дворик",
+        "name": "Moscow Courtyard",
         "year": "1877",
         "id": "9",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/9.jpg",
@@ -91,7 +91,7 @@
     },
     {
         "author": "Fyodor Vasilyev",
-        "name": "Мокрый луг",
+        "name": "Wet meadow",
         "year": "1872",
         "id": "10",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/10.jpg",
@@ -100,7 +100,7 @@
     },
     {
         "author": "Ilya Repin",
-        "name": "Проводы новобранца",
+        "name": "Seeing off a recruit",
         "year": "1879",
         "id": "11",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/11.jpg",
@@ -109,7 +109,7 @@
     },
     {
         "author": "Paolo Veronese",
-        "name": "Марс и Венера",
+        "name": "Venus and Mars",
         "year": "1560",
         "id": "12",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/12.jpg",
@@ -118,7 +118,7 @@
     },
     {
         "author": "Viktor Vasnetsov",
-        "name": "Аленушка",
+        "name": "Alenushka",
         "year": "1881",
         "id": "13",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/13.jpg",
@@ -127,7 +127,7 @@
     },
     {
         "author": "Claude Lorrain",
-        "name": "Отплытие святой Урсулы",
+        "name": "Seaport with the Embarkation of the Queen of Sheba",
         "year": "1614",
         "id": "14",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/14.jpg",
@@ -136,7 +136,7 @@
     },
     {
         "author": "Ilya Repin",
-        "name": "Вечорници",
+        "name": "Vechornytsi",
         "year": "1881",
         "id": "15",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/15.jpg",
@@ -145,7 +145,7 @@
     },
     {
         "author": "Jean Fragonard",
-        "name": "Качели",
+        "name": "The Swing",
         "year": "1767",
         "id": "16",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/16.jpg",
@@ -154,7 +154,7 @@
     },
     {
         "author": "Arkhip Kuindzhi",
-        "name": "Берёзовая роща",
+        "name": "A Birch Grove",
         "year": "1879",
         "id": "17",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/17.jpg",
@@ -163,7 +163,7 @@
     },
     {
         "author": "Pablo Picasso",
-        "name": "Герника",
+        "name": "Guernica",
         "year": "1937",
         "id": "18",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/18.jpg",
@@ -172,7 +172,7 @@
     },
     {
         "author": "Paul Gauguin",
-        "name": "Откуда мы пришли? Кто мы? Куда мы идём?",
+        "name": "Where Do We Come From? What Are We? Where Are We Going?",
         "year": "1898",
         "id": "19",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/120.jpg",
@@ -181,7 +181,7 @@
     },
     {
         "author": "Bartolomé Murillo",
-        "name": "Мадонна с четками",
+        "name": "Virgin and Child with a Rosary",
         "year": "1655",
         "id": "20",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/20.jpg",
@@ -190,7 +190,7 @@
     },
     {
         "author": "Pieter Bruegel",
-        "name": "Фламандские пословицы",
+        "name": "Netherlandish Proverbs",
         "year": "1559",
         "id": "21",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/21.jpg",
@@ -199,7 +199,7 @@
     },
     {
         "author": "Jan van Eyck",
-        "name": "Портрет четы Арнольфини",
+        "name": "The Arnolfini Portrait",
         "year": "1434",
         "id": "22",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/22.jpg",
@@ -208,7 +208,7 @@
     },
     {
         "author": "Pieter Bruegel",
-        "name": "Избиение младенцев",
+        "name": "Massacre of the Innocents",
         "year": "1567",
         "id": "23",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/23.jpg",
@@ -217,7 +217,7 @@
     },
     {
         "author": "Konstantin Makovsky",
-        "name": "Дети, бегущие от грозы",
+        "name": "Children running from a thunderstorm",
         "year": "1872",
         "id": "24",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/24.jpg",
@@ -226,7 +226,7 @@
     },
     {
         "author": "Rembrandt",
-        "name": "Даная",
+        "name": "Danae",
         "year": "1647",
         "id": "25",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/25.jpg",
@@ -235,7 +235,7 @@
     },
     {
         "author": "Raffaello Santi",
-        "name": "Мадонна в кресле",
+        "name": "Madonna of the Chair",
         "year": "1514",
         "id": "26",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/26.jpg",
@@ -244,7 +244,7 @@
     },
     {
         "author": "Vasily Surikov",
-        "name": "Взятие снежного городка",
+        "name": "Taking a Snow Town",
         "year": "1891",
         "id": "27",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/27.jpg",
@@ -253,7 +253,7 @@
     },
     {
         "author": "Ivan Shishkin",
-        "name": "Ручей в берёзовом лесу",
+        "name": "Stream in the birch forest",
         "year": "1883",
         "id": "28",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/28.jpg",
@@ -262,7 +262,7 @@
     },
     {
         "author": "Vasily Surikov",
-        "name": "Покорение Сибири Ермаком Тимофеевичем",
+        "name": "Yermak's conquest of Siberia",
         "year": "1895",
         "id": "29",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/29.jpg",
@@ -271,7 +271,7 @@
     },
     {
         "author": "Vladimir Borovikovsky",
-        "name": "Портрет Лопухиной",
+        "name": "Portrait of Lopukhina",
         "year": "1797",
         "id": "30",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/30.jpg",
@@ -280,7 +280,7 @@
     },
     {
         "author": "René Magritte",
-        "name": "Сын человеческий",
+        "name": "The Son of Man",
         "year": "1964",
         "id": "31",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/31.jpg",
@@ -289,7 +289,7 @@
     },
     {
         "author": "Diego Velasquez",
-        "name": "Венера с зеркалом",
+        "name": "Toilet of Venus",
         "year": "1651",
         "id": "32",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/32.jpg",
@@ -298,7 +298,7 @@
     },
     {
         "author": "Ivan Bogdanov",
-        "name": "За расчётом",
+        "name": "For the calculation",
         "year": "1890",
         "id": "33",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/33.jpg",
@@ -307,7 +307,7 @@
     },
     {
         "author": "Rembrandt",
-        "name": "Христос и грешница",
+        "name": "Christ and the Woman Taken in Adultery",
         "year": "1644",
         "id": "34",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/34.jpg",
@@ -316,7 +316,7 @@
     },
     {
         "author": "John William Waterhouse",
-        "name": "Волшебница Шалот",
+        "name": "The Lady of Shalott",
         "year": "1888",
         "id": "35",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/35.jpg",
@@ -325,7 +325,7 @@
     },
     {
         "author": "Pierre-Auguste Renoir",
-        "name": "Большие купальщицы",
+        "name": "The Large Bathers",
         "year": "1887",
         "id": "36",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/36.jpg",
@@ -334,7 +334,7 @@
     },
     {
         "author": "Bartolomé Murillo",
-        "name": "Мальчик с собакой",
+        "name": "Boy with a Dog",
         "year": "1650",
         "id": "37",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/37.jpg",
@@ -343,7 +343,7 @@
     },
     {
         "author": "Vasily Perov",
-        "name": "Тройка",
+        "name": "Three apprentices are taking water",
         "year": "1866",
         "id": "38",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/38.jpg",
@@ -352,7 +352,7 @@
     },
     {
         "author": "Nikolai Bogdanov-Belsky",
-        "name": "Устный счёт",
+        "name": "Counting in their heads",
         "year": "1895",
         "id": "39",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/39.jpg",
@@ -361,7 +361,7 @@
     },
     {
         "author": "Viktor Vasnetsov",
-        "name": "Три царевны подземного царства",
+        "name": "Three Princesses of the Underground Kingdom",
         "year": "1884",
         "id": "40",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/40.jpg",
@@ -370,7 +370,7 @@
     },
     {
         "author": "Henri Matisse",
-        "name": "Танец",
+        "name": "Dance",
         "year": "1910",
         "id": "41",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/41.jpg",
@@ -379,7 +379,7 @@
     },
     {
         "author": "Edvard Munch",
-        "name": "Мадонна",
+        "name": "Madonna",
         "year": "1894",
         "id": "42",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/42.jpg",
@@ -388,7 +388,7 @@
     },
     {
         "author": "Marc Chagall",
-        "name": "Прогулка",
+        "name": "Walk",
         "year": "1918",
         "id": "43",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/43.jpg",
@@ -397,7 +397,7 @@
     },
     {
         "author": "Vasily Perov",
-        "name": "Сельский крестный ход на Пасхе",
+        "name": "Easter Procession",
         "year": "1861",
         "id": "44",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/44.jpg",
@@ -406,7 +406,7 @@
     },
     {
         "author": "Hieronymus Bosch",
-        "name": "Страшный суд",
+        "name": "The Last Judgment",
         "year": "1504",
         "id": "45",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/45.jpg",
@@ -415,7 +415,7 @@
     },
     {
         "author": "Carl Lemoch",
-        "name": "Варька",
+        "name": "Varka",
         "year": "1893",
         "id": "46",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/46.jpg",
@@ -424,7 +424,7 @@
     },
     {
         "author": "Jean Fragonard",
-        "name": "Поцелуй украдкой",
+        "name": "The Stolen Kiss",
         "year": "1788",
         "id": "47",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/47.jpg",
@@ -433,7 +433,7 @@
     },
     {
         "author": "François Boucher",
-        "name": "Венера, утешающая Амура",
+        "name": "Venus Consoling Love",
         "year": "1751",
         "id": "48",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/48.jpg",
@@ -442,7 +442,7 @@
     },
     {
         "author": "Ivan Shishkin",
-        "name": "Корабельная роща",
+        "name": "Ship grove",
         "year": "1898",
         "id": "49",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/49.jpg",
@@ -451,7 +451,7 @@
     },
     {
         "author": "Gustav Klimt",
-        "name": "Золотая Адель",
+        "name": "Adele Bloch-Bauer",
         "year": "1907",
         "id": "50",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/50.jpg",
@@ -460,7 +460,7 @@
     },
     {
         "author": "Viktor Vasnetsov",
-        "name": "Богатыри",
+        "name": "Bogatyrs",
         "year": "1898",
         "id": "51",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/51.jpg",
@@ -469,7 +469,7 @@
     },
     {
         "author": "Wilhelm von Kaulbach",
-        "name": "Разрушение Иерусалима",
+        "name": "Jerusalems durch Titus",
         "year": "1846",
         "id": "52",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/52.jpg",
@@ -478,8 +478,8 @@
     },
     {
         "author": "Paolo Veronese",
-        "name": "Брак в Кане Галилейской",
-        "year": "1562",
+        "name": "The Wedding at Cana",
+        "year": "1563",
         "id": "53",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/53.jpg",
         "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/53full.jpg",
@@ -487,7 +487,7 @@
     },
     {
         "author": "Andrei Rublev",
-        "name": "Троица",
+        "name": "Holy Trinity",
         "year": "1411",
         "id": "54",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/54.jpg",
@@ -496,7 +496,7 @@
     },
     {
         "author": "Vasily Surikov",
-        "name": "Утро стрелецкой казни",
+        "name": "Morning of the Execution of the Streltsy",
         "year": "1881",
         "id": "55",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/55.jpg",
@@ -505,7 +505,7 @@
     },
     {
         "author": "Tiziano Vecellio",
-        "name": "Вакханалия",
+        "name": "The Bacchanal of the Andrians",
         "year": "1526",
         "id": "56",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/56.jpg",
@@ -514,7 +514,7 @@
     },
     {
         "author": "Diego Velasquez",
-        "name": "Вилла Медичи в Риме. Полдень",
+        "name": "The Gardens of the Villa Medici in Rome",
         "year": "1630",
         "id": "57",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/57.jpg",
@@ -523,7 +523,7 @@
     },
     {
         "author": "Eduard Manet",
-        "name": "Ланч на траве",
+        "name": "Luncheon on the Grass",
         "year": "1863",
         "id": "58",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/58.jpg",
@@ -532,7 +532,7 @@
     },
     {
         "author": "Salvador Dali",
-        "name": "Постоянство памяти",
+        "name": "The Persistence of Memory",
         "year": "1931",
         "id": "59",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/59.jpg",
@@ -541,7 +541,7 @@
     },
     {
         "author": "Pierre-Auguste Renoir",
-        "name": "Две девушки",
+        "name": "Young Girls at the Piano",
         "year": "1892",
         "id": "60",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/60.jpg",
@@ -549,8 +549,8 @@
         "categories": ""
     },
     {
-        "author": "Александр Маковский",
-        "name": "Надоела",
+        "author": "Alexander Makovski",
+        "name": "I am Bored with You",
         "year": "1897",
         "id": "61",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/61.jpg",
@@ -559,7 +559,7 @@
     },
     {
         "author": "Diego Velasquez",
-        "name": "Менины",
+        "name": "Las Meninas",
         "year": "1656",
         "id": "62",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/62.jpg",
@@ -567,8 +567,8 @@
         "categories": ""
     },
     {
-        "author": "Антонис ван Дейк",
-        "name": "Самсон и Далила",
+        "author": "Anthony van Dyck",
+        "name": "Samson and Delilah",
         "year": "1628",
         "id": "63",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/63.jpg",
@@ -577,7 +577,7 @@
     },
     {
         "author": "Pablo Picasso",
-        "name": "Девочка на шаре",
+        "name": "Girl on a Ball",
         "year": "1905",
         "id": "64",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/64.jpg",
@@ -585,8 +585,8 @@
         "categories": ""
     },
     {
-        "author": "Джованни Беллини",
-        "name": "Пир богов",
+        "author": "Giovanni Bellini",
+        "name": "The Feast of the Gods",
         "year": "1514",
         "id": "65",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/65.jpg",
@@ -594,8 +594,8 @@
         "categories": ""
     },
     {
-        "author": "Леонардо да Винчи",
-        "name": "Дама с горностаем",
+        "author": "Leonardo da Vinci",
+        "name": "Lady with an Ermine",
         "year": "1490",
         "id": "66",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/66.jpg",
@@ -604,7 +604,7 @@
     },
     {
         "author": "Diego Velasquez",
-        "name": "Бахус",
+        "name": "The Triumph of Bacchus ",
         "year": "1628",
         "id": "67",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/67.jpg",
@@ -613,7 +613,7 @@
     },
     {
         "author": "Bartolomé Murillo",
-        "name": "Непорочное зачатие",
+        "name": "The Immaculate Conception of the Venerable Ones, or of Soult",
         "year": "1678",
         "id": "68",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/68.jpg",
@@ -621,8 +621,8 @@
         "categories": ""
     },
     {
-        "author": "Теодор Жерико",
-        "name": "Плот 'Медузы'",
+        "author": "Theodore Gericault",
+        "name": "The Raft of the Medusa'",
         "year": "1819",
         "id": "69",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/69.jpg",
@@ -631,7 +631,7 @@
     },
     {
         "author": "Ivan Shishkin",
-        "name": "Утро в сосновом лесу",
+        "name": "Morning in a pine forest",
         "year": "1889",
         "id": "70",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/70.jpg",
@@ -639,8 +639,8 @@
         "categories": ""
     },
     {
-        "author": "Жан Этьен Лиотар",
-        "name": "Шоколадница",
+        "author": "Jean-Etienne Liotard",
+        "name": "The Chocolate Girl",
         "year": "1745",
         "id": "71",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/71.jpg",
@@ -649,7 +649,7 @@
     },
     {
         "author": "Rembrandt",
-        "name": "Автопортрет с Саскией",
+        "name": "Rembrandt and Saskia in the parable of the Prodigal Son",
         "year": "1635",
         "id": "72",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/72.jpg",
@@ -658,7 +658,7 @@
     },
     {
         "author": "Ilya Repin",
-        "name": "Крестный ход",
+        "name": "Religioese Prozession in Kursk anagoria",
         "year": "1883",
         "id": "73",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/73.jpg",
@@ -666,8 +666,8 @@
         "categories": ""
     },
     {
-        "author": "Алексей Венецианов",
-        "name": "Спящий пастушок",
+        "author": "Alexey Venetsianov",
+        "name": "Sleeping shepherd boy",
         "year": "1826",
         "id": "74",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/74.jpg",
@@ -676,7 +676,7 @@
     },
     {
         "author": "Ivan Bogdanov",
-        "name": "Новичок",
+        "name": "Newbie",
         "year": "1893",
         "id": "75",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/75.jpg",
@@ -684,8 +684,8 @@
         "categories": ""
     },
     {
-        "author": "Анри де Тулуз-Лотрек",
-        "name": "Угол Мулен де ла Галет",
+        "author": "Henri de Toulouse-Lautrec",
+        "name": "A Corner of the Moulin de la Galetteт",
         "year": "1892",
         "id": "76",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/76.jpg",
@@ -694,7 +694,7 @@
     },
     {
         "author": "Tiziano Vecellio",
-        "name": "Кающаяся Марина Магдалина",
+        "name": "Mary Magdalenа",
         "year": "1565",
         "id": "77",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/77.jpg",
@@ -703,7 +703,7 @@
     },
     {
         "author": "Diego Velasquez",
-        "name": "Инфанта Маргарита",
+        "name": "Infanta Maria Teresa in a Peach Dress",
         "year": "1654",
         "id": "78",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/78.jpg",
@@ -712,7 +712,7 @@
     },
     {
         "author": "Tiziano Vecellio",
-        "name": "Динарий Кесаря",
+        "name": "The Tribute Money",
         "year": "1516",
         "id": "79",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/79.jpg",
@@ -720,8 +720,8 @@
         "categories": ""
     },
     {
-        "author": "Карл Брюллов",
-        "name": "Всадница",
+        "author": "Karl Bryullov",
+        "name": "Rider",
         "year": "1832",
         "id": "80",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/80.jpg",
@@ -729,8 +729,8 @@
         "categories": ""
     },
     {
-        "author": "Василий Верещагин",
-        "name": "Апофеоз войны",
+        "author": "Vasily Vereshchagin",
+        "name": "The Apotheosis of War",
         "year": "1817",
         "id": "81",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/81.jpg",
@@ -738,8 +738,8 @@
         "categories": ""
     },
     {
-        "author": "Леонардо да Винчи",
-        "name": "Благовещение",
+        "author": "Leonardo da Vinci",
+        "name": "Annunciation",
         "year": "1475",
         "id": "82",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/82.jpg",
@@ -747,8 +747,8 @@
         "categories": ""
     },
     {
-        "author": "Алексей Саврасов",
-        "name": "Грачи прилетели",
+        "author": "Alexei Savrasov",
+        "name": "Rooks have Returned",
         "year": "1871",
         "id": "83",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/83.jpg",
@@ -757,7 +757,7 @@
     },
     {
         "author": "Tiziano Vecellio",
-        "name": "Любовь земная и Любовь небесная",
+        "name": "Sacred and Profane Love",
         "year": "1516",
         "id": "84",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/84.jpg",
@@ -765,8 +765,8 @@
         "categories": ""
     },
     {
-        "author": "Жан Батист Грёз",
-        "name": "Деревенская помолвка",
+        "author": "Jean-Baptiste Greuze",
+        "name": "Jean-Baptiste Greuze",
         "year": "1761",
         "id": "85",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/85.jpg",
@@ -775,7 +775,7 @@
     },
     {
         "author": "Pablo Picasso",
-        "name": "Авиньонские девицы",
+        "name": "The Brothel of Avignon",
         "year": "1907",
         "id": "86",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/86.jpg",
@@ -784,7 +784,7 @@
     },
     {
         "author": "Ilya Repin",
-        "name": "Бурлаки на Волге",
+        "name": "Barge Haulers on the Volga",
         "year": "1873",
         "id": "87",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/87.jpg",
@@ -792,8 +792,8 @@
         "categories": ""
     },
     {
-        "author": "Михаил Нестеров",
-        "name": "Видение отроку Варфоломею",
+        "author": "Mikhail Nesterov",
+        "name": "Vision of the child Bartholomaeus",
         "year": "1890",
         "id": "88",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/88.jpg",
@@ -802,7 +802,7 @@
     },
     {
         "author": "Raffaello Santi",
-        "name": "Мадонна Бельведерская",
+        "name": "Madonna in the Meadow",
         "year": "1506",
         "id": "89",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/89.jpg",
@@ -810,8 +810,8 @@
         "categories": ""
     },
     {
-        "author": "Василий Тропинин",
-        "name": "Девушка с горшком роз",
+        "author": "Vasily Tropinin",
+        "name": "Girl with roses",
         "year": "1850",
         "id": "90",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/90.jpg",
@@ -837,7 +837,7 @@
         "categories": ""
     },
     {
-        "author": "Леонардо да Винчи",
+        "author": "Leonardo da Vinci",
         "name": "Тайная вечеря",
         "year": "1498",
         "id": "93",
@@ -927,7 +927,7 @@
         "categories": ""
     },
     {
-        "author": "Алексей Венецианов",
+        "author": "Alexey Venetsianov",
         "name": "На пашне. Весна",
         "year": "1820",
         "id": "103",
@@ -1017,7 +1017,7 @@
         "categories": ""
     },
     {
-        "author": "Карл Брюллов",
+        "author": "Karl Bryullov",
         "name": "Последний день Помпеи",
         "year": "1833",
         "id": "113",
@@ -1125,7 +1125,7 @@
         "categories": ""
     },
     {
-        "author": "Леонардо да Винчи",
+        "author": "Leonardo da Vinci",
         "name": "Мадонна Литта",
         "year": "1491",
         "id": "125",
@@ -1341,7 +1341,7 @@
         "categories": ""
     },
     {
-        "author": "Карл Брюллов",
+        "author": "Karl Bryullov",
         "name": "Итальянский полдень",
         "year": "1827",
         "id": "149",
@@ -1386,7 +1386,7 @@
         "categories": ""
     },
     {
-        "author": "Леонардо да Винчи",
+        "author": "Leonardo da Vinci",
         "name": "Мона Лиза",
         "year": "1505",
         "id": "154",
@@ -1737,7 +1737,7 @@
         "categories": ""
     },
     {
-        "author": "Алексей Венецианов",
+        "author": "Alexey Venetsianov",
         "name": "На жатве. Лето",
         "year": "1827",
         "id": "193",
@@ -1809,7 +1809,7 @@
         "categories": ""
     },
     {
-        "author": "Леонардо да Винчи",
+        "author": "Leonardo da Vinci",
         "name": "Мадонна в скалах",
         "year": "1486",
         "id": "201",
@@ -1971,7 +1971,7 @@
         "categories": ""
     },
     {
-        "author": "Карл Брюллов",
+        "author": "Karl Bryullov",
         "name": "Автопортрет",
         "year": "1848",
         "id": "219",
@@ -2115,7 +2115,7 @@
         "categories": ""
     },
     {
-        "author": "Леонардо да Винчи",
+        "author": "Leonardo da Vinci",
         "name": "Святая Анна с Мадонной",
         "year": "1510",
         "id": "235",
