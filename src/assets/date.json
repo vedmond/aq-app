@@ -175,8 +175,8 @@
         "name": "Where Do We Come From? What Are We? Where Are We Going?",
         "year": "1898",
         "id": "19",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/120.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/120full.jpg",
+        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/19.jpg",
+        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/19full.jpg",
         "categories": ""
     },
     {
@@ -819,8 +819,8 @@
         "categories": ""
     },
     {
-        "author": "Караваджо",
-        "name": "Лютнист",
+        "author": "Merisi da Caravaggio",
+        "name": "The Lute Player",
         "year": "1596",
         "id": "91",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/91.jpg",
@@ -829,7 +829,7 @@
     },
     {
         "author": "Vasily Perov",
-        "name": "Охотники на привале",
+        "name": "Hunters resting",
         "year": "1871",
         "id": "92",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/92.jpg",
@@ -838,7 +838,7 @@
     },
     {
         "author": "Leonardo da Vinci",
-        "name": "Тайная вечеря",
+        "name": "Last Supper",
         "year": "1498",
         "id": "93",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/93.jpg",
@@ -846,8 +846,8 @@
         "categories": ""
     },
     {
-        "author": "Жан Батист Грёз",
-        "name": "Избалованное дитя",
+        "author": "Jean-Baptiste Greuze",
+        "name": "The Spoiled Child",
         "year": "1765",
         "id": "94",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/94.jpg",
@@ -855,8 +855,8 @@
         "categories": ""
     },
     {
-        "author": "Адольф Вильям Бугро",
-        "name": "Волна",
+        "author": "Bouguereau",
+        "name": "Wave",
         "year": "1896",
         "id": "95",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/95.jpg",
@@ -864,8 +864,8 @@
         "categories": ""
     },
     {
-        "author": "Кузьма Петров-Водкин",
-        "name": "Купание красного коня",
+        "author": "Petrov-Vodkin",
+        "name": "Bathing of a Red Horse",
         "year": "1912",
         "id": "96",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/96.jpg",
@@ -874,7 +874,7 @@
     },
     {
         "author": "Gustav Klimt",
-        "name": "Поцелуй",
+        "name": "Kiss",
         "year": "1908",
         "id": "97",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/97.jpg",
@@ -883,7 +883,7 @@
     },
     {
         "author": "Ivan Shishkin",
-        "name": "Рожь",
+        "name": "Rye",
         "year": "1878",
         "id": "98",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/98.jpg",
@@ -891,8 +891,8 @@
         "categories": ""
     },
     {
-        "author": "Жан-Леон Жером",
-        "name": "Бой гладиаторов",
+        "author": "Jean Leon Gerome",
+        "name": "Pollice verso",
         "year": "1872",
         "id": "99",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/99.jpg",
@@ -901,7 +901,7 @@
     },
     {
         "author": "Vasily Surikov",
-        "name": "Боярыня Морозова",
+        "name": "Boyarina Morozova",
         "year": "1887",
         "id": "100",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/100.jpg",
@@ -909,8 +909,8 @@
         "categories": ""
     },
     {
-        "author": "Исаак Левитан",
-        "name": "Над вечным покоем",
+        "author": "Isaac Levitan",
+        "name": "Above Eternal Peace",
         "year": "1894",
         "id": "101",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/101.jpg",
@@ -918,8 +918,8 @@
         "categories": ""
     },
     {
-        "author": "Гейнсборо",
-        "name": "Дама в голубом",
+        "author": "Thomas Gainsborough",
+        "name": "Portrait of a Lady in Blue",
         "year": "1780",
         "id": "102",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/102.jpg",
@@ -928,7 +928,7 @@
     },
     {
         "author": "Alexey Venetsianov",
-        "name": "На пашне. Весна",
+        "name": "In the ploughed field. Spring",
         "year": "1820",
         "id": "103",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/103.jpg",
@@ -937,7 +937,7 @@
     },
     {
         "author": "Tiziano Vecellio",
-        "name": "Саломея",
+        "name": "Salome",
         "year": "1515",
         "id": "104",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/104.jpg",
@@ -945,8 +945,8 @@
         "categories": ""
     },
     {
-        "author": "Василий Кандинский",
-        "name": "Композиция VIII",
+        "author": "Wassily Kandinsky",
+        "name": "Composition VIII",
         "year": "1923",
         "id": "105",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/105.jpg",
@@ -955,7 +955,7 @@
     },
     {
         "author": "Vasily Polenov",
-        "name": "В парке",
+        "name": "In the park",
         "year": "1874",
         "id": "106",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/106.jpg",
@@ -963,8 +963,8 @@
         "categories": ""
     },
     {
-        "author": "Луи Лагрене",
-        "name": "Марс и Венера",
+        "author": "Louis Lagrenée",
+        "name": "Mars and Venus",
         "year": "1770",
         "id": "107",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/107.jpg",
@@ -973,7 +973,7 @@
     },
     {
         "author": "Salvador Dali",
-        "name": "Сон, вызванный полётом пчелы вокруг граната, за секунду до пробуждения",
+        "name": "Dream Caused by the Flight of a Bee",
         "year": "1944",
         "id": "108",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/108.jpg",
@@ -982,7 +982,7 @@
     },
     {
         "author": "Jan Vermeer",
-        "name": "Девушка с жемчужной серёжкой",
+        "name": "Girl with a Pearl Earring",
         "year": "1665",
         "id": "109",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/109.jpg",
@@ -990,8 +990,8 @@
         "categories": ""
     },
     {
-        "author": "Анри Руссо",
-        "name": "Спящая цыганка",
+        "author": "Henri Rousseau",
+        "name": "The Sleeping Gypsy",
         "year": "1897",
         "id": "110",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/110.jpg",
@@ -1000,7 +1000,7 @@
     },
     {
         "author": "Vasily Polenov",
-        "name": "Переправа через реку",
+        "name": "From the mill",
         "year": "1872",
         "id": "111",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/111.jpg",
@@ -1009,7 +1009,7 @@
     },
     {
         "author": "Edvard Munch",
-        "name": "Крик",
+        "name": "The Scream",
         "year": "1893",
         "id": "112",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/112.jpg",
@@ -1018,7 +1018,7 @@
     },
     {
         "author": "Karl Bryullov",
-        "name": "Последний день Помпеи",
+        "name": "The Last Day of Pompeii",
         "year": "1833",
         "id": "113",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/113.jpg",
@@ -1027,7 +1027,7 @@
     },
     {
         "author": "Ilya Repin",
-        "name": "Летний пейзаж",
+        "name": "Summer landscape",
         "year": "1879",
         "id": "114",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/114.jpg",
@@ -1036,7 +1036,7 @@
     },
     {
         "author": "Jan Vermeer",
-        "name": "Молочница",
+        "name": "The milkmaid",
         "year": "1660",
         "id": "115",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/115.jpg",
@@ -1044,8 +1044,8 @@
         "categories": ""
     },
     {
-        "author": "Иван Айвазовский",
-        "name": "Девятый вал",
+        "author": "Ivan Aivazovsky",
+        "name": "The Ninth Wave",
         "year": "1850",
         "id": "116",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/116.jpg",
@@ -1053,8 +1053,8 @@
         "categories": ""
     },
     {
-        "author": "Винсент Ван Гог",
-        "name": "Подсолнухи",
+        "author": "Vincent van Gogh",
+        "name": "Sunflowers",
         "year": "1888",
         "id": "117",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/117.jpg",
@@ -1062,8 +1062,8 @@
         "categories": ""
     },
     {
-        "author": "Валентин Серов",
-        "name": "Девочка с персиками",
+        "author": "Valentin Serov",
+        "name": "Girl with peaches.",
         "year": "1887",
         "id": "118",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/118.jpg",
@@ -1071,8 +1071,8 @@
         "categories": ""
     },
     {
-        "author": "Караваджо",
-        "name": "Обращение Савла",
+        "author": "Merisi da Caravaggio",
+        "name": "Conversion on the Way to Damascus",
         "year": "1601",
         "id": "119",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/119.jpg",
@@ -1080,8 +1080,8 @@
         "categories": ""
     },
     {
-        "author": "Альбрехт Дюрер",
-        "name": "Праздник венков из роз",
+        "author": "Albrecht Dürer",
+        "name": "Feast of the Rosary",
         "year": "1506",
         "id": "120",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/120.jpg",
@@ -1089,8 +1089,8 @@
         "categories": ""
     },
     {
-        "author": "Эль Греко",
-        "name": "Изгнание торгующих из храма",
+        "author": "El Greco",
+        "name": "Cleansing of the Temple",
         "year": "1600",
         "id": "121",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/121.jpg",
@@ -1099,7 +1099,7 @@
     },
     {
         "author": "Ilya Repin",
-        "name": "Приготовление к экзамену",
+        "name": "Studying exam",
         "year": "1864",
         "id": "122",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/122.jpg",
@@ -1107,8 +1107,8 @@
         "categories": ""
     },
     {
-        "author": "Исаак Левитан",
-        "name": "Март",
+        "author": "Isaac Levitan",
+        "name": "March",
         "year": "1895",
         "id": "123",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/123.jpg",
@@ -1116,8 +1116,8 @@
         "categories": ""
     },
     {
-        "author": "Адольф Вильям Бугро",
-        "name": "Девушка и Амур",
+        "author": "Bouguereau",
+        "name": "A Young Girl Defending Herself Against Eros",
         "year": "1880",
         "id": "124",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/124.jpg",
@@ -1126,7 +1126,7 @@
     },
     {
         "author": "Leonardo da Vinci",
-        "name": "Мадонна Литта",
+        "name": "Madonna Litta",
         "year": "1491",
         "id": "125",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/125.jpg",
@@ -1135,7 +1135,7 @@
     },
     {
         "author": "Казимир Малевич",
-        "name": "Черный квадрат",
+        "name": "Black Square",
         "year": "1915",
         "id": "126",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/126.jpg",
@@ -1143,8 +1143,8 @@
         "categories": ""
     },
     {
-        "author": "Эль Греко",
-        "name": "Апостолы Петр и Павел",
+        "author": "El Greco",
+        "name": "St's Peter and Paul",
         "year": "1592",
         "id": "127",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/127.jpg",
@@ -1153,7 +1153,7 @@
     },
     {
         "author": "Viktor Vasnetsov",
-        "name": "Витязь на распутье",
+        "name": "Knight at the Crossroads",
         "year": "1878",
         "id": "128",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/128.jpg",
@@ -1162,7 +1162,7 @@
     },
     {
         "author": "Konstantin Makovsky",
-        "name": "Боярский свадебный пир",
+        "name": "Hillwood Estate",
         "year": "1883",
         "id": "129",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/129.jpg",
@@ -1170,8 +1170,8 @@
         "categories": ""
     },
     {
-        "author": "Эжен Делакруа",
-        "name": "Свобода, ведущая народ",
+        "author": "Eugène Delacroix",
+        "name": "Liberty Leading the People",
         "year": "1830",
         "id": "130",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/130.jpg",
@@ -1180,7 +1180,7 @@
     },
     {
         "author": "Vasily Polenov",
-        "name": "Бабушкин сад",
+        "name": "Grandma's garden",
         "year": "1878",
         "id": "131",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/131.jpg",
@@ -1198,7 +1198,7 @@
     },
     {
         "author": "Konstantin Makovsky",
-        "name": "Гадание",
+        "name": "Christmastide Divination",
         "year": "1890",
         "id": "133",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/133.jpg",
@@ -1207,7 +1207,7 @@
     },
     {
         "author": "Pierre-Auguste Renoir",
-        "name": "Мост в Шату",
+        "name": "Chatou Bridge",
         "year": "1875",
         "id": "134",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/134.jpg",
@@ -1215,8 +1215,8 @@
         "categories": ""
     },
     {
-        "author": "Сандро Боттичелли",
-        "name": "Весна",
+        "author": "Sandro Botticelli",
+        "name": "Primavera",
         "year": "1482",
         "id": "135",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/135.jpg",
@@ -1225,7 +1225,7 @@
     },
     {
         "author": "Pierre-Auguste Renoir",
-        "name": "Зонтики",
+        "name": "The Umbrellas",
         "year": "1886",
         "id": "136",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/136.jpg",
@@ -1233,8 +1233,8 @@
         "categories": ""
     },
     {
-        "author": "Гюстав Курбе",
-        "name": "Мастерская художника",
+        "author": "Gustave Courbet",
+        "name": "The Artist's Studio",
         "year": "1855",
         "id": "137",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/137.jpg",
@@ -1243,7 +1243,7 @@
     },
     {
         "author": "Vasily Polenov",
-        "name": "Деревня Окулова гора",
+        "name": "Village Okulova Gora",
         "year": "1860",
         "id": "138",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/138.jpg",
@@ -1252,7 +1252,7 @@
     },
     {
         "author": "Konstantin Makovsky",
-        "name": "Перемещение ковра Мухаммеда из Мекки в Каир",
+        "name": " Muhammed's carpet moving from Mecca to Cairo",
         "year": "1875",
         "id": "139",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/139.jpg",
@@ -1261,7 +1261,7 @@
     },
     {
         "author": "Pierre-Auguste Renoir",
-        "name": "Бал в Мулен де ла Галетт",
+        "name": "Dance at Le Moulin de la Galette",
         "year": "1876",
         "id": "140",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/140.jpg",
@@ -1269,8 +1269,8 @@
         "categories": ""
     },
     {
-        "author": "Иван Крамской",
-        "name": "Неизвестная",
+        "author": "Ivan Kramskoi",
+        "name": "Portrait of an Unknown Woman",
         "year": "1883",
         "id": "141",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/141.jpg",
@@ -1279,7 +1279,7 @@
     },
     {
         "author": "Diego Velasquez",
-        "name": "Кузница вулкана",
+        "name": "Apollo in the Forge of Vulcan",
         "year": "1630",
         "id": "142",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/142.jpg",
@@ -1288,7 +1288,7 @@
     },
     {
         "author": "Ilya Repin",
-        "name": "Запорожцы",
+        "name": "Reply of the Zaporozhian Cossacks",
         "year": "1891",
         "id": "143",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/143.jpg",
@@ -1297,7 +1297,7 @@
     },
     {
         "author": "Raffaello Santi",
-        "name": "Дама с единорогом",
+        "name": "Young Woman with Unicorn",
         "year": "1506",
         "id": "144",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/144.jpg",
@@ -1305,8 +1305,8 @@
         "categories": ""
     },
     {
-        "author": "Александр Иванов",
-        "name": "Явление Христа народу",
+        "author": "Alexander Ivanov",
+        "name": "The Appearance of Christ Before the People",
         "year": "1857",
         "id": "145",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/145.jpg",
@@ -1315,7 +1315,7 @@
     },
     {
         "author": "Eduard Manet",
-        "name": "Женщина с кувшином",
+        "name": "Woman with jug",
         "year": "1858",
         "id": "146",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/146.jpg",
@@ -1324,7 +1324,7 @@
     },
     {
         "author": "Tiziano Vecellio",
-        "name": "Конный портрет Карла V",
+        "name": "Equestrian Portrait of Charles V",
         "year": "1548",
         "id": "147",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/147.jpg",
@@ -1333,7 +1333,7 @@
     },
     {
         "author": "Pierre-Auguste Renoir",
-        "name": "Завтрак гребцов",
+        "name": "Luncheon of the Boating Party",
         "year": "1881",
         "id": "148",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/148.jpg",
@@ -1342,7 +1342,7 @@
     },
     {
         "author": "Karl Bryullov",
-        "name": "Итальянский полдень",
+        "name": "Italian Midday",
         "year": "1827",
         "id": "149",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/149.jpg",
@@ -1351,7 +1351,7 @@
     },
     {
         "author": "Viktor Vasnetsov",
-        "name": "Царь Иван Васильевич Грозный",
+        "name": "Tsar Ivan the Terrible",
         "year": "1896",
         "id": "150",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/150.jpg",
@@ -1360,7 +1360,7 @@
     },
     {
         "author": "Pieter Bruegel",
-        "name": "Охотники на снегу",
+        "name": "Hunters in the Snow",
         "year": "1565",
         "id": "151",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/151.jpg",
@@ -1369,7 +1369,7 @@
     },
     {
         "author": "Viktor Vasnetsov",
-        "name": "Ковер-самолёт",
+        "name": "Hunters in the Snow",
         "year": "1880",
         "id": "152",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/152.jpg",
@@ -1378,7 +1378,7 @@
     },
     {
         "author": "Marc Chagall",
-        "name": "Я и деревня",
+        "name": "Me and the village",
         "year": "1911",
         "id": "153",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/153.jpg",
@@ -1387,7 +1387,7 @@
     },
     {
         "author": "Leonardo da Vinci",
-        "name": "Мона Лиза",
+        "name": "Mona Lisa",
         "year": "1505",
         "id": "154",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/154.jpg",
@@ -1395,8 +1395,8 @@
         "categories": ""
     },
     {
-        "author": "Франческо Баккьякка",
-        "name": "Мадонна с младенцем",
+        "author": "Francesco Bacchiacca",
+        "name": "Madonna and Child in a Landscape",
         "year": "1520",
         "id": "155",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/155.jpg",
@@ -1404,8 +1404,8 @@
         "categories": ""
     },
     {
-        "author": "Жак-Луи Давид",
-        "name": "Клятва Горациев",
+        "author": "Louis David",
+        "name": "The Oath of the Horatii",
         "year": "1784",
         "id": "156",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/156.jpg",
@@ -1413,8 +1413,8 @@
         "categories": ""
     },
     {
-        "author": "Альбрехт Дюрер",
-        "name": "Адам и Ева",
+        "author": "Albrecht Dürer",
+        "name": "Adam and Eve",
         "year": "1507",
         "id": "157",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/157.jpg",
@@ -1423,7 +1423,7 @@
     },
     {
         "author": "Bartolomé Murillo",
-        "name": "Явление и дар Богородицы",
+        "name": "Assumption of the Virgin",
         "year": "1655",
         "id": "158",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/158.jpg",
@@ -1432,7 +1432,7 @@
     },
     {
         "author": "Vasily Perov",
-        "name": "Птицелов",
+        "name": "Birder",
         "year": "1870",
         "id": "159",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/159.jpg",
@@ -1440,8 +1440,8 @@
         "categories": ""
     },
     {
-        "author": "Караваджо",
-        "name": "Отдых на пути в Египет",
+        "author": "Merisi da Caravaggio",
+        "name": "Rest on the Flight into Egypt",
         "year": "1596",
         "id": "160",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/160.jpg",
@@ -1476,7 +1476,7 @@
         "categories": ""
     },
     {
-        "author": "Винсент Ван Гог",
+        "author": "Vincent van Gogh",
         "name": "Ирисы",
         "year": "1889",
         "id": "164",
@@ -1503,7 +1503,7 @@
         "categories": ""
     },
     {
-        "author": "Винсент Ван Гог",
+        "author": "Vincent van Gogh",
         "name": "Звёздная ночь",
         "year": "1889",
         "id": "167",
@@ -1557,7 +1557,7 @@
         "categories": ""
     },
     {
-        "author": "Исаак Левитан",
+        "author": "Isaac Levitan",
         "name": "Золотая осень",
         "year": "1895",
         "id": "173",
@@ -1800,7 +1800,7 @@
         "categories": ""
     },
     {
-        "author": "Сандро Боттичелли",
+        "author": "Sandro Botticelli",
         "name": "Рождение Венеры",
         "year": "1486",
         "id": "200",
@@ -1827,7 +1827,7 @@
         "categories": ""
     },
     {
-        "author": "Винсент Ван Гог",
+        "author": "Vincent van Gogh",
         "name": "Автопортрет с перевязанным ухом",
         "year": "1889",
         "id": "203",
@@ -1854,7 +1854,7 @@
         "categories": ""
     },
     {
-        "author": "Караваджо",
+        "author": "Merisi da Caravaggio",
         "name": "Больной вакх",
         "year": "1593",
         "id": "206",
@@ -1863,7 +1863,7 @@
         "categories": ""
     },
     {
-        "author": "Иван Айвазовский",
+        "author": "Ivan Aivazovsky",
         "name": "Лунная дорожка",
         "year": "1886",
         "id": "207",
@@ -1872,7 +1872,7 @@
         "categories": ""
     },
     {
-        "author": "Винсент Ван Гог",
+        "author": "Vincent van Gogh",
         "name": "Пшеничное поле с кипарисами",
         "year": "1889",
         "id": "208",
@@ -1935,7 +1935,7 @@
         "categories": ""
     },
     {
-        "author": "Винсент Ван Гог",
+        "author": "Vincent van Gogh",
         "name": "Ночное кафе в Арле",
         "year": "1888",
         "id": "215",
@@ -1953,7 +1953,7 @@
         "categories": ""
     },
     {
-        "author": "Иван Айвазовский",
+        "author": "Ivan Aivazovsky",
         "name": "Буря",
         "year": "1868",
         "id": "217",
@@ -2070,7 +2070,7 @@
         "categories": ""
     },
     {
-        "author": "Исаак Левитан",
+        "author": "Isaac Levitan",
         "name": "Весна – большая вода",
         "year": "1897",
         "id": "230",
@@ -2088,7 +2088,7 @@
         "categories": ""
     },
     {
-        "author": "Иван Айвазовский",
+        "author": "Ivan Aivazovsky",
         "name": "Буря на море",
         "year": "1873",
         "id": "232",
@@ -2124,7 +2124,7 @@
         "categories": ""
     },
     {
-        "author": "Эль Греко",
+        "author": "El Greco",
         "name": "Мальчик, зажигающий свечу",
         "year": "1572",
         "id": "236",
@@ -2151,7 +2151,7 @@
         "categories": ""
     },
     {
-        "author": "Иван Айвазовский",
+        "author": "Ivan Aivazovsky",
         "name": "Волна",
         "year": "1889",
         "id": "239",
@@ -2160,7 +2160,7 @@
         "categories": ""
     },
     {
-        "author": "Эжен Делакруа",
+        "author": "Eugène Delacroix",
         "name": "Автопортрет",
         "year": "1837",
         "id": "240",

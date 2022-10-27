@@ -1,6 +1,6 @@
 
 import React from 'react'
-import style from '../scss/Result.module.scss'
+// import style from '../scss/Result.module.scss'
 
 export const Result = ({countResult}: any) => {
   const styleResult = {

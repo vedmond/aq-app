@@ -3,9 +3,11 @@ import React from 'react'
 import style from '../scss/ChoseTask.module.scss'
 import dateQuiz from '../assets/date.json'
 import {useNavigate} from 'react-router-dom'
+import { ImgGallery } from './ImgGallery'
 
 
-
+ 
+//  let containerStyle = {}
 
 
 export const CategoryGallery = (
@@ -19,15 +21,29 @@ export const CategoryGallery = (
    setCategoryName
   }: any) => {
   
-    
+    const [linkPic, setLinkPic] = React.useState('')
     const startPic = +idDate + 5
+    const currentLink = `${linkCategory === 'pic' ? dateQuiz[startPic].imgUrl : dateQuiz[idDate].imgUrl}`
+   
+
+
+    React.useEffect(() => {
+     const linkRead = async() => {
+      await fetch(currentLink).then(res => {
+        setLinkPic(res.url)
+        return res
+      }) 
+      }
+      linkRead()
+    }, [currentLink])
+
     const containerStyle  = {
-      backgroundImage: `url("${linkCategory === 'pic' ? dateQuiz[startPic].imgUrl : dateQuiz[idDate].imgUrl}")`,
+      backgroundImage: `url("${linkPic}")`,
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat',
       backgroundPosition: '50% 50%',
     };
-    
+
     const numGallery = idDate / 20 + 1;
     const  linkTo = useNavigate()
     const startQuiz = () => {
@@ -43,9 +59,7 @@ export const CategoryGallery = (
       }
       setCategoryId(idDate)
     };
-    
-    // const localNameStorage = localStorage.getItem(`${linkCategory}${numGallery}`)
-    //************** */
+
     const localNameStorage = `${linkCategory}${numGallery}`
     const score: any = localStorage.getItem('score')
     const scoreObj = JSON.parse(score)
@@ -53,46 +67,24 @@ export const CategoryGallery = (
     const question = scoreObj[localNameStorage].question
     localStorage.setItem('score', JSON.stringify(scoreObj))
 
-    //********************** */
-    
-    // if (typeof(localNameStorage) === 'string' ) {
-    //    styleAgain = JSON.parse(localNameStorage)
-    //    console.log('styleAgain =', styleAgain[0]);
-       
-    // } 
-    
-  
-  // https://632d643d519d17fb53bd0ecd.mockapi.io/items1
-
-  
   return (
     <>
     <div className={style.box}>
       <span className={style.name_category}>Gallery -{numGallery}</span>
-      <div className={`${style.counter} ${result === 0 || question === 0 ? style.none : ''}`}>{result}<span className={style.item__text}>/{question}</span></div>
-        <div 
-          onClick={startQuiz}  
-          className={`${style.pic_category} ${result === 0 || question === 0 ? style.dark : ''}`} 
-          style={containerStyle}>
-          <div className={`${style.again} ${result > 19 ? '' :style.none}`}>
-            <span className={style.icon_again}></span>
-            <span>Play again</span>
-          </div>
-        </div>
-     </div>
-    {/* <div className={style.box}>
-      <span className={style.name_category}>Gallery -{numGallery}</span>
-      <div className={`${style.counter} ${!localNameStorage || styleAgain[0] === 0 ? style.none : ''}`}>{styleAgain[0]}<span className={style.item__text}>/{styleAgain[1]}</span></div>
-        <div 
-          onClick={startQuiz}  
-          className={`${style.pic_category} ${!localNameStorage || styleAgain[0] === 0 ? style.dark : ''}`} 
-          style={containerStyle}>
-          <div className={`${style.again} ${styleAgain > 19 ? '' :style.none}`}>
-            <span className={style.icon_again}></span>
-            <span>Play again</span>
-          </div>
-        </div>
-     </div> */}
+      <div className={
+        `${style.counter} ${result === 0 || question === 0 ? style.none : ''}`
+        }>
+          {result}<span className={style.item__text}>/{question}</span>
+      </div>
+      {linkPic && 
+      <ImgGallery 
+        startQuiz={startQuiz} 
+        result={result} 
+        question={question} 
+        containerStyle={containerStyle}/> 
+      }
+    </div>
+
    
     </>
   )
