@@ -4,6 +4,8 @@ import style from '../scss/ChoseTask.module.scss'
 import dateQuiz from '../assets/date.json'
 import {useNavigate} from 'react-router-dom'
 import { ImgGallery } from './ImgGallery'
+// import { BiLoader } from "react-icons/bi"
+import  {SkeletonMobile, SkeletonDesktop}  from './SkeletonGallery'
 
 
  
@@ -22,20 +24,26 @@ export const CategoryGallery = (
   }: any) => {
   
     const [linkPic, setLinkPic] = React.useState('')
+    const [isLoading, setIsLoading] = React.useState(true)
+    const [isScreenMobile, setIsScreenMobile] = React.useState(true) 
     const startPic = +idDate + 5
     const currentLink = `${linkCategory === 'pic' ? dateQuiz[startPic].imgUrl : dateQuiz[idDate].imgUrl}`
-   
 
 
     React.useEffect(() => {
-     const linkRead = async() => {
-      await fetch(currentLink).then(res => {
-        setLinkPic(res.url)
-        return res
-      }) 
+      const linkRead = async() => {
+        const response = await fetch(currentLink)
+        setLinkPic(response.url)
+        setIsLoading(false)
+        return 
       }
       linkRead()
     }, [currentLink])
+
+    React.useEffect(() => {
+      const screenWidth = window.screen.width
+      screenWidth <= 520 ? setIsScreenMobile(true) : setIsScreenMobile(false)
+    },[])
 
     const containerStyle  = {
       backgroundImage: `url("${linkPic}")`,
@@ -43,7 +51,7 @@ export const CategoryGallery = (
       backgroundRepeat: 'no-repeat',
       backgroundPosition: '50% 50%',
     };
-
+     
     const numGallery = idDate / 20 + 1;
     const  linkTo = useNavigate()
     const startQuiz = () => {
@@ -60,13 +68,17 @@ export const CategoryGallery = (
       setCategoryId(idDate)
     };
 
+    
+  
+  
+
     const localNameStorage = `${linkCategory}${numGallery}`
     const score: any = localStorage.getItem('score')
     const scoreObj = JSON.parse(score)
     const result = scoreObj[localNameStorage].result
     const question = scoreObj[localNameStorage].question
     localStorage.setItem('score', JSON.stringify(scoreObj))
-
+    
   return (
     <>
     <div className={style.box}>
@@ -76,12 +88,13 @@ export const CategoryGallery = (
         }>
           {result}<span className={style.item__text}>/{question}</span>
       </div>
-      {linkPic && 
+      {isLoading ? 
+      (isScreenMobile ? <SkeletonMobile /> : <SkeletonDesktop />) : 
       <ImgGallery 
         startQuiz={startQuiz} 
         result={result} 
         question={question} 
-        containerStyle={containerStyle}/> 
+        containerStyle={containerStyle}/>
       }
     </div>
 

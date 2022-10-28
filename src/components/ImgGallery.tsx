@@ -8,7 +8,6 @@ export const ImgGallery = (
   question,
   containerStyle,} : any
 ) => {
-  console.log('containerStyle', containerStyle)
   return (
     <div>
       <div 
