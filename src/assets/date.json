@@ -1449,8 +1449,8 @@
         "categories": ""
     },
     {
-        "author": "Франциско Гоя",
-        "name": "Расстрел повстанцев",
+        "author": "Francisco Goya",
+        "name": "The Third of May 1808",
         "year": "1808",
         "id": "161",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/161.jpg",
@@ -1459,7 +1459,7 @@
     },
     {
         "author": "Raffaello Santi",
-        "name": "Триумф Галатеи",
+        "name": "The Triumph of Galatea",
         "year": "1512",
         "id": "162",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/162.jpg",
@@ -1467,8 +1467,8 @@
         "categories": ""
     },
     {
-        "author": "Михаил Врубель",
-        "name": "Демон сидящий",
+        "author": "Mikhail Vrubel",
+        "name": "Demon (sitting)",
         "year": "1890",
         "id": "163",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/163.jpg",
@@ -1477,7 +1477,7 @@
     },
     {
         "author": "Vincent van Gogh",
-        "name": "Ирисы",
+        "name": "Irises",
         "year": "1889",
         "id": "164",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/164.jpg",
@@ -1485,8 +1485,8 @@
         "categories": ""
     },
     {
-        "author": "Поль Деларош",
-        "name": "Казнь Джейн Грей",
+        "author": "Paul Delaroche",
+        "name": "The Execution of Lady Jane Grey",
         "year": "1833",
         "id": "165",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/165.jpg",
@@ -1494,8 +1494,8 @@
         "categories": ""
     },
     {
-        "author": "Джон Констебл",
-        "name": "Вид на собор в Солсбери из епископского сада",
+        "author": "John Constable",
+        "name": "Salisbury Cathedral from the Bishop's Grounds",
         "year": "1823",
         "id": "166",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/166.jpg",
@@ -1504,7 +1504,7 @@
     },
     {
         "author": "Vincent van Gogh",
-        "name": "Звёздная ночь",
+        "name": "The Starry Night",
         "year": "1889",
         "id": "167",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/167.jpg",
@@ -1513,7 +1513,7 @@
     },
     {
         "author": "François Boucher",
-        "name": "Четыре сезона - Весна",
+        "name": "Spring anagoria",
         "year": "1755",
         "id": "168",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/168.jpg",
@@ -1522,7 +1522,7 @@
     },
     {
         "author": "Raffaello Santi",
-        "name": "Мадонна с розой",
+        "name": "Madonna of the Rose",
         "year": "1518",
         "id": "169",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/169.jpg",
@@ -1530,8 +1530,8 @@
         "categories": ""
     },
     {
-        "author": "Василий Тропинин",
-        "name": "Кружевница",
+        "author": "Vasily Tropinin",
+        "name": "Lace making beauty",
         "year": "1823",
         "id": "170",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/170.jpg",
@@ -1540,7 +1540,7 @@
     },
     {
         "author": "Rembrandt",
-        "name": "Пир Вальтасара",
+        "name": "Belshazzar's Feast",
         "year": "1635",
         "id": "171",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/171.jpg",
@@ -1549,7 +1549,7 @@
     },
     {
         "author": "Vasily Surikov",
-        "name": "Переход Суворова через Альпы",
+        "name": "Crossing the Alps in 1799",
         "year": "1899",
         "id": "172",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/172.jpg",
@@ -1558,7 +1558,7 @@
     },
     {
         "author": "Isaac Levitan",
-        "name": "Золотая осень",
+        "name": "Gold autumn",
         "year": "1895",
         "id": "173",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/173.jpg",
@@ -1567,7 +1567,7 @@
     },
     {
         "author": "Arkhip Kuindzhi",
-        "name": "На острове Валааме",
+        "name": "On the island of Valaam",
         "year": "1873",
         "id": "174",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/174.jpg",
@@ -1576,7 +1576,7 @@
     },
     {
         "author": "Diego Velasquez",
-        "name": "Сдача Бреды",
+        "name": "The Surrender of Breda",
         "year": "1635",
         "id": "175",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/175.jpg",
@@ -1585,7 +1585,7 @@
     },
     {
         "author": "Ilya Repin",
-        "name": "Не ждали",
+        "name": "They Did Not Expect Him",
         "year": "1888",
         "id": "176",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/176.jpg",
@@ -1594,7 +1594,7 @@
     },
     {
         "author": "François Boucher",
-        "name": "Купание Дианы",
+        "name": "Diana Bathing",
         "year": "1742",
         "id": "177",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/177.jpg",
@@ -1602,8 +1602,8 @@
         "categories": ""
     },
     {
-        "author": "Марианна Верёвкина",
-        "name": "Муравейник",
+        "author": "Marianne Werefkine",
+        "name": "The anthill",
         "year": "1916",
         "id": "178",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/178.jpg",
@@ -1612,7 +1612,7 @@
     },
     {
         "author": "Pierre-Auguste Renoir",
-        "name": "Портрет Жанны Самари",
+        "name": "The Actress Jeanne Samary",
         "year": "1877",
         "id": "179",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/179.jpg",
@@ -1621,7 +1621,7 @@
     },
     {
         "author": "Ilya Repin",
-        "name": "Садко",
+        "name": "Sadko",
         "year": "1876",
         "id": "180",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/180.jpg",
@@ -1630,7 +1630,7 @@
     },
     {
         "author": "Arkhip Kuindzhi",
-        "name": "Лунная ночь на Днепре",
+        "name": "Moonlit Night on the Dnieper",
         "year": "1880",
         "id": "181",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/181.jpg",
@@ -1639,7 +1639,7 @@
     },
     {
         "author": "Diego Velasquez",
-        "name": "Поклонение волхвов",
+        "name": "The Adoration of the Magi",
         "year": "1619",
         "id": "182",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/182.jpg",
@@ -1648,7 +1648,7 @@
     },
     {
         "author": "Nikolai Bogdanov-Belsky",
-        "name": "У дверей школы",
+        "name": "At the door of the school",
         "year": "1897",
         "id": "183",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/183.jpg",
@@ -1657,7 +1657,7 @@
     },
     {
         "author": "Hieronymus Bosch",
-        "name": "Сад земных наслаждений",
+        "name": "The Garden of Earthly Delights",
         "year": "1510",
         "id": "184",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/184.jpg",
@@ -1665,8 +1665,8 @@
         "categories": ""
     },
     {
-        "author": "Корреджо",
-        "name": "Даная",
+        "author": "Antonio da Correggio",
+        "name": "Danaë",
         "year": "1530",
         "id": "185",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/185.jpg",
@@ -1674,8 +1674,8 @@
         "categories": ""
     },
     {
-        "author": "Питер Пауль Рубенс",
-        "name": "Похищение дочерей Левкиппа",
+        "author": "Rubens",
+        "name": "The Rape of the Daughters of Leucippus",
         "year": "1618",
         "id": "186",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/186.jpg",
@@ -1683,8 +1683,8 @@
         "categories": ""
     },
     {
-        "author": "Жан Энгр",
-        "name": "Большая одалиска",
+        "author": "Jean Ingres",
+        "name": "Grande Odalisque",
         "year": "1814",
         "id": "187",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/187.jpg",
@@ -1693,7 +1693,7 @@
     },
     {
         "author": "Raffaello Santi",
-        "name": "Сикстинская Мадонна",
+        "name": "The Sistine Madonna",
         "year": "1520",
         "id": "188",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/188.jpg",
@@ -1702,7 +1702,7 @@
     },
     {
         "author": "Rembrandt",
-        "name": "Похищение Европы",
+        "name": "The Abduction of Europa",
         "year": "1632",
         "id": "189",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/189.jpg",
@@ -1710,8 +1710,8 @@
         "categories": ""
     },
     {
-        "author": "Питер Пауль Рубенс",
-        "name": "Похищение Орфии Бореем",
+        "author": "Rubens",
+        "name": "The Rape of Orithyia by Boreas",
         "year": "1615",
         "id": "190",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/190.jpg",
@@ -1720,7 +1720,7 @@
     },
     {
         "author": "Arkhip Kuindzhi",
-        "name": "Украинская ночь",
+        "name": "Ukrainian night",
         "year": "1876",
         "id": "191",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/191.jpg",
@@ -1729,7 +1729,7 @@
     },
     {
         "author": "Edgar Degas",
-        "name": "Танцовщицы у станка",
+        "name": "Dancers at the Barre",
         "year": "1877",
         "id": "192",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/192.jpg",
@@ -1738,7 +1738,7 @@
     },
     {
         "author": "Alexey Venetsianov",
-        "name": "На жатве. Лето",
+        "name": "At the harvest. Summer",
         "year": "1827",
         "id": "193",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/193.jpg",
@@ -1747,7 +1747,7 @@
     },
     {
         "author": "Pierre-Auguste Renoir",
-        "name": "Две сестры",
+        "name": "Two Sisters",
         "year": "1881",
         "id": "194",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/194.jpg",
@@ -1756,7 +1756,7 @@
     },
     {
         "author": "Rembrandt",
-        "name": "Ночной дозор",
+        "name": "Nachtwacht",
         "year": "1642",
         "id": "195",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/195.jpg",
@@ -1765,7 +1765,7 @@
     },
     {
         "author": "Eduard Manet",
-        "name": "Бар в «Фоли-Бержер»",
+        "name": "A Bar at the Folies-Bergère",
         "year": "1882",
         "id": "196",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/196.jpg",
@@ -1773,8 +1773,8 @@
         "categories": ""
     },
     {
-        "author": "Никола Пуссен",
-        "name": "Пейзаж с Полифемом",
+        "author": "Nicolas Poussin",
+        "name": "Landscape with Polyphemus",
         "year": "1649",
         "id": "197",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/197.jpg",
@@ -1783,7 +1783,7 @@
     },
     {
         "author": "Pieter Bruegel",
-        "name": "Притча о слепых",
+        "name": "The Blind Leading the Blind",
         "year": "1568",
         "id": "198",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/198.jpg",
@@ -1792,7 +1792,7 @@
     },
     {
         "author": "Viktor Vasnetsov",
-        "name": "Иван-царевич на Сером Волке",
+        "name": "Ivan Tsarevich on the Gray Wolf",
         "year": "1888",
         "id": "199",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/199.jpg",
@@ -1801,7 +1801,7 @@
     },
     {
         "author": "Sandro Botticelli",
-        "name": "Рождение Венеры",
+        "name": "The birth of Venus",
         "year": "1486",
         "id": "200",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/200.jpg",
@@ -1899,7 +1899,7 @@
         "categories": ""
     },
     {
-        "author": "Питер Пауль Рубенс",
+        "author": "Rubens",
         "name": "Союз Земли и Воды",
         "year": "1618",
         "id": "211",
