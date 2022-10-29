@@ -4,12 +4,8 @@ import style from '../scss/ChoseTask.module.scss'
 import dateQuiz from '../assets/date.json'
 import {useNavigate} from 'react-router-dom'
 import { ImgGallery } from './ImgGallery'
-// import { BiLoader } from "react-icons/bi"
 import  {SkeletonMobile, SkeletonDesktop}  from './SkeletonGallery'
 
-
- 
-//  let containerStyle = {}
 
 
 export const CategoryGallery = (

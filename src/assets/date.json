@@ -1810,7 +1810,7 @@
     },
     {
         "author": "Leonardo da Vinci",
-        "name": "Мадонна в скалах",
+        "name": "Virgin of the Rocks",
         "year": "1486",
         "id": "201",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/201.jpg",
@@ -1818,8 +1818,8 @@
         "categories": ""
     },
     {
-        "author": "Аксели Галлен-Каллела",
-        "name": "Любовники",
+        "author": "Gallen-Kallela",
+        "name": "The Lovers",
         "year": "1916",
         "id": "202",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/202.jpg",
@@ -1828,7 +1828,7 @@
     },
     {
         "author": "Vincent van Gogh",
-        "name": "Автопортрет с перевязанным ухом",
+        "name": "Self-Portrait with Bandaged Ear and Pipe",
         "year": "1889",
         "id": "203",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/203.jpg",
@@ -1836,8 +1836,8 @@
         "categories": ""
     },
     {
-        "author": "Клод Моне",
-        "name": "Впечатление. Восходящее солнце",
+        "author": "Claude Monet",
+        "name": "Impression, soleil levant",
         "year": "1882",
         "id": "204",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/204.jpg",
@@ -1846,7 +1846,7 @@
     },
     {
         "author": "Rembrandt",
-        "name": "Возвращение блудного сына",
+        "name": "The Return of the Prodigal Son",
         "year": "1662",
         "id": "205",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/205.jpg",
@@ -1855,7 +1855,7 @@
     },
     {
         "author": "Merisi da Caravaggio",
-        "name": "Больной вакх",
+        "name": "Young Sick Bacchus",
         "year": "1593",
         "id": "206",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/206.jpg",
@@ -1864,7 +1864,7 @@
     },
     {
         "author": "Ivan Aivazovsky",
-        "name": "Лунная дорожка",
+        "name": "Moon path",
         "year": "1886",
         "id": "207",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/207.jpg",
@@ -1873,7 +1873,7 @@
     },
     {
         "author": "Vincent van Gogh",
-        "name": "Пшеничное поле с кипарисами",
+        "name": "A Wheatfield with Cypresses",
         "year": "1889",
         "id": "208",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/208.jpg",
@@ -1881,8 +1881,8 @@
         "categories": ""
     },
     {
-        "author": "Аксели Галлен-Каллела",
-        "name": "Мальчик и ворона",
+        "author": "Gallen-Kallela",
+        "name": "Boy and a Crow",
         "year": "1884",
         "id": "209",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/209.jpg",
@@ -1891,7 +1891,7 @@
     },
     {
         "author": "Jan Vermeer",
-        "name": "Астроном",
+        "name": "The Astronomer",
         "year": "1668",
         "id": "210",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/210.jpg",
@@ -1900,7 +1900,7 @@
     },
     {
         "author": "Rubens",
-        "name": "Союз Земли и Воды",
+        "name": "The Union of Earth and Water",
         "year": "1618",
         "id": "211",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/211.jpg",
@@ -1908,8 +1908,8 @@
         "categories": ""
     },
     {
-        "author": "Клод Моне",
-        "name": "Стог сена в Живерни",
+        "author": "Claude Monet",
+        "name": "Haystack at Giverny",
         "year": "1886",
         "id": "212",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/212.jpg",
@@ -1918,7 +1918,7 @@
     },
     {
         "author": "Jean Fragonard",
-        "name": "Задвижка",
+        "name": "The Bolt",
         "year": "1777",
         "id": "213",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/213.jpg",
@@ -1926,8 +1926,8 @@
         "categories": ""
     },
     {
-        "author": "Марианна Верёвкина",
-        "name": "Осень, школа",
+        "author": "Marianne Werefkin",
+        "name": "Fall, School",
         "year": "1907",
         "id": "214",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/214.jpg",
@@ -1936,7 +1936,7 @@
     },
     {
         "author": "Vincent van Gogh",
-        "name": "Ночное кафе в Арле",
+        "name": "Café Terrace at Night",
         "year": "1888",
         "id": "215",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/215.jpg",
@@ -1944,8 +1944,8 @@
         "categories": ""
     },
     {
-        "author": "Клод Моне",
-        "name": "Пруд с кувшинками",
+        "author": "Claude Monet",
+        "name": "Water Lilies and the Japanese Bridge",
         "year": "1899",
         "id": "216",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/216.jpg",
@@ -1954,7 +1954,7 @@
     },
     {
         "author": "Ivan Aivazovsky",
-        "name": "Буря",
+        "name": "Storm",
         "year": "1868",
         "id": "217",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/217.jpg",
@@ -1963,7 +1963,7 @@
     },
     {
         "author": "Jan Vermeer",
-        "name": "Кружевница",
+        "name": "The Lacemaker",
         "year": "1671",
         "id": "218",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/218.jpg",
@@ -1972,7 +1972,7 @@
     },
     {
         "author": "Karl Bryullov",
-        "name": "Автопортрет",
+        "name": "Self-portrait",
         "year": "1848",
         "id": "219",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/219.jpg",
@@ -1981,7 +1981,7 @@
     },
     {
         "author": "Pieter Bruegel",
-        "name": "Вавилонская башня",
+        "name": "Tower of Babel",
         "year": "1563",
         "id": "220",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/220.jpg",
@@ -1990,7 +1990,7 @@
     },
     {
         "author": "Paul Gauguin",
-        "name": "Кафе в Арле",
+        "name": "Night Café at Arles",
         "year": "1888",
         "id": "221",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/221.jpg",
@@ -1999,7 +1999,7 @@
     },
     {
         "author": "Ivan Shishkin",
-        "name": "Сосновый бор",
+        "name": "Pinery",
         "year": "1895",
         "id": "222",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/222.jpg",
@@ -2007,8 +2007,8 @@
         "categories": ""
     },
     {
-        "author": "Клод Моне",
-        "name": "Завтрак на траве",
+        "author": "Claude Monet",
+        "name": "Breakfast on the grass",
         "year": "1865",
         "id": "223",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/223.jpg",
@@ -2017,7 +2017,7 @@
     },
     {
         "author": "Raffaello Santi",
-        "name": "Святой Георгий и дракон",
+        "name": "Saint George and the Dragon",
         "year": "1506",
         "id": "224",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/224.jpg",
@@ -2026,7 +2026,7 @@
     },
     {
         "author": "Pablo Picasso",
-        "name": "Любительница абсента",
+        "name": "Absinthe Drinker ",
         "year": "1901",
         "id": "225",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/225.jpg",
@@ -2035,7 +2035,7 @@
     },
     {
         "author": "Edgar Degas",
-        "name": "Перед репетицией",
+        "name": "Before the rehearsal",
         "year": "1880",
         "id": "226",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/226.jpg",
@@ -2043,8 +2043,8 @@
         "categories": ""
     },
     {
-        "author": "Николай Рерих",
-        "name": "Помни!",
+        "author": "Nicholas Roerich",
+        "name": "Remember!",
         "year": "1924",
         "id": "227",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/227.jpg",
@@ -2053,7 +2053,7 @@
     },
     {
         "author": "Ilya Repin",
-        "name": "Стрекоза",
+        "name": "Dragonfly",
         "year": "1884",
         "id": "228",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/228.jpg",
@@ -2061,8 +2061,8 @@
         "categories": ""
     },
     {
-        "author": "Клод Моне",
-        "name": "Мост Ватерлоо, туман",
+        "author": "Claude Monet",
+        "name": "Waterloo Bridge",
         "year": "1903",
         "id": "229",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/229.jpg",
@@ -2071,7 +2071,7 @@
     },
     {
         "author": "Isaac Levitan",
-        "name": "Весна – большая вода",
+        "name": "Spring is big water",
         "year": "1897",
         "id": "230",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/230.jpg",
@@ -2079,8 +2079,8 @@
         "categories": ""
     },
     {
-        "author": "Аксели Галлен-Каллела",
-        "name": "Первый урок",
+        "author": "Gallen-Kallela",
+        "name": "The First Lesson",
         "year": "1889",
         "id": "231",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/231.jpg",
@@ -2089,7 +2089,7 @@
     },
     {
         "author": "Ivan Aivazovsky",
-        "name": "Буря на море",
+        "name": "Rainbow",
         "year": "1873",
         "id": "232",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/232.jpg",
@@ -2098,7 +2098,7 @@
     },
     {
         "author": "Edgar Degas",
-        "name": "Балетный класс",
+        "name": "The Dancing Class",
         "year": "1874",
         "id": "233",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/233.jpg",
@@ -2106,8 +2106,8 @@
         "categories": ""
     },
     {
-        "author": "Николай Рерих",
-        "name": "Горная обитель",
+        "author": "Nicholas Roerich",
+        "name": "The mountain abode",
         "year": "1933",
         "id": "234",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/234.jpg",
@@ -2116,7 +2116,7 @@
     },
     {
         "author": "Leonardo da Vinci",
-        "name": "Святая Анна с Мадонной",
+        "name": "The Virgin and Child with Saint Anne",
         "year": "1510",
         "id": "235",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/235.jpg",
@@ -2125,7 +2125,7 @@
     },
     {
         "author": "El Greco",
-        "name": "Мальчик, зажигающий свечу",
+        "name": "El Soplón",
         "year": "1572",
         "id": "236",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/236.jpg",
@@ -2134,7 +2134,7 @@
     },
     {
         "author": "Pablo Picasso",
-        "name": "Дружба",
+        "name": "Friendship",
         "year": "1908",
         "id": "237",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/237.jpg",
@@ -2142,8 +2142,8 @@
         "categories": ""
     },
     {
-        "author": "Аксели Галлен-Каллела",
-        "name": "Девушка на ветру",
+        "author": "Gallen-Kallela",
+        "name": "The girl in the wind",
         "year": "1893",
         "id": "238",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/238.jpg",
@@ -2152,7 +2152,7 @@
     },
     {
         "author": "Ivan Aivazovsky",
-        "name": "Волна",
+        "name": "The wave",
         "year": "1889",
         "id": "239",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/239.jpg",
@@ -2161,7 +2161,7 @@
     },
     {
         "author": "Eugène Delacroix",
-        "name": "Автопортрет",
+        "name": "Self-portrait",
         "year": "1837",
         "id": "240",
         "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/240.jpg",
