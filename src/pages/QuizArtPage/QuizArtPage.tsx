@@ -98,11 +98,11 @@ export const QuizArtPage = ({
     }
     setCategoryId(+categoryId + 1)
     helpPopupOn ? setStateHelp(true) : setStateHelp(false)
-    if(countQuestion === 20 && countResult < 2){
+    if(countQuestion === 20 && countResult < 10){
       setStateGameOver(true)
-    } else if (countQuestion === 20 && countResult >= 2 && countResult <= 5 ){
+    } else if (countQuestion === 20 && countResult >= 10 && countResult <= 19 ){
       setStateWinPopUp(true)
-    } else if (countQuestion === 20 && countResult > 5 ) {
+    } else if (countQuestion === 20 && countResult > 19 ) {
       setStateGrandPopUp(true)
     } else if (countQuestion < 20) {
       setCountQuestion(countQuestion + 1)       
