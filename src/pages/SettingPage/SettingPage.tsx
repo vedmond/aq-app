@@ -69,7 +69,13 @@ export const SettingPage = ({
   return (
     <>
       <header className={style.header}>
-      <div onClick={callBack}  className={style.icon__arrow}> <div className={style.icon__arrow__block}></div> Setting</div>
+      <div 
+        onClick={callBack}  
+        className={style.icon__arrow}> 
+        <div className={style.icon__arrow__block}>
+        </div> 
+        Setting
+      </div>
       <Link to="/"  className={style.icon__cross}> </Link>
       </header>
       <main className={style.main}>
@@ -77,27 +83,38 @@ export const SettingPage = ({
           <div className={style.box__volume}>
             <span>Volume</span>
             <div className={style.switch}>
-              <span>On</span>
-              <button onClick={clickVolume} className={style.toggle}><span className={stateVolume ? style.on : style.off}></span></button>
+              <span>{stateVolume ? 'On' : 'Off'}</span>
+              <button onClick={clickVolume} className={style.toggle}>
+                <span className={stateVolume ? style.on : style.off}></span>
+              </button>
             </div>
           </div>
           <div className={style.box__time}>
             <span>Time to answer</span>
             <div className={style.switch}>
               <span>{stateTimer ? 'On' : 'Off'}</span>
-              <button onClick={clickTimeAnswer} className={style.toggle}><span className={stateTimer ? style.on : style.off}></span></button>
+              <button onClick={clickTimeAnswer} className={style.toggle}>
+                <span className={stateTimer ? style.on : style.off}></span>
+              </button>
             </div>
             <div className={style.timer}>
-              <button onClick={numberTimeMinus} className={`${style.btn_timer} ${style.minus} ${numberTime === 5 ? style.button_off : ''}`}>-</button>
+              <button 
+                onClick={numberTimeMinus} 
+                className={`${style.btn_timer} ${style.minus} ${numberTime === 5 ? style.button_off : ''}`}>-</button>
               <p className={style.number}>{numberTime}</p>
-              <button onClick={numberTimePlus} className={`${style.btn_timer} ${style.plus} ${numberTime === 60 ? style.button_off : ''}`}>+</button>
+              <button onClick={numberTimePlus} 
+                className={`${style.btn_timer} ${style.plus} ${numberTime === 60 ? style.button_off : ''}`}>+</button>
             </div>
           </div>
           <div className={style.box__time}>
             <span>Help PopUp</span>
             <div className={style.switch}>
               <span>{helpPopupOn ? 'On' : 'Off'}</span>
-              <button onClick={clickHelp} className={style.toggle}><span className={helpPopupOn ? style.on : style.off}></span></button>
+              <button 
+                onClick={clickHelp} 
+                className={style.toggle}>
+                <span className={helpPopupOn ? style.on : style.off}></span>
+              </button>
             </div>
           </div>
         </div>
