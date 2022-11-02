@@ -20,7 +20,7 @@ export const ChoseTask = (
     setCountResult, 
     nameStorage,
   }: any) => {
-
+  const [countGallery, setCountGallery] = React.useState(1) 
   const dataStart = dataQuiz.filter(
   obj => +(obj.id) % 20 === 0 && +(obj.id) < dataQuiz.length - 20 ? obj :''
   )
@@ -52,7 +52,8 @@ export const ChoseTask = (
       nameStorage={nameStorage}
       countResult={countResult}
       setCountResult={setCountResult}
-      setCategoryName={setCategoryName}/>
+      setCategoryName={setCategoryName}
+      />
     ))}
     </main>
     <footer className={style.footer}>

@@ -16,37 +16,37 @@ export const CategoryGallery = (
    countResult,
    setCountResult, 
    setNameStorage, 
-   setCategoryName
+   setCategoryName,
   }: any) => {
-  
+    
     const [linkPic, setLinkPic] = React.useState('')
     const [isLoading, setIsLoading] = React.useState(true)
-    const [isScreenMobile, setIsScreenMobile] = React.useState(true) 
+    const [isScreenMobile, setIsScreenMobile] = React.useState(true)
+    const [containerStyle, setContainerStyle] = React.useState({}) 
     const startPic = +idDate + 5
     const currentLink = `${linkCategory === 'pic' ? dateQuiz[startPic].imgUrl : dateQuiz[idDate].imgUrl}`
 
-
+    
     React.useEffect(() => {
       const linkRead = async() => {
         const response = await fetch(currentLink)
         setLinkPic(response.url)
         setIsLoading(false)
+        setContainerStyle ( {
+          backgroundImage: `url("${linkPic}")`,
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: '50% 50%',
+        })        
         return 
       }
       linkRead()
-    }, [currentLink])
-
+    }, [currentLink, linkPic])
     React.useEffect(() => {
       const screenWidth = window.screen.width
       screenWidth <= 520 ? setIsScreenMobile(true) : setIsScreenMobile(false)
     },[])
 
-    const containerStyle  = {
-      backgroundImage: `url("${linkPic}")`,
-      backgroundSize: 'cover',
-      backgroundRepeat: 'no-repeat',
-      backgroundPosition: '50% 50%',
-    };
      
     const numGallery = idDate / 20 + 1;
     const  linkTo = useNavigate()
@@ -63,10 +63,6 @@ export const CategoryGallery = (
       }
       setCategoryId(idDate)
     };
-
-    
-  
-  
 
     const localNameStorage = `${linkCategory}${numGallery}`
     const score: any = localStorage.getItem('score')

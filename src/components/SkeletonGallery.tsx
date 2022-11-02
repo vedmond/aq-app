@@ -28,6 +28,19 @@ export const SkeletonDesktop = () => (
   </ContentLoader>
 )
 
+export const SkeletonArtDesktop = () => (
+  <ContentLoader 
+    speed={2}
+    width={825}
+    height={780}
+    viewBox="0 0 825 780"
+    backgroundColor="#a2a0a0"
+    foregroundColor="#ecebeb"
+  >
+    <rect x="0" y="0" rx="25" ry="25" width="825" height="780" />
+  </ContentLoader>
+)
+
 
 
 

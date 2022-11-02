@@ -217,7 +217,7 @@ a {
     margin: auto;
     @extend .position-bg;
     background-size: contain;
-
+    overflow: hidden;
     .point_box {
       position: absolute;
       @extend %flex-box;

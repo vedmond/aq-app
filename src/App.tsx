@@ -12,22 +12,22 @@ import { Score } from './pages/Score';
 
 
 
-
-
-
 function App() {
   const art = 'art';
   const pic = 'pic';
 
-  if (localStorage.getItem('score') === null || undefined) {
+  if (localStorage.getItem('score') === null) {
     localStorage.setItem('score', JSON.stringify(startScoreStorage))
   }
-  if (localStorage.getItem('setting') === null || undefined) {
+  if (localStorage.getItem('setting') === null) {
     localStorage.setItem('setting', JSON.stringify(startSettingStorage))
   }
 
-  const settingStorage: any = localStorage.getItem('setting')
-  const objSetting = JSON.parse(settingStorage)
+  const settingStorage: string | null = localStorage.getItem('setting') 
+  const objSetting: {
+    volume: boolean, 
+    help: boolean,
+  } = JSON.parse(`${settingStorage ? settingStorage : ''}`)
   
   const [stateVolume, setStateVolume] = React.useState(objSetting.volume)
   const [stateGameOver, setStateGameOver] = React.useState(false)
@@ -40,9 +40,9 @@ function App() {
   const [nameStorage, setNameStorage] =React.useState('')
   const [countQuestion, setCountQuestion] = React.useState(1) //+
   const linkChose = useNavigate()
-  const btnNo = (linkHome = false) => {
-    const score: any = localStorage.getItem('score')
-    const scoreObj = JSON.parse(score)
+  const btnNo = (linkHome: boolean = false) => {
+    const score: string | null = localStorage.getItem('score')
+    const scoreObj = JSON.parse(`${score ? score : ''}`)
     scoreObj[nameStorage].result = countResult
     scoreObj[nameStorage].question = countQuestion
     localStorage.setItem('score', JSON.stringify(scoreObj))
@@ -59,8 +59,8 @@ function App() {
     
   }
   const btnYes = () => {
-    const score: any = localStorage.getItem('score')
-    const scoreObj = JSON.parse(score)
+    const score: string | null = localStorage.getItem('score')
+    const scoreObj = JSON.parse(`${score ? score : ''}`)
     scoreObj[nameStorage].result = 0
     scoreObj[nameStorage].question = 0
     localStorage.setItem('score', JSON.stringify(scoreObj))    

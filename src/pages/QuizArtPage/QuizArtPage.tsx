@@ -14,6 +14,7 @@ import { Footer } from '../../components/Footer';
 import { Timer } from '../../components/Timer';
 import { Result } from '../../components/Result';
 import {soundData} from '../../assets/helper/SoundData' 
+import {SkeletonArtDesktop} from '../../components/SkeletonGallery'
 
 
 
@@ -42,6 +43,10 @@ export const QuizArtPage = ({
     
     const [isTimer, setIsTimer] = React.useState(timer)
     const [timeLeft, setTimeLeft] = React.useState(startTime)
+
+    const [linkPic, setLinkPic] = React.useState('')
+    const [isLoading, setIsLoading] = React.useState(true)
+    const [containerStyle, setContainerStyle] = React.useState({})     
     
     const [soundOn, setSoundOn] = React.useState(false)
     const [stateQuit, setStateQuit] = React.useState(false)
@@ -50,12 +55,13 @@ export const QuizArtPage = ({
     const [btnArray, setBtnArray] = React.useState([])
     const [finishedId, setFinishedId] = React.useState(-1)
 
-     const soundRef: any = React.useRef(null)
+    const soundRef: any = React.useRef(null)
     
     let stateCurtain = stateQuit || stateHelp || stateGameOver || stateWinPopUp || stateGrandPopUp;
     const barLineWidth = {
       width: `${countQuestion * 5}%`,
     }
+ 
   
   React.useEffect(() => {
     let arrayAutour = [dataQuiz[categoryId].author];
@@ -87,6 +93,7 @@ export const QuizArtPage = ({
   }
 
   const clickNextId = React.useCallback((nameBtn: string = '') => {
+    setLinkPic('') 
     setIsTimer(timer)
     timer ? setTimeLeft (startTime) : setTimeLeft(0) 
     if (nameBtn === dataQuiz[categoryId].author) {
@@ -142,12 +149,24 @@ export const QuizArtPage = ({
       }
     }, [countResult, stateVolume, soundOn])
 
-  const containerStyle = {
-    backgroundImage: `url("${+categoryId > finishedId && finishedId > 0 ? dataQuiz[finishedId].imgUrl : dataQuiz[categoryId].imgUrl}")`,
-    backgroundSize: 'cover',
-    backgroundRepeat: 'no-repeat',
-    backgroundPosition: '50% 50%',
-  }
+  const currentLink = `${+categoryId > finishedId && finishedId > 0 ? dataQuiz[finishedId].imgUrl : dataQuiz[categoryId].imgUrl}`
+    React.useEffect(() => {
+      const linkRead = async() => {
+        const response = await fetch(currentLink)
+        setLinkPic(response.url)
+        console.log('isLoading start =', isLoading);
+        setIsLoading(false)
+        setContainerStyle ( {
+          backgroundImage: `url("${linkPic}")`,
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: '50% 50%',
+        })
+        console.log('isLoading =', isLoading);
+        return 
+      }
+      linkRead()
+    }, [currentLink, linkPic, isLoading])
   
   return (
     <>
@@ -168,12 +187,12 @@ export const QuizArtPage = ({
           </header>
           <main className={style.main}>
             <p className={style.title}>Who is the author of this picture?</p>
-            <div className={style.container} style={containerStyle}>
+            {isLoading || linkPic === '' ? (<div className={style.container}><SkeletonArtDesktop/></div>) : (<div className={style.container} style={containerStyle}>
               <div className={style.point_box}>
                 {array.map((el) => (
                 <PointProgress key={el} index={el} countQuestion={countQuestion}/>) )}
               </div>
-            </div>
+            </div>)}
             <div className={style.btn_box}>
              {btnArray.map((elem: string, id: number) => (
               <ButtonArt key ={id} clickNextId={clickNextId} nameId={elem}/>

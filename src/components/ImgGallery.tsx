@@ -2,12 +2,14 @@
 import React from 'react'
 import style from '../scss/ChoseTask.module.scss'
 
+
 export const ImgGallery = (
   {startQuiz,
   result,
   question,
   containerStyle,} : any
 ) => {
+
   return (
     <div>
       <div 
