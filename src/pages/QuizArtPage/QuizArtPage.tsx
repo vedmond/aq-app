@@ -154,7 +154,6 @@ export const QuizArtPage = ({
       const linkRead = async() => {
         const response = await fetch(currentLink)
         setLinkPic(response.url)
-        console.log('isLoading start =', isLoading);
         setIsLoading(false)
         setContainerStyle ( {
           backgroundImage: `url("${linkPic}")`,
@@ -162,7 +161,6 @@ export const QuizArtPage = ({
           backgroundRepeat: 'no-repeat',
           backgroundPosition: '50% 50%',
         })
-        console.log('isLoading =', isLoading);
         return 
       }
       linkRead()

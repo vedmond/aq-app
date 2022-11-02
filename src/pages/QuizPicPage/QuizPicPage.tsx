@@ -99,7 +99,7 @@ export const QuizPicPage = ({
      } else if (countQuestion === 20 && countResult > 19 ) {
        setStateGrandPopUp(true)
      } else if (countQuestion < 20) {
-       setCountQuestion(countQuestion + 1)       
+       setCountQuestion(countQuestion + 1) 
      }  
   },[categoryId, countQuestion, countResult, helpPopupOn, setCategoryId, 
       setCountQuestion, setCountResult, setStateGameOver, setStateGrandPopUp, 
@@ -119,8 +119,8 @@ export const QuizPicPage = ({
     const interval = setInterval(() =>{
      isTimer && setTimeLeft((timeLeft: any) => (timeLeft >= 1 ? timeLeft - 1 : 0))
      }, 1000)
-    if (timeLeft === 0) {  /////********************* */
-      setIsTimer(false)    /////********************* */
+    if (timeLeft === 0) { 
+      setIsTimer(false) 
       if (+categoryId <= finishedId && isTimer) {
         clickNextId() 
         }
@@ -160,7 +160,11 @@ export const QuizPicPage = ({
             <p className={style.title}>Which is {nameArtistPic} picture?</p>
             <div className={style.btn_box}>
               {btnArray.map((elem: string, id: number) => (
-              <ButtonPic key ={id}  urlId={elem} clickNextId={clickNextId}/>
+              <ButtonPic 
+                key ={id} 
+                id = {id} 
+                urlId={elem} 
+                clickNextId={clickNextId}/>
              ))}
             </div>
           </main>

@@ -203,7 +203,7 @@ a {
       border: 1px solid white;
       border-radius: 30px;
       background-color: black;
-
+      overflow: hidden;
       &:hover {
         border: 3px solid #FFFFFF;
         transition-duration: 0.2s;
