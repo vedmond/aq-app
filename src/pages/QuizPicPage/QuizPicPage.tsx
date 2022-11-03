@@ -1,18 +1,18 @@
-import React from "react";
+import React from 'react';
 
-import style from "../../scss/QuizPicPage.module.scss";
-import { Curtain } from "../Curtain";
-import { QuitPopup } from "../QuitPopup";
-import { HelpPopup } from "../HelpPopup";
-import dataQuiz from "../../assets/date.json";
-import ButtonPic from "../../components/ButtonPic";
-import { GameOverPopup } from "../GameOverPopup";
-import { WinPopup } from "../WinPopup";
-import { GrandPopup } from "../GrandPopup";
-import { Footer } from "../../components/Footer";
-import { Timer } from "../../components/Timer";
-import { Result } from "../../components/Result";
-import { soundData } from "../../assets/helper/SoundData";
+import style from '../../scss/QuizPicPage.module.scss';
+import { Curtain } from '../Curtain';
+import { QuitPopup } from '../QuitPopup';
+import { HelpPopup } from '../HelpPopup';
+import dataQuiz from '../../assets/date.json';
+import ButtonPic from '../../components/ButtonPic';
+import { GameOverPopup } from '../GameOverPopup';
+import { WinPopup } from '../WinPopup';
+import { GrandPopup } from '../GrandPopup';
+import { Footer } from '../../components/Footer';
+import { Timer } from '../../components/Timer';
+import { Result } from '../../components/Result';
+import { soundData } from '../../assets/helper/SoundData';
 
 export const QuizPicPage = ({
   categoryId,
@@ -32,7 +32,7 @@ export const QuizPicPage = ({
   helpPopupOn,
   stateVolume,
 }: any) => {
-  const storage: any = localStorage.getItem("setting");
+  const storage: any = localStorage.getItem('setting');
   const settingObj = JSON.parse(storage);
   const timer = settingObj.timer;
   const startTime: number = settingObj.time;
@@ -45,13 +45,12 @@ export const QuizPicPage = ({
   const [stateHelp, setStateHelp] = React.useState(false);
   const [flagHelp, setFlagHelp] = React.useState(true);
   const [btnArray, setBtnArray] = React.useState([]);
-  const [nameArtistPic, setNameArtistPic] = React.useState("");
+  const [nameArtistPic, setNameArtistPic] = React.useState('');
   const [finishedId, setFinishedId] = React.useState(-1);
 
   const soundRef: any = React.useRef(null);
 
-  let stateCurtain =
-    stateQuit || stateHelp || stateGameOver || stateWinPopUp || stateGrandPopUp;
+  let stateCurtain = stateQuit || stateHelp || stateGameOver || stateWinPopUp || stateGrandPopUp;
   const barLineWidth = {
     width: `${countQuestion * 5}%`,
   };
@@ -81,7 +80,7 @@ export const QuizPicPage = ({
   }, [categoryId]);
 
   const clickNextId = React.useCallback(
-    (urlIdBtn: string = "") => {
+    (urlIdBtn: string = '') => {
       setIsTimer(timer);
       timer ? setTimeLeft(startTime) : setTimeLeft(0);
       if (urlIdBtn === dataQuiz[categoryId].imgUrl) {
@@ -95,11 +94,7 @@ export const QuizPicPage = ({
       helpPopupOn ? setStateHelp(true) : setStateHelp(false);
       if (countQuestion === 20 && countResult < 10) {
         setStateGameOver(true);
-      } else if (
-        countQuestion === 20 &&
-        countResult >= 10 &&
-        countResult <= 19
-      ) {
+      } else if (countQuestion === 20 && countResult >= 10 && countResult <= 19) {
         setStateWinPopUp(true);
       } else if (countQuestion === 20 && countResult > 19) {
         setStateGrandPopUp(true);
@@ -120,7 +115,7 @@ export const QuizPicPage = ({
       setStateWinPopUp,
       startTime,
       timer,
-    ]
+    ],
   );
 
   React.useEffect(() => {
@@ -134,8 +129,7 @@ export const QuizPicPage = ({
       setTimeLeft(startTime);
     }
     const interval = setInterval(() => {
-      isTimer &&
-        setTimeLeft((timeLeft: any) => (timeLeft >= 1 ? timeLeft - 1 : 0));
+      isTimer && setTimeLeft((timeLeft: any) => (timeLeft >= 1 ? timeLeft - 1 : 0));
     }, 1000);
     if (timeLeft === 0) {
       setIsTimer(false);
@@ -146,15 +140,7 @@ export const QuizPicPage = ({
     return () => {
       clearInterval(interval);
     };
-  }, [
-    isTimer,
-    timeLeft,
-    startTime,
-    clickNextId,
-    finishedId,
-    categoryId,
-    stateCurtain,
-  ]);
+  }, [isTimer, timeLeft, startTime, clickNextId, finishedId, categoryId, stateCurtain]);
 
   React.useEffect(() => {
     if (countResult > 0 && stateVolume && soundOn) {
@@ -167,36 +153,26 @@ export const QuizPicPage = ({
     <>
       <header className={style.header}>
         <audio ref={soundRef} src={soundData[1].music} />
-        <button
-          onClick={() => setStateQuit(!stateQuit)}
-          className={style.icon__cross}
-        >
-          {" "}
+        <button onClick={() => setStateQuit(!stateQuit)} className={style.icon__cross}>
+          {' '}
         </button>
         <div className={style.progress_bar}>
           <div style={barLineWidth} className={style.progress_bar_line}></div>
         </div>
         <div className={style.timer}>
           {isTimer && !stateCurtain && (
-            <Timer
-              timeLeft={timeLeft}
-              timer={timer}
-              stateVolume={stateVolume}
-            />
+            <Timer timeLeft={timeLeft} timer={timer} stateVolume={stateVolume} />
           )}
           {!isTimer && !stateCurtain && <Result countResult={countResult} />}
         </div>
       </header>
       <main className={style.main}>
-        <p className={style.title}>Which is {nameArtistPic} picture?</p>
+        <p className={style.title}>
+          Which is <span className={style.title_name}>{nameArtistPic}</span> picture?
+        </p>
         <div className={style.btn_box}>
           {btnArray.map((elem: string, id: number) => (
-            <ButtonPic
-              key={id}
-              id={id}
-              urlId={elem}
-              clickNextId={clickNextId}
-            />
+            <ButtonPic key={id} id={id} urlId={elem} clickNextId={clickNextId} />
           ))}
         </div>
       </main>
@@ -222,11 +198,7 @@ export const QuizPicPage = ({
         btnNo={btnNo}
         stateVolume={stateVolume}
       />
-      <GrandPopup
-        stateGrandPopUp={stateGrandPopUp}
-        btnNo={btnNo}
-        stateVolume={stateVolume}
-      />
+      <GrandPopup stateGrandPopUp={stateGrandPopUp} btnNo={btnNo} stateVolume={stateVolume} />
       <HelpPopup
         stateHelp={stateHelp}
         setStateHelp={setStateHelp}

@@ -1,12 +1,12 @@
 @font-face {
-  font-family: "Gilroy";
+  font-family: 'Gilroy';
   font-style: normal;
   font-weight: normal;
   src: url(../assets/fonts/Gilroy-Medium.ttf);
 }
 
 @font-face {
-  font-family: "Gilroy Regular";
+  font-family: 'Gilroy Regular';
   font-style: normal;
   font-weight: normal;
   src: url(../assets/fonts/Gilroy-Regular.ttf);
@@ -70,7 +70,7 @@ a {
       border-radius: 50px;
       @extend %flex-box;
       flex-direction: column;
-      font-family: "Gilroy Regular";
+      font-family: 'Gilroy Regular';
       font-style: normal;
       font-weight: 500;
       font-size: 32px;
@@ -106,7 +106,7 @@ a {
           border-radius: 15px;
           background-color: rgba(0, 0, 0, 0);
           border: 1px solid black;
-          font-family: "Gilroy Regular";
+          font-family: 'Gilroy Regular';
           font-style: normal;
           font-weight: 500;
           font-size: 22px;
@@ -166,7 +166,7 @@ a {
   .timer {
     display: inline-block;
     width: 6%;
-    font-family: "Gilroy Regular";
+    font-family: 'Gilroy Regular';
     font-weight: 700;
     font-size: 28px;
     line-height: 28px;
@@ -176,7 +176,7 @@ a {
 
 .main {
   .title {
-    font-family: "Gilroy Regular";
+    font-family: 'Gilroy Regular';
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
@@ -184,6 +184,9 @@ a {
     letter-spacing: -0.5px;
     margin-left: 10%;
     color: #ffffff;
+    .title_name {
+      color: #f3e2dc;
+    }
   }
 
   .btn_box {
@@ -225,7 +228,7 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  font-family: "Gilroy Regular";
+  font-family: 'Gilroy Regular';
   color: white;
   font-weight: 300;
   font-size: 16px;
