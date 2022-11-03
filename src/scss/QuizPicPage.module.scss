@@ -1,16 +1,15 @@
-
 @font-face {
-  font-family: 'Gilroy';
+  font-family: "Gilroy";
   font-style: normal;
   font-weight: normal;
-  src: url(../assets/fonts/Gilroy-Medium.ttf),
+  src: url(../assets/fonts/Gilroy-Medium.ttf);
 }
 
 @font-face {
-  font-family: 'Gilroy Regular';
+  font-family: "Gilroy Regular";
   font-style: normal;
   font-weight: normal;
-  src: url(../assets/fonts/Gilroy-Regular.ttf),
+  src: url(../assets/fonts/Gilroy-Regular.ttf);
 }
 
 .position-bg {
@@ -71,7 +70,7 @@ a {
       border-radius: 50px;
       @extend %flex-box;
       flex-direction: column;
-      font-family: 'Gilroy Regular';
+      font-family: "Gilroy Regular";
       font-style: normal;
       font-weight: 500;
       font-size: 32px;
@@ -107,7 +106,7 @@ a {
           border-radius: 15px;
           background-color: rgba(0, 0, 0, 0);
           border: 1px solid black;
-          font-family: 'Gilroy Regular';
+          font-family: "Gilroy Regular";
           font-style: normal;
           font-weight: 500;
           font-size: 22px;
@@ -120,7 +119,7 @@ a {
             border: 2px solid black;
             transition-duration: 0.2s;
             transform: translateY(-1px);
-            background-color: #FFBCA2;
+            background-color: #ffbca2;
           }
         }
       }
@@ -137,24 +136,24 @@ a {
   .progress_bar {
     width: 80%;
     height: 10px;
-    background-color: #A4A4A4;
+    background-color: #a4a4a4;
     border-radius: 5px;
 
     .progress_bar_line {
       width: 30%;
       height: 10px;
-      background-color: #FFBCA2;
+      background-color: #ffbca2;
       border-radius: 5px;
     }
   }
 
   .icon__cross {
     // display: block;
-      cursor: pointer;
-      border: none;
-      width: 30px;
-      height: 30px;
-      background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    border: none;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0);
     &:hover {
       transition-duration: 1.5s;
       transform: rotate(0.8turn);
@@ -167,7 +166,7 @@ a {
   .timer {
     display: inline-block;
     width: 6%;
-    font-family: 'Gilroy Regular';
+    font-family: "Gilroy Regular";
     font-weight: 700;
     font-size: 28px;
     line-height: 28px;
@@ -176,16 +175,15 @@ a {
 }
 
 .main {
-
   .title {
-    font-family: 'Gilroy Regular';
+    font-family: "Gilroy Regular";
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
     line-height: 28px;
     letter-spacing: -0.5px;
     margin-left: 10%;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   .btn_box {
@@ -205,22 +203,19 @@ a {
       background-color: black;
       overflow: hidden;
       &:hover {
-        border: 3px solid #FFFFFF;
+        border: 3px solid #ffffff;
         transition-duration: 0.2s;
         transform: translateY(-1px);
         background-color: black;
       }
 
       &:link {
-        border: 1px solid #FFFFFF;
-        background-color: #FFBCA2;
+        border: 1px solid #ffffff;
+        background-color: #ffbca2;
       }
     }
   }
 }
-
-
-
 
 .footer {
   height: 10%;
@@ -230,7 +225,7 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  font-family: 'Gilroy Regular';
+  font-family: "Gilroy Regular";
   color: white;
   font-weight: 300;
   font-size: 16px;
@@ -278,15 +273,10 @@ a {
     .footer {
       grid-row: 5 / 6;
     }
-
   }
-
-
-
 }
 
 @media (max-width: 580px) {
-
   .wrapper {
     // grid-template-columns: 1fr minmax(280px, 520px) 1fr;
 
@@ -363,7 +353,6 @@ a {
       line-height: 28px;
       letter-spacing: -0.5px;
     }
-
   }
 
   .footer {

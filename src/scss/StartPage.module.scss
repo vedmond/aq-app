@@ -1,15 +1,15 @@
 @font-face {
-  font-family: 'Gilroy';
+  font-family: "Gilroy";
   font-style: normal;
   font-weight: normal;
-  src: url(../assets/fonts/Gilroy-Medium.ttf),
+  src: url(../assets/fonts/Gilroy-Medium.ttf);
 }
 
 @font-face {
-  font-family: 'Gilroy Regular';
+  font-family: "Gilroy Regular";
   font-style: normal;
   font-weight: normal;
-  src: url(../assets/fonts/Gilroy-Regular.ttf),
+  src: url(../assets/fonts/Gilroy-Regular.ttf);
 }
 
 .position-bg {
@@ -21,7 +21,7 @@
 
 .wrapper {
   background-color: black;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   overflow-y: hidden;
   display: grid;
   grid-template-columns: 1fr minmax(768px, 1200px) 1fr;
@@ -43,7 +43,7 @@ a {
   display: flex;
   flex-direction: column;
   background-image: url(../assets/img/j-retrato-de-cardenal-rafael.png);
-  @extend .position-bg
+  @extend .position-bg;
 }
 
 .header {
@@ -84,7 +84,7 @@ a {
   background-size: contain;
   // border: 1px solid white;
   h1 {
-    font-family: 'Gilroy';
+    font-family: "Gilroy";
     font-weight: 700;
     font-size: 111.325px;
     line-height: 159px;
@@ -110,7 +110,6 @@ a {
   .ellipse__left {
     left: -21px;
   }
-
 }
 
 .box__btn {
@@ -129,26 +128,26 @@ a {
     background: rgba(0, 0, 0, 0);
     width: 287px;
     height: 62px;
-    border: 2.5px solid #FFFFFF;
+    border: 2.5px solid #ffffff;
     border-radius: 60px;
     display: flex;
-   .text {
+    .text {
       margin: auto;
       width: auto;
       height: auto;
-      font-family: 'Gilroy Regular';
+      font-family: "Gilroy Regular";
       font-weight: 500;
       font-size: 29px;
       line-height: 22px;
       text-align: center;
       letter-spacing: -1.14766px;
-      color: #FFFFFF;
+      color: #ffffff;
     }
   }
 
   .btn:hover {
     // font-size: 31px;
-    border: 3px solid #FFFFFF;
+    border: 3px solid #ffffff;
     background: rgba(0, 0, 0, 0.3);
     transition-duration: 0.2s;
     transform: translateY(-1px);
@@ -163,7 +162,7 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  font-family: 'Gilroy Regular';
+  font-family: "Gilroy Regular";
   color: white;
   font-weight: 300;
   font-size: 16px;
@@ -225,7 +224,7 @@ a {
     .btn {
       width: 268px;
       height: 56px;
-      font-size: 26px;  
+      font-size: 26px;
     }
   }
 }
@@ -234,7 +233,7 @@ a {
   .wrapper {
     grid-template-columns: 1fr minmax(280px, 520px) 1fr;
   }
-  .main{
+  .main {
     height: 75%;
   }
   .header {
@@ -276,11 +275,11 @@ a {
       width: 250px;
       height: 56px;
       font-size: 20px;
-      border: 1px solid #FFFFFF;
+      border: 1px solid #ffffff;
     }
 
     .btn:hover {
-      border: 2px solid #FFFFFF;
+      border: 2px solid #ffffff;
     }
   }
 

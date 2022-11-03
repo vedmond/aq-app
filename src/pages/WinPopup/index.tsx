@@ -1,3 +1,2 @@
-
-import { WinPopup } from './WinPopup';
-export {WinPopup}
+import { WinPopup } from "./WinPopup";
+export { WinPopup };

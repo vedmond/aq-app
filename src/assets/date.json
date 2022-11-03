@@ -1,2174 +1,2171 @@
 [
-    {
-        "author": "Pavel Fedotov",
-        "name": "The Major Makes a Proposal",
-        "year": "1852",
-        "id": "0",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/0.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/0full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Edgar Degas",
-        "name": "Blue Dancers",
-        "year": "1897",
-        "id": "1",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/1.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/1full.jpg",
-        "categories": "Impressionism"
-    },
-    {
-        "author": "Paolo Veronese",
-        "name": "Feast in the House of Levi",
-        "year": "1563",
-        "id": "2",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/2.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/2full.jpg",
-        "categories": "Mannerism"
-    },
-    {
-        "author": "Ilya Repin",
-        "name": "Ivan the Terrible and His Son Ivan",
-        "year": "1885",
-        "id": "3",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/3.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/3full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Konstantin Makovsky",
-        "name": "Countess Sophia Bobrinskaya",
-        "year": "1890",
-        "id": "4",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/4.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/4full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Vasily Perov",
-        "name": "A governess is arriving into a merchant's house",
-        "year": "1866",
-        "id": "5",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/5.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/5full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Michelangelo",
-        "name": "Creation of Adam",
-        "year": "1511",
-        "id": "6",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/6.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/6full.jpg",
-        "categories": "Renaissance"
-    },
-    {
-        "author": "Pierre-Auguste Renoir",
-        "name": "Sunday Stroll in the Bois de Boulogne",
-        "year": "1873",
-        "id": "7",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/7.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/7full.jpg",
-        "categories": "Impressionism"
-    },
-    {
-        "author": "Jan Vermeer",
-        "name": "Mistress and Maid",
-        "year": "1667",
-        "id": "8",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/8.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/8full.jpg",
-        "categories": "Baroque"
-    },
-    {
-        "author": "Vasily Polenov",
-        "name": "Moscow Courtyard",
-        "year": "1877",
-        "id": "9",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/9.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/9full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Fyodor Vasilyev",
-        "name": "Wet meadow",
-        "year": "1872",
-        "id": "10",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/10.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/10full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Ilya Repin",
-        "name": "Seeing off a recruit",
-        "year": "1879",
-        "id": "11",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/11.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/11full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Paolo Veronese",
-        "name": "Venus and Mars",
-        "year": "1560",
-        "id": "12",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/12.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/12full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Viktor Vasnetsov",
-        "name": "Alenushka",
-        "year": "1881",
-        "id": "13",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/13.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/13full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Claude Lorrain",
-        "name": "Seaport with the Embarkation of the Queen of Sheba",
-        "year": "1614",
-        "id": "14",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/14.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/14full.jpg",
-        "categories": "Religious painting"
-    },
-    {
-        "author": "Ilya Repin",
-        "name": "Vechornytsi",
-        "year": "1881",
-        "id": "15",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/15.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/15full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Jean Fragonard",
-        "name": "The Swing",
-        "year": "1767",
-        "id": "16",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/16.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/16full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Arkhip Kuindzhi",
-        "name": "A Birch Grove",
-        "year": "1879",
-        "id": "17",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/17.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/17full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Pablo Picasso",
-        "name": "Guernica",
-        "year": "1937",
-        "id": "18",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/18.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/18full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Paul Gauguin",
-        "name": "Where Do We Come From? What Are We? Where Are We Going?",
-        "year": "1898",
-        "id": "19",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/19.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/19full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Bartolomé Murillo",
-        "name": "Virgin and Child with a Rosary",
-        "year": "1655",
-        "id": "20",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/20.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/20full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Pieter Bruegel",
-        "name": "Netherlandish Proverbs",
-        "year": "1559",
-        "id": "21",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/21.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/21full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Jan van Eyck",
-        "name": "The Arnolfini Portrait",
-        "year": "1434",
-        "id": "22",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/22.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/22full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Pieter Bruegel",
-        "name": "Massacre of the Innocents",
-        "year": "1567",
-        "id": "23",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/23.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/23full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Konstantin Makovsky",
-        "name": "Children running from a thunderstorm",
-        "year": "1872",
-        "id": "24",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/24.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/24full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Rembrandt",
-        "name": "Danae",
-        "year": "1647",
-        "id": "25",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/25.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/25full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Raffaello Santi",
-        "name": "Madonna of the Chair",
-        "year": "1514",
-        "id": "26",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/26.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/26full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Vasily Surikov",
-        "name": "Taking a Snow Town",
-        "year": "1891",
-        "id": "27",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/27.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/27full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Ivan Shishkin",
-        "name": "Stream in the birch forest",
-        "year": "1883",
-        "id": "28",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/28.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/28full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Vasily Surikov",
-        "name": "Yermak's conquest of Siberia",
-        "year": "1895",
-        "id": "29",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/29.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/29full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Vladimir Borovikovsky",
-        "name": "Portrait of Lopukhina",
-        "year": "1797",
-        "id": "30",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/30.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/30full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "René Magritte",
-        "name": "The Son of Man",
-        "year": "1964",
-        "id": "31",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/31.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/31full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Diego Velasquez",
-        "name": "Toilet of Venus",
-        "year": "1651",
-        "id": "32",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/32.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/32full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Ivan Bogdanov",
-        "name": "For the calculation",
-        "year": "1890",
-        "id": "33",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/33.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/33full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Rembrandt",
-        "name": "Christ and the Woman Taken in Adultery",
-        "year": "1644",
-        "id": "34",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/34.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/34full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "John William Waterhouse",
-        "name": "The Lady of Shalott",
-        "year": "1888",
-        "id": "35",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/35.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/35full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Pierre-Auguste Renoir",
-        "name": "The Large Bathers",
-        "year": "1887",
-        "id": "36",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/36.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/36full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Bartolomé Murillo",
-        "name": "Boy with a Dog",
-        "year": "1650",
-        "id": "37",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/37.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/37full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Vasily Perov",
-        "name": "Three apprentices are taking water",
-        "year": "1866",
-        "id": "38",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/38.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/38full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Nikolai Bogdanov-Belsky",
-        "name": "Counting in their heads",
-        "year": "1895",
-        "id": "39",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/39.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/39full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Viktor Vasnetsov",
-        "name": "Three Princesses of the Underground Kingdom",
-        "year": "1884",
-        "id": "40",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/40.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/40full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Henri Matisse",
-        "name": "Dance",
-        "year": "1910",
-        "id": "41",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/41.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/41full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Edvard Munch",
-        "name": "Madonna",
-        "year": "1894",
-        "id": "42",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/42.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/42full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Marc Chagall",
-        "name": "Walk",
-        "year": "1918",
-        "id": "43",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/43.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/43full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Vasily Perov",
-        "name": "Easter Procession",
-        "year": "1861",
-        "id": "44",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/44.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/44full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Hieronymus Bosch",
-        "name": "The Last Judgment",
-        "year": "1504",
-        "id": "45",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/45.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/45full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Carl Lemoch",
-        "name": "Varka",
-        "year": "1893",
-        "id": "46",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/46.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/46full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Jean Fragonard",
-        "name": "The Stolen Kiss",
-        "year": "1788",
-        "id": "47",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/47.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/47full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "François Boucher",
-        "name": "Venus Consoling Love",
-        "year": "1751",
-        "id": "48",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/48.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/48full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Ivan Shishkin",
-        "name": "Ship grove",
-        "year": "1898",
-        "id": "49",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/49.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/49full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Gustav Klimt",
-        "name": "Adele Bloch-Bauer",
-        "year": "1907",
-        "id": "50",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/50.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/50full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Viktor Vasnetsov",
-        "name": "Bogatyrs",
-        "year": "1898",
-        "id": "51",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/51.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/51full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Wilhelm von Kaulbach",
-        "name": "Jerusalems durch Titus",
-        "year": "1846",
-        "id": "52",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/52.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/52full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Paolo Veronese",
-        "name": "The Wedding at Cana",
-        "year": "1563",
-        "id": "53",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/53.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/53full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Andrei Rublev",
-        "name": "Holy Trinity",
-        "year": "1411",
-        "id": "54",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/54.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/54full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Vasily Surikov",
-        "name": "Morning of the Execution of the Streltsy",
-        "year": "1881",
-        "id": "55",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/55.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/55full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Tiziano Vecellio",
-        "name": "The Bacchanal of the Andrians",
-        "year": "1526",
-        "id": "56",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/56.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/56full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Diego Velasquez",
-        "name": "The Gardens of the Villa Medici in Rome",
-        "year": "1630",
-        "id": "57",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/57.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/57full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Eduard Manet",
-        "name": "Luncheon on the Grass",
-        "year": "1863",
-        "id": "58",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/58.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/58full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Salvador Dali",
-        "name": "The Persistence of Memory",
-        "year": "1931",
-        "id": "59",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/59.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/59full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Pierre-Auguste Renoir",
-        "name": "Young Girls at the Piano",
-        "year": "1892",
-        "id": "60",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/60.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/60full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Alexander Makovski",
-        "name": "I am Bored with You",
-        "year": "1897",
-        "id": "61",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/61.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/61full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Diego Velasquez",
-        "name": "Las Meninas",
-        "year": "1656",
-        "id": "62",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/62.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/62full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Anthony van Dyck",
-        "name": "Samson and Delilah",
-        "year": "1628",
-        "id": "63",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/63.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/63full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Pablo Picasso",
-        "name": "Girl on a Ball",
-        "year": "1905",
-        "id": "64",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/64.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/64full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Giovanni Bellini",
-        "name": "The Feast of the Gods",
-        "year": "1514",
-        "id": "65",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/65.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/65full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Leonardo da Vinci",
-        "name": "Lady with an Ermine",
-        "year": "1490",
-        "id": "66",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/66.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/66full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Diego Velasquez",
-        "name": "The Triumph of Bacchus ",
-        "year": "1628",
-        "id": "67",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/67.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/67full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Bartolomé Murillo",
-        "name": "The Immaculate Conception of the Venerable Ones, or of Soult",
-        "year": "1678",
-        "id": "68",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/68.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/68full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Theodore Gericault",
-        "name": "The Raft of the Medusa'",
-        "year": "1819",
-        "id": "69",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/69.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/69full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Ivan Shishkin",
-        "name": "Morning in a pine forest",
-        "year": "1889",
-        "id": "70",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/70.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/70full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Jean-Etienne Liotard",
-        "name": "The Chocolate Girl",
-        "year": "1745",
-        "id": "71",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/71.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/71full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Rembrandt",
-        "name": "Rembrandt and Saskia in the parable of the Prodigal Son",
-        "year": "1635",
-        "id": "72",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/72.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/72full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Ilya Repin",
-        "name": "Religioese Prozession in Kursk anagoria",
-        "year": "1883",
-        "id": "73",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/73.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/73full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Alexey Venetsianov",
-        "name": "Sleeping shepherd boy",
-        "year": "1826",
-        "id": "74",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/74.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/74full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Ivan Bogdanov",
-        "name": "Newbie",
-        "year": "1893",
-        "id": "75",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/75.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/75full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Henri de Toulouse-Lautrec",
-        "name": "A Corner of the Moulin de la Galetteт",
-        "year": "1892",
-        "id": "76",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/76.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/76full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Tiziano Vecellio",
-        "name": "Mary Magdalenа",
-        "year": "1565",
-        "id": "77",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/77.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/77full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Diego Velasquez",
-        "name": "Infanta Maria Teresa in a Peach Dress",
-        "year": "1654",
-        "id": "78",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/78.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/78full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Tiziano Vecellio",
-        "name": "The Tribute Money",
-        "year": "1516",
-        "id": "79",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/79.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/79full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Karl Bryullov",
-        "name": "Rider",
-        "year": "1832",
-        "id": "80",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/80.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/80full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Vasily Vereshchagin",
-        "name": "The Apotheosis of War",
-        "year": "1817",
-        "id": "81",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/81.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/81full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Leonardo da Vinci",
-        "name": "Annunciation",
-        "year": "1475",
-        "id": "82",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/82.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/82full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Alexei Savrasov",
-        "name": "Rooks have Returned",
-        "year": "1871",
-        "id": "83",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/83.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/83full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Tiziano Vecellio",
-        "name": "Sacred and Profane Love",
-        "year": "1516",
-        "id": "84",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/84.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/84full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Jean-Baptiste Greuze",
-        "name": "Jean-Baptiste Greuze",
-        "year": "1761",
-        "id": "85",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/85.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/85full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Pablo Picasso",
-        "name": "The Brothel of Avignon",
-        "year": "1907",
-        "id": "86",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/86.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/86full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Ilya Repin",
-        "name": "Barge Haulers on the Volga",
-        "year": "1873",
-        "id": "87",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/87.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/87full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Mikhail Nesterov",
-        "name": "Vision of the child Bartholomaeus",
-        "year": "1890",
-        "id": "88",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/88.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/88full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Raffaello Santi",
-        "name": "Madonna in the Meadow",
-        "year": "1506",
-        "id": "89",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/89.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/89full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Vasily Tropinin",
-        "name": "Girl with roses",
-        "year": "1850",
-        "id": "90",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/90.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/90full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Merisi da Caravaggio",
-        "name": "The Lute Player",
-        "year": "1596",
-        "id": "91",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/91.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/91full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Vasily Perov",
-        "name": "Hunters resting",
-        "year": "1871",
-        "id": "92",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/92.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/92full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Leonardo da Vinci",
-        "name": "Last Supper",
-        "year": "1498",
-        "id": "93",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/93.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/93full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Jean-Baptiste Greuze",
-        "name": "The Spoiled Child",
-        "year": "1765",
-        "id": "94",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/94.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/94full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Bouguereau",
-        "name": "Wave",
-        "year": "1896",
-        "id": "95",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/95.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/95full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Petrov-Vodkin",
-        "name": "Bathing of a Red Horse",
-        "year": "1912",
-        "id": "96",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/96.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/96full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Gustav Klimt",
-        "name": "Kiss",
-        "year": "1908",
-        "id": "97",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/97.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/97full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Ivan Shishkin",
-        "name": "Rye",
-        "year": "1878",
-        "id": "98",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/98.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/98full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Jean Leon Gerome",
-        "name": "Pollice verso",
-        "year": "1872",
-        "id": "99",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/99.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/99full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Vasily Surikov",
-        "name": "Boyarina Morozova",
-        "year": "1887",
-        "id": "100",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/100.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/100full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Isaac Levitan",
-        "name": "Above Eternal Peace",
-        "year": "1894",
-        "id": "101",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/101.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/101full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Thomas Gainsborough",
-        "name": "Portrait of a Lady in Blue",
-        "year": "1780",
-        "id": "102",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/102.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/102full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Alexey Venetsianov",
-        "name": "In the ploughed field. Spring",
-        "year": "1820",
-        "id": "103",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/103.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/103full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Tiziano Vecellio",
-        "name": "Salome",
-        "year": "1515",
-        "id": "104",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/104.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/104full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Wassily Kandinsky",
-        "name": "Composition VIII",
-        "year": "1923",
-        "id": "105",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/105.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/105full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Vasily Polenov",
-        "name": "In the park",
-        "year": "1874",
-        "id": "106",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/106.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/106full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Louis Lagrenée",
-        "name": "Mars and Venus",
-        "year": "1770",
-        "id": "107",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/107.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/107full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Salvador Dali",
-        "name": "Dream Caused by the Flight of a Bee",
-        "year": "1944",
-        "id": "108",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/108.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/108full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Jan Vermeer",
-        "name": "Girl with a Pearl Earring",
-        "year": "1665",
-        "id": "109",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/109.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/109full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Henri Rousseau",
-        "name": "The Sleeping Gypsy",
-        "year": "1897",
-        "id": "110",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/110.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/110full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Vasily Polenov",
-        "name": "From the mill",
-        "year": "1872",
-        "id": "111",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/111.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/111full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Edvard Munch",
-        "name": "The Scream",
-        "year": "1893",
-        "id": "112",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/112.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/112full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Karl Bryullov",
-        "name": "The Last Day of Pompeii",
-        "year": "1833",
-        "id": "113",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/113.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/113full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Ilya Repin",
-        "name": "Summer landscape",
-        "year": "1879",
-        "id": "114",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/114.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/114full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Jan Vermeer",
-        "name": "The milkmaid",
-        "year": "1660",
-        "id": "115",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/115.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/115full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Ivan Aivazovsky",
-        "name": "The Ninth Wave",
-        "year": "1850",
-        "id": "116",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/116.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/116full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Vincent van Gogh",
-        "name": "Sunflowers",
-        "year": "1888",
-        "id": "117",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/117.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/117full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Valentin Serov",
-        "name": "Girl with peaches.",
-        "year": "1887",
-        "id": "118",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/118.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/118full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Merisi da Caravaggio",
-        "name": "Conversion on the Way to Damascus",
-        "year": "1601",
-        "id": "119",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/119.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/119full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Albrecht Dürer",
-        "name": "Feast of the Rosary",
-        "year": "1506",
-        "id": "120",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/120.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/120full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "El Greco",
-        "name": "Cleansing of the Temple",
-        "year": "1600",
-        "id": "121",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/121.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/121full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Ilya Repin",
-        "name": "Studying exam",
-        "year": "1864",
-        "id": "122",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/122.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/122full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Isaac Levitan",
-        "name": "March",
-        "year": "1895",
-        "id": "123",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/123.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/123full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Bouguereau",
-        "name": "A Young Girl Defending Herself Against Eros",
-        "year": "1880",
-        "id": "124",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/124.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/124full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Leonardo da Vinci",
-        "name": "Madonna Litta",
-        "year": "1491",
-        "id": "125",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/125.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/125full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Казимир Малевич",
-        "name": "Black Square",
-        "year": "1915",
-        "id": "126",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/126.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/126full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "El Greco",
-        "name": "St's Peter and Paul",
-        "year": "1592",
-        "id": "127",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/127.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/127full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Viktor Vasnetsov",
-        "name": "Knight at the Crossroads",
-        "year": "1878",
-        "id": "128",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/128.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/128full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Konstantin Makovsky",
-        "name": "Hillwood Estate",
-        "year": "1883",
-        "id": "129",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/129.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/129full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Eugène Delacroix",
-        "name": "Liberty Leading the People",
-        "year": "1830",
-        "id": "130",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/130.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/130full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Vasily Polenov",
-        "name": "Grandma's garden",
-        "year": "1878",
-        "id": "131",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/131.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/131full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Henri Matisse",
-        "name": "Семейный портрет",
-        "year": "1911",
-        "id": "132",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/132.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/132full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Konstantin Makovsky",
-        "name": "Christmastide Divination",
-        "year": "1890",
-        "id": "133",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/133.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/133full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Pierre-Auguste Renoir",
-        "name": "Chatou Bridge",
-        "year": "1875",
-        "id": "134",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/134.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/134full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Sandro Botticelli",
-        "name": "Primavera",
-        "year": "1482",
-        "id": "135",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/135.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/135full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Pierre-Auguste Renoir",
-        "name": "The Umbrellas",
-        "year": "1886",
-        "id": "136",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/136.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/136full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Gustave Courbet",
-        "name": "The Artist's Studio",
-        "year": "1855",
-        "id": "137",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/137.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/137full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Vasily Polenov",
-        "name": "Village Okulova Gora",
-        "year": "1860",
-        "id": "138",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/138.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/138full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Konstantin Makovsky",
-        "name": " Muhammed's carpet moving from Mecca to Cairo",
-        "year": "1875",
-        "id": "139",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/139.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/139full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Pierre-Auguste Renoir",
-        "name": "Dance at Le Moulin de la Galette",
-        "year": "1876",
-        "id": "140",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/140.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/140full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Ivan Kramskoi",
-        "name": "Portrait of an Unknown Woman",
-        "year": "1883",
-        "id": "141",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/141.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/141full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Diego Velasquez",
-        "name": "Apollo in the Forge of Vulcan",
-        "year": "1630",
-        "id": "142",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/142.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/142full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Ilya Repin",
-        "name": "Reply of the Zaporozhian Cossacks",
-        "year": "1891",
-        "id": "143",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/143.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/143full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Raffaello Santi",
-        "name": "Young Woman with Unicorn",
-        "year": "1506",
-        "id": "144",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/144.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/144full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Alexander Ivanov",
-        "name": "The Appearance of Christ Before the People",
-        "year": "1857",
-        "id": "145",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/145.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/145full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Eduard Manet",
-        "name": "Woman with jug",
-        "year": "1858",
-        "id": "146",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/146.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/146full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Tiziano Vecellio",
-        "name": "Equestrian Portrait of Charles V",
-        "year": "1548",
-        "id": "147",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/147.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/147full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Pierre-Auguste Renoir",
-        "name": "Luncheon of the Boating Party",
-        "year": "1881",
-        "id": "148",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/148.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/148full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Karl Bryullov",
-        "name": "Italian Midday",
-        "year": "1827",
-        "id": "149",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/149.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/149full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Viktor Vasnetsov",
-        "name": "Tsar Ivan the Terrible",
-        "year": "1896",
-        "id": "150",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/150.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/150full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Pieter Bruegel",
-        "name": "Hunters in the Snow",
-        "year": "1565",
-        "id": "151",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/151.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/151full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Viktor Vasnetsov",
-        "name": "Hunters in the Snow",
-        "year": "1880",
-        "id": "152",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/152.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/152full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Marc Chagall",
-        "name": "Me and the village",
-        "year": "1911",
-        "id": "153",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/153.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/153full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Leonardo da Vinci",
-        "name": "Mona Lisa",
-        "year": "1505",
-        "id": "154",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/154.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/154full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Francesco Bacchiacca",
-        "name": "Madonna and Child in a Landscape",
-        "year": "1520",
-        "id": "155",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/155.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/155full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Louis David",
-        "name": "The Oath of the Horatii",
-        "year": "1784",
-        "id": "156",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/156.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/156full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Albrecht Dürer",
-        "name": "Adam and Eve",
-        "year": "1507",
-        "id": "157",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/157.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/157full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Bartolomé Murillo",
-        "name": "Assumption of the Virgin",
-        "year": "1655",
-        "id": "158",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/158.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/158full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Vasily Perov",
-        "name": "Birder",
-        "year": "1870",
-        "id": "159",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/159.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/159full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Merisi da Caravaggio",
-        "name": "Rest on the Flight into Egypt",
-        "year": "1596",
-        "id": "160",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/160.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/160full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Francisco Goya",
-        "name": "The Third of May 1808",
-        "year": "1808",
-        "id": "161",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/161.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/161full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Raffaello Santi",
-        "name": "The Triumph of Galatea",
-        "year": "1512",
-        "id": "162",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/162.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/162full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Mikhail Vrubel",
-        "name": "Demon (sitting)",
-        "year": "1890",
-        "id": "163",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/163.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/163full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Vincent van Gogh",
-        "name": "Irises",
-        "year": "1889",
-        "id": "164",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/164.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/164full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Paul Delaroche",
-        "name": "The Execution of Lady Jane Grey",
-        "year": "1833",
-        "id": "165",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/165.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/165full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "John Constable",
-        "name": "Salisbury Cathedral from the Bishop's Grounds",
-        "year": "1823",
-        "id": "166",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/166.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/166full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Vincent van Gogh",
-        "name": "The Starry Night",
-        "year": "1889",
-        "id": "167",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/167.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/167full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "François Boucher",
-        "name": "Spring anagoria",
-        "year": "1755",
-        "id": "168",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/168.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/168full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Raffaello Santi",
-        "name": "Madonna of the Rose",
-        "year": "1518",
-        "id": "169",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/169.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/169full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Vasily Tropinin",
-        "name": "Lace making beauty",
-        "year": "1823",
-        "id": "170",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/170.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/170full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Rembrandt",
-        "name": "Belshazzar's Feast",
-        "year": "1635",
-        "id": "171",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/171.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/171full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Vasily Surikov",
-        "name": "Crossing the Alps in 1799",
-        "year": "1899",
-        "id": "172",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/172.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/172full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Isaac Levitan",
-        "name": "Gold autumn",
-        "year": "1895",
-        "id": "173",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/173.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/173full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Arkhip Kuindzhi",
-        "name": "On the island of Valaam",
-        "year": "1873",
-        "id": "174",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/174.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/174full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Diego Velasquez",
-        "name": "The Surrender of Breda",
-        "year": "1635",
-        "id": "175",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/175.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/175full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Ilya Repin",
-        "name": "They Did Not Expect Him",
-        "year": "1888",
-        "id": "176",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/176.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/176full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "François Boucher",
-        "name": "Diana Bathing",
-        "year": "1742",
-        "id": "177",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/177.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/177full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Marianne Werefkine",
-        "name": "The anthill",
-        "year": "1916",
-        "id": "178",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/178.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/178full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Pierre-Auguste Renoir",
-        "name": "The Actress Jeanne Samary",
-        "year": "1877",
-        "id": "179",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/179.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/179full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Ilya Repin",
-        "name": "Sadko",
-        "year": "1876",
-        "id": "180",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/180.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/180full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Arkhip Kuindzhi",
-        "name": "Moonlit Night on the Dnieper",
-        "year": "1880",
-        "id": "181",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/181.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/181full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Diego Velasquez",
-        "name": "The Adoration of the Magi",
-        "year": "1619",
-        "id": "182",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/182.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/182full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Nikolai Bogdanov-Belsky",
-        "name": "At the door of the school",
-        "year": "1897",
-        "id": "183",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/183.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/183full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Hieronymus Bosch",
-        "name": "The Garden of Earthly Delights",
-        "year": "1510",
-        "id": "184",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/184.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/184full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Antonio da Correggio",
-        "name": "Danaë",
-        "year": "1530",
-        "id": "185",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/185.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/185full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Rubens",
-        "name": "The Rape of the Daughters of Leucippus",
-        "year": "1618",
-        "id": "186",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/186.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/186full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Jean Ingres",
-        "name": "Grande Odalisque",
-        "year": "1814",
-        "id": "187",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/187.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/187full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Raffaello Santi",
-        "name": "The Sistine Madonna",
-        "year": "1520",
-        "id": "188",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/188.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/188full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Rembrandt",
-        "name": "The Abduction of Europa",
-        "year": "1632",
-        "id": "189",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/189.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/189full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Rubens",
-        "name": "The Rape of Orithyia by Boreas",
-        "year": "1615",
-        "id": "190",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/190.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/190full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Arkhip Kuindzhi",
-        "name": "Ukrainian night",
-        "year": "1876",
-        "id": "191",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/191.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/191full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Edgar Degas",
-        "name": "Dancers at the Barre",
-        "year": "1877",
-        "id": "192",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/192.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/192full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Alexey Venetsianov",
-        "name": "At the harvest. Summer",
-        "year": "1827",
-        "id": "193",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/193.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/193full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Pierre-Auguste Renoir",
-        "name": "Two Sisters",
-        "year": "1881",
-        "id": "194",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/194.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/194full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Rembrandt",
-        "name": "Nachtwacht",
-        "year": "1642",
-        "id": "195",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/195.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/195full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Eduard Manet",
-        "name": "A Bar at the Folies-Bergère",
-        "year": "1882",
-        "id": "196",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/196.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/196full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Nicolas Poussin",
-        "name": "Landscape with Polyphemus",
-        "year": "1649",
-        "id": "197",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/197.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/197full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Pieter Bruegel",
-        "name": "The Blind Leading the Blind",
-        "year": "1568",
-        "id": "198",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/198.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/198full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Viktor Vasnetsov",
-        "name": "Ivan Tsarevich on the Gray Wolf",
-        "year": "1888",
-        "id": "199",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/199.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/199full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Sandro Botticelli",
-        "name": "The birth of Venus",
-        "year": "1486",
-        "id": "200",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/200.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/200full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Leonardo da Vinci",
-        "name": "Virgin of the Rocks",
-        "year": "1486",
-        "id": "201",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/201.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/201full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Gallen-Kallela",
-        "name": "The Lovers",
-        "year": "1916",
-        "id": "202",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/202.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/202full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Vincent van Gogh",
-        "name": "Self-Portrait with Bandaged Ear and Pipe",
-        "year": "1889",
-        "id": "203",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/203.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/203full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Claude Monet",
-        "name": "Impression, soleil levant",
-        "year": "1882",
-        "id": "204",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/204.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/204full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Rembrandt",
-        "name": "The Return of the Prodigal Son",
-        "year": "1662",
-        "id": "205",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/205.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/205full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Merisi da Caravaggio",
-        "name": "Young Sick Bacchus",
-        "year": "1593",
-        "id": "206",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/206.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/206full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Ivan Aivazovsky",
-        "name": "Moon path",
-        "year": "1886",
-        "id": "207",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/207.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/207full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Vincent van Gogh",
-        "name": "A Wheatfield with Cypresses",
-        "year": "1889",
-        "id": "208",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/208.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/208full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Gallen-Kallela",
-        "name": "Boy and a Crow",
-        "year": "1884",
-        "id": "209",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/209.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/209full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Jan Vermeer",
-        "name": "The Astronomer",
-        "year": "1668",
-        "id": "210",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/210.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/210full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Rubens",
-        "name": "The Union of Earth and Water",
-        "year": "1618",
-        "id": "211",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/211.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/211full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Claude Monet",
-        "name": "Haystack at Giverny",
-        "year": "1886",
-        "id": "212",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/212.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/212full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Jean Fragonard",
-        "name": "The Bolt",
-        "year": "1777",
-        "id": "213",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/213.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/213full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Marianne Werefkin",
-        "name": "Fall, School",
-        "year": "1907",
-        "id": "214",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/214.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/214full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Vincent van Gogh",
-        "name": "Café Terrace at Night",
-        "year": "1888",
-        "id": "215",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/215.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/215full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Claude Monet",
-        "name": "Water Lilies and the Japanese Bridge",
-        "year": "1899",
-        "id": "216",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/216.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/216full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Ivan Aivazovsky",
-        "name": "Storm",
-        "year": "1868",
-        "id": "217",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/217.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/217full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Jan Vermeer",
-        "name": "The Lacemaker",
-        "year": "1671",
-        "id": "218",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/218.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/218full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Karl Bryullov",
-        "name": "Self-portrait",
-        "year": "1848",
-        "id": "219",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/219.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/219full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Pieter Bruegel",
-        "name": "Tower of Babel",
-        "year": "1563",
-        "id": "220",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/220.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/220full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Paul Gauguin",
-        "name": "Night Café at Arles",
-        "year": "1888",
-        "id": "221",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/221.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/221full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Ivan Shishkin",
-        "name": "Pinery",
-        "year": "1895",
-        "id": "222",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/222.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/222full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Claude Monet",
-        "name": "Breakfast on the grass",
-        "year": "1865",
-        "id": "223",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/223.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/223full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Raffaello Santi",
-        "name": "Saint George and the Dragon",
-        "year": "1506",
-        "id": "224",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/224.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/224full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Pablo Picasso",
-        "name": "Absinthe Drinker ",
-        "year": "1901",
-        "id": "225",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/225.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/225full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Edgar Degas",
-        "name": "Before the rehearsal",
-        "year": "1880",
-        "id": "226",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/226.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/226full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Nicholas Roerich",
-        "name": "Remember!",
-        "year": "1924",
-        "id": "227",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/227.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/227full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Ilya Repin",
-        "name": "Dragonfly",
-        "year": "1884",
-        "id": "228",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/228.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/228full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Claude Monet",
-        "name": "Waterloo Bridge",
-        "year": "1903",
-        "id": "229",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/229.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/229full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Isaac Levitan",
-        "name": "Spring is big water",
-        "year": "1897",
-        "id": "230",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/230.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/230full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Gallen-Kallela",
-        "name": "The First Lesson",
-        "year": "1889",
-        "id": "231",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/231.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/231full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Ivan Aivazovsky",
-        "name": "Rainbow",
-        "year": "1873",
-        "id": "232",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/232.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/232full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Edgar Degas",
-        "name": "The Dancing Class",
-        "year": "1874",
-        "id": "233",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/233.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/233full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Nicholas Roerich",
-        "name": "The mountain abode",
-        "year": "1933",
-        "id": "234",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/234.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/234full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Leonardo da Vinci",
-        "name": "The Virgin and Child with Saint Anne",
-        "year": "1510",
-        "id": "235",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/235.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/235full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "El Greco",
-        "name": "El Soplón",
-        "year": "1572",
-        "id": "236",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/236.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/236full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Pablo Picasso",
-        "name": "Friendship",
-        "year": "1908",
-        "id": "237",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/237.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/237full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Gallen-Kallela",
-        "name": "The girl in the wind",
-        "year": "1893",
-        "id": "238",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/238.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/238full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Ivan Aivazovsky",
-        "name": "The wave",
-        "year": "1889",
-        "id": "239",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/239.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/239full.jpg",
-        "categories": ""
-    },
-    {
-        "author": "Eugène Delacroix",
-        "name": "Self-portrait",
-        "year": "1837",
-        "id": "240",
-        "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/240.jpg",
-        "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/240full.jpg",
-        "categories": ""
-    }
-    
+  {
+    "author": "Pavel Fedotov",
+    "name": "The Major Makes a Proposal",
+    "year": "1852",
+    "id": "0",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/0.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/0full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Edgar Degas",
+    "name": "Blue Dancers",
+    "year": "1897",
+    "id": "1",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/1.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/1full.jpg",
+    "categories": "Impressionism"
+  },
+  {
+    "author": "Paolo Veronese",
+    "name": "Feast in the House of Levi",
+    "year": "1563",
+    "id": "2",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/2.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/2full.jpg",
+    "categories": "Mannerism"
+  },
+  {
+    "author": "Ilya Repin",
+    "name": "Ivan the Terrible and His Son Ivan",
+    "year": "1885",
+    "id": "3",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/3.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/3full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Konstantin Makovsky",
+    "name": "Countess Sophia Bobrinskaya",
+    "year": "1890",
+    "id": "4",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/4.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/4full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Vasily Perov",
+    "name": "A governess is arriving into a merchant's house",
+    "year": "1866",
+    "id": "5",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/5.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/5full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Michelangelo",
+    "name": "Creation of Adam",
+    "year": "1511",
+    "id": "6",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/6.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/6full.jpg",
+    "categories": "Renaissance"
+  },
+  {
+    "author": "Pierre-Auguste Renoir",
+    "name": "Sunday Stroll in the Bois de Boulogne",
+    "year": "1873",
+    "id": "7",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/7.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/7full.jpg",
+    "categories": "Impressionism"
+  },
+  {
+    "author": "Jan Vermeer",
+    "name": "Mistress and Maid",
+    "year": "1667",
+    "id": "8",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/8.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/8full.jpg",
+    "categories": "Baroque"
+  },
+  {
+    "author": "Vasily Polenov",
+    "name": "Moscow Courtyard",
+    "year": "1877",
+    "id": "9",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/9.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/9full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Fyodor Vasilyev",
+    "name": "Wet meadow",
+    "year": "1872",
+    "id": "10",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/10.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/10full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Ilya Repin",
+    "name": "Seeing off a recruit",
+    "year": "1879",
+    "id": "11",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/11.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/11full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Paolo Veronese",
+    "name": "Venus and Mars",
+    "year": "1560",
+    "id": "12",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/12.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/12full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Viktor Vasnetsov",
+    "name": "Alenushka",
+    "year": "1881",
+    "id": "13",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/13.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/13full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Claude Lorrain",
+    "name": "Seaport with the Embarkation of the Queen of Sheba",
+    "year": "1614",
+    "id": "14",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/14.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/14full.jpg",
+    "categories": "Religious painting"
+  },
+  {
+    "author": "Ilya Repin",
+    "name": "Vechornytsi",
+    "year": "1881",
+    "id": "15",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/15.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/15full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Jean Fragonard",
+    "name": "The Swing",
+    "year": "1767",
+    "id": "16",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/16.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/16full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Arkhip Kuindzhi",
+    "name": "A Birch Grove",
+    "year": "1879",
+    "id": "17",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/17.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/17full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Pablo Picasso",
+    "name": "Guernica",
+    "year": "1937",
+    "id": "18",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/18.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/18full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Paul Gauguin",
+    "name": "Where Do We Come From? What Are We? Where Are We Going?",
+    "year": "1898",
+    "id": "19",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/19.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/19full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Bartolomé Murillo",
+    "name": "Virgin and Child with a Rosary",
+    "year": "1655",
+    "id": "20",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/20.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/20full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Pieter Bruegel",
+    "name": "Netherlandish Proverbs",
+    "year": "1559",
+    "id": "21",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/21.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/21full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Jan van Eyck",
+    "name": "The Arnolfini Portrait",
+    "year": "1434",
+    "id": "22",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/22.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/22full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Pieter Bruegel",
+    "name": "Massacre of the Innocents",
+    "year": "1567",
+    "id": "23",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/23.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/23full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Konstantin Makovsky",
+    "name": "Children running from a thunderstorm",
+    "year": "1872",
+    "id": "24",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/24.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/24full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Rembrandt",
+    "name": "Danae",
+    "year": "1647",
+    "id": "25",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/25.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/25full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Raffaello Santi",
+    "name": "Madonna of the Chair",
+    "year": "1514",
+    "id": "26",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/26.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/26full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Vasily Surikov",
+    "name": "Taking a Snow Town",
+    "year": "1891",
+    "id": "27",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/27.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/27full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Ivan Shishkin",
+    "name": "Stream in the birch forest",
+    "year": "1883",
+    "id": "28",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/28.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/28full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Vasily Surikov",
+    "name": "Yermak's conquest of Siberia",
+    "year": "1895",
+    "id": "29",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/29.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/29full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Vladimir Borovikovsky",
+    "name": "Portrait of Lopukhina",
+    "year": "1797",
+    "id": "30",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/30.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/30full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "René Magritte",
+    "name": "The Son of Man",
+    "year": "1964",
+    "id": "31",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/31.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/31full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Diego Velasquez",
+    "name": "Toilet of Venus",
+    "year": "1651",
+    "id": "32",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/32.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/32full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Ivan Bogdanov",
+    "name": "For the calculation",
+    "year": "1890",
+    "id": "33",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/33.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/33full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Rembrandt",
+    "name": "Christ and the Woman Taken in Adultery",
+    "year": "1644",
+    "id": "34",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/34.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/34full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "John William Waterhouse",
+    "name": "The Lady of Shalott",
+    "year": "1888",
+    "id": "35",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/35.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/35full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Pierre-Auguste Renoir",
+    "name": "The Large Bathers",
+    "year": "1887",
+    "id": "36",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/36.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/36full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Bartolomé Murillo",
+    "name": "Boy with a Dog",
+    "year": "1650",
+    "id": "37",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/37.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/37full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Vasily Perov",
+    "name": "Three apprentices are taking water",
+    "year": "1866",
+    "id": "38",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/38.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/38full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Nikolai Bogdanov-Belsky",
+    "name": "Counting in their heads",
+    "year": "1895",
+    "id": "39",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/39.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/39full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Viktor Vasnetsov",
+    "name": "Three Princesses of the Underground Kingdom",
+    "year": "1884",
+    "id": "40",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/40.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/40full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Henri Matisse",
+    "name": "Dance",
+    "year": "1910",
+    "id": "41",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/41.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/41full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Edvard Munch",
+    "name": "Madonna",
+    "year": "1894",
+    "id": "42",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/42.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/42full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Marc Chagall",
+    "name": "Walk",
+    "year": "1918",
+    "id": "43",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/43.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/43full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Vasily Perov",
+    "name": "Easter Procession",
+    "year": "1861",
+    "id": "44",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/44.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/44full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Hieronymus Bosch",
+    "name": "The Last Judgment",
+    "year": "1504",
+    "id": "45",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/45.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/45full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Carl Lemoch",
+    "name": "Varka",
+    "year": "1893",
+    "id": "46",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/46.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/46full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Jean Fragonard",
+    "name": "The Stolen Kiss",
+    "year": "1788",
+    "id": "47",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/47.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/47full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "François Boucher",
+    "name": "Venus Consoling Love",
+    "year": "1751",
+    "id": "48",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/48.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/48full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Ivan Shishkin",
+    "name": "Ship grove",
+    "year": "1898",
+    "id": "49",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/49.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/49full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Gustav Klimt",
+    "name": "Adele Bloch-Bauer",
+    "year": "1907",
+    "id": "50",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/50.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/50full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Viktor Vasnetsov",
+    "name": "Bogatyrs",
+    "year": "1898",
+    "id": "51",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/51.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/51full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Wilhelm von Kaulbach",
+    "name": "Jerusalems durch Titus",
+    "year": "1846",
+    "id": "52",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/52.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/52full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Paolo Veronese",
+    "name": "The Wedding at Cana",
+    "year": "1563",
+    "id": "53",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/53.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/53full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Andrei Rublev",
+    "name": "Holy Trinity",
+    "year": "1411",
+    "id": "54",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/54.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/54full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Vasily Surikov",
+    "name": "Morning of the Execution of the Streltsy",
+    "year": "1881",
+    "id": "55",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/55.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/55full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Tiziano Vecellio",
+    "name": "The Bacchanal of the Andrians",
+    "year": "1526",
+    "id": "56",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/56.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/56full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Diego Velasquez",
+    "name": "The Gardens of the Villa Medici in Rome",
+    "year": "1630",
+    "id": "57",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/57.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/57full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Eduard Manet",
+    "name": "Luncheon on the Grass",
+    "year": "1863",
+    "id": "58",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/58.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/58full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Salvador Dali",
+    "name": "The Persistence of Memory",
+    "year": "1931",
+    "id": "59",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/59.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/59full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Pierre-Auguste Renoir",
+    "name": "Young Girls at the Piano",
+    "year": "1892",
+    "id": "60",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/60.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/60full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Alexander Makovski",
+    "name": "I am Bored with You",
+    "year": "1897",
+    "id": "61",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/61.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/61full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Diego Velasquez",
+    "name": "Las Meninas",
+    "year": "1656",
+    "id": "62",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/62.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/62full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Anthony van Dyck",
+    "name": "Samson and Delilah",
+    "year": "1628",
+    "id": "63",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/63.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/63full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Pablo Picasso",
+    "name": "Girl on a Ball",
+    "year": "1905",
+    "id": "64",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/64.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/64full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Giovanni Bellini",
+    "name": "The Feast of the Gods",
+    "year": "1514",
+    "id": "65",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/65.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/65full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Leonardo da Vinci",
+    "name": "Lady with an Ermine",
+    "year": "1490",
+    "id": "66",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/66.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/66full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Diego Velasquez",
+    "name": "The Triumph of Bacchus ",
+    "year": "1628",
+    "id": "67",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/67.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/67full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Bartolomé Murillo",
+    "name": "The Immaculate Conception of the Venerable Ones, or of Soult",
+    "year": "1678",
+    "id": "68",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/68.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/68full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Theodore Gericault",
+    "name": "The Raft of the Medusa'",
+    "year": "1819",
+    "id": "69",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/69.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/69full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Ivan Shishkin",
+    "name": "Morning in a pine forest",
+    "year": "1889",
+    "id": "70",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/70.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/70full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Jean-Etienne Liotard",
+    "name": "The Chocolate Girl",
+    "year": "1745",
+    "id": "71",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/71.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/71full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Rembrandt",
+    "name": "Rembrandt and Saskia in the parable of the Prodigal Son",
+    "year": "1635",
+    "id": "72",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/72.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/72full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Ilya Repin",
+    "name": "Religioese Prozession in Kursk anagoria",
+    "year": "1883",
+    "id": "73",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/73.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/73full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Alexey Venetsianov",
+    "name": "Sleeping shepherd boy",
+    "year": "1826",
+    "id": "74",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/74.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/74full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Ivan Bogdanov",
+    "name": "Newbie",
+    "year": "1893",
+    "id": "75",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/75.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/75full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Henri de Toulouse-Lautrec",
+    "name": "A Corner of the Moulin de la Galetteт",
+    "year": "1892",
+    "id": "76",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/76.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/76full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Tiziano Vecellio",
+    "name": "Mary Magdalenа",
+    "year": "1565",
+    "id": "77",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/77.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/77full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Diego Velasquez",
+    "name": "Infanta Maria Teresa in a Peach Dress",
+    "year": "1654",
+    "id": "78",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/78.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/78full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Tiziano Vecellio",
+    "name": "The Tribute Money",
+    "year": "1516",
+    "id": "79",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/79.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/79full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Karl Bryullov",
+    "name": "Rider",
+    "year": "1832",
+    "id": "80",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/80.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/80full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Vasily Vereshchagin",
+    "name": "The Apotheosis of War",
+    "year": "1817",
+    "id": "81",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/81.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/81full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Leonardo da Vinci",
+    "name": "Annunciation",
+    "year": "1475",
+    "id": "82",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/82.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/82full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Alexei Savrasov",
+    "name": "Rooks have Returned",
+    "year": "1871",
+    "id": "83",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/83.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/83full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Tiziano Vecellio",
+    "name": "Sacred and Profane Love",
+    "year": "1516",
+    "id": "84",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/84.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/84full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Jean-Baptiste Greuze",
+    "name": "Jean-Baptiste Greuze",
+    "year": "1761",
+    "id": "85",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/85.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/85full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Pablo Picasso",
+    "name": "The Brothel of Avignon",
+    "year": "1907",
+    "id": "86",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/86.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/86full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Ilya Repin",
+    "name": "Barge Haulers on the Volga",
+    "year": "1873",
+    "id": "87",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/87.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/87full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Mikhail Nesterov",
+    "name": "Vision of the child Bartholomaeus",
+    "year": "1890",
+    "id": "88",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/88.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/88full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Raffaello Santi",
+    "name": "Madonna in the Meadow",
+    "year": "1506",
+    "id": "89",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/89.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/89full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Vasily Tropinin",
+    "name": "Girl with roses",
+    "year": "1850",
+    "id": "90",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/90.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/90full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Merisi da Caravaggio",
+    "name": "The Lute Player",
+    "year": "1596",
+    "id": "91",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/91.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/91full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Vasily Perov",
+    "name": "Hunters resting",
+    "year": "1871",
+    "id": "92",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/92.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/92full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Leonardo da Vinci",
+    "name": "Last Supper",
+    "year": "1498",
+    "id": "93",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/93.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/93full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Jean-Baptiste Greuze",
+    "name": "The Spoiled Child",
+    "year": "1765",
+    "id": "94",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/94.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/94full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Bouguereau",
+    "name": "Wave",
+    "year": "1896",
+    "id": "95",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/95.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/95full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Petrov-Vodkin",
+    "name": "Bathing of a Red Horse",
+    "year": "1912",
+    "id": "96",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/96.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/96full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Gustav Klimt",
+    "name": "Kiss",
+    "year": "1908",
+    "id": "97",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/97.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/97full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Ivan Shishkin",
+    "name": "Rye",
+    "year": "1878",
+    "id": "98",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/98.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/98full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Jean Leon Gerome",
+    "name": "Pollice verso",
+    "year": "1872",
+    "id": "99",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/99.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/99full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Vasily Surikov",
+    "name": "Boyarina Morozova",
+    "year": "1887",
+    "id": "100",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/100.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/100full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Isaac Levitan",
+    "name": "Above Eternal Peace",
+    "year": "1894",
+    "id": "101",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/101.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/101full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Thomas Gainsborough",
+    "name": "Portrait of a Lady in Blue",
+    "year": "1780",
+    "id": "102",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/102.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/102full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Alexey Venetsianov",
+    "name": "In the ploughed field. Spring",
+    "year": "1820",
+    "id": "103",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/103.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/103full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Tiziano Vecellio",
+    "name": "Salome",
+    "year": "1515",
+    "id": "104",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/104.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/104full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Wassily Kandinsky",
+    "name": "Composition VIII",
+    "year": "1923",
+    "id": "105",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/105.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/105full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Vasily Polenov",
+    "name": "In the park",
+    "year": "1874",
+    "id": "106",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/106.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/106full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Louis Lagrenée",
+    "name": "Mars and Venus",
+    "year": "1770",
+    "id": "107",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/107.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/107full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Salvador Dali",
+    "name": "Dream Caused by the Flight of a Bee",
+    "year": "1944",
+    "id": "108",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/108.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/108full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Jan Vermeer",
+    "name": "Girl with a Pearl Earring",
+    "year": "1665",
+    "id": "109",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/109.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/109full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Henri Rousseau",
+    "name": "The Sleeping Gypsy",
+    "year": "1897",
+    "id": "110",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/110.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/110full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Vasily Polenov",
+    "name": "From the mill",
+    "year": "1872",
+    "id": "111",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/111.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/111full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Edvard Munch",
+    "name": "The Scream",
+    "year": "1893",
+    "id": "112",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/112.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/112full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Karl Bryullov",
+    "name": "The Last Day of Pompeii",
+    "year": "1833",
+    "id": "113",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/113.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/113full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Ilya Repin",
+    "name": "Summer landscape",
+    "year": "1879",
+    "id": "114",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/114.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/114full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Jan Vermeer",
+    "name": "The milkmaid",
+    "year": "1660",
+    "id": "115",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/115.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/115full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Ivan Aivazovsky",
+    "name": "The Ninth Wave",
+    "year": "1850",
+    "id": "116",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/116.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/116full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Vincent van Gogh",
+    "name": "Sunflowers",
+    "year": "1888",
+    "id": "117",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/117.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/117full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Valentin Serov",
+    "name": "Girl with peaches.",
+    "year": "1887",
+    "id": "118",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/118.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/118full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Merisi da Caravaggio",
+    "name": "Conversion on the Way to Damascus",
+    "year": "1601",
+    "id": "119",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/119.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/119full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Albrecht Dürer",
+    "name": "Feast of the Rosary",
+    "year": "1506",
+    "id": "120",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/120.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/120full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "El Greco",
+    "name": "Cleansing of the Temple",
+    "year": "1600",
+    "id": "121",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/121.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/121full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Ilya Repin",
+    "name": "Studying exam",
+    "year": "1864",
+    "id": "122",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/122.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/122full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Isaac Levitan",
+    "name": "March",
+    "year": "1895",
+    "id": "123",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/123.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/123full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Bouguereau",
+    "name": "A Young Girl Defending Herself Against Eros",
+    "year": "1880",
+    "id": "124",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/124.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/124full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Leonardo da Vinci",
+    "name": "Madonna Litta",
+    "year": "1491",
+    "id": "125",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/125.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/125full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Казимир Малевич",
+    "name": "Black Square",
+    "year": "1915",
+    "id": "126",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/126.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/126full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "El Greco",
+    "name": "St's Peter and Paul",
+    "year": "1592",
+    "id": "127",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/127.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/127full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Viktor Vasnetsov",
+    "name": "Knight at the Crossroads",
+    "year": "1878",
+    "id": "128",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/128.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/128full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Konstantin Makovsky",
+    "name": "Hillwood Estate",
+    "year": "1883",
+    "id": "129",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/129.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/129full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Eugène Delacroix",
+    "name": "Liberty Leading the People",
+    "year": "1830",
+    "id": "130",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/130.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/130full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Vasily Polenov",
+    "name": "Grandma's garden",
+    "year": "1878",
+    "id": "131",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/131.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/131full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Henri Matisse",
+    "name": "Семейный портрет",
+    "year": "1911",
+    "id": "132",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/132.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/132full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Konstantin Makovsky",
+    "name": "Christmastide Divination",
+    "year": "1890",
+    "id": "133",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/133.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/133full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Pierre-Auguste Renoir",
+    "name": "Chatou Bridge",
+    "year": "1875",
+    "id": "134",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/134.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/134full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Sandro Botticelli",
+    "name": "Primavera",
+    "year": "1482",
+    "id": "135",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/135.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/135full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Pierre-Auguste Renoir",
+    "name": "The Umbrellas",
+    "year": "1886",
+    "id": "136",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/136.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/136full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Gustave Courbet",
+    "name": "The Artist's Studio",
+    "year": "1855",
+    "id": "137",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/137.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/137full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Vasily Polenov",
+    "name": "Village Okulova Gora",
+    "year": "1860",
+    "id": "138",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/138.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/138full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Konstantin Makovsky",
+    "name": " Muhammed's carpet moving from Mecca to Cairo",
+    "year": "1875",
+    "id": "139",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/139.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/139full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Pierre-Auguste Renoir",
+    "name": "Dance at Le Moulin de la Galette",
+    "year": "1876",
+    "id": "140",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/140.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/140full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Ivan Kramskoi",
+    "name": "Portrait of an Unknown Woman",
+    "year": "1883",
+    "id": "141",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/141.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/141full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Diego Velasquez",
+    "name": "Apollo in the Forge of Vulcan",
+    "year": "1630",
+    "id": "142",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/142.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/142full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Ilya Repin",
+    "name": "Reply of the Zaporozhian Cossacks",
+    "year": "1891",
+    "id": "143",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/143.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/143full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Raffaello Santi",
+    "name": "Young Woman with Unicorn",
+    "year": "1506",
+    "id": "144",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/144.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/144full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Alexander Ivanov",
+    "name": "The Appearance of Christ Before the People",
+    "year": "1857",
+    "id": "145",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/145.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/145full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Eduard Manet",
+    "name": "Woman with jug",
+    "year": "1858",
+    "id": "146",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/146.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/146full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Tiziano Vecellio",
+    "name": "Equestrian Portrait of Charles V",
+    "year": "1548",
+    "id": "147",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/147.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/147full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Pierre-Auguste Renoir",
+    "name": "Luncheon of the Boating Party",
+    "year": "1881",
+    "id": "148",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/148.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/148full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Karl Bryullov",
+    "name": "Italian Midday",
+    "year": "1827",
+    "id": "149",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/149.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/149full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Viktor Vasnetsov",
+    "name": "Tsar Ivan the Terrible",
+    "year": "1896",
+    "id": "150",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/150.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/150full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Pieter Bruegel",
+    "name": "Hunters in the Snow",
+    "year": "1565",
+    "id": "151",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/151.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/151full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Viktor Vasnetsov",
+    "name": "Hunters in the Snow",
+    "year": "1880",
+    "id": "152",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/152.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/152full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Marc Chagall",
+    "name": "Me and the village",
+    "year": "1911",
+    "id": "153",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/153.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/153full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Leonardo da Vinci",
+    "name": "Mona Lisa",
+    "year": "1505",
+    "id": "154",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/154.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/154full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Francesco Bacchiacca",
+    "name": "Madonna and Child in a Landscape",
+    "year": "1520",
+    "id": "155",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/155.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/155full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Louis David",
+    "name": "The Oath of the Horatii",
+    "year": "1784",
+    "id": "156",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/156.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/156full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Albrecht Dürer",
+    "name": "Adam and Eve",
+    "year": "1507",
+    "id": "157",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/157.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/157full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Bartolomé Murillo",
+    "name": "Assumption of the Virgin",
+    "year": "1655",
+    "id": "158",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/158.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/158full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Vasily Perov",
+    "name": "Birder",
+    "year": "1870",
+    "id": "159",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/159.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/159full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Merisi da Caravaggio",
+    "name": "Rest on the Flight into Egypt",
+    "year": "1596",
+    "id": "160",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/160.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/160full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Francisco Goya",
+    "name": "The Third of May 1808",
+    "year": "1808",
+    "id": "161",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/161.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/161full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Raffaello Santi",
+    "name": "The Triumph of Galatea",
+    "year": "1512",
+    "id": "162",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/162.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/162full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Mikhail Vrubel",
+    "name": "Demon (sitting)",
+    "year": "1890",
+    "id": "163",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/163.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/163full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Vincent van Gogh",
+    "name": "Irises",
+    "year": "1889",
+    "id": "164",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/164.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/164full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Paul Delaroche",
+    "name": "The Execution of Lady Jane Grey",
+    "year": "1833",
+    "id": "165",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/165.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/165full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "John Constable",
+    "name": "Salisbury Cathedral from the Bishop's Grounds",
+    "year": "1823",
+    "id": "166",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/166.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/166full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Vincent van Gogh",
+    "name": "The Starry Night",
+    "year": "1889",
+    "id": "167",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/167.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/167full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "François Boucher",
+    "name": "Spring anagoria",
+    "year": "1755",
+    "id": "168",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/168.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/168full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Raffaello Santi",
+    "name": "Madonna of the Rose",
+    "year": "1518",
+    "id": "169",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/169.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/169full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Vasily Tropinin",
+    "name": "Lace making beauty",
+    "year": "1823",
+    "id": "170",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/170.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/170full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Rembrandt",
+    "name": "Belshazzar's Feast",
+    "year": "1635",
+    "id": "171",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/171.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/171full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Vasily Surikov",
+    "name": "Crossing the Alps in 1799",
+    "year": "1899",
+    "id": "172",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/172.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/172full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Isaac Levitan",
+    "name": "Gold autumn",
+    "year": "1895",
+    "id": "173",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/173.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/173full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Arkhip Kuindzhi",
+    "name": "On the island of Valaam",
+    "year": "1873",
+    "id": "174",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/174.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/174full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Diego Velasquez",
+    "name": "The Surrender of Breda",
+    "year": "1635",
+    "id": "175",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/175.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/175full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Ilya Repin",
+    "name": "They Did Not Expect Him",
+    "year": "1888",
+    "id": "176",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/176.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/176full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "François Boucher",
+    "name": "Diana Bathing",
+    "year": "1742",
+    "id": "177",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/177.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/177full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Marianne Werefkine",
+    "name": "The anthill",
+    "year": "1916",
+    "id": "178",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/178.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/178full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Pierre-Auguste Renoir",
+    "name": "The Actress Jeanne Samary",
+    "year": "1877",
+    "id": "179",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/179.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/179full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Ilya Repin",
+    "name": "Sadko",
+    "year": "1876",
+    "id": "180",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/180.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/180full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Arkhip Kuindzhi",
+    "name": "Moonlit Night on the Dnieper",
+    "year": "1880",
+    "id": "181",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/181.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/181full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Diego Velasquez",
+    "name": "The Adoration of the Magi",
+    "year": "1619",
+    "id": "182",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/182.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/182full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Nikolai Bogdanov-Belsky",
+    "name": "At the door of the school",
+    "year": "1897",
+    "id": "183",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/183.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/183full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Hieronymus Bosch",
+    "name": "The Garden of Earthly Delights",
+    "year": "1510",
+    "id": "184",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/184.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/184full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Antonio da Correggio",
+    "name": "Danaë",
+    "year": "1530",
+    "id": "185",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/185.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/185full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Rubens",
+    "name": "The Rape of the Daughters of Leucippus",
+    "year": "1618",
+    "id": "186",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/186.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/186full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Jean Ingres",
+    "name": "Grande Odalisque",
+    "year": "1814",
+    "id": "187",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/187.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/187full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Raffaello Santi",
+    "name": "The Sistine Madonna",
+    "year": "1520",
+    "id": "188",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/188.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/188full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Rembrandt",
+    "name": "The Abduction of Europa",
+    "year": "1632",
+    "id": "189",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/189.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/189full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Rubens",
+    "name": "The Rape of Orithyia by Boreas",
+    "year": "1615",
+    "id": "190",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/190.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/190full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Arkhip Kuindzhi",
+    "name": "Ukrainian night",
+    "year": "1876",
+    "id": "191",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/191.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/191full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Edgar Degas",
+    "name": "Dancers at the Barre",
+    "year": "1877",
+    "id": "192",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/192.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/192full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Alexey Venetsianov",
+    "name": "At the harvest. Summer",
+    "year": "1827",
+    "id": "193",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/193.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/193full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Pierre-Auguste Renoir",
+    "name": "Two Sisters",
+    "year": "1881",
+    "id": "194",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/194.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/194full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Rembrandt",
+    "name": "Nachtwacht",
+    "year": "1642",
+    "id": "195",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/195.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/195full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Eduard Manet",
+    "name": "A Bar at the Folies-Bergère",
+    "year": "1882",
+    "id": "196",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/196.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/196full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Nicolas Poussin",
+    "name": "Landscape with Polyphemus",
+    "year": "1649",
+    "id": "197",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/197.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/197full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Pieter Bruegel",
+    "name": "The Blind Leading the Blind",
+    "year": "1568",
+    "id": "198",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/198.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/198full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Viktor Vasnetsov",
+    "name": "Ivan Tsarevich on the Gray Wolf",
+    "year": "1888",
+    "id": "199",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/199.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/199full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Sandro Botticelli",
+    "name": "The birth of Venus",
+    "year": "1486",
+    "id": "200",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/200.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/200full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Leonardo da Vinci",
+    "name": "Virgin of the Rocks",
+    "year": "1486",
+    "id": "201",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/201.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/201full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Gallen-Kallela",
+    "name": "The Lovers",
+    "year": "1916",
+    "id": "202",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/202.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/202full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Vincent van Gogh",
+    "name": "Self-Portrait with Bandaged Ear and Pipe",
+    "year": "1889",
+    "id": "203",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/203.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/203full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Claude Monet",
+    "name": "Impression, soleil levant",
+    "year": "1882",
+    "id": "204",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/204.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/204full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Rembrandt",
+    "name": "The Return of the Prodigal Son",
+    "year": "1662",
+    "id": "205",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/205.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/205full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Merisi da Caravaggio",
+    "name": "Young Sick Bacchus",
+    "year": "1593",
+    "id": "206",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/206.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/206full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Ivan Aivazovsky",
+    "name": "Moon path",
+    "year": "1886",
+    "id": "207",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/207.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/207full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Vincent van Gogh",
+    "name": "A Wheatfield with Cypresses",
+    "year": "1889",
+    "id": "208",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/208.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/208full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Gallen-Kallela",
+    "name": "Boy and a Crow",
+    "year": "1884",
+    "id": "209",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/209.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/209full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Jan Vermeer",
+    "name": "The Astronomer",
+    "year": "1668",
+    "id": "210",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/210.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/210full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Rubens",
+    "name": "The Union of Earth and Water",
+    "year": "1618",
+    "id": "211",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/211.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/211full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Claude Monet",
+    "name": "Haystack at Giverny",
+    "year": "1886",
+    "id": "212",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/212.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/212full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Jean Fragonard",
+    "name": "The Bolt",
+    "year": "1777",
+    "id": "213",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/213.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/213full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Marianne Werefkin",
+    "name": "Fall, School",
+    "year": "1907",
+    "id": "214",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/214.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/214full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Vincent van Gogh",
+    "name": "Café Terrace at Night",
+    "year": "1888",
+    "id": "215",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/215.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/215full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Claude Monet",
+    "name": "Water Lilies and the Japanese Bridge",
+    "year": "1899",
+    "id": "216",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/216.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/216full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Ivan Aivazovsky",
+    "name": "Storm",
+    "year": "1868",
+    "id": "217",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/217.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/217full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Jan Vermeer",
+    "name": "The Lacemaker",
+    "year": "1671",
+    "id": "218",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/218.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/218full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Karl Bryullov",
+    "name": "Self-portrait",
+    "year": "1848",
+    "id": "219",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/219.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/219full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Pieter Bruegel",
+    "name": "Tower of Babel",
+    "year": "1563",
+    "id": "220",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/220.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/220full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Paul Gauguin",
+    "name": "Night Café at Arles",
+    "year": "1888",
+    "id": "221",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/221.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/221full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Ivan Shishkin",
+    "name": "Pinery",
+    "year": "1895",
+    "id": "222",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/222.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/222full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Claude Monet",
+    "name": "Breakfast on the grass",
+    "year": "1865",
+    "id": "223",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/223.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/223full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Raffaello Santi",
+    "name": "Saint George and the Dragon",
+    "year": "1506",
+    "id": "224",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/224.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/224full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Pablo Picasso",
+    "name": "Absinthe Drinker ",
+    "year": "1901",
+    "id": "225",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/225.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/225full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Edgar Degas",
+    "name": "Before the rehearsal",
+    "year": "1880",
+    "id": "226",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/226.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/226full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Nicholas Roerich",
+    "name": "Remember!",
+    "year": "1924",
+    "id": "227",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/227.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/227full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Ilya Repin",
+    "name": "Dragonfly",
+    "year": "1884",
+    "id": "228",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/228.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/228full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Claude Monet",
+    "name": "Waterloo Bridge",
+    "year": "1903",
+    "id": "229",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/229.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/229full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Isaac Levitan",
+    "name": "Spring is big water",
+    "year": "1897",
+    "id": "230",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/230.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/230full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Gallen-Kallela",
+    "name": "The First Lesson",
+    "year": "1889",
+    "id": "231",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/231.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/231full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Ivan Aivazovsky",
+    "name": "Rainbow",
+    "year": "1873",
+    "id": "232",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/232.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/232full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Edgar Degas",
+    "name": "The Dancing Class",
+    "year": "1874",
+    "id": "233",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/233.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/233full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Nicholas Roerich",
+    "name": "The mountain abode",
+    "year": "1933",
+    "id": "234",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/234.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/234full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Leonardo da Vinci",
+    "name": "The Virgin and Child with Saint Anne",
+    "year": "1510",
+    "id": "235",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/235.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/235full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "El Greco",
+    "name": "El Soplón",
+    "year": "1572",
+    "id": "236",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/236.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/236full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Pablo Picasso",
+    "name": "Friendship",
+    "year": "1908",
+    "id": "237",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/237.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/237full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Gallen-Kallela",
+    "name": "The girl in the wind",
+    "year": "1893",
+    "id": "238",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/238.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/238full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Ivan Aivazovsky",
+    "name": "The wave",
+    "year": "1889",
+    "id": "239",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/239.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/239full.jpg",
+    "categories": ""
+  },
+  {
+    "author": "Eugène Delacroix",
+    "name": "Self-portrait",
+    "year": "1837",
+    "id": "240",
+    "imgUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/img/240.jpg",
+    "imgFullUrl": "https://raw.githubusercontent.com/VedKhorkov/image-data/master/full/240full.jpg",
+    "categories": ""
+  }
 ]
-
-

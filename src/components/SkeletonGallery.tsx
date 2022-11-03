@@ -1,8 +1,8 @@
-import React from "react"
-import ContentLoader from "react-content-loader"
+import React from "react";
+import ContentLoader from "react-content-loader";
 
 export const SkeletonMobile = () => (
-  <ContentLoader 
+  <ContentLoader
     rtl
     speed={2}
     width={155}
@@ -13,10 +13,10 @@ export const SkeletonMobile = () => (
   >
     <rect x="0" y="0" rx="20" ry="20" width="155" height="146" />
   </ContentLoader>
-)
+);
 
 export const SkeletonDesktop = () => (
-  <ContentLoader 
+  <ContentLoader
     speed={2}
     width={195}
     height={206}
@@ -26,10 +26,10 @@ export const SkeletonDesktop = () => (
   >
     <rect x="0" y="0" rx="25" ry="25" width="195" height="206" />
   </ContentLoader>
-)
+);
 
 export const SkeletonArtDesktop = () => (
-  <ContentLoader 
+  <ContentLoader
     speed={2}
     width={825}
     height={780}
@@ -39,8 +39,4 @@ export const SkeletonArtDesktop = () => (
   >
     <rect x="0" y="0" rx="25" ry="25" width="825" height="780" />
   </ContentLoader>
-)
-
-
-
-
+);

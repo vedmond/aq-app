@@ -1,15 +1,15 @@
 @font-face {
-  font-family: 'Gilroy';
+  font-family: "Gilroy";
   font-style: normal;
   font-weight: normal;
-  src: url(../assets/fonts/Gilroy-Medium.ttf),
+  src: url(../assets/fonts/Gilroy-Medium.ttf);
 }
 
 @font-face {
-  font-family: 'Gilroy Regular';
+  font-family: "Gilroy Regular";
   font-style: normal;
   font-weight: normal;
-  src: url(../assets/fonts/Gilroy-Regular.ttf),
+  src: url(../assets/fonts/Gilroy-Regular.ttf);
 }
 
 .position-bg {
@@ -33,7 +33,6 @@
   grid-template-rows: 1vh 99vh 10px;
   position: relative;
   box-sizing: border-box;
-
 }
 
 a :active,
@@ -72,8 +71,8 @@ a {
   @extend .position-bg;
   background-size: contain;
   // border: 1px solid white;
-  .title{
-    font-family: 'Gilroy';
+  .title {
+    font-family: "Gilroy";
     font-weight: 700;
     font-size: 42px;
     line-height: 60px;
@@ -83,14 +82,13 @@ a {
     margin: 0;
     pointer-events: none;
     display: inline-block;
-    .title__text{
+    .title__text {
       display: inline;
-      color: #FFBCA2;
+      color: #ffbca2;
     }
   }
 
   .ellipse {
-
     top: 0px;
     position: absolute;
     width: 60px;
@@ -107,7 +105,6 @@ a {
   .ellipse__left {
     left: -13px;
   }
-
 }
 
 .icon__cross {
@@ -140,17 +137,17 @@ a {
     display: block;
 
     .item {
-      font-family: 'Gilroy Regular';
+      font-family: "Gilroy Regular";
       font-style: normal;
       font-weight: 500;
       font-size: 22px;
       line-height: 18px;
       letter-spacing: -0.5px;
-      color: #FFFFFF;
+      color: #ffffff;
     }
 
     .active {
-      color: #FFBCA2;
+      color: #ffbca2;
     }
   }
 }
@@ -158,13 +155,13 @@ a {
 .main {
   // height: 80%;
   position: relative;
-  font-family: 'Gilroy';
+  font-family: "Gilroy";
   font-style: normal;
   font-weight: 700;
   font-size: 34px;
   line-height: 28px;
   letter-spacing: -0.914286px;
-  color: #FFFFFF;
+  color: #ffffff;
   @extend %flex-box;
   flex-wrap: wrap;
   margin: 20px auto;
@@ -178,15 +175,15 @@ a {
     // border: 1px solid yellow;
 
     .counter {
-      position: absolute; 
+      position: absolute;
       right: 7px;
       top: -4px;
-      font-family: 'Gilroy Regular';
+      font-family: "Gilroy Regular";
       font-size: 20px;
-      color: #FFBCA2;
+      color: #ffbca2;
       pointer-events: none;
-      .item__text{
-        color: #FFFFFF;
+      .item__text {
+        color: #ffffff;
         letter-spacing: -0.62px;
         font-weight: 400;
       }
@@ -194,13 +191,13 @@ a {
 
     .name_category {
       display: inline-block;
-      font-family: 'Gilroy Regular';
+      font-family: "Gilroy Regular";
       font-style: normal;
       font-weight: 500;
       font-size: 20px;
       line-height: 20px;
       letter-spacing: -0.62px;
-      color: #FFFFFF;
+      color: #ffffff;
       vertical-align: top;
       pointer-events: none;
     }
@@ -212,7 +209,7 @@ a {
       border: 1px solid white;
       // background-image: url(../assets/img/question-01.png);
       @extend .position-bg;
-      &:hover{
+      &:hover {
         cursor: pointer;
       }
       .again {
@@ -220,14 +217,14 @@ a {
         height: 50px;
         position: absolute;
         bottom: 3px;
-        font-family: 'Gilroy Regular';
+        font-family: "Gilroy Regular";
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
         line-height: 20px;
         letter-spacing: -0.62px;
         color: black;
-        background-color: #FFBCA2;
+        background-color: #ffbca2;
         border-radius: 0 0 30px 30px;
         cursor: pointer;
 
@@ -245,22 +242,18 @@ a {
           display: inline-block;
           margin-left: 16px;
           margin-bottom: -6px;
-
         }
       }
-
     }
 
     .dark {
-      filter: grayscale(100%) ;
+      filter: grayscale(100%);
       &:hover {
         cursor: pointer;
-        border: 1px solid #FFBCA2;
+        border: 1px solid #ffbca2;
         filter: grayscale(60%);
       }
     }
-
-
   }
 
   //  border: 1px solid white;
@@ -274,7 +267,7 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  font-family: 'Gilroy Regular';
+  font-family: "Gilroy Regular";
   color: white;
   font-weight: 300;
   font-size: 16px;
@@ -321,13 +314,13 @@ a {
 }
 
 @media (max-device-width: 580px) {
-    .icon__arrow {
-      width: 80vw;
-    }
+  .icon__arrow {
+    width: 80vw;
+  }
 
-    .menu {
-      display: none;
-    }
+  .menu {
+    display: none;
+  }
 
   .footer {
     font-weight: 500;
@@ -337,7 +330,6 @@ a {
 }
 
 @media (max-device-width: 520px) {
-
   .main {
     .box {
       width: 155px;
@@ -366,7 +358,6 @@ a {
         top: 0;
       }
     }
-
   }
 
   .footer {
@@ -415,15 +406,13 @@ a {
         background-size: contain;
       }
     }
-
-
   }
 }
 
 @media (max-device-width: 400px) {
   .header {
-      height: 80px;
-    }
+    height: 80px;
+  }
   .main {
     .box {
       margin: 5px;

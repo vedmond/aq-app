@@ -1,3 +1,2 @@
-
-import { QuitPopup } from './QuitPopup';
-export {QuitPopup}
+import { QuitPopup } from "./QuitPopup";
+export { QuitPopup };

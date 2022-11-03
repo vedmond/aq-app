@@ -1,2 +1,2 @@
 import { SettingPage } from "./SettingPage";
-export {SettingPage};
+export { SettingPage };

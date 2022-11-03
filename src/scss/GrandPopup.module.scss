@@ -1,15 +1,15 @@
 @font-face {
-  font-family: 'Gilroy';
+  font-family: "Gilroy";
   font-style: normal;
   font-weight: normal;
-  src: url(../assets/fonts/Gilroy-Medium.ttf),
+  src: url(../assets/fonts/Gilroy-Medium.ttf);
 }
 
 @font-face {
-  font-family: 'Gilroy Regular';
+  font-family: "Gilroy Regular";
   font-style: normal;
   font-weight: normal;
-  src: url(../assets/fonts/Gilroy-Regular.ttf),
+  src: url(../assets/fonts/Gilroy-Regular.ttf);
 }
 
 .position-bg {
@@ -51,186 +51,177 @@ a {
 //   box-sizing: border-box;
 // }
 
-  .win {
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: absolute;
-    top: 0;
-    left: -200%;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0);
+.win {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: absolute;
+  top: 0;
+  left: -200%;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
 
-    .win_popup {
+  .win_popup {
+    position: relative;
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    margin-top: 300px;
+    background: white;
+    border-radius: 50px;
+    @extend %flex-box;
+    flex-direction: column;
+
+    .title {
+      font-family: "Gilroy";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 77.8195px;
+      line-height: 78px;
+      text-align: center;
+      color: #010101;
+      margin-top: -65px;
+    }
+
+    .text {
+      font-family: "Gilroy";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 42px;
+      line-height: 50px;
+      text-align: center;
+      margin-top: -35px;
+    }
+
+    .pic {
       position: relative;
-      width: 500px;
-      height: 600px;
-      margin: auto;
-      margin-top: 300px;
-      background: white;
-      border-radius: 50px;
+      width: 400px;
+      height: 200px;
+      // border: 1px solid black;
+      margin-top: 5px;
+      border-radius: 20px;
+      background-image: url(../assets/icon/grand.png);
+      @extend .position-bg;
+      background-size: contain;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .btn_container {
+      width: 80%;
+      height: 15%;
       @extend %flex-box;
-      flex-direction: column;
+
+      .btn_popup {
+        cursor: pointer;
+        width: 75%;
+        height: 60%;
+        border-radius: 40px;
+        background-color: rgba(0, 0, 0, 0);
+        border: 1px solid rgb(255, 188, 162);
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: -1.14766px;
+        color: #010101;
+
+        &:hover {
+          border: 2px solid rgb(255, 188, 162);
+          transition-duration: 0.2s;
+          transform: translateY(-1px);
+          background-color: rgb(255, 188, 162);
+        }
+      }
+
+      .btn1 {
+        background-color: rgba(255, 188, 162, 0.2);
+      }
+    }
+  }
+}
+.active {
+  left: 0%;
+  transition-duration: 0.5s;
+}
+
+@media (max-width: 880px) {
+  .win {
+    .win_popup {
+      width: 400px;
+      height: 480px;
+      margin: auto;
+      margin-top: 14vh;
 
       .title {
-        font-family: 'Gilroy';
-        font-style: normal;
         font-weight: 700;
-        font-size: 77.8195px;
+        font-size: 78px;
         line-height: 78px;
-        text-align: center;
-        color: #010101;
-        margin-top: -65px;
+        margin-top: -20px;
       }
 
       .text {
-        font-family: 'Gilroy';
-        font-style: normal;
         font-weight: 400;
         font-size: 42px;
         line-height: 50px;
-        text-align: center;
-        margin-top: -35px;
+        margin-top: -13px;
       }
 
       .pic {
-        position: relative;
-        width: 400px;
-        height: 200px;
-        // border: 1px solid black;
-        margin-top: 5px;
-        border-radius: 20px;
-        background-image: url(../assets/icon/grand.png);
-        @extend .position-bg;
-        background-size: contain;
+        width: 300px;
+        height: 150px;
+        margin-top: 16px;
+      }
+    }
+  }
+}
+
+@media (max-width: 580px) {
+  .win {
+    .win_popup {
+      width: 80vw;
+      height: 96vw;
+      margin: auto;
+      margin-top: 10vh;
+      font-size: 17px;
+      border-radius: 20px;
+
+      .pic {
+        width: 70vw;
+        height: 35vw;
+        margin-top: 16px;
       }
 
-      p {
-        margin: 0;
+      .title {
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 52px;
+      }
+
+      .text {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 28px;
+        margin-top: -6px;
       }
 
       .btn_container {
-        width: 80%;
-        height: 15%;
-        @extend %flex-box;
+        width: 90%;
+        height: 16%;
 
         .btn_popup {
           cursor: pointer;
-          width: 75%;
-          height: 60%;
-          border-radius: 40px;
-          background-color: rgba(0, 0, 0, 0);
-          border: 1px solid rgb(255, 188, 162);
-          font-family: 'Gilroy';
-          font-style: normal;
-          font-weight: 500;
-          font-size: 22px;
-          line-height: 22px;
-          text-align: center;
-          letter-spacing: -1.14766px;
-          color: #010101;
-
-          &:hover {
-            border: 2px solid rgb(255, 188, 162);
-            transition-duration: 0.2s;
-            transform: translateY(-1px);
-            background-color: rgb(255, 188, 162);
-          }
-        }
-
-        .btn1 {
-          background-color: rgba(255, 188, 162, 0.2);
-        }
-      }
-    }
-  }
-  .active{
-    left: 0%;
-    transition-duration: 0.5s;
-  }
-
-
-
-@media (max-width: 880px) {
-
-    .win {
-      .win_popup {
-        width: 400px;
-        height: 480px;
-        margin: auto;
-        margin-top: 14vh;
-
-        .title {
-          font-weight: 700;
-          font-size: 78px;
-          line-height: 78px;
-          margin-top: -20px;
-        }
-
-        .text {
+          width: 85%;
+          height: 65%;
+          border-radius: 15px;
           font-weight: 400;
-          font-size: 42px;
-          line-height: 50px;
-          margin-top: -13px
-        }
-
-        .pic {
-          width: 300px;
-          height: 150px;
-          margin-top: 16px;
+          font-size: 17px;
         }
       }
     }
   }
-
-
-
-
-@media (max-width: 580px) {
-
-
-      .win {
-        .win_popup {
-          width: 80vw;
-          height: 96vw;
-          margin: auto;
-          margin-top: 10vh;
-          font-size: 17px;
-          border-radius: 20px;
-
-          .pic {
-            width: 70vw;
-            height: 35vw;
-            margin-top: 16px;
-          }
-
-          .title {
-            font-weight: 700;
-            font-size: 52px;
-            line-height: 52px;
-          }
-
-          .text {
-            font-weight: 500;
-            font-size: 22px;
-            line-height: 28px;
-            margin-top: -6px;
-          }
-
-          .btn_container {
-            width: 90%;
-            height: 16%;
-
-            .btn_popup {
-              cursor: pointer;
-              width: 85%;
-              height: 65%;
-              border-radius: 15px;
-              font-weight: 400;
-              font-size: 17px;
-            }
-          }
-        }
-      }
-
 }

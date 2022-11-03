@@ -1,3 +1,2 @@
-
-import { GrandPopup } from './GrandPopup';
-export {GrandPopup}
+import { GrandPopup } from "./GrandPopup";
+export { GrandPopup };

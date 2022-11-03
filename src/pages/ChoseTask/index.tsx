@@ -1,2 +1,2 @@
-import { ChoseTask } from './ChoseTask';
-export {ChoseTask}
+import { ChoseTask } from "./ChoseTask";
+export { ChoseTask };

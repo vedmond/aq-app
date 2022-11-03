@@ -1,3 +1,2 @@
-
-import { GameOverPopup } from './GameOverPopup';
-export {GameOverPopup}
+import { GameOverPopup } from "./GameOverPopup";
+export { GameOverPopup };

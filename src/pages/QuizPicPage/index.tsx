@@ -1,2 +1,2 @@
-import { QuizPicPage } from './QuizPicPage';
-export { QuizPicPage }
+import { QuizPicPage } from "./QuizPicPage";
+export { QuizPicPage };

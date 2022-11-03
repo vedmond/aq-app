@@ -1,3 +1,2 @@
-
-import { Curtain } from './Curtain';
-export {Curtain}
+import { Curtain } from "./Curtain";
+export { Curtain };

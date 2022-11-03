@@ -1,2 +1,2 @@
-import { StartPage } from './StartPage';
+import { StartPage } from "./StartPage";
 export { StartPage };

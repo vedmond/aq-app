@@ -1,2 +1,2 @@
-import { HelpPopup } from './HelpPopup';
-export {HelpPopup}
+import { HelpPopup } from "./HelpPopup";
+export { HelpPopup };

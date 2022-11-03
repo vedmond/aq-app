@@ -1,16 +1,15 @@
-
 @font-face {
-  font-family: 'Gilroy';
+  font-family: "Gilroy";
   font-style: normal;
   font-weight: normal;
-  src: url(../assets/fonts/Gilroy-Medium.ttf),
+  src: url(../assets/fonts/Gilroy-Medium.ttf);
 }
 
 @font-face {
-  font-family: 'Gilroy Regular';
+  font-family: "Gilroy Regular";
   font-style: normal;
   font-weight: normal;
-  src: url(../assets/fonts/Gilroy-Regular.ttf),
+  src: url(../assets/fonts/Gilroy-Regular.ttf);
 }
 
 .position-bg {
@@ -66,14 +65,14 @@ a {
   justify-content: space-between;
   align-items: center;
   color: #fff;
-  font-family: 'Gilroy Regular';
+  font-family: "Gilroy Regular";
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
   line-height: 28px;
   letter-spacing: -0.5px;
 
-  .icon__arrow__block{
+  .icon__arrow__block {
     cursor: pointer;
     width: 30px;
     height: 30px;
@@ -85,7 +84,6 @@ a {
       transform: translateX(-5px);
     }
   }
-
 }
 
 .icon__cross {
@@ -98,7 +96,7 @@ a {
 
   &:hover {
     transition-duration: 1.5s;
-    transform: rotate(1.0turn);
+    transform: rotate(1turn);
   }
 
   background-image: url(../assets/icon/cross.svg);
@@ -108,13 +106,13 @@ a {
 .main {
   height: 80vh;
   position: relative;
-  font-family: 'Gilroy';
+  font-family: "Gilroy";
   font-style: normal;
   font-weight: 700;
   font-size: 34px;
   line-height: 28px;
   letter-spacing: -0.914286px;
-  color: #FFFFFF;
+  color: #ffffff;
 
   .setting {
     position: absolute;
@@ -138,7 +136,7 @@ a {
         height: 50px;
 
         @extend %flex-box;
-        font-family: 'Gilroy Regular';
+        font-family: "Gilroy Regular";
         font-weight: 500;
         font-size: 24px;
         line-height: 28px;
@@ -162,7 +160,7 @@ a {
         height: 50px;
 
         @extend %flex-box;
-        font-family: 'Gilroy Regular';
+        font-family: "Gilroy Regular";
         font-weight: 500;
         font-size: 24px;
         line-height: 28px;
@@ -177,7 +175,6 @@ a {
           display: block;
         }
       }
-
     }
 
     .toggle {
@@ -186,7 +183,7 @@ a {
       width: 48px;
       height: 22px;
       border-radius: 20px;
-      background-color: #FFBCA2;
+      background-color: #ffbca2;
       border: none;
       &:hover {
         transition-duration: 0.5s;
@@ -201,7 +198,7 @@ a {
         height: 20px;
         background-color: #fff;
         border-radius: 50%;
-        
+
         &.on {
           right: 0;
         }
@@ -217,14 +214,14 @@ a {
       width: 30px;
       height: 30px;
       border-radius: 30px;
-      background-color: #FFFFFF;
+      background-color: #ffffff;
       border: none;
       &:hover {
         transition-duration: 0.2s;
         transform: translateY(1px);
       }
     }
-    .button_off{
+    .button_off {
       background-color: rgb(144, 124, 124);
     }
   }
@@ -272,7 +269,7 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  font-family: 'Gilroy Regular';
+  font-family: "Gilroy Regular";
   color: white;
   font-weight: 300;
   font-size: 16px;
@@ -315,12 +312,10 @@ a {
         }
       }
     }
-
   }
 }
 
 @media (max-width: 580px) {
-
   .wrapper {
     grid-template-columns: 1fr minmax(280px, 520px) 1fr;
 
@@ -336,7 +331,7 @@ a {
   .main {
     font-weight: 400;
     font-size: 20px;
-    font-family: 'Gilroy Regular';
+    font-family: "Gilroy Regular";
     height: 70vh;
     .setting {
       width: 260px;
@@ -372,11 +367,9 @@ a {
         font-weight: 300;
         font-size: 0.8em;
         line-height: 28px;
-
       }
     }
   }
-
 
   .footer {
     font-weight: 500;
