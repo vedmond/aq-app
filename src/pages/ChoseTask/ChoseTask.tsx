@@ -5,6 +5,15 @@ import { CategoryGallery } from '../../components/CategoryGallery';
 import dataQuiz from '../../assets/date.json';
 import { Footer } from '../../components/Footer';
 
+type ChoseTaskProps = {
+  linkCategory: string;
+  setCategoryId: React.Dispatch<React.SetStateAction<number>>;
+  setCategoryName: React.Dispatch<React.SetStateAction<string>>;
+  setNameStorage: React.Dispatch<React.SetStateAction<string>>;
+  countResult: number;
+  setCountResult: React.Dispatch<React.SetStateAction<number>>;
+  nameStorage: string;
+};
 type DataStartArrayItem = {
   author: string;
   name: string;
@@ -13,15 +22,6 @@ type DataStartArrayItem = {
   imgUrl: string;
   imgFullUrl: string;
   categories: string;
-};
-type ChoseTaskProps = {
-  linkCategory: string;
-  setCategoryId: any;
-  setCategoryName: any;
-  setNameStorage: any;
-  countResult: number;
-  setCountResult: any;
-  nameStorage: string;
 };
 
 export const ChoseTask: React.FC<ChoseTaskProps> = ({

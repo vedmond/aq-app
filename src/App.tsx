@@ -1,81 +1,74 @@
-import React from "react";
-import "./App.scss";
-import { Routes, Route, useNavigate } from "react-router-dom";
-import { SettingPage } from "./pages/SettingPage";
-import { QuizArtPage } from "./pages/QuizArtPage";
-import { QuizPicPage } from "./pages/QuizPicPage";
-import { StartPage } from "./pages/StartPage";
-import { NotFound } from "./pages/NotFound";
-import { ChoseTask } from "./pages/ChoseTask";
-import {
-  startScoreStorage,
-  startSettingStorage,
-} from "./components/ConstStartStorage";
-import { Score } from "./pages/Score";
+import React from 'react';
+import './App.scss';
+import { Routes, Route, useNavigate } from 'react-router-dom';
+import { SettingPage } from './pages/SettingPage';
+import { QuizArtPage } from './pages/QuizArtPage';
+import { QuizPicPage } from './pages/QuizPicPage';
+import { StartPage } from './pages/StartPage';
+import { NotFound } from './pages/NotFound';
+import { ChoseTask } from './pages/ChoseTask';
+import { startScoreStorage, startSettingStorage } from './components/ConstStartStorage';
+import { Score } from './pages/Score';
+
+type BtnFunction = (i?: boolean) => void;
 
 function App() {
-  const art = "art";
-  const pic = "pic";
+  const art = 'art';
+  const pic = 'pic';
 
-  if (localStorage.getItem("score") === null) {
-    localStorage.setItem("score", JSON.stringify(startScoreStorage));
+  if (localStorage.getItem('score') === null) {
+    localStorage.setItem('score', JSON.stringify(startScoreStorage));
   }
-  if (localStorage.getItem("setting") === null) {
-    localStorage.setItem("setting", JSON.stringify(startSettingStorage));
+  if (localStorage.getItem('setting') === null) {
+    localStorage.setItem('setting', JSON.stringify(startSettingStorage));
   }
 
-  const settingStorage: string | null = localStorage.getItem("setting");
+  const settingStorage: string | null = localStorage.getItem('setting');
   const objSetting: {
     volume: boolean;
     help: boolean;
-  } = JSON.parse(`${settingStorage ? settingStorage : ""}`);
+  } = JSON.parse(`${settingStorage ? settingStorage : ''}`);
 
-  const [stateVolume, setStateVolume] = React.useState<boolean>(
-    objSetting.volume
-  );
+  const [stateVolume, setStateVolume] = React.useState<boolean>(objSetting.volume);
   const [stateGameOver, setStateGameOver] = React.useState<boolean>(false);
   const [stateWinPopUp, setStateWinPopUp] = React.useState<boolean>(false);
   const [stateGrandPopUp, setStateGrandPopUp] = React.useState<boolean>(false);
-  const [helpPopupOn, setHelpPopupOn] = React.useState<boolean>(
-    objSetting.help
-  );
+  const [helpPopupOn, setHelpPopupOn] = React.useState<boolean>(objSetting.help);
   const [categoryId, setCategoryId] = React.useState<number>(0);
-  const [categoryName, setCategoryName] = React.useState<string>("");
+  const [categoryName, setCategoryName] = React.useState<string>('');
   const [countResult, setCountResult] = React.useState<number>(0);
-  const [nameStorage, setNameStorage] = React.useState<string>("");
+  const [nameStorage, setNameStorage] = React.useState<string>('');
   const [countQuestion, setCountQuestion] = React.useState<number>(1);
   const linkChose = useNavigate();
-  const btnNo = (linkHome: boolean = false) => {
-    const score: string | null = localStorage.getItem("score");
-    const scoreObj = JSON.parse(`${score ? score : ""}`);
+  const btnNo: BtnFunction = (linkHome: boolean = false) => {
+    const score: string | null = localStorage.getItem('score');
+    const scoreObj: any = JSON.parse(`${score ? score : ''}`);
 
     scoreObj[nameStorage].result = countResult;
     scoreObj[nameStorage].question = countQuestion;
-    localStorage.setItem("score", JSON.stringify(scoreObj));
+    localStorage.setItem('score', JSON.stringify(scoreObj));
     setCountQuestion((value) => (value = 1));
     setStateGameOver(false);
     setStateWinPopUp(false);
     setStateGrandPopUp(false);
     setCountQuestion(1);
     if (linkHome) {
-      linkChose("/");
+      linkChose('/');
     } else {
-      categoryName === "art"
-        ? linkChose("/chose/art")
-        : linkChose("/chose/pic");
+      categoryName === 'art' ? linkChose('/chose/art') : linkChose('/chose/pic');
     }
   };
-  const btnYes = () => {
-    const score: string | null = localStorage.getItem("score");
-    const scoreObj = JSON.parse(`${score ? score : ""}`);
+  const btnYes: BtnFunction = () => {
+    const score: string | null = localStorage.getItem('score');
+    const scoreObj = JSON.parse(`${score ? score : ''}`);
     scoreObj[nameStorage].result = 0;
     scoreObj[nameStorage].question = 0;
-    localStorage.setItem("score", JSON.stringify(scoreObj));
+    localStorage.setItem('score', JSON.stringify(scoreObj));
     setStateGameOver(false);
     setCategoryId(+categoryId - 20);
     setCountResult(0);
     setCountQuestion(1);
-    categoryName === "art" ? linkChose("/art") : linkChose("/pic");
+    categoryName === 'art' ? linkChose('/art') : linkChose('/pic');
   };
 
   return (

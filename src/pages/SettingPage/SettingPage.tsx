@@ -1,71 +1,84 @@
-import React from "react";
-import style from "../../scss/SettingPage.module.scss";
-import { Link, useNavigate } from "react-router-dom";
-import {
-  startScoreStorage,
-  startSettingStorage,
-} from "../../components/ConstStartStorage";
-import { Footer } from "../../components/Footer";
+import React from 'react';
+import style from '../../scss/SettingPage.module.scss';
+import { Link, useNavigate } from 'react-router-dom';
+import { startScoreStorage, startSettingStorage } from '../../components/ConstStartStorage';
+import { Footer } from '../../components/Footer';
+import { soundData } from '../../assets/helper/SoundData';
 
-export const SettingPage = ({
-  helpPopupOn,
-  setHelpPopupOn,
-  stateVolume,
-  setStateVolume,
-}: any) => {
-  const storage: any = localStorage.getItem("setting");
+export const SettingPage = ({ helpPopupOn, setHelpPopupOn, stateVolume, setStateVolume }: any) => {
+  const storage: any = localStorage.getItem('setting');
   const objSetting = JSON.parse(storage);
   const [stateTimer, setStateTimer] = React.useState(objSetting.timer);
   const [numberTime, setNumberTime] = React.useState(objSetting.time);
+  const [soundOn, setSoundOn] = React.useState(false);
   setStateVolume(objSetting.volume);
+
   const linkCallBack = useNavigate();
   const callBack = () => linkCallBack(-1);
+  const soundRef: React.MutableRefObject<null | HTMLAudioElement> = React.useRef(null);
+
   const clickHelp = () => {
+    setSoundOn(true);
     setHelpPopupOn(!helpPopupOn);
-    const storage: any = localStorage.getItem("setting");
+    const storage: any = localStorage.getItem('setting');
     const objSetting = JSON.parse(storage);
     objSetting.help = !helpPopupOn;
-    localStorage.setItem("setting", JSON.stringify(objSetting));
+    localStorage.setItem('setting', JSON.stringify(objSetting));
   };
   const clickVolume = () => {
-    const storage: any = localStorage.getItem("setting");
+    setSoundOn(true);
+    const storage: any = localStorage.getItem('setting');
     const objSetting = JSON.parse(storage);
     objSetting.volume = !objSetting.volume;
     setStateVolume(objSetting.volume);
-    localStorage.setItem("setting", JSON.stringify(objSetting));
+    localStorage.setItem('setting', JSON.stringify(objSetting));
   };
   const clickTimeAnswer = () => {
-    const storage: any = localStorage.getItem("setting");
+    const storage: any = localStorage.getItem('setting');
     const objSetting = JSON.parse(storage);
     objSetting.timer = !objSetting.timer;
     setStateTimer(objSetting.timer);
-    localStorage.setItem("setting", JSON.stringify(objSetting));
+    localStorage.setItem('setting', JSON.stringify(objSetting));
+    setSoundOn(true);
   };
   const btnReset = () => {
-    localStorage.removeItem("score");
-    localStorage.setItem("score", JSON.stringify(startScoreStorage));
+    localStorage.removeItem('score');
+    localStorage.setItem('score', JSON.stringify(startScoreStorage));
+    setSoundOn(true);
   };
   const btnDefault = () => {
-    localStorage.removeItem("setting");
-    localStorage.setItem("setting", JSON.stringify(startSettingStorage));
-    const storage: any = localStorage.getItem("setting");
+    localStorage.removeItem('setting');
+    localStorage.setItem('setting', JSON.stringify(startSettingStorage));
+    const storage: any = localStorage.getItem('setting');
     const objSetting = JSON.parse(storage);
     setHelpPopupOn(objSetting.help);
     setStateTimer(objSetting.timer);
     setNumberTime(objSetting.time);
+    setSoundOn(true);
   };
   const numberTimePlus = () => {
     numberTime < 60 ? setNumberTime(+numberTime + 5) : setNumberTime(60);
+    setSoundOn(true);
   };
   const numberTimeMinus = () => {
     numberTime > 5 ? setNumberTime(+numberTime - 5) : setNumberTime(5);
+    setSoundOn(true);
   };
   React.useEffect(() => {
-    const storage: any = localStorage.getItem("setting");
+    const storage: any = localStorage.getItem('setting');
     const objSetting = JSON.parse(storage);
     objSetting.time = numberTime;
-    localStorage.setItem("setting", JSON.stringify(objSetting));
+    localStorage.setItem('setting', JSON.stringify(objSetting));
   }, [numberTime]);
+
+  React.useEffect(() => {
+    if (stateVolume && soundOn) {
+      if (soundRef.current) {
+        soundRef.current.play();
+      }
+      setSoundOn(false);
+    }
+  }, [stateVolume, soundOn, numberTime]);
 
   return (
     <>
@@ -75,15 +88,16 @@ export const SettingPage = ({
           Setting
         </div>
         <Link to="/" className={style.icon__cross}>
-          {" "}
+          {' '}
         </Link>
       </header>
       <main className={style.main}>
+        <audio ref={soundRef} src={soundData[0].music}></audio>
         <div className={style.setting}>
           <div className={style.box__volume}>
             <span>Volume</span>
             <div className={style.switch}>
-              <span>{stateVolume ? "On" : "Off"}</span>
+              <span>{stateVolume ? 'On' : 'Off'}</span>
               <button onClick={clickVolume} className={style.toggle}>
                 <span className={stateVolume ? style.on : style.off}></span>
               </button>
@@ -92,7 +106,7 @@ export const SettingPage = ({
           <div className={style.box__time}>
             <span>Time to answer</span>
             <div className={style.switch}>
-              <span>{stateTimer ? "On" : "Off"}</span>
+              <span>{stateTimer ? 'On' : 'Off'}</span>
               <button onClick={clickTimeAnswer} className={style.toggle}>
                 <span className={stateTimer ? style.on : style.off}></span>
               </button>
@@ -101,18 +115,16 @@ export const SettingPage = ({
               <button
                 onClick={numberTimeMinus}
                 className={`${style.btn_timer} ${style.minus} ${
-                  numberTime === 5 ? style.button_off : ""
-                }`}
-              >
+                  numberTime === 5 ? style.button_off : ''
+                }`}>
                 -
               </button>
               <p className={style.number}>{numberTime}</p>
               <button
                 onClick={numberTimePlus}
                 className={`${style.btn_timer} ${style.plus} ${
-                  numberTime === 60 ? style.button_off : ""
-                }`}
-              >
+                  numberTime === 60 ? style.button_off : ''
+                }`}>
                 +
               </button>
             </div>
@@ -120,7 +132,7 @@ export const SettingPage = ({
           <div className={style.box__time}>
             <span>Help PopUp</span>
             <div className={style.switch}>
-              <span>{helpPopupOn ? "On" : "Off"}</span>
+              <span>{helpPopupOn ? 'On' : 'Off'}</span>
               <button onClick={clickHelp} className={style.toggle}>
                 <span className={helpPopupOn ? style.on : style.off}></span>
               </button>
@@ -131,10 +143,7 @@ export const SettingPage = ({
           <button onClick={btnDefault} className={style.button}>
             Default
           </button>
-          <button
-            onClick={btnReset}
-            className={`${style.button} ${style.btn_act}`}
-          >
+          <button onClick={btnReset} className={`${style.button} ${style.btn_act}`}>
             Reset Score
           </button>
         </div>

@@ -1,4 +1,4 @@
-export const startScoreStorage: any = {
+export const startScoreStorage = {
   art1: { result: 0, question: 0 },
   art2: { result: 0, question: 0 },
   art3: { result: 0, question: 0 },

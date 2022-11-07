@@ -1,21 +1,46 @@
-import React from "react";
-import style from "../../scss/QuizArtPage.module.scss";
-import dataQuiz from "../../assets/date.json";
-import { Curtain } from "../Curtain";
-import { QuitPopup } from "../QuitPopup";
-import { PointProgress } from "../../components/PointProgress";
-import { ButtonArt } from "../../components/ButtonArt";
-import { HelpPopup } from "../HelpPopup";
-import { GameOverPopup } from "../GameOverPopup";
-import { WinPopup } from "../WinPopup";
-import { GrandPopup } from "../GrandPopup";
-import { Footer } from "../../components/Footer";
-import { Timer } from "../../components/Timer";
-import { Result } from "../../components/Result";
-import { soundData } from "../../assets/helper/SoundData";
-import { SkeletonArtDesktop } from "../../components/SkeletonGallery";
+import React from 'react';
+import style from '../../scss/QuizArtPage.module.scss';
+import dataQuiz from '../../assets/date.json';
+import { Curtain } from '../Curtain';
+import { QuitPopup } from '../QuitPopup';
+import { PointProgress } from '../../components/PointProgress';
+import { ButtonArt } from '../../components/ButtonArt';
+import { HelpPopup } from '../HelpPopup';
+import { GameOverPopup } from '../GameOverPopup';
+import { WinPopup } from '../WinPopup';
+import { GrandPopup } from '../GrandPopup';
+import { Footer } from '../../components/Footer';
+import { Timer } from '../../components/Timer';
+import { Result } from '../../components/Result';
+import { soundData } from '../../assets/helper/SoundData';
+import { SkeletonArtDesktop } from '../../components/SkeletonGallery';
 
-export const QuizArtPage = ({
+type QuizArtPageProps = {
+  categoryId: number;
+  setCategoryId: React.Dispatch<React.SetStateAction<number>>;
+  btnNo: () => void;
+  btnYes: () => void;
+  stateGameOver: boolean;
+  setStateGameOver: React.Dispatch<React.SetStateAction<boolean>>;
+  countResult: number;
+  setCountResult: React.Dispatch<React.SetStateAction<number>>;
+  countQuestion: number;
+  setCountQuestion: React.Dispatch<React.SetStateAction<number>>;
+  stateWinPopUp: boolean;
+  setStateWinPopUp: React.Dispatch<React.SetStateAction<boolean>>;
+  stateGrandPopUp: boolean;
+  setStateGrandPopUp: React.Dispatch<React.SetStateAction<boolean>>;
+  helpPopupOn: boolean;
+  stateVolume: boolean;
+};
+type SettingType = {
+  help: boolean;
+  time: number;
+  timer: boolean;
+  volume: boolean;
+};
+
+export const QuizArtPage: React.FC<QuizArtPageProps> = ({
   categoryId,
   setCategoryId,
   btnNo,
@@ -32,16 +57,16 @@ export const QuizArtPage = ({
   setStateGrandPopUp,
   helpPopupOn,
   stateVolume,
-}: any) => {
-  const storage: any = localStorage.getItem("setting");
-  const settingObj = JSON.parse(storage);
-  const timer = settingObj.timer;
+}) => {
+  const storage: string | null = localStorage.getItem('setting');
+  const settingObj: SettingType = JSON.parse(`${storage ? storage : ''}`);
+  const timer: boolean = settingObj.timer;
   const startTime: number = settingObj.time;
 
   const [isTimer, setIsTimer] = React.useState(timer);
   const [timeLeft, setTimeLeft] = React.useState(startTime);
 
-  const [linkPic, setLinkPic] = React.useState("");
+  const [linkPic, setLinkPic] = React.useState('');
   const [isLoading, setIsLoading] = React.useState(true);
   const [containerStyle, setContainerStyle] = React.useState({});
 
@@ -52,18 +77,18 @@ export const QuizArtPage = ({
   const [btnArray, setBtnArray] = React.useState([]);
   const [finishedId, setFinishedId] = React.useState(-1);
 
-  const soundRef: any = React.useRef(null);
+  const soundRef: React.MutableRefObject<null | HTMLAudioElement> = React.useRef(null);
 
-  let stateCurtain =
+  let stateCurtain: boolean =
     stateQuit || stateHelp || stateGameOver || stateWinPopUp || stateGrandPopUp;
   const barLineWidth = {
     width: `${countQuestion * 5}%`,
   };
 
   React.useEffect(() => {
-    let arrayAutour = [dataQuiz[categoryId].author];
+    let arrayAutour: string[] = [dataQuiz[categoryId].author];
     for (let i = 1; i < 4; i++) {
-      const nameAutour = dataQuiz[Math.floor(Math.random() * 240)].author;
+      const nameAutour: string = dataQuiz[Math.floor(Math.random() * 240)].author;
       if (arrayAutour.includes(nameAutour)) {
         i--;
       } else {
@@ -84,14 +109,14 @@ export const QuizArtPage = ({
   }, [categoryId]);
 
   let length = 20;
-  const array = new Array(length);
+  const array: number[] = new Array(length);
   while (length--) {
     array[length] = length;
   }
 
   const clickNextId = React.useCallback(
-    (nameBtn: string = "") => {
-      setLinkPic("");
+    (nameBtn: string = '') => {
+      setLinkPic('');
       setIsTimer(timer);
       timer ? setTimeLeft(startTime) : setTimeLeft(0);
       if (nameBtn === dataQuiz[categoryId].author) {
@@ -105,11 +130,7 @@ export const QuizArtPage = ({
       helpPopupOn ? setStateHelp(true) : setStateHelp(false);
       if (countQuestion === 20 && countResult < 10) {
         setStateGameOver(true);
-      } else if (
-        countQuestion === 20 &&
-        countResult >= 10 &&
-        countResult <= 19
-      ) {
+      } else if (countQuestion === 20 && countResult >= 10 && countResult <= 19) {
         setStateWinPopUp(true);
       } else if (countQuestion === 20 && countResult > 19) {
         setStateGrandPopUp(true);
@@ -130,7 +151,7 @@ export const QuizArtPage = ({
       setStateWinPopUp,
       startTime,
       timer,
-    ]
+    ],
   );
 
   React.useEffect(() => {
@@ -144,8 +165,7 @@ export const QuizArtPage = ({
       setTimeLeft(startTime);
     }
     const interval = setInterval(() => {
-      isTimer &&
-        setTimeLeft((timeLeft: any) => (timeLeft >= 1 ? timeLeft - 1 : 0));
+      isTimer && setTimeLeft((timeLeft: any) => (timeLeft >= 1 ? timeLeft - 1 : 0));
     }, 1000);
     if (timeLeft === 0) {
       /////********************* */
@@ -157,19 +177,13 @@ export const QuizArtPage = ({
     return () => {
       clearInterval(interval);
     };
-  }, [
-    isTimer,
-    timeLeft,
-    startTime,
-    clickNextId,
-    finishedId,
-    categoryId,
-    stateCurtain,
-  ]);
+  }, [isTimer, timeLeft, startTime, clickNextId, finishedId, categoryId, stateCurtain]);
 
   React.useEffect(() => {
     if (countResult > 0 && stateVolume && soundOn) {
-      soundRef.current.play();
+      if (soundRef.current) {
+        soundRef.current.play();
+      }
       setSoundOn(false);
     }
   }, [countResult, stateVolume, soundOn]);
@@ -186,9 +200,9 @@ export const QuizArtPage = ({
       setIsLoading(false);
       setContainerStyle({
         backgroundImage: `url("${linkPic}")`,
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "50% 50%",
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: '50% 50%',
       });
       return;
     };
@@ -199,29 +213,22 @@ export const QuizArtPage = ({
     <>
       <header className={style.header}>
         <audio ref={soundRef} src={soundData[1].music} />
-        <button
-          onClick={() => setStateQuit((value) => !value)}
-          className={style.icon__cross}
-        >
-          {" "}
+        <button onClick={() => setStateQuit((value) => !value)} className={style.icon__cross}>
+          {' '}
         </button>
         <div className={style.progress_bar}>
           <div style={barLineWidth} className={style.progress_bar_line}></div>
         </div>
         <div className={style.timer}>
           {isTimer && !stateCurtain && (
-            <Timer
-              timeLeft={timeLeft}
-              timer={timer}
-              stateVolume={stateVolume}
-            />
+            <Timer timeLeft={timeLeft} timer={timer} stateVolume={stateVolume} />
           )}
           {!isTimer && !stateCurtain && <Result countResult={countResult} />}
         </div>
       </header>
       <main className={style.main}>
         <p className={style.title}>Who is the author of this picture?</p>
-        {isLoading || linkPic === "" ? (
+        {isLoading || linkPic === '' ? (
           <div className={style.container}>
             <SkeletonArtDesktop />
           </div>
@@ -229,11 +236,7 @@ export const QuizArtPage = ({
           <div className={style.container} style={containerStyle}>
             <div className={style.point_box}>
               {array.map((el) => (
-                <PointProgress
-                  key={el}
-                  index={el}
-                  countQuestion={countQuestion}
-                />
+                <PointProgress key={el} index={el} countQuestion={countQuestion} />
               ))}
             </div>
           </div>
@@ -266,11 +269,7 @@ export const QuizArtPage = ({
         btnNo={btnNo}
         stateVolume={stateVolume}
       />
-      <GrandPopup
-        stateGrandPopUp={stateGrandPopUp}
-        btnNo={btnNo}
-        stateVolume={stateVolume}
-      />
+      <GrandPopup stateGrandPopUp={stateGrandPopUp} btnNo={btnNo} stateVolume={stateVolume} />
       <HelpPopup
         stateHelp={stateHelp}
         setStateHelp={setStateHelp}
