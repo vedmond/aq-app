@@ -1,5 +1,4 @@
 import React from 'react';
-
 import style from '../../scss/QuizPicPage.module.scss';
 import { Curtain } from '../Curtain';
 import { QuitPopup } from '../QuitPopup';
@@ -14,7 +13,32 @@ import { Timer } from '../../components/Timer';
 import { Result } from '../../components/Result';
 import { soundData } from '../../assets/helper/SoundData';
 
-export const QuizPicPage = ({
+type QuizPicPageProps = {
+  categoryId: number;
+  setCategoryId: React.Dispatch<React.SetStateAction<number>>;
+  btnNo: (i?: boolean) => void;
+  btnYes: (i?: boolean) => void;
+  stateGameOver: boolean;
+  setStateGameOver: React.Dispatch<React.SetStateAction<boolean>>;
+  countResult: number;
+  setCountResult: React.Dispatch<React.SetStateAction<number>>;
+  countQuestion: number;
+  setCountQuestion: React.Dispatch<React.SetStateAction<number>>;
+  stateWinPopUp: boolean;
+  setStateWinPopUp: React.Dispatch<React.SetStateAction<boolean>>;
+  stateGrandPopUp: boolean;
+  setStateGrandPopUp: React.Dispatch<React.SetStateAction<boolean>>;
+  helpPopupOn: boolean;
+  stateVolume: boolean;
+};
+type SettingType = {
+  help: boolean;
+  time: number;
+  timer: boolean;
+  volume: boolean;
+};
+
+export const QuizPicPage: React.FC<QuizPicPageProps> = ({
   categoryId,
   setCategoryId,
   btnNo,
@@ -31,9 +55,9 @@ export const QuizPicPage = ({
   setStateGrandPopUp,
   helpPopupOn,
   stateVolume,
-}: any) => {
-  const storage: any = localStorage.getItem('setting');
-  const settingObj = JSON.parse(storage);
+}) => {
+  const storage: string | null = localStorage.getItem('setting');
+  const settingObj: SettingType = JSON.parse(`${storage ? storage : ''}`);
   const timer = settingObj.timer;
   const startTime: number = settingObj.time;
 
@@ -44,30 +68,32 @@ export const QuizPicPage = ({
   const [stateQuit, setStateQuit] = React.useState(false);
   const [stateHelp, setStateHelp] = React.useState(false);
   const [flagHelp, setFlagHelp] = React.useState(true);
-  const [btnArray, setBtnArray] = React.useState([]);
+  const [btnArray, setBtnArray] = React.useState(['']);
   const [nameArtistPic, setNameArtistPic] = React.useState('');
   const [finishedId, setFinishedId] = React.useState(-1);
 
-  const soundRef: any = React.useRef(null);
+  const soundRef: React.MutableRefObject<null | HTMLAudioElement> = React.useRef(null);
 
-  let stateCurtain = stateQuit || stateHelp || stateGameOver || stateWinPopUp || stateGrandPopUp;
+  let stateCurtain: boolean =
+    stateQuit || stateHelp || stateGameOver || stateWinPopUp || stateGrandPopUp;
   const barLineWidth = {
     width: `${countQuestion * 5}%`,
   };
 
   React.useEffect(() => {
-    let arrayImgUrl = [dataQuiz[categoryId].imgUrl];
+    let arrayImgUrl: string[] = [dataQuiz[categoryId].imgUrl];
     setNameArtistPic(dataQuiz[categoryId].author);
     for (let i = 1; i < 4; i++) {
-      const picImgUrl = dataQuiz[Math.floor(Math.random() * 240)].imgUrl;
+      const picImgUrl: string = dataQuiz[Math.floor(Math.random() * 240)].imgUrl;
       if (arrayImgUrl.includes(picImgUrl)) {
         i--;
       } else {
         arrayImgUrl.push(picImgUrl);
       }
     }
-    function shuffle(arr: any) {
-      let j, temp;
+    function shuffle(arr: string[]): string[] {
+      let j: number = 0;
+      let temp: string = '';
       for (var i = arr.length - 1; i > 0; i--) {
         j = Math.floor(Math.random() * (i + 1));
         temp = arr[j];
@@ -144,7 +170,9 @@ export const QuizPicPage = ({
 
   React.useEffect(() => {
     if (countResult > 0 && stateVolume && soundOn) {
-      soundRef.current.play();
+      if (soundRef.current) {
+        soundRef.current.play();
+      }
       setSoundOn(false);
     }
   }, [countResult, stateVolume, soundOn]);

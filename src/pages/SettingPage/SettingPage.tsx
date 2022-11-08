@@ -5,9 +5,27 @@ import { startScoreStorage, startSettingStorage } from '../../components/ConstSt
 import { Footer } from '../../components/Footer';
 import { soundData } from '../../assets/helper/SoundData';
 
-export const SettingPage = ({ helpPopupOn, setHelpPopupOn, stateVolume, setStateVolume }: any) => {
-  const storage: any = localStorage.getItem('setting');
-  const objSetting = JSON.parse(storage);
+type SettingPageProps = {
+  helpPopupOn: boolean;
+  setHelpPopupOn: React.Dispatch<React.SetStateAction<boolean>>;
+  stateVolume: boolean;
+  setStateVolume: React.Dispatch<React.SetStateAction<boolean>>;
+};
+type SettingType = {
+  help: boolean;
+  time: number;
+  timer: boolean;
+  volume: boolean;
+};
+
+export const SettingPage: React.FC<SettingPageProps> = ({
+  helpPopupOn,
+  setHelpPopupOn,
+  stateVolume,
+  setStateVolume,
+}) => {
+  const storage: string | null = localStorage.getItem('setting');
+  const objSetting: SettingType = JSON.parse(`${storage ? storage : ''}`);
   const [stateTimer, setStateTimer] = React.useState(objSetting.timer);
   const [numberTime, setNumberTime] = React.useState(objSetting.time);
   const [soundOn, setSoundOn] = React.useState(false);
@@ -17,25 +35,27 @@ export const SettingPage = ({ helpPopupOn, setHelpPopupOn, stateVolume, setState
   const callBack = () => linkCallBack(-1);
   const soundRef: React.MutableRefObject<null | HTMLAudioElement> = React.useRef(null);
 
+  const objSettingFn = (): SettingType => {
+    const storage: string | null = localStorage.getItem('setting');
+    return JSON.parse(`${storage ? storage : ''}`);
+  };
+
   const clickHelp = () => {
     setSoundOn(true);
     setHelpPopupOn(!helpPopupOn);
-    const storage: any = localStorage.getItem('setting');
-    const objSetting = JSON.parse(storage);
+    objSettingFn();
     objSetting.help = !helpPopupOn;
     localStorage.setItem('setting', JSON.stringify(objSetting));
   };
   const clickVolume = () => {
     setSoundOn(true);
-    const storage: any = localStorage.getItem('setting');
-    const objSetting = JSON.parse(storage);
+    objSettingFn();
     objSetting.volume = !objSetting.volume;
     setStateVolume(objSetting.volume);
     localStorage.setItem('setting', JSON.stringify(objSetting));
   };
   const clickTimeAnswer = () => {
-    const storage: any = localStorage.getItem('setting');
-    const objSetting = JSON.parse(storage);
+    objSettingFn();
     objSetting.timer = !objSetting.timer;
     setStateTimer(objSetting.timer);
     localStorage.setItem('setting', JSON.stringify(objSetting));
@@ -49,8 +69,7 @@ export const SettingPage = ({ helpPopupOn, setHelpPopupOn, stateVolume, setState
   const btnDefault = () => {
     localStorage.removeItem('setting');
     localStorage.setItem('setting', JSON.stringify(startSettingStorage));
-    const storage: any = localStorage.getItem('setting');
-    const objSetting = JSON.parse(storage);
+    objSettingFn();
     setHelpPopupOn(objSetting.help);
     setStateTimer(objSetting.timer);
     setNumberTime(objSetting.time);
@@ -65,11 +84,10 @@ export const SettingPage = ({ helpPopupOn, setHelpPopupOn, stateVolume, setState
     setSoundOn(true);
   };
   React.useEffect(() => {
-    const storage: any = localStorage.getItem('setting');
-    const objSetting = JSON.parse(storage);
+    objSettingFn();
     objSetting.time = numberTime;
     localStorage.setItem('setting', JSON.stringify(objSetting));
-  }, [numberTime]);
+  }, [numberTime, objSetting]);
 
   React.useEffect(() => {
     if (stateVolume && soundOn) {

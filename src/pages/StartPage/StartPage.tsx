@@ -1,9 +1,9 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { Footer } from "../../components/Footer";
-import style from "../../scss/StartPage.module.scss";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Footer } from '../../components/Footer';
+import style from '../../scss/StartPage.module.scss';
 
-export const StartPage = () => {
+export const StartPage: React.FC = () => {
   return (
     <>
       <div className={style.wrapper}>
