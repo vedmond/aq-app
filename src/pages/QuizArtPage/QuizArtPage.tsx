@@ -14,6 +14,7 @@ import { Timer } from '../../components/Timer';
 import { Result } from '../../components/Result';
 import { soundData } from '../../assets/helper/SoundData';
 import { SkeletonArtDesktop } from '../../components/SkeletonGallery';
+import imgBg from '../../assets/icon/carbon_settings@3x.png';
 
 type QuizArtPageProps = {
   categoryId: number;
@@ -74,7 +75,7 @@ export const QuizArtPage: React.FC<QuizArtPageProps> = ({
   const [stateQuit, setStateQuit] = React.useState(false);
   const [stateHelp, setStateHelp] = React.useState(false);
   const [flagHelp, setFlagHelp] = React.useState(true);
-  const [btnArray, setBtnArray] = React.useState([]);
+  const [btnArray, setBtnArray] = React.useState(['']);
   const [finishedId, setFinishedId] = React.useState(-1);
 
   const soundRef: React.MutableRefObject<null | HTMLAudioElement> = React.useRef(null);
@@ -95,13 +96,15 @@ export const QuizArtPage: React.FC<QuizArtPageProps> = ({
         arrayAutour.push(nameAutour);
       }
     }
-    function shuffle(arr: any) {
-      let j, temp;
+    function shuffle(arr: string[]): string[] {
+      let j: number = 0;
+      let temp: string = '';
       for (var i = arr.length - 1; i > 0; i--) {
         j = Math.floor(Math.random() * (i + 1));
         temp = arr[j];
         arr[j] = arr[i];
         arr[i] = temp;
+        console.log(temp);
       }
       return arr;
     }
@@ -168,8 +171,7 @@ export const QuizArtPage: React.FC<QuizArtPageProps> = ({
       isTimer && setTimeLeft((timeLeft: any) => (timeLeft >= 1 ? timeLeft - 1 : 0));
     }, 1000);
     if (timeLeft === 0) {
-      /////********************* */
-      setIsTimer(false); /////********************* */
+      setIsTimer(false);
       if (+categoryId <= finishedId && isTimer) {
         clickNextId();
       }
@@ -195,15 +197,27 @@ export const QuizArtPage: React.FC<QuizArtPageProps> = ({
   }`;
   React.useEffect(() => {
     const linkRead = async () => {
-      const response = await fetch(currentLink);
-      setLinkPic(response.url);
-      setIsLoading(false);
-      setContainerStyle({
-        backgroundImage: `url("${linkPic}")`,
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: '50% 50%',
-      });
+      try {
+        const response = await fetch(currentLink);
+        setIsLoading(false);
+        if (response.status > 299) {
+          throw new Error('');
+        }
+        setLinkPic(response.url);
+        setContainerStyle({
+          backgroundImage: `url("${linkPic}")`,
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: '50% 50%',
+        });
+      } catch (error) {
+        setContainerStyle({
+          backgroundImage: `url(${imgBg})`,
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: '50% 50%',
+        });
+      }
       return;
     };
     linkRead();
