@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
 export const Footer = () => {
   return (
     <>
       <span>
-        App developer: <a href="https://github.com/VedKhorkov">VedKhorkov</a>
+        App developer: <a href="https://github.com/vedmond">VedMond</a>
       </span>
       <span>
         Design: <a href="https://www.behance.net/klishinama255b">Mary Kli</a>
